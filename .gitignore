@@ -14,3 +14,8 @@ test_gen
 test_gen.caches
 TEST-*.xml
 junit*.properties
+
+# generated CSV and report files
+*.csv
+revenue_projections_*.json
+revenue_projections_*.md
