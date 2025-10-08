@@ -32,6 +32,14 @@ Comprehensive intellectual property protection and monetization framework.
 - Enforcement mechanisms
 - Cultural heritage safeguards
 
+#### 🎓 [BLEUE Academy Curriculum Scroll](BLEUE_ACADEMY_CURRICULUM.md)
+Master catalog for EVOLVERSE educational infrastructure and civilizational development.
+- Ritual-sealed, device-synced, vault-linked education system
+- Comprehensive curriculum from Preschool through Doctoral levels
+- Integrated job and military placement architecture
+- Blockchain credentialing and tokenized academic credits
+- Creates 7.48M+ annual job placements across key sectors
+
 ---
 
 ## 📈 Financial Tools & Projections
