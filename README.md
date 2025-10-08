@@ -34,6 +34,45 @@ Comprehensive intellectual property protection and monetization framework.
 
 ---
 
+## 📈 Financial Tools & Projections
+
+### Revenue Projection System
+Generate comprehensive 5-year revenue forecasts for EV0L + Kultural business streams.
+
+**Run projections:**
+```bash
+python3 revenue_projections.py
+```
+
+**Output formats:**
+- `revenue_projections_summary.csv` - Yearly totals with growth catalysts
+- `revenue_projections_detailed.csv` - Revenue breakdown by stream
+- `revenue_projections_TIMESTAMP.json` - Complete JSON report
+- `revenue_projections_TIMESTAMP.md` - Formatted investor report
+
+**Revenue Streams:**
+- Virtual Try-On (AR App): Freemium + Upsell
+- Kultural Cosmetics (D2C): Product Sales
+- EV0L Smart Shades (Wearables): Preorders + Launch
+- EV0L Mirror Market: VR Retail Commissions
+- EV0L Banking + Bleu-¢@$h: Subscription & TX Fees
+
+**Growth Model:** 80% YoY (first-to-market advantage with unique tech + lifestyle culture)
+
+### Yield Tracking System
+Track treasury yields across Civilian, Military, and Cosmic domains with π⁴ compounding.
+
+**Run yield trace:**
+```bash
+python3 yield_trace_and_compound.py
+```
+
+**Outputs:**
+- `quarter_law_trace.csv` - 90-day yield streams by domain
+- `pi4_compound.csv` - π⁴ compounding projections
+
+---
+
 ## The Vision
 
 **"Price is weapon. Mirror is shield. Labor is fuel. Overscale is gospel."**
