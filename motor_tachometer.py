@@ -46,13 +46,19 @@ class MotorTachometer:
         
     def visualize_grid(self):
         """Display a simple ASCII grid showing position."""
-        grid_size = 10
-        print("\nCoordinate Grid (0-10):")
-        print("  " + "".join([f"{i:>3}" for i in range(grid_size + 1)]))
+        # Dynamically determine grid bounds to include origin and current position, with padding
+        padding = 1
+        min_x = min(0, self.x_position) - padding
+        max_x = max(10, self.x_position) + padding
+        min_y = min(0, self.y_position) - padding
+        max_y = max(10, self.y_position) + padding
+
+        print(f"\nCoordinate Grid ({min_x}-{max_x}, {min_y}-{max_y}):")
+        print("  " + "".join([f"{i:>3}" for i in range(min_x, max_x + 1)]))
         
-        for y in range(grid_size, -1, -1):
+        for y in range(max_y, min_y - 1, -1):
             row = f"{y:>2} "
-            for x in range(grid_size + 1):
+            for x in range(min_x, max_x + 1):
                 if x == self.x_position and y == self.y_position:
                     row += " ● "  # Current position
                 elif x == 0 and y == 0:
