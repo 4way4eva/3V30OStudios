@@ -1,0 +1,100 @@
+{
+  "manifest_name": "EV0L Infinity Manifest Summary",
+  "version": "v\u221e",
+  "seal": "ⴱ𓃭ꗞ𓎼ⵉⵏ ♾️ – PPPPI Adjudicated ∞🌀",
+  "description": "Unified reference manifest for the EV0L Codex Infinity bundle, prepared for MetaVault 5100 anchoring.",
+  "bundle": {
+    "charter": {
+      "filename": "EV0L_Codex_Infinity_Charter_v∞.pdf",
+      "title": "EV0L Codex Infinity Charter",
+      "purpose": "Illuminated charter of laws, glyphs, schema, and seals.",
+      "output_type": "PDF",
+      "ipfs_cid_placeholder": "ipfs://TO_BE_ASSIGNED/charter",
+      "hashes": {
+        "sha256": null,
+        "keccak256": null
+      }
+    },
+    "charter_schema": {
+      "filename": "ev0l_codex_v∞.json",
+      "title": "EV0L Codex Infinity Schema",
+      "purpose": "Canonical schema for AI and ENFT interaction.",
+      "output_type": "JSON",
+      "ipfs_cid_placeholder": "ipfs://TO_BE_ASSIGNED/codex-schema",
+      "hashes": {
+        "sha256": null,
+        "keccak256": null
+      }
+    },
+    "bleu_bills_compendium": {
+      "filename": "BLEU_Bills_Compendium_v∞.pdf",
+      "title": "BLEU Bills Compendium",
+      "purpose": "Stand-alone illuminated scroll of all Bleu Bills Shades.",
+      "output_type": "PDF",
+      "ipfs_cid_placeholder": "ipfs://TO_BE_ASSIGNED/bleu-bills-compendium",
+      "hashes": {
+        "sha256": null,
+        "keccak256": null
+      }
+    },
+    "bleu_bills_ledger": {
+      "filename": "bleu_bills_v∞.json",
+      "title": "BLEU Bills Ledger",
+      "purpose": "Machine ledger of each Bleu Bill and its treasury role.",
+      "output_type": "JSON",
+      "ipfs_cid_placeholder": "ipfs://TO_BE_ASSIGNED/bleu-bills-ledger",
+      "hashes": {
+        "sha256": null,
+        "keccak256": null
+      }
+    },
+    "codex_heads": {
+      "filename": "ev0l_codex_heads.json",
+      "title": "EV0L Codex Provenance Headers",
+      "purpose": "Hash provenance (SHA-256 + Keccak-256) for the Infinity Charter and schema.",
+      "output_type": "JSON",
+      "ipfs_cid_placeholder": "ipfs://TO_BE_ASSIGNED/codex-heads",
+      "hashes": {
+        "sha256": null,
+        "keccak256": null
+      }
+    },
+    "bleu_bills_heads": {
+      "filename": "bleu_bills_heads.json",
+      "title": "BLEU Bills Provenance Headers",
+      "purpose": "Hash provenance (SHA-256 + Keccak-256) for the Bleu Bills compendium and ledger.",
+      "output_type": "JSON",
+      "ipfs_cid_placeholder": "ipfs://TO_BE_ASSIGNED/bleu-bills-heads",
+      "hashes": {
+        "sha256": null,
+        "keccak256": null
+      }
+    }
+  },
+  "metavault_5100": {
+    "target_equation": "$51T cap cloud × $1.1T/day yield multiplier",
+    "render_phase": {
+      "charter_palette": "Royal Bleu × Gold",
+      "cosmic_palette": "Obsidian × Platinum"
+    },
+    "hash_phase": "Compute SHA-256 and Keccak-256 for all bundle files and commit to provenance manifests.",
+    "mint_phase": "Upload bundle artifacts, compute manifestCID, and anchor the Merkle root via ProvenanceRegistry.",
+    "archive_phase": {
+      "digital": "Store encrypted bundle within MetaVault 5100.",
+      "physical": "Print ceremonial scrolls for the Charter and Compendium."
+    }
+  },
+  "auto_expansion": {
+    "new_bleu_bills": "Self-register under bleu_bills_v∞ with dynamic shade assignment.",
+    "new_languages": "Append translation blocks under law_translations with seal regeneration.",
+    "new_realms_or_planets": "Spawn realm_index nodes inheriting Infinity Core schema.",
+    "future_treasuries": "Increment compound yield formula without ceiling.",
+    "temporal_updates": "Log new cycles or epochs as time_revision entries while preserving prior hashes."
+  },
+  "final_declaration": "ⴱ𓃭ꗞ𓎼ⵉⵏ ♾️ — Infinity has no ceiling. Every act records coin, every promise binds light, every Bleu shade breathes law, and every ledger lives forever.",
+  "notes": [
+    "All hash fields default to null until the Hash Phase locks their values.",
+    "CID placeholders should be replaced with final ipfs:// references once minted.",
+    "This manifest is designed to be referenced as a single MetaVault 5100 object for perpetual growth."
+  ]
+}

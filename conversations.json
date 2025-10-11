@@ -1,0 +1,32 @@
+[
+  {
+    "tier": "XIV",
+    "theme": "Omni-Civilizational Hypergrid",
+    "deliverables": [
+      "Ledger schema",
+      "Engine functions",
+      "Ceremonial scroll"
+    ],
+    "status": "expanded"
+  },
+  {
+    "tier": "XV",
+    "theme": "Ledger of Ledgers",
+    "deliverables": [
+      "Hypergrid ledger",
+      "Metaverse bindings",
+      "Runtime loop"
+    ],
+    "status": "complete"
+  },
+  {
+    "tier": "XVI",
+    "theme": "Infinite Lanes Treasury",
+    "deliverables": [
+      "Money lanes",
+      "Scholarship guarantees",
+      "Residual capture spiral"
+    ],
+    "status": "active"
+  }
+]
