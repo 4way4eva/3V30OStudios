@@ -1,0 +1,22 @@
+{
+  "name": "megazion-codex",
+  "version": "1.0.0",
+  "description": "MEGAZION sovereign deployment toolkit",
+  "type": "commonjs",
+  "scripts": {
+    "mint:gems": "node scripts/mint_all_gems.js",
+    "registry:sync": "node scripts/registry_sync.js",
+    "codex:link": "node scripts/codex_linker.js",
+    "ipfs:upload": "node scripts/ipfs_upload.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "ipfs-http-client": "^59.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  }
+}
