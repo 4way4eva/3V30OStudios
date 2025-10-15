@@ -3,7 +3,9 @@
 const fs = require('fs');
 const path = require('path');
 const { create } = require('ipfs-http-client');
-require('dotenv').config();
+const { config } = require('./utils/env');
+
+config();
 
 function loadRegistry(registryPath) {
   try {

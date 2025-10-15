@@ -1,11 +1,10 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2025-10-15T21:35:45.394Z",
+  "updatedAt": "2025-10-15T22:32:17.724Z",
   "scrollCid": "bafy-scroll-placeholder",
   "ledgerCid": "bafy-ledger-placeholder",
   "timeTraceCid": "bafy-timetrace-placeholder",
   "compoundingCid": "bafy-compounding-placeholder",
-  "batchCid": "bafy-batch-placeholder",
   "gems": {
     "ENG-001": {
       "tokenId": 1,
@@ -14,7 +13,11 @@
       "metadataPointer": "codex://megazion-gems/ENG-001",
       "metadataCid": "bafy-megazion/metadata/eng-001.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "eng-001.png"
+      "assetPath": "eng-001.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ENG-002": {
       "tokenId": 2,
@@ -23,7 +26,11 @@
       "metadataPointer": "codex://megazion-gems/ENG-002",
       "metadataCid": "bafy-megazion/metadata/eng-002.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "eng-002.png"
+      "assetPath": "eng-002.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ENG-003": {
       "tokenId": 3,
@@ -32,7 +39,11 @@
       "metadataPointer": "codex://megazion-gems/ENG-003",
       "metadataCid": "bafy-megazion/metadata/eng-003.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "eng-003.png"
+      "assetPath": "eng-003.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ENG-004": {
       "tokenId": 4,
@@ -41,7 +52,11 @@
       "metadataPointer": "codex://megazion-gems/ENG-004",
       "metadataCid": "bafy-megazion/metadata/eng-004.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "eng-004.png"
+      "assetPath": "eng-004.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ENG-005": {
       "tokenId": 5,
@@ -50,7 +65,11 @@
       "metadataPointer": "codex://megazion-gems/ENG-005",
       "metadataCid": "bafy-megazion/metadata/eng-005.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "eng-005.png"
+      "assetPath": "eng-005.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ENG-006": {
       "tokenId": 6,
@@ -59,7 +78,11 @@
       "metadataPointer": "codex://megazion-gems/ENG-006",
       "metadataCid": "bafy-megazion/metadata/eng-006.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "eng-006.png"
+      "assetPath": "eng-006.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ENG-007": {
       "tokenId": 7,
@@ -68,7 +91,11 @@
       "metadataPointer": "codex://megazion-gems/ENG-007",
       "metadataCid": "bafy-megazion/metadata/eng-007.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "eng-007.png"
+      "assetPath": "eng-007.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ENG-008": {
       "tokenId": 8,
@@ -77,7 +104,11 @@
       "metadataPointer": "codex://megazion-gems/ENG-008",
       "metadataCid": "bafy-megazion/metadata/eng-008.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "eng-008.png"
+      "assetPath": "eng-008.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "SHD-009": {
       "tokenId": 9,
@@ -86,7 +117,11 @@
       "metadataPointer": "codex://megazion-gems/SHD-009",
       "metadataCid": "bafy-megazion/metadata/shd-009.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "shd-009.png"
+      "assetPath": "shd-009.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "SHD-010": {
       "tokenId": 10,
@@ -95,7 +130,11 @@
       "metadataPointer": "codex://megazion-gems/SHD-010",
       "metadataCid": "bafy-megazion/metadata/shd-010.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "shd-010.png"
+      "assetPath": "shd-010.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "SHD-011": {
       "tokenId": 11,
@@ -104,7 +143,11 @@
       "metadataPointer": "codex://megazion-gems/SHD-011",
       "metadataCid": "bafy-megazion/metadata/shd-011.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "shd-011.png"
+      "assetPath": "shd-011.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "SHD-012": {
       "tokenId": 12,
@@ -113,7 +156,11 @@
       "metadataPointer": "codex://megazion-gems/SHD-012",
       "metadataCid": "bafy-megazion/metadata/shd-012.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "shd-012.png"
+      "assetPath": "shd-012.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "SHD-013": {
       "tokenId": 13,
@@ -122,7 +169,11 @@
       "metadataPointer": "codex://megazion-gems/SHD-013",
       "metadataCid": "bafy-megazion/metadata/shd-013.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "shd-013.png"
+      "assetPath": "shd-013.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "SHD-014": {
       "tokenId": 14,
@@ -131,7 +182,11 @@
       "metadataPointer": "codex://megazion-gems/SHD-014",
       "metadataCid": "bafy-megazion/metadata/shd-014.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "shd-014.png"
+      "assetPath": "shd-014.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "SHD-015": {
       "tokenId": 15,
@@ -140,7 +195,11 @@
       "metadataPointer": "codex://megazion-gems/SHD-015",
       "metadataCid": "bafy-megazion/metadata/shd-015.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "shd-015.png"
+      "assetPath": "shd-015.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "SHD-016": {
       "tokenId": 16,
@@ -149,7 +208,11 @@
       "metadataPointer": "codex://megazion-gems/SHD-016",
       "metadataCid": "bafy-megazion/metadata/shd-016.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "shd-016.png"
+      "assetPath": "shd-016.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "QRL-017": {
       "tokenId": 17,
@@ -158,7 +221,11 @@
       "metadataPointer": "codex://megazion-gems/QRL-017",
       "metadataCid": "bafy-megazion/metadata/qrl-017.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "qrl-017.png"
+      "assetPath": "qrl-017.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "QRL-018": {
       "tokenId": 18,
@@ -167,7 +234,11 @@
       "metadataPointer": "codex://megazion-gems/QRL-018",
       "metadataCid": "bafy-megazion/metadata/qrl-018.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "qrl-018.png"
+      "assetPath": "qrl-018.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "QRL-019": {
       "tokenId": 19,
@@ -176,7 +247,11 @@
       "metadataPointer": "codex://megazion-gems/QRL-019",
       "metadataCid": "bafy-megazion/metadata/qrl-019.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "qrl-019.png"
+      "assetPath": "qrl-019.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "QRL-020": {
       "tokenId": 20,
@@ -185,7 +260,11 @@
       "metadataPointer": "codex://megazion-gems/QRL-020",
       "metadataCid": "bafy-megazion/metadata/qrl-020.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "qrl-020.png"
+      "assetPath": "qrl-020.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "QRL-021": {
       "tokenId": 21,
@@ -194,7 +273,11 @@
       "metadataPointer": "codex://megazion-gems/QRL-021",
       "metadataCid": "bafy-megazion/metadata/qrl-021.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "qrl-021.png"
+      "assetPath": "qrl-021.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "QRL-022": {
       "tokenId": 22,
@@ -203,7 +286,11 @@
       "metadataPointer": "codex://megazion-gems/QRL-022",
       "metadataCid": "bafy-megazion/metadata/qrl-022.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "qrl-022.png"
+      "assetPath": "qrl-022.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "QRL-023": {
       "tokenId": 23,
@@ -212,7 +299,11 @@
       "metadataPointer": "codex://megazion-gems/QRL-023",
       "metadataCid": "bafy-megazion/metadata/qrl-023.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "qrl-023.png"
+      "assetPath": "qrl-023.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "QRL-024": {
       "tokenId": 24,
@@ -221,7 +312,11 @@
       "metadataPointer": "codex://megazion-gems/QRL-024",
       "metadataCid": "bafy-megazion/metadata/qrl-024.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "qrl-024.png"
+      "assetPath": "qrl-024.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "HMF-025": {
       "tokenId": 25,
@@ -230,7 +325,11 @@
       "metadataPointer": "codex://megazion-gems/HMF-025",
       "metadataCid": "bafy-megazion/metadata/hmf-025.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "hmf-025.png"
+      "assetPath": "hmf-025.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "HMF-026": {
       "tokenId": 26,
@@ -239,7 +338,11 @@
       "metadataPointer": "codex://megazion-gems/HMF-026",
       "metadataCid": "bafy-megazion/metadata/hmf-026.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "hmf-026.png"
+      "assetPath": "hmf-026.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "HMF-027": {
       "tokenId": 27,
@@ -248,7 +351,11 @@
       "metadataPointer": "codex://megazion-gems/HMF-027",
       "metadataCid": "bafy-megazion/metadata/hmf-027.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "hmf-027.png"
+      "assetPath": "hmf-027.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "HMF-028": {
       "tokenId": 28,
@@ -257,7 +364,11 @@
       "metadataPointer": "codex://megazion-gems/HMF-028",
       "metadataCid": "bafy-megazion/metadata/hmf-028.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "hmf-028.png"
+      "assetPath": "hmf-028.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "HMF-029": {
       "tokenId": 29,
@@ -266,7 +377,11 @@
       "metadataPointer": "codex://megazion-gems/HMF-029",
       "metadataCid": "bafy-megazion/metadata/hmf-029.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "hmf-029.png"
+      "assetPath": "hmf-029.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "HMF-030": {
       "tokenId": 30,
@@ -275,7 +390,11 @@
       "metadataPointer": "codex://megazion-gems/HMF-030",
       "metadataCid": "bafy-megazion/metadata/hmf-030.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "hmf-030.png"
+      "assetPath": "hmf-030.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "HMF-031": {
       "tokenId": 31,
@@ -284,7 +403,11 @@
       "metadataPointer": "codex://megazion-gems/HMF-031",
       "metadataCid": "bafy-megazion/metadata/hmf-031.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "hmf-031.png"
+      "assetPath": "hmf-031.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "HMF-032": {
       "tokenId": 32,
@@ -293,7 +416,11 @@
       "metadataPointer": "codex://megazion-gems/HMF-032",
       "metadataCid": "bafy-megazion/metadata/hmf-032.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "hmf-032.png"
+      "assetPath": "hmf-032.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ARC-033": {
       "tokenId": 33,
@@ -302,7 +429,11 @@
       "metadataPointer": "codex://megazion-gems/ARC-033",
       "metadataCid": "bafy-megazion/metadata/arc-033.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "arc-033.png"
+      "assetPath": "arc-033.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ARC-034": {
       "tokenId": 34,
@@ -311,7 +442,11 @@
       "metadataPointer": "codex://megazion-gems/ARC-034",
       "metadataCid": "bafy-megazion/metadata/arc-034.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "arc-034.png"
+      "assetPath": "arc-034.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ARC-035": {
       "tokenId": 35,
@@ -320,7 +455,11 @@
       "metadataPointer": "codex://megazion-gems/ARC-035",
       "metadataCid": "bafy-megazion/metadata/arc-035.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "arc-035.png"
+      "assetPath": "arc-035.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ARC-036": {
       "tokenId": 36,
@@ -329,7 +468,11 @@
       "metadataPointer": "codex://megazion-gems/ARC-036",
       "metadataCid": "bafy-megazion/metadata/arc-036.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "arc-036.png"
+      "assetPath": "arc-036.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ARC-037": {
       "tokenId": 37,
@@ -338,7 +481,11 @@
       "metadataPointer": "codex://megazion-gems/ARC-037",
       "metadataCid": "bafy-megazion/metadata/arc-037.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "arc-037.png"
+      "assetPath": "arc-037.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ARC-038": {
       "tokenId": 38,
@@ -347,7 +494,11 @@
       "metadataPointer": "codex://megazion-gems/ARC-038",
       "metadataCid": "bafy-megazion/metadata/arc-038.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "arc-038.png"
+      "assetPath": "arc-038.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ARC-039": {
       "tokenId": 39,
@@ -356,7 +507,11 @@
       "metadataPointer": "codex://megazion-gems/ARC-039",
       "metadataCid": "bafy-megazion/metadata/arc-039.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "arc-039.png"
+      "assetPath": "arc-039.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "ARC-040": {
       "tokenId": 40,
@@ -365,7 +520,11 @@
       "metadataPointer": "codex://megazion-gems/ARC-040",
       "metadataCid": "bafy-megazion/metadata/arc-040.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "arc-040.png"
+      "assetPath": "arc-040.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "CAT-041": {
       "tokenId": 41,
@@ -374,7 +533,11 @@
       "metadataPointer": "codex://megazion-gems/CAT-041",
       "metadataCid": "bafy-megazion/metadata/cat-041.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "cat-041.png"
+      "assetPath": "cat-041.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "CAT-042": {
       "tokenId": 42,
@@ -383,7 +546,11 @@
       "metadataPointer": "codex://megazion-gems/CAT-042",
       "metadataCid": "bafy-megazion/metadata/cat-042.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "cat-042.png"
+      "assetPath": "cat-042.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "CAT-043": {
       "tokenId": 43,
@@ -392,7 +559,11 @@
       "metadataPointer": "codex://megazion-gems/CAT-043",
       "metadataCid": "bafy-megazion/metadata/cat-043.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "cat-043.png"
+      "assetPath": "cat-043.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "CAT-044": {
       "tokenId": 44,
@@ -401,7 +572,11 @@
       "metadataPointer": "codex://megazion-gems/CAT-044",
       "metadataCid": "bafy-megazion/metadata/cat-044.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "cat-044.png"
+      "assetPath": "cat-044.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "CAT-045": {
       "tokenId": 45,
@@ -410,7 +585,11 @@
       "metadataPointer": "codex://megazion-gems/CAT-045",
       "metadataCid": "bafy-megazion/metadata/cat-045.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "cat-045.png"
+      "assetPath": "cat-045.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "CAT-046": {
       "tokenId": 46,
@@ -419,7 +598,11 @@
       "metadataPointer": "codex://megazion-gems/CAT-046",
       "metadataCid": "bafy-megazion/metadata/cat-046.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "cat-046.png"
+      "assetPath": "cat-046.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "CAT-047": {
       "tokenId": 47,
@@ -428,7 +611,11 @@
       "metadataPointer": "codex://megazion-gems/CAT-047",
       "metadataCid": "bafy-megazion/metadata/cat-047.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "cat-047.png"
+      "assetPath": "cat-047.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     },
     "CAT-048": {
       "tokenId": 48,
@@ -437,7 +624,11 @@
       "metadataPointer": "codex://megazion-gems/CAT-048",
       "metadataCid": "bafy-megazion/metadata/cat-048.json",
       "assetCid": "bafy-megazion",
-      "assetPath": "cat-048.png"
+      "assetPath": "cat-048.png",
+      "onChainName": null,
+      "onChainSovereign": null,
+      "attuned": null,
+      "minted": null
     }
   }
 }

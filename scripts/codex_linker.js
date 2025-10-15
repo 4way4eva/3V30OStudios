@@ -2,7 +2,9 @@
 
 const fs = require('fs');
 const path = require('path');
-require('dotenv').config();
+const { config } = require('./utils/env');
+
+config();
 
 async function postJson(url, body, headers = {}) {
   const response = await fetch(url, {

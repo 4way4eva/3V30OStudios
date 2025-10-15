@@ -2,8 +2,21 @@
 
 const fs = require('fs');
 const path = require('path');
-const { ethers } = require('ethers');
-require('dotenv').config();
+const { config } = require('./utils/env');
+
+config();
+
+async function resolveEthers() {
+  if (resolveEthers.cache !== undefined) {
+    return resolveEthers.cache;
+  }
+
+  resolveEthers.cache = await import('ethers')
+    .then((mod) => mod.ethers || mod.default || mod)
+    .catch(() => null);
+
+  return resolveEthers.cache;
+}
 
 const VIEW_ABI = [
   'function gem(uint256 tokenId) view returns (tuple(string name,string sovereignCode,bool attuned))',
@@ -29,13 +42,16 @@ function parseIpfsCid(uri) {
   return { cid, path: rest.join('/') };
 }
 
-async function loadOnChainState(tokenIds, providerConfig) {
-  if (!providerConfig.contractAddress || !providerConfig.rpcUrl) {
+async function loadOnChainState(tokenIds, providerConfig, ethersLib) {
+  if (!providerConfig.contractAddress || !providerConfig.rpcUrl || !ethersLib) {
+    if (!ethersLib && (providerConfig.contractAddress || providerConfig.rpcUrl)) {
+      console.warn('⚠️  ethers library not available; skipping on-chain inspection.');
+    }
     return {};
   }
 
-  const provider = new ethers.providers.JsonRpcProvider(providerConfig.rpcUrl);
-  const contract = new ethers.Contract(providerConfig.contractAddress, VIEW_ABI, provider);
+  const provider = new ethersLib.providers.JsonRpcProvider(providerConfig.rpcUrl);
+  const contract = new ethersLib.Contract(providerConfig.contractAddress, VIEW_ABI, provider);
   const state = {};
 
   for (const tokenId of tokenIds) {
@@ -68,10 +84,12 @@ async function main() {
   }
 
   const tokenIds = metadata.map((_, index) => index + 1);
+  const ethersLib = await resolveEthers();
+
   const onChainState = await loadOnChainState(tokenIds, {
     rpcUrl: process.env.MEGAZION_RPC_URL || process.env.RPC_URL,
     contractAddress: process.env.MEGAZION_CONTRACT_ADDRESS || process.env.CONTRACT_ADDRESS
-  });
+  }, ethersLib);
 
   const existing = readJson(registryPath, {});
   const nextRegistry = {

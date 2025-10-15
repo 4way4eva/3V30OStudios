@@ -6,6 +6,15 @@ To help you move from words to working structure, here’s how we can treat this
 
 ⸻
 
+### MEGAZION™ Layer 5 Deployment Assets
+
+- **[Ceremonial Master Scroll](MEGAZION_Layer5_Master_Scroll.md)** – unified protocol brief detailing Layer 5 intelligence nodes, Codex.md covenant overlays, trade maps, melanin restoration audits, and vault-registry synchronization directives.
+- **[Metaverse Token Matrix](data/metaverse_tokens.json)** – JSON ledger of Bleu Bills, Pink Bills, MythCoin, HealCoin, NectarCoin, and MetaCruise Credits with chain placement, standards, backing assets, and sovereign utility pathways for Octopus Junction commerce.
+
+Use these artifacts alongside the registry architecture blueprint to orchestrate minting, governance, and cultural-economic routing across BLEUChain, Polygon, and Avalanche deployments.
+
+⸻
+
 1.  Registry Architecture → Database / Smart-Contract Layer
 
 Each of the Coin Fields you defined can become a schema in a registry database or blockchain contract:

@@ -2,8 +2,9 @@
 
 const fs = require('fs');
 const path = require('path');
-const { ethers } = require('ethers');
-require('dotenv').config();
+const { config } = require('./utils/env');
+
+config();
 
 const CONTRACT_ABI = [
   'function mintCollection(address to, uint256[] calldata tokenIds, uint256[] calldata amounts) external',
@@ -50,17 +51,44 @@ async function main() {
   const recipient = process.env.MEGAZION_RECIPIENT || process.env.TREASURY_RECEIVER;
   const metadataPath = process.env.MEGAZION_METADATA_PATH || path.join(__dirname, '..', 'megazion_gems_enft.json');
 
-  if (!rpcUrl) throw new Error('Set MEGAZION_RPC_URL (or RPC_URL) to your target chain RPC endpoint.');
-  if (!privateKey) throw new Error('Set MEGAZION_PRIVATE_KEY (or PRIVATE_KEY) to the operator wallet.');
-  if (!contractAddress) throw new Error('Set MEGAZION_CONTRACT_ADDRESS (or CONTRACT_ADDRESS) to the deployed contract.');
-  if (!recipient) throw new Error('Set MEGAZION_RECIPIENT (or TREASURY_RECEIVER) for the batch mint recipient.');
+  const dryRun = /^true$/i.test(process.env.MEGAZION_DRY_RUN || process.env.DRY_RUN || '');
 
-  const provider = new ethers.providers.JsonRpcProvider(rpcUrl);
-  const wallet = new ethers.Wallet(privateKey, provider);
-  const contract = new ethers.Contract(contractAddress, CONTRACT_ABI, wallet);
+  let ethersLib = null;
+
+  if (!dryRun) {
+    ethersLib = await import('ethers')
+      .then((mod) => mod.ethers || mod.default || mod)
+      .catch(() => {
+        throw new Error('Install the "ethers" package to perform live minting runs.');
+      });
+    if (!rpcUrl) throw new Error('Set MEGAZION_RPC_URL (or RPC_URL) to your target chain RPC endpoint.');
+    if (!privateKey) throw new Error('Set MEGAZION_PRIVATE_KEY (or PRIVATE_KEY) to the operator wallet.');
+    if (!contractAddress) throw new Error('Set MEGAZION_CONTRACT_ADDRESS (or CONTRACT_ADDRESS) to the deployed contract.');
+    if (!recipient) throw new Error('Set MEGAZION_RECIPIENT (or TREASURY_RECEIVER) for the batch mint recipient.');
+  }
 
   const metadata = loadMetadata(metadataPath);
   const { tokenIds, names, sovereignCodes, amounts } = extractGemPayload(metadata);
+
+  if (dryRun) {
+    console.log('MEGAZION mint dry run engaged. No transactions will be broadcast.');
+    console.log('Summary:');
+    console.table(
+      tokenIds.map((id, index) => ({
+        tokenId: id,
+        name: names[index],
+        sovereignCode: sovereignCodes[index],
+        amount: amounts[index]
+      }))
+    );
+    console.log(`Recipient (simulated): ${recipient || 'N/A'}`);
+    console.log(`Contract (simulated): ${contractAddress || 'N/A'}`);
+    return;
+  }
+
+  const provider = new ethersLib.providers.JsonRpcProvider(rpcUrl);
+  const wallet = new ethersLib.Wallet(privateKey, provider);
+  const contract = new ethersLib.Contract(contractAddress, CONTRACT_ABI, wallet);
 
   console.log(`Registering ${tokenIds.length} gems with the Codex contract...`);
   const registerTx = await contract.registerGems(tokenIds, names, sovereignCodes);
