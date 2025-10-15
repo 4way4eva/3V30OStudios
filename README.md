@@ -10,6 +10,9 @@ To help you move from words to working structure, here’s how we can treat this
 
 - **[Ceremonial Master Scroll](MEGAZION_Layer5_Master_Scroll.md)** – unified protocol brief detailing Layer 5 intelligence nodes, Codex.md covenant overlays, trade maps, melanin restoration audits, and vault-registry synchronization directives.
 - **[Metaverse Token Matrix](data/metaverse_tokens.json)** – JSON ledger of Bleu Bills, Pink Bills, MythCoin, HealCoin, NectarCoin, and MetaCruise Credits with chain placement, standards, backing assets, and sovereign utility pathways for Octopus Junction commerce.
+- **[Layers 01–48 Codex Scroll](docs/layers/CodexScroll.md)** – markdown tableau of every invocation node, joining archetype lore, codex paths, and overlay focus for rapid ceremonial briefings.
+- **[Layer Overlay Registry](data/overlay_registry.json)** – machine-readable registry enumerating lifecycle states, registry seals, sync keys, and operational scopes for each of the 48 layers.
+- **[Ritual Coordination Map](data/ritual_map.csv)** – CSV feed aligning codex identifiers with sectors, overlay tags, and ceremonial breath cues for scheduling engines and audit syncs.
 
 Use these artifacts alongside the registry architecture blueprint to orchestrate minting, governance, and cultural-economic routing across BLEUChain, Polygon, and Avalanche deployments.
 

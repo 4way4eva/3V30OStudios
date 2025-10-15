@@ -17,5 +17,6 @@ junit*.properties
 
 # generated CSV and report files
 *.csv
+!data/ritual_map.csv
 revenue_projections_*.json
 revenue_projections_*.md
