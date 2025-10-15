@@ -1,0 +1,40 @@
+{
+  "vaults": [
+    {
+      "id": "VAULT::EDU::EducationVault",
+      "policy": {
+        "residual": 0.15,
+        "scholarship": 0.15,
+        "ops": 0.35,
+        "reinvest": 0.35
+      }
+    },
+    {
+      "id": "VAULT::HLT::HealthVault",
+      "policy": {
+        "residual": 0.12,
+        "scholarship": 0.18,
+        "ops": 0.35,
+        "reinvest": 0.35
+      }
+    },
+    {
+      "id": "VAULT::ENG::GridVault",
+      "policy": {
+        "residual": 0.1,
+        "rebates": 0.2,
+        "ops": 0.35,
+        "reinvest": 0.35
+      }
+    },
+    {
+      "id": "VAULT::CIV::CityTreasury",
+      "policy": {
+        "residual": 0.15,
+        "microgrants": 0.15,
+        "ops": 0.35,
+        "reinvest": 0.35
+      }
+    }
+  ]
+}
