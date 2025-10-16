@@ -1,0 +1,248 @@
+{
+  "version": "1.0.0",
+  "scroll_id": "BLEUZION_ALPHA_OMEGA",
+  "lifecycle": {
+    "status": "active",
+    "tags": ["draft", "sync", "transfer", "retire"],
+    "last_update": "2025-10-15T00:00:00Z"
+  },
+  "instructors": [
+    {
+      "id": "BLEULION.PRIME",
+      "name": "Prime",
+      "emoji": "🦁",
+      "curriculum_domain": "Treasury Mechanics",
+      "lesson_format": "Vault mutation simulations",
+      "vault_impact": "Opens yield fractals for municipal vaults",
+      "enft_template": "enft://bleuzion/curriculum/prime"
+    },
+    {
+      "id": "BLEULION.SOLAR",
+      "name": "SolarMane",
+      "emoji": "☀️",
+      "curriculum_domain": "Solar Ritual Technology",
+      "lesson_format": "Photon lattice coding",
+      "vault_impact": "Powers solar citadels and climate shields",
+      "enft_template": "enft://bleuzion/curriculum/solarmane"
+    },
+    {
+      "id": "BLEULION.ECHO",
+      "name": "EchoRoar",
+      "emoji": "🔊",
+      "curriculum_domain": "Sonic Ethics & Law",
+      "lesson_format": "Resonance jurisprudence chants",
+      "vault_impact": "Clears litigation queues via harmonic arbitration",
+      "enft_template": "enft://bleuzion/curriculum/echoroar"
+    },
+    {
+      "id": "BLEULION.CROWN",
+      "name": "CrownClaw",
+      "emoji": "🔥",
+      "curriculum_domain": "Flame Crown Ceremony Law",
+      "lesson_format": "Sovereign attunement trials",
+      "vault_impact": "Activates flame crown treasury seals",
+      "enft_template": "enft://bleuzion/curriculum/crownclaw"
+    },
+    {
+      "id": "BLEULION.RIVER",
+      "name": "RiverStride",
+      "emoji": "🌊",
+      "curriculum_domain": "Hydro-Currency Logistics",
+      "lesson_format": "Water-rights calculus",
+      "vault_impact": "Balances AquaCoin flows in trade hubs",
+      "enft_template": "enft://bleuzion/curriculum/riverstride"
+    },
+    {
+      "id": "BLEULION.DREAM",
+      "name": "DreamMane",
+      "emoji": "🌌",
+      "curriculum_domain": "Dream Navigation & Timelines",
+      "lesson_format": "Lucid codex walks",
+      "vault_impact": "Synchronizes DreamEvolverse health vaults",
+      "enft_template": "enft://bleuzion/curriculum/dreammane"
+    }
+  ],
+  "glyphs": [
+    {
+      "id": "glyph_pyra_fire",
+      "symbol": "\ud83c\udf2a",
+      "name": "Pyra",
+      "lesson_domain": "Fire Ceremony Engineering",
+      "ceremony_trace": "Torch-hand mudras + heat breath cadence",
+      "economic_function": "Flame Crown vault ignition"
+    },
+    {
+      "id": "glyph_loopsig_finance",
+      "symbol": "\u267e",
+      "name": "LoopSig",
+      "lesson_domain": "Economic Recursion",
+      "ceremony_trace": "Spiral step dance around treasury plinths",
+      "economic_function": "Compounding cycles for Bleu Bills"
+    },
+    {
+      "id": "glyph_metaeye_ethics",
+      "symbol": "\ud83d\uddff",
+      "name": "MetaEye",
+      "lesson_domain": "Meta-truth Resonance",
+      "ceremony_trace": "Eye-focus meditation with sonic pulse",
+      "economic_function": "Dispute ledger validation"
+    },
+    {
+      "id": "glyph_spira_mind",
+      "symbol": "\ud83c\udf00",
+      "name": "Spira",
+      "lesson_domain": "Spiral Cognition",
+      "ceremony_trace": "Vortex breath with rotating glyph fans",
+      "economic_function": "Mental health restoration"
+    },
+    {
+      "id": "glyph_maatic_juris",
+      "symbol": "\u2696\ufe0f",
+      "name": "Maatic",
+      "lesson_domain": "Justice Balance",
+      "ceremony_trace": "Feather-scale rites with consensus chant",
+      "economic_function": "Treaty ratification certification"
+    }
+  ],
+  "modules": [
+    {
+      "evolverse": "AquaEvolverse",
+      "life_domain": "Civics",
+      "title": "Water Rights & Flow Codes",
+      "key_glyph": "\ud83c\udf0a",
+      "instructional_mode": "Hydro-hologram labs + treaty simulations",
+      "yield_feedback": "AquaCoin liquidity alignment"
+    },
+    {
+      "evolverse": "GalacticEvolverse",
+      "life_domain": "Navigation",
+      "title": "Stellar Navigation Math",
+      "key_glyph": "\u2728\ud83d\ude80",
+      "instructional_mode": "Astrokinetic VR corridors",
+      "yield_feedback": "Fleet fuel harmonics"
+    },
+    {
+      "evolverse": "CivicEvolverse",
+      "life_domain": "Governance",
+      "title": "Trust Protocols & Sovereignty",
+      "key_glyph": "\ud83e\udd1d\ud83d\udea8",
+      "instructional_mode": "Jury-sphere consensus rituals",
+      "yield_feedback": "Governance token mint"
+    },
+    {
+      "evolverse": "MirrorEvolverse",
+      "life_domain": "Identity",
+      "title": "Identity Recasting & Ancestral Mirrors",
+      "key_glyph": "\ud83e\ude9e",
+      "instructional_mode": "Reflective chamber meditations",
+      "yield_feedback": "Trauma release dividends"
+    },
+    {
+      "evolverse": "DreamEvolverse",
+      "life_domain": "Health",
+      "title": "Dream Recall & Timeline Splicing",
+      "key_glyph": "\ud83d\udecc\ud83c\udf0c",
+      "instructional_mode": "Sleep pod lucid labs",
+      "yield_feedback": "HealCoin resonance gain"
+    },
+    {
+      "evolverse": "TerraEvolverse",
+      "life_domain": "Agriculture",
+      "title": "Smart Forest Synthesis",
+      "key_glyph": "\ud83c\udf31",
+      "instructional_mode": "Sensor biomes + pollinator choreography",
+      "yield_feedback": "NectarCoin hive credits"
+    },
+    {
+      "evolverse": "ForgeEvolverse",
+      "life_domain": "Industry",
+      "title": "Mythic Manufacturing Networks",
+      "key_glyph": "\ud83d\udd28",
+      "instructional_mode": "Robotic ateliers with ritual oversight",
+      "yield_feedback": "MarketCoin equipment yields"
+    },
+    {
+      "evolverse": "PulseEvolverse",
+      "life_domain": "Media",
+      "title": "Sonic Broadcast Ethics",
+      "key_glyph": "\ud83d\udce1",
+      "instructional_mode": "Resonant newsroom circles",
+      "yield_feedback": "MuseCoin amplification"
+    },
+    {
+      "evolverse": "ChronEvolverse",
+      "life_domain": "Time",
+      "title": "Temporal Ledger Stewardship",
+      "key_glyph": "\u23f3",
+      "instructional_mode": "Time-loop jurisprudence councils",
+      "yield_feedback": "EternalCoin issuance authority"
+    },
+    {
+      "evolverse": "SpiritEvolverse",
+      "life_domain": "Resurrection",
+      "title": "Soul Engine Harmonization",
+      "key_glyph": "\ud83d\udd04",
+      "instructional_mode": "Breath-temple rites with DS Baba sequencing",
+      "yield_feedback": "SoulCredit sanctuary funding"
+    },
+    {
+      "evolverse": "HavenEvolverse",
+      "life_domain": "Sanctuary",
+      "title": "Multispecies Refuge Protocols",
+      "key_glyph": "\ud83d\udd4a\ufe0f",
+      "instructional_mode": "Habitat holotheaters + empathy mapping",
+      "yield_feedback": "Sanctuary bond uplift"
+    },
+    {
+      "evolverse": "NexusEvolverse",
+      "life_domain": "Logistics",
+      "title": "Octopus Junction Pathfinding",
+      "key_glyph": "\ud83e\udd91",
+      "instructional_mode": "Tentacle-route simulators + barter markets",
+      "yield_feedback": "Trade throughput dividends"
+    }
+  ],
+  "infrastructure_bindings": [
+    {
+      "node": "BLEUCARE Clinics",
+      "teacher_species": "Mama Ops Jaguars",
+      "primary_scroll": "Healing Glyph Scrolls",
+      "overlay_tags": ["node_bleucare", "codex_heal"],
+      "curriculum_focus": "Cross-species medicine"
+    },
+    {
+      "node": "BLEUSCHOOL Orbital Hubs",
+      "teacher_species": "Winged Lions + Feline Agents",
+      "primary_scroll": "Education Vault Codex",
+      "overlay_tags": ["node_bleuschool", "codex_edu"],
+      "curriculum_focus": "Multi-galactic civic & STEM immersion"
+    },
+    {
+      "node": "BLEUVAULT Cities",
+      "teacher_species": "All Sovereign Species",
+      "primary_scroll": "Economic Ritual Decks",
+      "overlay_tags": ["node_bleuvault", "codex_trade"],
+      "curriculum_focus": "Treasury literacy & governance"
+    },
+    {
+      "node": "Sanctum Sanctuaries",
+      "teacher_species": "Wolf Guardians",
+      "primary_scroll": "Sovereign Bond Scroll",
+      "overlay_tags": ["node_sanctum", "codex_spirit"],
+      "curriculum_focus": "Afterlife contracts & trauma release"
+    },
+    {
+      "node": "Octopus Junction Ports",
+      "teacher_species": "Cephalid Architects",
+      "primary_scroll": "Logistics Scroll of Tentacles",
+      "overlay_tags": ["node_junction", "codex_logistics"],
+      "curriculum_focus": "Trade treaties & transport logistics"
+    }
+  ],
+  "ritual_sequence": [
+    { "order": 1, "name": "Invocation", "tag": "ritual_breath", "description": "Instructor lion aligns breath and intention." },
+    { "order": 2, "name": "Glyph Immersion", "tag": "glyph_trace_complete", "description": "Learners trace AR glyphs and recite chants." },
+    { "order": 3, "name": "Vault Synchronization", "tag": "vault_seal", "description": "Ledger reconciles lesson output into treasury." },
+    { "order": 4, "name": "Archive Weave", "tag": "archive_sync", "description": "Curriculum data hashed into codex archives." }
+  ]
+}

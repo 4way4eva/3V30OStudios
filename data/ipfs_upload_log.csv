@@ -1,0 +1,6 @@
+timestamp,label,file,cid
+2025-10-15T21:30:00Z,scroll,MEGAZION_All_Gems_Scroll.md,bafy-scroll-placeholder
+2025-10-15T21:30:05Z,treasury-ledger,MEGAZION_TripleStack_Treasury_Ledger.md,bafy-ledger-placeholder
+2025-10-15T21:30:08Z,time-trace,megazion_time_trace.csv,bafy-timetrace-placeholder
+2025-10-15T21:30:10Z,compounding-model,megazion_compounding_model.csv,bafy-compounding-placeholder
+2025-10-15T21:30:15Z,enft-batch,megazion_gems_enft.json,bafy-batch-placeholder
