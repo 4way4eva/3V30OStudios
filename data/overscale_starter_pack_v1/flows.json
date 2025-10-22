@@ -1,0 +1,39 @@
+{
+  "flows": [
+    {
+      "id": "FLOW::City\u2192Education::COIN::2025-10-12T00:00Z",
+      "from": "VAULT::CIV::CityTreasury",
+      "to": "VAULT::EDU::EducationVault",
+      "coin": "COIN::ScholarCoin",
+      "amount": 140000.0,
+      "guards": [
+        "GUARD::MERIT::GPA>=3.0",
+        "GUARD::NEED::Income<200%FPL"
+      ],
+      "notes": "Overscale-adjusted scholarship disbursement"
+    },
+    {
+      "id": "FLOW::City\u2192Health::COIN::2025-10-12T00:00Z",
+      "from": "VAULT::CIV::CityTreasury",
+      "to": "VAULT::HLT::HealthVault",
+      "coin": "COIN::HealthCoin",
+      "amount": 210000.0,
+      "guards": [
+        "GUARD::NEED::Income<200%FPL"
+      ],
+      "notes": "Overscale-adjusted preventive care credits"
+    },
+    {
+      "id": "FLOW::City\u2192Energy::COIN::2025-10-12T00:00Z",
+      "from": "VAULT::CIV::CityTreasury",
+      "to": "VAULT::ENG::GridVault",
+      "coin": "COIN::EnergyCoin",
+      "amount": 110833.33,
+      "guards": [
+        "GUARD::ENERGY::MeterVerified"
+      ],
+      "notes": "Overscale-adjusted V2G reserves"
+    }
+  ],
+  "overscale_gamma": 1.1666666666666667
+}
