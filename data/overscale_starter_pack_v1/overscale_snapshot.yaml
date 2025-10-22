@@ -1,0 +1,15 @@
+snapshot: 2025-10-12T00:00:00Z
+version: EV0L_Scroll_v1.0
+nodes: 12
+loops: 8
+vault_policies:
+  EducationVault: {residual: 0.15, scholarship: 0.15, ops: 0.35, reinvest: 0.35}
+  HealthVault: {residual: 0.12, scholarship: 0.18, ops: 0.35, reinvest: 0.35}
+  GridVault: {residual: 0.10, rebates: 0.20, ops: 0.35, reinvest: 0.35}
+  CityTreasury: {residual: 0.15, microgrants: 0.15, ops: 0.35, reinvest: 0.35}
+guards_active:
+  - GUARD::MERIT::GPA>=3.0
+  - GUARD::NEED::Income<200%FPL
+  - GUARD::ENERGY::MeterVerified
+overscale_gamma: 1.1667
+hash_root: "0x<to-fill-when-minted>"

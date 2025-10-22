@@ -1,0 +1,1490 @@
+[
+  {
+    "name": "Aurelicon",
+    "description": "Core engine gem radiating innovation and systemic energy for planetary-scale infrastructure uplift.",
+    "image": "ipfs://bafy-megazion/eng-001.png",
+    "properties": {
+      "category": "Core Engine Gems",
+      "function": "Drives radiant innovation; amplifies intention; initiates industry systems.",
+      "activated_sectors": [
+        "Energy Grids",
+        "Innovation Bureaus",
+        "Visionary Leadership"
+      ],
+      "ceremonial_role": "Solar Initiator",
+      "elemental_coding": {
+        "primary": "Solar Fire",
+        "secondary": "Aetheric Gold"
+      },
+      "sovereign_code": "ENG-001",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Attune intention via breath and hand glyph",
+          "Present to Flame Crown",
+          "Echo reciprocity pulse through digital or vocalized affirmation"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:33Z",
+      "registry_pointer": "codex://megazion-gems/ENG-001"
+    }
+  },
+  {
+    "name": "Vortexion",
+    "description": "A rotating vector gem that harmonizes motion systems and keeps energy corridors in perfect resonance.",
+    "image": "ipfs://bafy-megazion/eng-002.png",
+    "properties": {
+      "category": "Core Engine Gems",
+      "function": "Stabilizes spin-based engines and accelerates renewable conversion cycles.",
+      "activated_sectors": [
+        "Turbine Networks",
+        "Mag-Lev Transit",
+        "Clean Manufacturing"
+      ],
+      "ceremonial_role": "Cyclonic Steward",
+      "elemental_coding": {
+        "primary": "Sky Current",
+        "secondary": "Cobalt Plasma"
+      },
+      "sovereign_code": "ENG-002",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Trace spiral sigil clockwise above the gem",
+          "Invoke the Cyclonic Steward mantra",
+          "Release into the engine array as the pulse synchronizes"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:34Z",
+      "registry_pointer": "codex://megazion-gems/ENG-002"
+    }
+  },
+  {
+    "name": "Lumenshard",
+    "description": "Crystalline matrix that multiplies light-based technologies and keeps visual fields transparent.",
+    "image": "ipfs://bafy-megazion/eng-003.png",
+    "properties": {
+      "category": "Core Engine Gems",
+      "function": "Diffuses photonic lattices for industrial clarity and precision.",
+      "activated_sectors": [
+        "Photonics",
+        "Precision Fabrication",
+        "Medical Imaging"
+      ],
+      "ceremonial_role": "Light Weaver",
+      "elemental_coding": {
+        "primary": "Prismatic Light",
+        "secondary": "Silver Mist"
+      },
+      "sovereign_code": "ENG-003",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Place upon mirrored dais",
+          "Project tri-tone chant across the shard",
+          "Bind with silver mist to finalize illumination"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:35Z",
+      "registry_pointer": "codex://megazion-gems/ENG-003"
+    }
+  },
+  {
+    "name": "Dynaflux",
+    "description": "Dense gem that turns erratic kinetic storms into precise movement for shipping and transit.",
+    "image": "ipfs://bafy-megazion/eng-004.png",
+    "properties": {
+      "category": "Core Engine Gems",
+      "function": "Balances kinetic surges and keeps industrial cores aligned with sovereign intent.",
+      "activated_sectors": [
+        "Heavy Industry",
+        "Logistics",
+        "Harbor Engines"
+      ],
+      "ceremonial_role": "Momentum Anchor",
+      "elemental_coding": {
+        "primary": "Molten Iron",
+        "secondary": "Grounded Quartz"
+      },
+      "sovereign_code": "ENG-004",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Hammer three times with resonance mallet",
+          "Seal with grounded quartz powder",
+          "Enter the sovereign intent decree"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:36Z",
+      "registry_pointer": "codex://megazion-gems/ENG-004"
+    }
+  },
+  {
+    "name": "Pulsevector",
+    "description": "Vector gem translating leadership signals into coherent energy dispatching.",
+    "image": "ipfs://bafy-megazion/eng-005.png",
+    "properties": {
+      "category": "Core Engine Gems",
+      "function": "Aligns distributed energy nodes with command-and-control arrays.",
+      "activated_sectors": [
+        "Distributed Computing",
+        "Command Centers",
+        "Grid Balancing"
+      ],
+      "ceremonial_role": "Vector Marshal",
+      "elemental_coding": {
+        "primary": "Electrostatic Wind",
+        "secondary": "Neon Prism"
+      },
+      "sovereign_code": "ENG-005",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Calibrate with tri-axis compass",
+          "Pulse neon prism beam through the core",
+          "Affirm command sequence while rotating gem"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:37Z",
+      "registry_pointer": "codex://megazion-gems/ENG-005"
+    }
+  },
+  {
+    "name": "Novahelix",
+    "description": "Bi-nova helix that rebuilds production lattices after overload or stress.",
+    "image": "ipfs://bafy-megazion/eng-006.png",
+    "properties": {
+      "category": "Core Engine Gems",
+      "function": "Seeds self-healing routines into reactors and nano-foundries.",
+      "activated_sectors": [
+        "Nanotech",
+        "Reactor Maintenance",
+        "Autonomous Fabrication"
+      ],
+      "ceremonial_role": "Helix Harmonizer",
+      "elemental_coding": {
+        "primary": "Plasma Helix",
+        "secondary": "Regenerative Foam"
+      },
+      "sovereign_code": "ENG-006",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Infuse with regenerative foam",
+          "Rotate along the double-helix axis",
+          "Activate with harmonic breath on eight counts"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:38Z",
+      "registry_pointer": "codex://megazion-gems/ENG-006"
+    }
+  },
+  {
+    "name": "Radiantor",
+    "description": "Golden amber gem that stabilizes radiant fields and protects against solar storms.",
+    "image": "ipfs://bafy-megazion/eng-007.png",
+    "properties": {
+      "category": "Core Engine Gems",
+      "function": "Projects magneto-flux shields around critical energy hubs.",
+      "activated_sectors": [
+        "Power Plants",
+        "Solar Fields",
+        "Planetary Shields"
+      ],
+      "ceremonial_role": "Flux Guardian",
+      "elemental_coding": {
+        "primary": "Aurora Plasma",
+        "secondary": "Magnetic Amber"
+      },
+      "sovereign_code": "ENG-007",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Inscribe aurora spiral",
+          "Charge within magnetic amber basin",
+          "Seal with guardian oath"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:39Z",
+      "registry_pointer": "codex://megazion-gems/ENG-007"
+    }
+  },
+  {
+    "name": "Synthaurum",
+    "description": "Hybrid gem weaving living systems and circuitry into balanced operations.",
+    "image": "ipfs://bafy-megazion/eng-008.png",
+    "properties": {
+      "category": "Core Engine Gems",
+      "function": "Synthesizes organic and mechanical operations for hybrid industries.",
+      "activated_sectors": [
+        "Biomechatronics",
+        "Agro-Tech",
+        "Smart Cities"
+      ],
+      "ceremonial_role": "Harmony Curator",
+      "elemental_coding": {
+        "primary": "Bio-Sun",
+        "secondary": "Circuit Vines"
+      },
+      "sovereign_code": "ENG-008",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Plant within circuit vines",
+          "Sing the harmony curator canticle",
+          "Bind with bio-sun light"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:40Z",
+      "registry_pointer": "codex://megazion-gems/ENG-008"
+    }
+  },
+  {
+    "name": "Bastionyx",
+    "description": "Sovereign shield gem forging impenetrable bastions for civil defense and sovereignty.",
+    "image": "ipfs://bafy-megazion/shd-009.png",
+    "properties": {
+      "category": "Sovereign Shield Gems",
+      "function": "Projects planetary barrier domes and secures territorial perimeters.",
+      "activated_sectors": [
+        "Border Defense",
+        "Customs",
+        "Satellite Perimeters"
+      ],
+      "ceremonial_role": "Bastion Ward",
+      "elemental_coding": {
+        "primary": "Onyx Fortress",
+        "secondary": "Shielded Obsidian"
+      },
+      "sovereign_code": "SHD-009",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Plant in obsidian circle",
+          "Strike sentinel gong thrice",
+          "Raise the barrier dome with unified chant"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:41Z",
+      "registry_pointer": "codex://megazion-gems/SHD-009"
+    }
+  },
+  {
+    "name": "Guardisphere",
+    "description": "Spherical gem offering 360-degree guardian oversight for sovereign assets.",
+    "image": "ipfs://bafy-megazion/shd-010.png",
+    "properties": {
+      "category": "Sovereign Shield Gems",
+      "function": "Monitors security matrices with omni-directional awareness.",
+      "activated_sectors": [
+        "Security Orbits",
+        "Urban Watch",
+        "Diplomatic Zones"
+      ],
+      "ceremonial_role": "Watchful Eye",
+      "elemental_coding": {
+        "primary": "Azure Lens",
+        "secondary": "Vigilant Vapor"
+      },
+      "sovereign_code": "SHD-010",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Polish with vigilant vapor",
+          "Project azure lens beam into sky",
+          "Issue guardian edict across networks"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:42Z",
+      "registry_pointer": "codex://megazion-gems/SHD-010"
+    }
+  },
+  {
+    "name": "Aegisflare",
+    "description": "Flare gem that ignites protective countermeasures in diplomatic and military theaters.",
+    "image": "ipfs://bafy-megazion/shd-011.png",
+    "properties": {
+      "category": "Sovereign Shield Gems",
+      "function": "Channels countermeasures and nullifies incoming hostilities.",
+      "activated_sectors": [
+        "Orbital Defense",
+        "Cyber Shields",
+        "Diplomatic Convoys"
+      ],
+      "ceremonial_role": "Countermeasure Flame",
+      "elemental_coding": {
+        "primary": "Flarefire",
+        "secondary": "Cerulean Shield"
+      },
+      "sovereign_code": "SHD-011",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Ignite flarefire plume",
+          "Sweep cerulean shield across convoy map",
+          "Affirm defensive oath"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:43Z",
+      "registry_pointer": "codex://megazion-gems/SHD-011"
+    }
+  },
+  {
+    "name": "Sentinex",
+    "description": "Alert gem triggering immediate sentinel activation and field coordination.",
+    "image": "ipfs://bafy-megazion/shd-012.png",
+    "properties": {
+      "category": "Sovereign Shield Gems",
+      "function": "Automates sentinel drones and coordinates rapid response squads.",
+      "activated_sectors": [
+        "Drone Corps",
+        "Rapid Response",
+        "Critical Infrastructure"
+      ],
+      "ceremonial_role": "Response Herald",
+      "elemental_coding": {
+        "primary": "Signal Steel",
+        "secondary": "Red Alert"
+      },
+      "sovereign_code": "SHD-012",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Sound red alert tone",
+          "Embed gem into command console",
+          "Dispatch response herald code"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:44Z",
+      "registry_pointer": "codex://megazion-gems/SHD-012"
+    }
+  },
+  {
+    "name": "Wardalon",
+    "description": "Protective gem ensuring sovereign law is upheld without interference.",
+    "image": "ipfs://bafy-megazion/shd-013.png",
+    "properties": {
+      "category": "Sovereign Shield Gems",
+      "function": "Erects judicial wards and keeps council chambers sealed.",
+      "activated_sectors": [
+        "Council Chambers",
+        "High Courts",
+        "Treaty Halls"
+      ],
+      "ceremonial_role": "Judicial Sentinel",
+      "elemental_coding": {
+        "primary": "Marble Aether",
+        "secondary": "Violet Veil"
+      },
+      "sovereign_code": "SHD-013",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Draw violet veil across entrances",
+          "Anchor gem beneath council seal",
+          "Recite judicial sentinel affirmation"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:45Z",
+      "registry_pointer": "codex://megazion-gems/SHD-013"
+    }
+  },
+  {
+    "name": "Bulwarkite",
+    "description": "Dense crystalline bulwark preserving sovereign wealth and state-critical stores.",
+    "image": "ipfs://bafy-megazion/shd-014.png",
+    "properties": {
+      "category": "Sovereign Shield Gems",
+      "function": "Hardens infrastructure and fortifies sovereign treasuries.",
+      "activated_sectors": [
+        "Vaults",
+        "Armories",
+        "Embassies"
+      ],
+      "ceremonial_role": "Treasury Bastion",
+      "elemental_coding": {
+        "primary": "Titanium Earth",
+        "secondary": "Crimson Seal"
+      },
+      "sovereign_code": "SHD-014",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Hammer crimson seal into vault",
+          "Embed bulwarkite in central pillar",
+          "Invoke treasury guardians"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:46Z",
+      "registry_pointer": "codex://megazion-gems/SHD-014"
+    }
+  },
+  {
+    "name": "Defendrill",
+    "description": "Gem that carves adaptive underground corridors shielding essential populations.",
+    "image": "ipfs://bafy-megazion/shd-015.png",
+    "properties": {
+      "category": "Sovereign Shield Gems",
+      "function": "Turns subterranean defenses into adaptive labyrinths.",
+      "activated_sectors": [
+        "Underground Rail",
+        "Bunker Systems",
+        "Geothermal Shields"
+      ],
+      "ceremonial_role": "Labyrinth Engineer",
+      "elemental_coding": {
+        "primary": "Basalt Spiral",
+        "secondary": "Echo Core"
+      },
+      "sovereign_code": "SHD-015",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Map labyrinth sigil",
+          "Pulse echo core three times",
+          "Deploy basalt spiral guardians"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:47Z",
+      "registry_pointer": "codex://megazion-gems/SHD-015"
+    }
+  },
+  {
+    "name": "Citadelion",
+    "description": "Crown gem sealing leadership sites with inviolable protection and dignity.",
+    "image": "ipfs://bafy-megazion/shd-016.png",
+    "properties": {
+      "category": "Sovereign Shield Gems",
+      "function": "Crowns sovereign citadels with auric authority and protective radiance.",
+      "activated_sectors": [
+        "Royal Citadels",
+        "Civic Plazas",
+        "Embodied Leadership"
+      ],
+      "ceremonial_role": "Crown Bearer",
+      "elemental_coding": {
+        "primary": "Auric Flame",
+        "secondary": "Crown Crystal"
+      },
+      "sovereign_code": "SHD-016",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Set atop crown crystal lattice",
+          "Ignite auric flame",
+          "Proclaim sovereign lineage"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:48Z",
+      "registry_pointer": "codex://megazion-gems/SHD-016"
+    }
+  },
+  {
+    "name": "Entangral",
+    "description": "Relay gem securing entanglement pairs for diplomacy and navigation.",
+    "image": "ipfs://bafy-megazion/qrl-017.png",
+    "properties": {
+      "category": "Quantum Relay Gems",
+      "function": "Maintains entangled communications across light-year distances.",
+      "activated_sectors": [
+        "Deep Space Relays",
+        "Diplomatic Mesh",
+        "Quantum Navigation"
+      ],
+      "ceremonial_role": "Entanglement Keeper",
+      "elemental_coding": {
+        "primary": "Quantum Thread",
+        "secondary": "Void Opal"
+      },
+      "sovereign_code": "QRL-017",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Spool quantum thread",
+          "Align void opal compass",
+          "Seal entanglement keeper contract"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:49Z",
+      "registry_pointer": "codex://megazion-gems/QRL-017"
+    }
+  },
+  {
+    "name": "Phaseweave",
+    "description": "Weave gem braiding phase corridors for smooth fleet transitions.",
+    "image": "ipfs://bafy-megazion/qrl-018.png",
+    "properties": {
+      "category": "Quantum Relay Gems",
+      "function": "Transitions fleets through phased corridors without decoherence.",
+      "activated_sectors": [
+        "Fleet Command",
+        "Interstellar Logistics",
+        "Phase Gates"
+      ],
+      "ceremonial_role": "Phase Navigator",
+      "elemental_coding": {
+        "primary": "Waveglass",
+        "secondary": "Phase Silk"
+      },
+      "sovereign_code": "QRL-018",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Stretch phase silk along gate",
+          "Sound waveglass harmonic",
+          "Chart navigator course"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:50Z",
+      "registry_pointer": "codex://megazion-gems/QRL-018"
+    }
+  },
+  {
+    "name": "Quasarlattice",
+    "description": "Beacon gem weaving quasar power into communication nets.",
+    "image": "ipfs://bafy-megazion/qrl-019.png",
+    "properties": {
+      "category": "Quantum Relay Gems",
+      "function": "Amplifies signal strength via quasarian lattices and cosmic antennas.",
+      "activated_sectors": [
+        "Signal Corps",
+        "Astrophysics",
+        "Exploration Beacons"
+      ],
+      "ceremonial_role": "Beacon Architect",
+      "elemental_coding": {
+        "primary": "Quasar Ray",
+        "secondary": "Crystal Matrix"
+      },
+      "sovereign_code": "QRL-019",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Project quasar ray into matrix",
+          "Stabilize with beacon architect cadence",
+          "Release to signal corps"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:51Z",
+      "registry_pointer": "codex://megazion-gems/QRL-019"
+    }
+  },
+  {
+    "name": "Tachyonyx",
+    "description": "Velocity gem controlling tachyon bursts to deliver sovereign messages instantly.",
+    "image": "ipfs://bafy-megazion/qrl-020.png",
+    "properties": {
+      "category": "Quantum Relay Gems",
+      "function": "Manages faster-than-light courier packets through tachyon corridors.",
+      "activated_sectors": [
+        "Courier Fleets",
+        "Emergency Dispatch",
+        "Scientific Relay"
+      ],
+      "ceremonial_role": "Velocity Marshal",
+      "elemental_coding": {
+        "primary": "Tachyon Stream",
+        "secondary": "Hypergraphene"
+      },
+      "sovereign_code": "QRL-020",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Charge with tachyon stream",
+          "Map hypergraphene lattice",
+          "Dispatch velocity marshal beacon"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:52Z",
+      "registry_pointer": "codex://megazion-gems/QRL-020"
+    }
+  },
+  {
+    "name": "Fluxgate",
+    "description": "Warden gem ensuring safe use of sovereign wormhole network.",
+    "image": "ipfs://bafy-megazion/qrl-021.png",
+    "properties": {
+      "category": "Quantum Relay Gems",
+      "function": "Balances wormhole apertures and prevents corridor collapse.",
+      "activated_sectors": [
+        "Wormhole Network",
+        "Portal Stations",
+        "Research Outposts"
+      ],
+      "ceremonial_role": "Gate Warden",
+      "elemental_coding": {
+        "primary": "Graviton Bronze",
+        "secondary": "Stellar Seal"
+      },
+      "sovereign_code": "QRL-021",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Anchor with stellar seal",
+          "Test graviton resonance",
+          "Release gate warden directive"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:53Z",
+      "registry_pointer": "codex://megazion-gems/QRL-021"
+    }
+  },
+  {
+    "name": "Warpstrand",
+    "description": "Strand gem weaving trade lanes across light-years while keeping them sovereign locked.",
+    "image": "ipfs://bafy-megazion/qrl-022.png",
+    "properties": {
+      "category": "Quantum Relay Gems",
+      "function": "Threads warp lanes between allied star-systems and trade nodes.",
+      "activated_sectors": [
+        "Trade Routes",
+        "Diplomatic Caravans",
+        "Allied Outposts"
+      ],
+      "ceremonial_role": "Lane Weaver",
+      "elemental_coding": {
+        "primary": "Warp Silk",
+        "secondary": "Lantern Ice"
+      },
+      "sovereign_code": "QRL-022",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Unfurl warp silk map",
+          "Light lantern ice upon endpoints",
+          "Chant lane weaver vow"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:54Z",
+      "registry_pointer": "codex://megazion-gems/QRL-022"
+    }
+  },
+  {
+    "name": "Telemetra",
+    "description": "Oracle gem converting sensor torrents into sovereign decision clarity.",
+    "image": "ipfs://bafy-megazion/qrl-023.png",
+    "properties": {
+      "category": "Quantum Relay Gems",
+      "function": "Streams telemetry analytics to command seats in real time.",
+      "activated_sectors": [
+        "Command Analytics",
+        "Science Directorates",
+        "Pilot Guilds"
+      ],
+      "ceremonial_role": "Telemetry Oracle",
+      "elemental_coding": {
+        "primary": "Data Rain",
+        "secondary": "Emerald Circuit"
+      },
+      "sovereign_code": "QRL-023",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Initiate emerald circuit",
+          "Call the data rain",
+          "Record oracle verdict"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:55Z",
+      "registry_pointer": "codex://megazion-gems/QRL-023"
+    }
+  },
+  {
+    "name": "Hyperduct",
+    "description": "Guardian gem enabling humanitarian corridors in warpspace.",
+    "image": "ipfs://bafy-megazion/qrl-024.png",
+    "properties": {
+      "category": "Quantum Relay Gems",
+      "function": "Channels mass evacuations or relief convoys through safe hyperlanes.",
+      "activated_sectors": [
+        "Relief Command",
+        "Migration",
+        "Sovereign Aid"
+      ],
+      "ceremonial_role": "Corridor Guardian",
+      "elemental_coding": {
+        "primary": "Hypercurrent",
+        "secondary": "Shielded Mist"
+      },
+      "sovereign_code": "QRL-024",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Saturate with shielded mist",
+          "Open hypercurrent flow",
+          "Proclaim corridor guardian pledge"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:56Z",
+      "registry_pointer": "codex://megazion-gems/QRL-024"
+    }
+  },
+  {
+    "name": "Sonatryl",
+    "description": "Melodic gem aligning nations through shared harmonic experiences.",
+    "image": "ipfs://bafy-megazion/hmf-025.png",
+    "properties": {
+      "category": "Harmonic Flow Gems",
+      "function": "Conducts planetary symphonies to harmonize cultural exchanges.",
+      "activated_sectors": [
+        "Cultural Festivals",
+        "Diplomatic Gatherings",
+        "Broadcast Networks"
+      ],
+      "ceremonial_role": "Symphony Keeper",
+      "elemental_coding": {
+        "primary": "Celestial Sound",
+        "secondary": "Rose Gold Echo"
+      },
+      "sovereign_code": "HMF-025",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Tune rose gold echo",
+          "Conduct celestial sound score",
+          "Open symphony keeper archive"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:57Z",
+      "registry_pointer": "codex://megazion-gems/HMF-025"
+    }
+  },
+  {
+    "name": "Resonara",
+    "description": "Healing gem diffusing stress and aligning populations with compassion.",
+    "image": "ipfs://bafy-megazion/hmf-026.png",
+    "properties": {
+      "category": "Harmonic Flow Gems",
+      "function": "Stabilizes emotional climates with resonant field therapy.",
+      "activated_sectors": [
+        "Health Ministries",
+        "Meditation Temples",
+        "Social Harmony Councils"
+      ],
+      "ceremonial_role": "Resonance Healer",
+      "elemental_coding": {
+        "primary": "Thalassic Blue",
+        "secondary": "Heartbeat Silver"
+      },
+      "sovereign_code": "HMF-026",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Pour thalassic blue over resonance basin",
+          "Pulse heartbeat silver rhythm",
+          "Transmit resonance healer blessing"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:58Z",
+      "registry_pointer": "codex://megazion-gems/HMF-026"
+    }
+  },
+  {
+    "name": "Cadencore",
+    "description": "Pulsing gem aligning traffic, crowd movement, and service rhythms.",
+    "image": "ipfs://bafy-megazion/hmf-027.png",
+    "properties": {
+      "category": "Harmonic Flow Gems",
+      "function": "Keeps civic rhythms synchronized during large-scale events.",
+      "activated_sectors": [
+        "Transit",
+        "Festivals",
+        "Civic Planning"
+      ],
+      "ceremonial_role": "Rhythm Marshal",
+      "elemental_coding": {
+        "primary": "Copper Beat",
+        "secondary": "City Pulse"
+      },
+      "sovereign_code": "HMF-027",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Strike copper beat drum",
+          "Broadcast city pulse beacon",
+          "Authorize rhythm marshal sequence"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:06:59Z",
+      "registry_pointer": "codex://megazion-gems/HMF-027"
+    }
+  },
+  {
+    "name": "Harmonius",
+    "description": "Communication gem offering instantaneous translation and empathy.",
+    "image": "ipfs://bafy-megazion/hmf-028.png",
+    "properties": {
+      "category": "Harmonic Flow Gems",
+      "function": "Blends multi-language broadcasts into a unified comprehension stream.",
+      "activated_sectors": [
+        "Global Media",
+        "Education",
+        "Embassy Forums"
+      ],
+      "ceremonial_role": "Polyglot Oracle",
+      "elemental_coding": {
+        "primary": "Opal Voice",
+        "secondary": "Translucent Glyph"
+      },
+      "sovereign_code": "HMF-028",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Engrave translucent glyph",
+          "Awaken opal voice resonance",
+          "Issue polyglot oracle decree"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:00Z",
+      "registry_pointer": "codex://megazion-gems/HMF-028"
+    }
+  },
+  {
+    "name": "Echofount",
+    "description": "Fountain gem magnifying restorative practices across communities.",
+    "image": "ipfs://bafy-megazion/hmf-029.png",
+    "properties": {
+      "category": "Harmonic Flow Gems",
+      "function": "Amplifies community healing ceremonies and peace accords.",
+      "activated_sectors": [
+        "Peacekeeping",
+        "Restorative Justice",
+        "Community Circles"
+      ],
+      "ceremonial_role": "Peace Amplifier",
+      "elemental_coding": {
+        "primary": "Aqua Chime",
+        "secondary": "Silver Ripple"
+      },
+      "sovereign_code": "HMF-029",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Fill basin with aqua chime",
+          "Ring silver ripple bell",
+          "Invite peace amplifier guardians"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:01Z",
+      "registry_pointer": "codex://megazion-gems/HMF-029"
+    }
+  },
+  {
+    "name": "Vibralume",
+    "description": "Luminescent gem igniting creativity and cross-cultural collaboration.",
+    "image": "ipfs://bafy-megazion/hmf-030.png",
+    "properties": {
+      "category": "Harmonic Flow Gems",
+      "function": "Inspires artists with radiant tonal frequencies.",
+      "activated_sectors": [
+        "Creative Guilds",
+        "Museums",
+        "Education"
+      ],
+      "ceremonial_role": "Muse Igniter",
+      "elemental_coding": {
+        "primary": "Aurora Tone",
+        "secondary": "Sapphire Glow"
+      },
+      "sovereign_code": "HMF-030",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Illumine with sapphire glow",
+          "Play aurora tone",
+          "Announce muse igniter proclamation"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:02Z",
+      "registry_pointer": "codex://megazion-gems/HMF-030"
+    }
+  },
+  {
+    "name": "Pulsewave",
+    "description": "Wave gem synchronizing hope-filled transmissions across worlds.",
+    "image": "ipfs://bafy-megazion/hmf-031.png",
+    "properties": {
+      "category": "Harmonic Flow Gems",
+      "function": "Coordinates planetary relief concerts and morale broadcasts.",
+      "activated_sectors": [
+        "Broadcast",
+        "Relief Coalitions",
+        "Humanitarian Bands"
+      ],
+      "ceremonial_role": "Relief Conductor",
+      "elemental_coding": {
+        "primary": "Ruby Wave",
+        "secondary": "Citadel Signal"
+      },
+      "sovereign_code": "HMF-031",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Raise ruby wave antenna",
+          "Flash citadel signal",
+          "Conduct relief conductor sequence"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:03Z",
+      "registry_pointer": "codex://megazion-gems/HMF-031"
+    }
+  },
+  {
+    "name": "Choralith",
+    "description": "Choral gem aligning faiths and voices into shared star-lit hymns.",
+    "image": "ipfs://bafy-megazion/hmf-032.png",
+    "properties": {
+      "category": "Harmonic Flow Gems",
+      "function": "Stitches together choir constellations across galaxies.",
+      "activated_sectors": [
+        "Interstellar Choirs",
+        "Faith Councils",
+        "Unity Festivals"
+      ],
+      "ceremonial_role": "Choir Anchor",
+      "elemental_coding": {
+        "primary": "Star Chord",
+        "secondary": "Crystal Choir"
+      },
+      "sovereign_code": "HMF-032",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Tune star chord threads",
+          "Activate crystal choir amplifier",
+          "Call forth choir anchor blessing"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:04Z",
+      "registry_pointer": "codex://megazion-gems/HMF-032"
+    }
+  },
+  {
+    "name": "Chronolumen",
+    "description": "Archive gem storing rulings, decrees, and chronicle folds without corruption.",
+    "image": "ipfs://bafy-megazion/arc-033.png",
+    "properties": {
+      "category": "Empyreal Archive Gems",
+      "function": "Captures timefold records and sovereign decisions.",
+      "activated_sectors": [
+        "Temporal Archives",
+        "Judiciary",
+        "Strategic Councils"
+      ],
+      "ceremonial_role": "Time Scribe",
+      "elemental_coding": {
+        "primary": "Temporal Light",
+        "secondary": "Amber Clock"
+      },
+      "sovereign_code": "ARC-033",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Align amber clock dial",
+          "Record decree in temporal light",
+          "Secure time scribe seal"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:05Z",
+      "registry_pointer": "codex://megazion-gems/ARC-033"
+    }
+  },
+  {
+    "name": "Archivolt",
+    "description": "Vault gem ensuring every archive remains sovereign controlled and immortal.",
+    "image": "ipfs://bafy-megazion/arc-034.png",
+    "properties": {
+      "category": "Empyreal Archive Gems",
+      "function": "Constructs archival vaults with quantum redundancy.",
+      "activated_sectors": [
+        "Libraries",
+        "Knowledge Temples",
+        "Data Sanctums"
+      ],
+      "ceremonial_role": "Vault Architect",
+      "elemental_coding": {
+        "primary": "Memory Stone",
+        "secondary": "Cipher Mist"
+      },
+      "sovereign_code": "ARC-034",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Lay memory stone foundation",
+          "Swirl cipher mist",
+          "Seal vault architect charter"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:06Z",
+      "registry_pointer": "codex://megazion-gems/ARC-034"
+    }
+  },
+  {
+    "name": "Codexis",
+    "description": "Living codex gem updating legislation in sync with sovereign amendments.",
+    "image": "ipfs://bafy-megazion/arc-035.png",
+    "properties": {
+      "category": "Empyreal Archive Gems",
+      "function": "Writes self-updating codices for evolving law.",
+      "activated_sectors": [
+        "Legislatures",
+        "Clerical Orders",
+        "Policy Labs"
+      ],
+      "ceremonial_role": "Living Scribe",
+      "elemental_coding": {
+        "primary": "Inkstream",
+        "secondary": "Feather Quartz"
+      },
+      "sovereign_code": "ARC-035",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Dip feather quartz in inkstream",
+          "Dictate living scribe proclamation",
+          "Bind codexis to legislative seal"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:07Z",
+      "registry_pointer": "codex://megazion-gems/ARC-035"
+    }
+  },
+  {
+    "name": "Glyphoria",
+    "description": "Glyph gem archiving treaties with multi-sensory fidelity for future generations.",
+    "image": "ipfs://bafy-megazion/arc-036.png",
+    "properties": {
+      "category": "Empyreal Archive Gems",
+      "function": "Projects hologlyphs that encapsulate treaties and heroics.",
+      "activated_sectors": [
+        "Museums",
+        "Diplomatic Archives",
+        "Hero Registries"
+      ],
+      "ceremonial_role": "Glyph Keeper",
+      "elemental_coding": {
+        "primary": "Light Script",
+        "secondary": "Heroic Dust"
+      },
+      "sovereign_code": "ARC-036",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Scatter heroic dust",
+          "Draw light script patterns",
+          "Announce glyph keeper chronicle"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:08Z",
+      "registry_pointer": "codex://megazion-gems/ARC-036"
+    }
+  },
+  {
+    "name": "Mnemonarc",
+    "description": "Memory gem connecting lineage keepers with living descendants.",
+    "image": "ipfs://bafy-megazion/arc-037.png",
+    "properties": {
+      "category": "Empyreal Archive Gems",
+      "function": "Protects ancestral memory and transmits sovereign wisdom.",
+      "activated_sectors": [
+        "Ancestral Halls",
+        "Elders Councils",
+        "Education"
+      ],
+      "ceremonial_role": "Memory Regent",
+      "elemental_coding": {
+        "primary": "Echo Amber",
+        "secondary": "Sage Smoke"
+      },
+      "sovereign_code": "ARC-037",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Light sage smoke spiral",
+          "Hold gem within echo amber lantern",
+          "Recite memory regent vow"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:09Z",
+      "registry_pointer": "codex://megazion-gems/ARC-037"
+    }
+  },
+  {
+    "name": "Lorequartz",
+    "description": "Quartz gem ensuring scientific lore remains sovereign asset.",
+    "image": "ipfs://bafy-megazion/arc-038.png",
+    "properties": {
+      "category": "Empyreal Archive Gems",
+      "function": "Stores scientific breakthroughs with tamper-proof lattice.",
+      "activated_sectors": [
+        "Research Councils",
+        "Universities",
+        "Innovation Hubs"
+      ],
+      "ceremonial_role": "Discovery Archivist",
+      "elemental_coding": {
+        "primary": "Crystal Thought",
+        "secondary": "Chronicle Beam"
+      },
+      "sovereign_code": "ARC-038",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Shine chronicle beam",
+          "Imprint crystal thought pattern",
+          "Seal discovery archivist charter"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:10Z",
+      "registry_pointer": "codex://megazion-gems/ARC-038"
+    }
+  },
+  {
+    "name": "Scripturion",
+    "description": "Scriptorium gem guiding AI scribes with sovereign-approved ethics.",
+    "image": "ipfs://bafy-megazion/arc-039.png",
+    "properties": {
+      "category": "Empyreal Archive Gems",
+      "function": "Encodes AI-guided scriptoriums with ethical guardrails.",
+      "activated_sectors": [
+        "AI Ethics",
+        "Scribe Drones",
+        "Knowledge Engines"
+      ],
+      "ceremonial_role": "Ethic Sentinel",
+      "elemental_coding": {
+        "primary": "Platinum Glyph",
+        "secondary": "Blue Quill"
+      },
+      "sovereign_code": "ARC-039",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Dip blue quill",
+          "Trace platinum glyph",
+          "Activate ethic sentinel pledge"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:11Z",
+      "registry_pointer": "codex://megazion-gems/ARC-039"
+    }
+  },
+  {
+    "name": "Lexiconyx",
+    "description": "Lexicon gem verifying translations against sovereign truth standards.",
+    "image": "ipfs://bafy-megazion/arc-040.png",
+    "properties": {
+      "category": "Empyreal Archive Gems",
+      "function": "Consolidates multilingual archives with truth-verification.",
+      "activated_sectors": [
+        "Translation Houses",
+        "Truth Commissions",
+        "Education"
+      ],
+      "ceremonial_role": "Lexic Sovereign",
+      "elemental_coding": {
+        "primary": "Truth Light",
+        "secondary": "Obsidian Ink"
+      },
+      "sovereign_code": "ARC-040",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Pour obsidian ink",
+          "Shine truth light",
+          "Declare lexic sovereign ruling"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:12Z",
+      "registry_pointer": "codex://megazion-gems/ARC-040"
+    }
+  },
+  {
+    "name": "Terraformis",
+    "description": "Catalyst gem mapping terraforming phases with living respect.",
+    "image": "ipfs://bafy-megazion/cat-041.png",
+    "properties": {
+      "category": "Frontier Catalyst Gems",
+      "function": "Guides planetary terraforming sequences with ecological fidelity.",
+      "activated_sectors": [
+        "Terraform Guild",
+        "Ecology",
+        "Planetary Parks"
+      ],
+      "ceremonial_role": "World Gardener",
+      "elemental_coding": {
+        "primary": "Verdant Pulse",
+        "secondary": "Soil Aurora"
+      },
+      "sovereign_code": "CAT-041",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Sprinkle soil aurora",
+          "Awaken verdant pulse",
+          "Recite world gardener canticle"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:13Z",
+      "registry_pointer": "codex://megazion-gems/CAT-041"
+    }
+  },
+  {
+    "name": "BioNova",
+    "description": "Healing gem guiding sovereign bio-innovation for universal care.",
+    "image": "ipfs://bafy-megazion/cat-042.png",
+    "properties": {
+      "category": "Frontier Catalyst Gems",
+      "function": "Accelerates bio-regenerative labs and cures.",
+      "activated_sectors": [
+        "Bio Labs",
+        "Hospitals",
+        "Relief Corps"
+      ],
+      "ceremonial_role": "Life Amplifier",
+      "elemental_coding": {
+        "primary": "Biolume",
+        "secondary": "Healing Dew"
+      },
+      "sovereign_code": "CAT-042",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Mist with healing dew",
+          "Ignite biolume glow",
+          "Invoke life amplifier pledge"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:14Z",
+      "registry_pointer": "codex://megazion-gems/CAT-042"
+    }
+  },
+  {
+    "name": "Aetherseed",
+    "description": "Seed gem giving life to orbital habitats and void farms.",
+    "image": "ipfs://bafy-megazion/cat-043.png",
+    "properties": {
+      "category": "Frontier Catalyst Gems",
+      "function": "Seeds habitats in vacuum and fosters starborne ecosystems.",
+      "activated_sectors": [
+        "Orbital Gardens",
+        "Terraform Pods",
+        "Habitat Rings"
+      ],
+      "ceremonial_role": "Seed Voyager",
+      "elemental_coding": {
+        "primary": "Stellar Soil",
+        "secondary": "Nebula Bloom"
+      },
+      "sovereign_code": "CAT-043",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Scatter nebula bloom",
+          "Plant stellar soil core",
+          "Launch seed voyager rite"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:15Z",
+      "registry_pointer": "codex://megazion-gems/CAT-043"
+    }
+  },
+  {
+    "name": "Ventureon",
+    "description": "Prosperity gem aligning sovereign venture capital with ethical exploration.",
+    "image": "ipfs://bafy-megazion/cat-044.png",
+    "properties": {
+      "category": "Frontier Catalyst Gems",
+      "function": "Funds exploratory guilds with risk-balanced prosperity.",
+      "activated_sectors": [
+        "Venture Guilds",
+        "Exploration Funds",
+        "Entrepreneur Councils"
+      ],
+      "ceremonial_role": "Prosper Navigator",
+      "elemental_coding": {
+        "primary": "Golden Vector",
+        "secondary": "Risk Prism"
+      },
+      "sovereign_code": "CAT-044",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Spin risk prism",
+          "Chart golden vector map",
+          "Affirm prosper navigator accord"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:16Z",
+      "registry_pointer": "codex://megazion-gems/CAT-044"
+    }
+  },
+  {
+    "name": "Innovar",
+    "description": "Innovation gem weaving ideas into sovereign protected creations.",
+    "image": "ipfs://bafy-megazion/cat-045.png",
+    "properties": {
+      "category": "Frontier Catalyst Gems",
+      "function": "Catalyzes invention houses and sovereign patent guilds.",
+      "activated_sectors": [
+        "Patent Guilds",
+        "Innovation Labs",
+        "Academies"
+      ],
+      "ceremonial_role": "Invention Herald",
+      "elemental_coding": {
+        "primary": "Spark Alloy",
+        "secondary": "Idea Mist"
+      },
+      "sovereign_code": "CAT-045",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Spray idea mist",
+          "Strike spark alloy gong",
+          "Declare invention herald manifesto"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:17Z",
+      "registry_pointer": "codex://megazion-gems/CAT-045"
+    }
+  },
+  {
+    "name": "Frontieris",
+    "description": "Bridge gem ensuring new alliances honor mutual sovereignty.",
+    "image": "ipfs://bafy-megazion/cat-046.png",
+    "properties": {
+      "category": "Frontier Catalyst Gems",
+      "function": "Charts frontier diplomacy with emergent civilizations.",
+      "activated_sectors": [
+        "First Contact",
+        "Diplomacy",
+        "Cultural Exchange"
+      ],
+      "ceremonial_role": "Bridge Envoy",
+      "elemental_coding": {
+        "primary": "Dawnlight",
+        "secondary": "Harmony Cloth"
+      },
+      "sovereign_code": "CAT-046",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Unfurl harmony cloth",
+          "Illuminate with dawnlight",
+          "Speak bridge envoy oath"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:18Z",
+      "registry_pointer": "codex://megazion-gems/CAT-046"
+    }
+  },
+  {
+    "name": "Trailblazon",
+    "description": "Pathfinder gem lighting safe routes for pioneers and surveyors.",
+    "image": "ipfs://bafy-megazion/cat-047.png",
+    "properties": {
+      "category": "Frontier Catalyst Gems",
+      "function": "Guides caravans through uncharted astro-wilds.",
+      "activated_sectors": [
+        "Exploration",
+        "Survey Corps",
+        "Pioneer Clans"
+      ],
+      "ceremonial_role": "Star Pathfinder",
+      "elemental_coding": {
+        "primary": "Ember Trail",
+        "secondary": "Starmap Jade"
+      },
+      "sovereign_code": "CAT-047",
+      "activation_protocol": {
+        "flame_crown_required": false,
+        "reciprocity_pulse": false,
+        "ritual_steps": [
+          "Trace starmap jade",
+          "Ignite ember trail",
+          "Declare star pathfinder directive"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:19Z",
+      "registry_pointer": "codex://megazion-gems/CAT-047"
+    }
+  },
+  {
+    "name": "Ascendrix",
+    "description": "Tutoring gem forging future leaders through ceremonial mastery.",
+    "image": "ipfs://bafy-megazion/cat-048.png",
+    "properties": {
+      "category": "Frontier Catalyst Gems",
+      "function": "Elevates sovereign heirs into leadership readiness.",
+      "activated_sectors": [
+        "Leadership Academies",
+        "Heir Training",
+        "Succession Councils"
+      ],
+      "ceremonial_role": "Sovereign Tutor",
+      "elemental_coding": {
+        "primary": "Crown Dawn",
+        "secondary": "Mentor Flame"
+      },
+      "sovereign_code": "CAT-048",
+      "activation_protocol": {
+        "flame_crown_required": true,
+        "reciprocity_pulse": true,
+        "ritual_steps": [
+          "Light mentor flame",
+          "Crown with dawn halo",
+          "Recite sovereign tutor vows"
+        ]
+      },
+      "minting_timestamp": "2025-10-15T21:07:20Z",
+      "registry_pointer": "codex://megazion-gems/CAT-048"
+    }
+  }
+]
