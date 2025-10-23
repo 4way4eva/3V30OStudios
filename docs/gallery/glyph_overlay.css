@@ -1,0 +1,235 @@
+:root {
+  color-scheme: dark;
+  --bg: #070915;
+  --accent: #8fe9ff;
+  --card-bg: rgba(18, 22, 43, 0.85);
+  --card-border: rgba(143, 233, 255, 0.2);
+  --text: #f5faff;
+  --muted: #9cb4d3;
+  --glyph-bg: rgba(143, 233, 255, 0.12);
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, rgba(143, 233, 255, 0.15), transparent 60%), var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.hero {
+  padding: 2.5rem clamp(1rem, 5vw, 4rem) 1rem;
+  text-align: center;
+}
+
+.controls {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.controls label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.controls select,
+.controls input {
+  margin-top: 0.35rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(143, 233, 255, 0.4);
+  background: rgba(7, 9, 21, 0.8);
+  color: var(--text);
+  min-width: 14rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 0 clamp(1rem, 5vw, 4rem) 4rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 1.25rem;
+  padding-bottom: 1rem;
+  backdrop-filter: blur(16px);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 220ms ease, border-color 220ms ease;
+}
+
+.card:focus,
+.card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(143, 233, 255, 0.6);
+}
+
+.card-media {
+  position: relative;
+  padding-top: 60%;
+  overflow: hidden;
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.card-media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-media .glyph {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 2.5rem;
+  color: var(--accent);
+  background: var(--glyph-bg);
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+
+.card:hover .glyph,
+.card:focus .glyph {
+  opacity: 1;
+}
+
+.card-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  flex: 1 1 auto;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.sovereign-code {
+  margin: 0;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.card-description {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.metadata {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.4rem 0.8rem;
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.metadata dt {
+  color: rgba(143, 233, 255, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.metadata dd {
+  margin: 0;
+  color: var(--muted);
+}
+
+.viewer-button {
+  margin-top: auto;
+  align-self: flex-start;
+  padding: 0.75rem 1.25rem;
+  border-radius: 999px;
+  border: 1px solid rgba(143, 233, 255, 0.6);
+  background: transparent;
+  color: var(--accent);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 200ms ease;
+}
+
+.viewer-button:hover,
+.viewer-button:focus {
+  background: rgba(143, 233, 255, 0.15);
+}
+
+.viewer {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 7, 15, 0.78);
+  backdrop-filter: blur(18px);
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  z-index: 50;
+}
+
+.viewer[hidden] {
+  display: none;
+}
+
+.viewer-content {
+  display: grid;
+  grid-template-columns: minmax(280px, 420px) minmax(260px, 320px);
+  gap: 2rem;
+  background: rgba(10, 14, 28, 0.95);
+  border: 1px solid rgba(143, 233, 255, 0.4);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  width: min(90vw, 900px);
+}
+
+.viewer-close {
+  position: absolute;
+  top: 2.5rem;
+  right: 2.5rem;
+  background: rgba(143, 233, 255, 0.2);
+  color: var(--text);
+  border: none;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.viewer-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  color: var(--muted);
+}
+
+.viewer-meta pre {
+  background: rgba(7, 9, 21, 0.65);
+  padding: 1rem;
+  border-radius: 1rem;
+  white-space: pre-wrap;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+@media (max-width: 760px) {
+  .viewer-content {
+    grid-template-columns: 1fr;
+    width: min(94vw, 520px);
+  }
+}

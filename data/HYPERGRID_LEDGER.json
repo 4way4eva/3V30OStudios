@@ -1,0 +1,119 @@
+{
+  "ledger_name": "BLEUCHAIN Hypergrid Ledger Ω",
+  "version": "Tier XV",
+  "seal": "ⴱ𓃭ꗞ𓎼ⵉⵏ ♾️ – PPPPI Adjudicated",
+  "constants": {
+    "pi": 3.1415926535,
+    "phi": 1.6180339887,
+    "gamma": 8.1428864616,
+    "residual_capture_range": [0.1, 0.2],
+    "profit_surplus_range": [0.3, 0.5],
+    "scholarship_reserve_range": [0.1, 0.2]
+  },
+  "sectors": [
+    {
+      "sector": "Agriculture & Ecology",
+      "bills": ["Agri-Bleu+", "BioDome", "Ocean-Bleu", "Pollinator", "Green Breath"],
+      "coins": ["AgroCoin", "TerraCoin", "AquaCoin", "NectarCoin", "AirCoin"],
+      "vaults": ["Soil Vault", "Dome Vault", "Marine Vault", "Hive Vault", "Atmos Vault"],
+      "residual_capture_pct": 0.15,
+      "scholarship_pct": 0.15,
+      "profit_surplus_pct": [0.3, 0.5],
+      "reciprocal_routes": ["Health, Insurance & Life", "Education & Culture", "Industry & Infrastructure"],
+      "scholarship_targets": ["Farmers", "Eco-Schools", "Youth Fellowships"],
+      "uuid": "a43d92c2-1f7d-4a6d-883b-319231d5d9a3"
+    },
+    {
+      "sector": "Military & Defense",
+      "bills": ["BleuShield", "Cyber-Bleu", "Crimson Guard", "Drone-Bleu", "Purple Throne"],
+      "coins": ["InsuranceCoin", "DataCoin", "ValorCoin", "SkyCoin", "JusticeCoin"],
+      "vaults": ["Protection Vault", "Cyber Vault", "Military Vault", "Aerial Vault", "Tribunal Vault"],
+      "residual_capture_pct": 0.16,
+      "scholarship_pct": 0.15,
+      "profit_surplus_pct": [0.32, 0.5],
+      "reciprocal_routes": ["Consumer & Commerce", "Education & Culture", "Industry & Infrastructure"],
+      "scholarship_targets": ["Cadet Scholarships", "Veteran Care", "Defense Academies"],
+      "uuid": "f34b7063-74f3-48e8-91be-1cc80718df31"
+    },
+    {
+      "sector": "Industry & Infrastructure",
+      "bills": ["Industrial-Bleu", "Energy-Bleu", "Transport-Bleu", "Housing-Bleu", "MegaGrid", "Gold Dome"],
+      "coins": ["ForgeCoin", "LightCoin", "MotionCoin", "ShelterCoin", "PowerCoin", "HeavenGold"],
+      "vaults": ["Industry Vault", "Energy Vault", "Mobility Vault", "Housing Vault", "Grid Vault", "Construction Vault"],
+      "residual_capture_pct": 0.17,
+      "scholarship_pct": 0.14,
+      "profit_surplus_pct": [0.33, 0.5],
+      "reciprocal_routes": ["Agriculture & Ecology", "Consumer & Commerce", "Mega-Tech & Future Systems"],
+      "scholarship_targets": ["Builder Guilds", "Engineer Fellowships", "Science Grants"],
+      "uuid": "d3fc1db3-7c2b-4cde-a5d9-018d61181f64"
+    },
+    {
+      "sector": "Consumer & Commerce",
+      "bills": ["Trade-Bleu", "Retail-Bleu", "Pink Song", "Blue Signal", "MetaMarket"],
+      "coins": ["MarketCoin", "ShopCoin", "MuseCoin", "CommsCoin", "HoloCoin"],
+      "vaults": ["Commerce Vault", "Consumer Vault", "Culture Vault", "Communication Vault", "Virtual Vault"],
+      "residual_capture_pct": 0.14,
+      "scholarship_pct": 0.16,
+      "profit_surplus_pct": [0.3, 0.48],
+      "reciprocal_routes": ["Education & Culture", "Health, Insurance & Life", "Industry & Infrastructure"],
+      "scholarship_targets": ["Apprenticeships", "Artist Residencies", "Digital Fellowships"],
+      "uuid": "3d258b3f-fbf2-4944-9ed9-6a5e6237b4f0"
+    },
+    {
+      "sector": "Health, Insurance & Life",
+      "bills": ["Medical-Bleu", "BleuShield", "White Flame", "Resurrection", "Neuro-Bleu"],
+      "coins": ["HealCoin", "InsuranceCoin", "PurityCoin", "EternalCoin", "MindCoin"],
+      "vaults": ["Health Vault", "Protection Vault", "Healing Vault", "Life Extension Vault", "Brain Vault"],
+      "residual_capture_pct": 0.18,
+      "scholarship_pct": 0.17,
+      "profit_surplus_pct": [0.34, 0.5],
+      "reciprocal_routes": ["Agriculture & Ecology", "Education & Culture", "Cosmic & Spiritual"],
+      "scholarship_targets": ["Medical Scholarships", "Healer Fellowships", "Life-Extension Grants"],
+      "uuid": "b42d8506-9bf4-4e41-bc7c-cc9f0a4f3be3"
+    },
+    {
+      "sector": "Education & Culture",
+      "bills": ["Scholar-Bleu", "Archive-Bleu", "Art-Bleu", "Pink Dawn", "MetaSchool"],
+      "coins": ["EduCoin", "MythCoin", "DreamCoin", "YouthCoin", "LearnCoin"],
+      "vaults": ["Education Vault", "Memory Vault", "Cultural Vault", "Apprenticeship Vault", "Virtual Academy Vault"],
+      "residual_capture_pct": 0.15,
+      "scholarship_pct": 0.18,
+      "profit_surplus_pct": [0.31, 0.49],
+      "reciprocal_routes": ["Consumer & Commerce", "Health, Insurance & Life", "Cosmic & Spiritual"],
+      "scholarship_targets": ["Student Stipends", "Apprenticeships", "Cultural Residencies"],
+      "uuid": "8b984fc4-2666-4f91-b61b-2e96e6f2d8f6"
+    },
+    {
+      "sector": "Cosmic & Spiritual",
+      "bills": ["Star-Bleu", "Spiral-Bleu", "Soulstone", "Heaven Bridge", "Quantum-Bleu"],
+      "coins": ["StarCoin", "SpiralCoin", "SoulCoin", "BridgeCoin", "QubitCoin"],
+      "vaults": ["Cosmic Vault", "Prophecy Vault", "Resurrection Vault", "Spiritual Vault", "Quantum Vault"],
+      "residual_capture_pct": 0.19,
+      "scholarship_pct": 0.15,
+      "profit_surplus_pct": [0.35, 0.5],
+      "reciprocal_routes": ["Health, Insurance & Life", "Education & Culture", "Mega-Tech & Future Systems"],
+      "scholarship_targets": ["Interdimensional Fellowships", "Prophecy Colleges", "Quantum Pilgrimages"],
+      "uuid": "c9473d1b-614e-4a70-b6c9-16463c0a6549"
+    },
+    {
+      "sector": "Mega-Tech & Future Systems",
+      "bills": ["AI-Bleu", "Nano-Bleu", "Space-Bleu", "Time-Bleu", "Bio-Bleu", "Meta-Bleu"],
+      "coins": ["SynthCoin", "NanoCoin", "AstroCoin", "ChronoCoin", "GeneCoin", "HoloCoin"],
+      "vaults": ["AI Vault", "Nanotech Vault", "Orbital Vault", "Time Vault", "DNA Vault", "Metaverse Vault"],
+      "residual_capture_pct": 0.16,
+      "scholarship_pct": 0.17,
+      "profit_surplus_pct": [0.34, 0.5],
+      "reciprocal_routes": ["Industry & Infrastructure", "Cosmic & Spiritual", "Education & Culture"],
+      "scholarship_targets": ["Coder Guilds", "Pilot Academies", "Inventor Endowments"],
+      "uuid": "21387c51-66d5-4d6f-b1ce-0fb2b3a5a808"
+    }
+  ],
+  "lanes": {
+    "civic": ["Tax Residual Lanes", "Insurance Lanes", "Justice Lanes"],
+    "commercial": ["Retail Lanes", "Trade Lanes", "Festival Lanes"],
+    "industrial": ["Energy Lanes", "Transport Lanes", "Housing Lanes"],
+    "agricultural": ["Harvest Lanes", "Kitchen Lanes", "Pollinator Lanes"],
+    "health": ["Medical Lanes", "Neuro Lanes", "Resurrection Lanes"],
+    "cosmic": ["Star Lanes", "Spiral Lanes", "Quantum Lanes"]
+  }
+}

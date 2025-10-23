@@ -1,0 +1,24 @@
+{
+  "coins": [
+    {
+      "id": "COIN::ScholarCoin",
+      "unit": "SCH",
+      "precision": 2
+    },
+    {
+      "id": "COIN::HealthCoin",
+      "unit": "HLH",
+      "precision": 2
+    },
+    {
+      "id": "COIN::EnergyCoin",
+      "unit": "NRG",
+      "precision": 2
+    },
+    {
+      "id": "COIN::CityCoin",
+      "unit": "CIV",
+      "precision": 2
+    }
+  ]
+}
