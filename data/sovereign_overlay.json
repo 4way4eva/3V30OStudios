@@ -1,0 +1,42 @@
+{
+  "overlayVersion": "1.0.0",
+  "sovereignRoles": {
+    "Solar Initiator": {
+      "glyph": "☀️",
+      "ceremony": "Flame Crown ignition",
+      "vault": "Ω-CIV-01"
+    },
+    "Quantum Navigator": {
+      "glyph": "🌀",
+      "ceremony": "Portal harmonic alignment",
+      "vault": "Ω-COS-01"
+    },
+    "Aegis Marshal": {
+      "glyph": "🛡️",
+      "ceremony": "Quad-octa defensive weave",
+      "vault": "Ω-MIL-01"
+    }
+  },
+  "attunementRules": {
+    "requiresReciprocityPulse": true,
+    "minimumClearance": "Sovereign",
+    "auditLog": "codex://audit/megazion"
+  },
+  "vaultBindings": [
+    {
+      "vault": "Ω-CIV-01",
+      "sectors": ["Retail", "Education", "Real Estate", "Hospitality"],
+      "permittedRoles": ["Solar Initiator"]
+    },
+    {
+      "vault": "Ω-MIL-01",
+      "sectors": ["Defense Grids", "Orbital", "Targeting AI"],
+      "permittedRoles": ["Aegis Marshal"]
+    },
+    {
+      "vault": "Ω-COS-01",
+      "sectors": ["Portal Energy", "Quantum Logistics"],
+      "permittedRoles": ["Quantum Navigator"]
+    }
+  ]
+}

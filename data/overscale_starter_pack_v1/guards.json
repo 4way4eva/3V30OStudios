@@ -1,0 +1,112 @@
+{
+  "guards": [
+    {
+      "id": "GUARD::MERIT::GPA>=3.0",
+      "scope": "access",
+      "rule": "gpa >= 3.0",
+      "expires": "2027-12-31",
+      "proofs": [
+        "doc://transcript"
+      ]
+    },
+    {
+      "id": "GUARD::NEED::Income<200%FPL",
+      "scope": "flows",
+      "rule": "income_pct_fpl < 200",
+      "expires": "2027-12-31",
+      "proofs": [
+        "doc://income_statement"
+      ]
+    },
+    {
+      "id": "GUARD::ENERGY::MeterVerified",
+      "scope": "data",
+      "rule": "meter_status == 'verified'",
+      "expires": "2027-12-31",
+      "proofs": [
+        "doc://utility_meter"
+      ]
+    },
+    {
+      "id": "GUARD::TRANSIT::OperatorLicense",
+      "scope": "access",
+      "rule": "license_status == 'active'",
+      "expires": "2027-12-31",
+      "proofs": [
+        "doc://operator_license"
+      ]
+    },
+    {
+      "id": "GUARD::DEFENSE::ReadinessLevel3",
+      "scope": "flows",
+      "rule": "readiness_level >= 3",
+      "expires": "2027-12-31",
+      "proofs": [
+        "doc://readiness_cert"
+      ]
+    },
+    {
+      "id": "GUARD::COMMERCE::VendorCredential",
+      "scope": "access",
+      "rule": "vendor_status == 'approved'",
+      "expires": "2027-12-31",
+      "proofs": [
+        "doc://vendor_cert"
+      ]
+    },
+    {
+      "id": "GUARD::CULTURE::StewardRegistry",
+      "scope": "data",
+      "rule": "steward_id in registry",
+      "expires": "2027-12-31",
+      "proofs": [
+        "doc://steward_registry"
+      ]
+    },
+    {
+      "id": "GUARD::CIVIC::ResidentID",
+      "scope": "access",
+      "rule": "resident_id_verified == true",
+      "expires": "2027-12-31",
+      "proofs": [
+        "doc://resident_id"
+      ]
+    },
+    {
+      "id": "GUARD::DATA::StewardApproval",
+      "scope": "data",
+      "rule": "data_steward_approved == true",
+      "expires": "2027-12-31",
+      "proofs": [
+        "doc://steward_approval"
+      ]
+    },
+    {
+      "id": "GUARD::LABOR::UnionCard",
+      "scope": "access",
+      "rule": "union_card_valid == true",
+      "expires": "2027-12-31",
+      "proofs": [
+        "doc://union_card"
+      ]
+    },
+    {
+      "id": "GUARD::TREASURY::DualControl",
+      "scope": "flows",
+      "rule": "signatures >= 2",
+      "expires": "2027-12-31",
+      "proofs": [
+        "doc://dual_control"
+      ]
+    },
+    {
+      "id": "GUARD::CIVIC::CouncilClearance",
+      "scope": "access",
+      "rule": "council_clearance == 'green'",
+      "expires": "2027-12-31",
+      "proofs": [
+        "doc://council_clearance"
+      ]
+    }
+  ]
+}

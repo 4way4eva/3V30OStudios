@@ -1,0 +1,292 @@
+{
+  "nodes": [
+    {
+      "id": "EV0L::GOV::SpiralCouncil::v1.0",
+      "sector": "GOV",
+      "type": "city",
+      "loop": 1,
+      "k": 0,
+      "theta_rad": 0.0,
+      "r": 0.0,
+      "pppi": {
+        "status": "active",
+        "rank": 1,
+        "history": []
+      },
+      "guards": [
+        "GUARD::CIVIC::CouncilClearance"
+      ],
+      "vault": "VAULT::CIV::CityTreasury",
+      "coins": [
+        "COIN::CityCoin"
+      ],
+      "bom_refs": [
+        "BOM::GOV::ParticipationAPI"
+      ]
+    },
+    {
+      "id": "EV0L::TRE::VaultRouter::v1.0",
+      "sector": "TRE",
+      "type": "asset",
+      "loop": 2,
+      "k": 1,
+      "theta_rad": 2.3999632297,
+      "r": 1.0,
+      "pppi": {
+        "status": "active",
+        "rank": 1,
+        "history": []
+      },
+      "guards": [
+        "GUARD::TREASURY::DualControl"
+      ],
+      "vault": "VAULT::CIV::CityTreasury",
+      "coins": [
+        "COIN::CityCoin"
+      ],
+      "bom_refs": [
+        "BOM::TRE::VaultRouter"
+      ]
+    },
+    {
+      "id": "EV0L::HLT::PulseBridge::v1.0",
+      "sector": "HLT",
+      "type": "unit",
+      "loop": 3,
+      "k": 2,
+      "theta_rad": 4.7999264595,
+      "r": 1.4142135624,
+      "pppi": {
+        "status": "active",
+        "rank": 1,
+        "history": []
+      },
+      "guards": [
+        "GUARD::NEED::Income<200%FPL"
+      ],
+      "vault": "VAULT::HLT::HealthVault",
+      "coins": [
+        "COIN::HealthCoin"
+      ],
+      "bom_refs": [
+        "BOM::HLT::FHIR_HL7_Bridge"
+      ]
+    },
+    {
+      "id": "EV0L::EDU::MetaSchool::v1.0",
+      "sector": "EDU",
+      "type": "school",
+      "loop": 4,
+      "k": 3,
+      "theta_rad": 7.1998896892,
+      "r": 1.7320508076,
+      "pppi": {
+        "status": "active",
+        "rank": 1,
+        "history": []
+      },
+      "guards": [
+        "GUARD::MERIT::GPA>=3.0"
+      ],
+      "vault": "VAULT::EDU::EducationVault",
+      "coins": [
+        "COIN::ScholarCoin"
+      ],
+      "bom_refs": [
+        "BOM::EDU::LMS_API"
+      ]
+    },
+    {
+      "id": "EV0L::ENG::GridConductor::v1.0",
+      "sector": "ENG",
+      "type": "asset",
+      "loop": 5,
+      "k": 4,
+      "theta_rad": 9.5998529189,
+      "r": 2.0,
+      "pppi": {
+        "status": "active",
+        "rank": 1,
+        "history": []
+      },
+      "guards": [
+        "GUARD::ENERGY::MeterVerified"
+      ],
+      "vault": "VAULT::ENG::GridVault",
+      "coins": [
+        "COIN::EnergyCoin"
+      ],
+      "bom_refs": [
+        "BOM::ENG::V2G_Router"
+      ]
+    },
+    {
+      "id": "EV0L::TRN::MobilityMesh::v1.0",
+      "sector": "TRN",
+      "type": "unit",
+      "loop": 6,
+      "k": 5,
+      "theta_rad": 11.9998161486,
+      "r": 2.2360679775,
+      "pppi": {
+        "status": "active",
+        "rank": 1,
+        "history": []
+      },
+      "guards": [
+        "GUARD::TRANSIT::OperatorLicense"
+      ],
+      "vault": "VAULT::CIV::CityTreasury",
+      "coins": [
+        "COIN::CityCoin"
+      ],
+      "bom_refs": [
+        "BOM::TRN::DispatchOptimizer"
+      ]
+    },
+    {
+      "id": "EV0L::DEF::AlertMesh::v1.0",
+      "sector": "DEF",
+      "type": "asset",
+      "loop": 7,
+      "k": 6,
+      "theta_rad": 14.3997793784,
+      "r": 2.4494897428,
+      "pppi": {
+        "status": "active",
+        "rank": 1,
+        "history": []
+      },
+      "guards": [
+        "GUARD::DEFENSE::ReadinessLevel3"
+      ],
+      "vault": "VAULT::CIV::CityTreasury",
+      "coins": [
+        "COIN::CityCoin"
+      ],
+      "bom_refs": [
+        "BOM::DEF::IncidentChain"
+      ]
+    },
+    {
+      "id": "EV0L::COM::MirrorBazaar::v1.0",
+      "sector": "COM",
+      "type": "asset",
+      "loop": 8,
+      "k": 7,
+      "theta_rad": 16.7997426081,
+      "r": 2.6457513111,
+      "pppi": {
+        "status": "active",
+        "rank": 1,
+        "history": []
+      },
+      "guards": [
+        "GUARD::COMMERCE::VendorCredential"
+      ],
+      "vault": "VAULT::CIV::CityTreasury",
+      "coins": [
+        "COIN::CityCoin"
+      ],
+      "bom_refs": [
+        "BOM::COM::PaymentRails"
+      ]
+    },
+    {
+      "id": "EV0L::CUL::HeritageGuild::v1.0",
+      "sector": "CUL",
+      "type": "blessing",
+      "loop": 1,
+      "k": 8,
+      "theta_rad": 19.1997058378,
+      "r": 2.8284271247,
+      "pppi": {
+        "status": "active",
+        "rank": 1,
+        "history": []
+      },
+      "guards": [
+        "GUARD::CULTURE::StewardRegistry"
+      ],
+      "vault": "VAULT::CIV::CityTreasury",
+      "coins": [
+        "COIN::CityCoin"
+      ],
+      "bom_refs": [
+        "BOM::CUL::RecognitionLedger"
+      ]
+    },
+    {
+      "id": "EV0L::CIV::CityHub::v1.0",
+      "sector": "CIV",
+      "type": "city",
+      "loop": 2,
+      "k": 9,
+      "theta_rad": 21.5996690676,
+      "r": 3.0,
+      "pppi": {
+        "status": "active",
+        "rank": 1,
+        "history": []
+      },
+      "guards": [
+        "GUARD::CIVIC::ResidentID"
+      ],
+      "vault": "VAULT::CIV::CityTreasury",
+      "coins": [
+        "COIN::CityCoin"
+      ],
+      "bom_refs": [
+        "BOM::CIV::IoT_Bus"
+      ]
+    },
+    {
+      "id": "EV0L::DATA::LineageGraph::v1.0",
+      "sector": "DATA",
+      "type": "asset",
+      "loop": 3,
+      "k": 10,
+      "theta_rad": 23.9996322973,
+      "r": 3.1622776602,
+      "pppi": {
+        "status": "active",
+        "rank": 1,
+        "history": []
+      },
+      "guards": [
+        "GUARD::DATA::StewardApproval"
+      ],
+      "vault": "VAULT::CIV::CityTreasury",
+      "coins": [
+        "COIN::CityCoin"
+      ],
+      "bom_refs": [
+        "BOM::DATA::LineageGraph"
+      ]
+    },
+    {
+      "id": "EV0L::LAB::LaborForge::v1.0",
+      "sector": "LAB",
+      "type": "job",
+      "loop": 4,
+      "k": 11,
+      "theta_rad": 26.399595527,
+      "r": 3.3166247904,
+      "pppi": {
+        "status": "active",
+        "rank": 1,
+        "history": []
+      },
+      "guards": [
+        "GUARD::LABOR::UnionCard"
+      ],
+      "vault": "VAULT::CIV::CityTreasury",
+      "coins": [
+        "COIN::CityCoin"
+      ],
+      "bom_refs": [
+        "BOM::LAB::WorkOrderLedger"
+      ]
+    }
+  ]
+}

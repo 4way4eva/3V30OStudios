@@ -1,0 +1,13 @@
+Sector,EV0L_Practice,Conventional_Practice,Compression_Method,Coins,Vaults,Guards,Key_APIs,KPIs
+Governance,Spiral Council vote spiral,Linear district councils,Golden-angle placement,CityCoin,CityTreasury,"GUARD::CIVIC::CouncilClearance","Participation API; Guard Engine","Resolution turnaround < 48h"
+Treasury,Residual router with reinvest bands,Static annual budgets,Residual partitioning,CityCoin,CityTreasury,"GUARD::TREASURY::DualControl","Vault Router; Audit Log","Residual capture >= 15%"
+Health,PulseBridge consent ledger,Fee-for-service claims,Need-guard triage,HealthCoin,HealthVault,"GUARD::NEED::Income<200%FPL","FHIR/HL7 Bridge; Triage Rules","Preventive coverage reach"
+Education,MetaSchool credential mint,Tuition-locked seats,Merit guard scholarships,ScholarCoin,EducationVault,"GUARD::MERIT::GPA>=3.0","LMS Connector; Placement Oracle","Scholarship activation rate"
+Energy,GridConductor V2G routing,Bulk demand response,Verified meter flows,EnergyCoin,GridVault,"GUARD::ENERGY::MeterVerified","V2G Router; Demand Shaper","Storage participation %"
+Transport,MobilityMesh dispatch mesh,Fixed-route dispatch,Operator guard routing,CityCoin,CityTreasury,"GUARD::TRANSIT::OperatorLicense","Dispatch Optimizer; Telemetry Ingest","On-time arrivals"
+Defense,AlertMesh readiness ledger,Static readiness drills,Readiness guard gating,CityCoin,CityTreasury,"GUARD::DEFENSE::ReadinessLevel3","Incident Chain; Alert Mesh","Response time < 5m"
+Commerce,MirrorBazaar escrow flows,Card processor nets,Voucher compression,CityCoin,CityTreasury,"GUARD::COMMERCE::VendorCredential","Payment Rails; Fulfillment Hooks","Clearance rate > 98%"
+Culture,HeritageGuild recognition ledger,Grant committee cycles,Registry compression,CityCoin,CityTreasury,"GUARD::CULTURE::StewardRegistry","Recognition Ledger; Engagement KPIs","Steward activation"
+Cities,CityHub participatory ledger,Annual capital plans,Participatory compression,CityCoin,CityTreasury,"GUARD::CIVIC::ResidentID","IoT Bus; Work-order Ledger","Work-order closure time"
+Data,LineageGraph stewardship ops,Ad hoc access approvals,Guarded data plane,CityCoin,CityTreasury,"GUARD::DATA::StewardApproval","Access Guards; Lineage Graph","Data issue MTTR"
+Labor,LaborForge unionized matching,Gig platform bidding,Union credential gating,CityCoin,CityTreasury,"GUARD::LABOR::UnionCard","Work-order Ledger; Labor Router","Shift fill rate"

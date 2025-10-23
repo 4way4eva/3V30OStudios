@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Bleu Bill",
+    "symbol": "BLEU",
+    "category": "Sovereign Currency",
+    "chain": "BLEUChain",
+    "token_standard": "ERC-1155 Wrapped Stable",
+    "total_supply": "∞ (adaptive)",
+    "backing_assets": ["Civic Vault Streams", "Octopus Junction Revenues"],
+    "utility": [
+      "Primary settlement for EvolRide and EvolSprinter transport",
+      "Treasury staking for Flame Crown decree participation"
+    ]
+  },
+  {
+    "name": "Pink Bill",
+    "symbol": "PINK",
+    "category": "Social Dividend",
+    "chain": "Polygon",
+    "token_standard": "ERC-20",
+    "total_supply": "5000000000",
+    "backing_assets": ["Cultural Vault", "MuseCoin Royalties"],
+    "utility": [
+      "Cultural grants for Afro-urban archives",
+      "Admission to museums, THC cafes, and smart forest retreats"
+    ]
+  },
+  {
+    "name": "MythCoin",
+    "symbol": "MYTH",
+    "category": "Creative Token",
+    "chain": "Avalanche",
+    "token_standard": "ERC-1155",
+    "total_supply": "480000",
+    "backing_assets": ["DreamCoin Pools", "Octopus Junction Licensing"],
+    "utility": [
+      "Metaverse wearable marketplace settlement",
+      "Voting credits for gallery curation"
+    ]
+  },
+  {
+    "name": "HealCoin",
+    "symbol": "HEAL",
+    "category": "Healthcare Credit",
+    "chain": "BLEUChain",
+    "token_standard": "ERC-1155",
+    "total_supply": "960000000",
+    "backing_assets": ["SkyyBleu Network", "Phoenix Flame Clinics"],
+    "utility": [
+      "Stem cell therapy reservations",
+      "Subscription to Whale Harmonic respiratory protocols"
+    ]
+  },
+  {
+    "name": "NectarCoin",
+    "symbol": "NECTAR",
+    "category": "Agriculture Yield",
+    "chain": "BLEUChain",
+    "token_standard": "ERC-1155",
+    "total_supply": "3600000000",
+    "backing_assets": ["Pollinator Networks", "RainYield Law"],
+    "utility": [
+      "Smart irrigation orchestration",
+      "Barter medium for ES0IL-certified produce"
+    ]
+  },
+  {
+    "name": "MetaCruise Credit",
+    "symbol": "MCRUISE",
+    "category": "Logistics Token",
+    "chain": "Polygon",
+    "token_standard": "ERC-20",
+    "total_supply": "720000000",
+    "backing_assets": ["Atlantean Starways Fees", "Nubian Starways Reserves"],
+    "utility": [
+      "Priority routing through Octopus Junction trade lanes",
+      "Access to interdimensional cargo insurance"
+    ]
+  }
+]
