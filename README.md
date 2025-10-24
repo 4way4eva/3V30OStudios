@@ -1,4 +1,181 @@
-The Cloned Scroll Vortex CODEXX Assembly Scroll: Afrocentric Ceremonial Infrastructure Mapping of Scroll-Bonded Organism Cloning via Vortex Logic, Ancestral Memory, and Electromagnetic Pulse
+Here’s the Unity / WebGL Blueprint Stack v1.0 specification—built for the MetaVault yield system you described.
+Everything below is modular so you can drop it straight into a Unity 2022 LTS or later project.
+
+⸻
+
+1. Folder hierarchy
+
+EVOLVERSE_UnityStack/
+│
+├── Assets/
+│   ├── Scripts/
+│   │   ├── Data/
+│   │   │   ├── YieldLoader.cs
+│   │   │   ├── BleuBillParser.cs
+│   │   │   └── RoiTable.cs
+│   │   ├── UI/
+│   │   │   ├── SliderController.cs
+│   │   │   └── ToggleSovereign.cs
+│   │   └── Visuals/
+│   │       └── LayerAnimator.cs
+│   ├── Materials/
+│   ├── Prefabs/
+│   │   ├── CivilianLayer.prefab
+│   │   ├── MilitaryLayer.prefab
+│   │   ├── CosmicLayer.prefab
+│   │   └── GlyphValidator.prefab
+│   ├── Scenes/
+│   │   └── MetaVaultScene.unity
+│   ├── StreamingAssets/
+│   │   ├── meta_yield.csv
+│   │   ├── bleu_bills.json
+│   │   └── roi_backbone.json
+│   └── WebGLTemplates/
+│       └── EVOLVERSE.html
+└── ProjectSettings/
+
+
+⸻
+
+2. Core data schema
+
+meta_yield.csv
+
+layer	rate_per_sec	yield_per_day	formula	validators
+Civilian	13.6 M	1.175 T	Yield(t)=Initial×(π⁴)^t	12
+Military	6.1 M	0.527 T	same	12
+Cosmic	9.2 M	0.796 T	same	12
+
+roi_backbone.json
+
+{
+  "products": [
+    {"name":"Ziphonate Cores","roi":186,"initial":420,"final":1200},
+    {"name":"Portal Key Tokens","roi":194,"initial":160,"final":470},
+    {"name":"MetaCurriculum Pods","roi":231,"initial":130,"final":430},
+    {"name":"HoverLane 8 Pods","roi":222,"initial":230,"final":740},
+    {"name":"MirrorGuard Shields","roi":194,"initial":310,"final":910},
+    {"name":"BLEU SportsVerse Arenas","roi":248,"initial":210,"final":730}
+  ]
+}
+
+
+⸻
+
+3. Script logic (pseudocode)
+
+YieldLoader.cs
+
+using UnityEngine;
+using System.IO;
+using System.Collections.Generic;
+
+public class YieldLoader : MonoBehaviour {
+    public List<LayerData> layers;
+    void Start() {
+        string path = Path.Combine(Application.streamingAssetsPath,"meta_yield.csv");
+        layers = CsvUtility.Read<LayerData>(path);
+        foreach(var layer in layers){
+            layer.dailyValue = layer.rate_per_sec * 86400f;
+        }
+    }
+}
+
+[System.Serializable]
+public class LayerData {
+    public string layer;
+    public float rate_per_sec;
+    public float yield_per_day;
+    public string formula;
+    public int validators;
+}
+
+LayerAnimator.cs
+
+using UnityEngine;
+
+public class LayerAnimator : MonoBehaviour {
+    public float rotationSpeed = 10f;
+    public Color layerColor;
+
+    void Update() {
+        transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+        float pulse = Mathf.PingPong(Time.time,1);
+        GetComponent<Renderer>().material.color = Color.Lerp(Color.white,layerColor,pulse);
+    }
+}
+
+SliderController.cs
+
+using UnityEngine;
+using UnityEngine.UI;
+
+public class SliderController : MonoBehaviour {
+    public Slider yieldSlider;
+    public YieldLoader loader;
+
+    void Start() {
+        yieldSlider.onValueChanged.AddListener(UpdateRate);
+    }
+
+    void UpdateRate(float val){
+        foreach(var l in loader.layers){
+            l.rate_per_sec = val;
+        }
+    }
+}
+
+ToggleSovereign.cs
+
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ToggleSovereign : MonoBehaviour {
+    public Toggle toggle;
+    void Start(){
+        toggle.onValueChanged.AddListener(OnToggle);
+    }
+    void OnToggle(bool state){
+        Time.timeScale = state ? 2f : 1f; // accelerate simulation
+    }
+}
+
+
+⸻
+
+4. Scene layout (MetaVaultScene.unity)
+
+Object	Purpose
+CivilianLayer	Rotating π⁴ grid with blue material
+MilitaryLayer	Rotating quad-octa mesh, red material
+CosmicLayer	Transparent spiral mesh, violet material
+GlyphValidator	Floating 12-node ring to display validator activity
+Canvas/UI	Sliders for tick rate, compounding constant, and toggle for Sovereign reversal
+
+
+⸻
+
+5. WebGL export
+
+Settings
+	•	Platform: WebGL
+	•	Template: EVOLVERSE.html
+	•	Resolution: 1920×1080
+	•	Compression: Gzip
+
+Build → WebGL → Upload
+Use any static host (GitHub Pages, Netlify, IPFS) to serve the output folder.
+All assets stay local; no external network calls are required.
+
+⸻
+
+6. Optional analytics module
+
+Add a script RoiVisualizer.cs to read roi_backbone.json and render bars or pie charts inside the UI for each product line ROI.
+
+⸻
+
+Would you like me to produce the complete folder + file package (text and CSV templates) ready for immediate Unity import?The Cloned Scroll Vortex CODEXX Assembly Scroll: Afrocentric Ceremonial Infrastructure Mapping of Scroll-Bonded Organism Cloning via Vortex Logic, Ancestral Memory, and Electromagnetic Pulse
 
 ---
 
