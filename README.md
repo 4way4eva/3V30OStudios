@@ -22,9 +22,232 @@
 
 • A civilian ship converted into a Special Operations hub is now stationed in the Caribbean, capable of dispatching elite troops on short notice A.
 • It’s paired with MH-6 Little Bird helicopters, flying within 90 miles of Venezuela’s coast — a proximity that signals readiness for ground operations A.
-
-
----
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EvolVerse Canon Schema",
+  "type": "object",
+  "properties": {
+    "characters": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/character"
+      }
+    },
+    "world_nodes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/world_node"
+      }
+    },
+    "doctrines": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "characters",
+    "world_nodes",
+    "doctrines",
+    "version"
+  ],
+  "definitions": {
+    "character": {
+      "type": "object",
+      "required": [
+        "codename",
+        "role",
+        "origin",
+        "domains",
+        "signature",
+        "limiter",
+        "antagonists"
+      ],
+      "properties": {
+        "codename": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "origin": {
+          "type": "string"
+        },
+        "domains": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "signature": {
+          "type": "string"
+        },
+        "limiter": {
+          "type": "string"
+        },
+        "antagonists": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "world_node": {
+      "type": "object",
+      "required": [
+        "name",
+        "description",
+        "custodian",
+        "systems"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "custodian": {
+          "type": "string"
+        },
+        "systems": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "defense": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "version": "0.1",
+      "doctrines": [
+        "Treaty First",
+        "Frequency Control",
+        "Archive Seizure"
+      ],
+      "world_nodes": [
+        {
+          "name": "Atlantis Restored",
+          "description": "Crystal towers, flame archives",
+          "custodian": "Evolynn",
+          "systems": [
+            "Treaty Mint",
+            "School Temples"
+          ]
+        },
+        {
+          "name": "BLEULION Treasury",
+          "description": "Living vault",
+          "custodian": "Dr. Sosa",
+          "systems": [
+            "Codex Engines",
+            "Civic Rewards"
+          ]
+        },
+        {
+          "name": "Signal Choir",
+          "description": "Frequency temples",
+          "custodian": "Phiyah",
+          "systems": [
+            "Firewall",
+            "Glyph Courts"
+          ]
+        },
+        {
+          "name": "Jungle Resonance Citadel",
+          "description": "Sonic stronghold",
+          "custodian": "Kongo Sonix",
+          "systems": [
+            "Resonance Shield",
+            "Choir Barracks"
+          ]
+        }
+      ],
+      "characters": [
+        {
+          "codename": "Evolynn",
+          "role": "Treaty Architect",
+          "origin": "Matriarchs of the Rift",
+          "domains": [
+            "Solar flame",
+            "Binding law",
+            "Pedagogy"
+          ],
+          "signature": "Flame Crown writs",
+          "limiter": "Requires witnessed consent",
+          "antagonists": [
+            "Distortion Syndicate"
+          ]
+        },
+        {
+          "codename": "Dr. Sosa",
+          "role": "Codex Sovereign",
+          "origin": "Navigators and Healers",
+          "domains": [
+            "EM archives",
+            "Economy"
+          ],
+          "signature": "Genesis Codex",
+          "limiter": "Index fragmentation on overuse",
+          "antagonists": [
+            "Archivist Guild"
+          ]
+        },
+        {
+          "codename": "Phiyah",
+          "role": "Signal Priestess",
+          "origin": "Electromagnetic Rift",
+          "domains": [
+            "Firewall",
+            "Glyphs",
+            "Memory"
+          ],
+          "signature": "Choir Seal",
+          "limiter": "Choir harmony must hold",
+          "antagonists": [
+            "Spectrum Lords"
+          ]
+        },
+        {
+          "codename": "Kongo Sonix",
+          "role": "Sonic Sovereign",
+          "origin": "Leviathan Choir",
+          "domains": [
+            "Vibration control",
+            "Ancestral summons"
+          ],
+          "signature": "Mountain-break roar",
+          "limiter": "Collateral risk at high gain",
+          "antagonists": [
+            "Beast-Makers"
+          ]
+        }
+      ]
+    }
+  ]
+}
 
 🧬 4. Trinidad & Tobago = Strategic Ally in the Codex Grid
 
