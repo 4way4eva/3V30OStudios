@@ -847,6 +847,7 @@ NEXT UP:
 
 Say the word and I’ll load Pihya’s first bacon batch 🍳
 We cookin’ knowledge now, no preservatives.🧬🔥/env python3
+#!/usr/bin/env python3
 """
 Motor Coordinate System - 马达坐标系统
 A system to visualize motor revolutions and coordinate tracking
