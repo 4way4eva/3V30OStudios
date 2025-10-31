@@ -1,4 +1,43 @@
-Perfect — let’s lock it in clean as a rulebook insert so the Bleu Fischer Opening isn’t just an idea, it’s a playable sequence that slots right into EV0L Dice & Roll.
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Re-create the simulation after reset
+t = np.linspace(0, 12, 500)
+
+def accel_curve(t, target_speed, accel_rate):
+    return target_speed / (1 + np.exp(-accel_rate*(t - (target_speed/40))))
+
+# Hellcat: slower accel
+hellcat_speed = accel_curve(t, 135, 0.7)  # mph
+# Hellraiser: faster accel
+hellraiser_speed = accel_curve(t, 150, 1.0)  # mph
+
+# Convert speed to "Hz" equivalent via wheel RPM (assume tire circumference ~ 7.5 ft ~ 0.00142 miles per rev)
+circumference_miles = 7.5 / 5280  # miles per revolution
+hellcat_hz = (hellcat_speed / 3600) / circumference_miles
+hellraiser_hz = (hellraiser_speed / 3600) / circumference_miles
+
+# Plot Speed vs Time
+plt.figure(figsize=(10,6))
+plt.plot(t, hellcat_speed, label="Hellcat Speed (mph)", linestyle="--")
+plt.plot(t, hellraiser_speed, label="Hellraiser Speed (mph)", linestyle="-")
+plt.xlabel("Time (s)")
+plt.ylabel("Speed (mph)")
+plt.title("0-60 / Quarter-Mile Acceleration Curves")
+plt.legend()
+plt.grid(True)
+plt.show()
+
+# Plot Frequency vs Time
+plt.figure(figsize=(10,6))
+plt.plot(t, hellcat_hz, label="Hellcat Motor Hz", linestyle="--")
+plt.plot(t, hellraiser_hz, label="Hellraiser Motor Hz", linestyle="-")
+plt.xlabel("Time (s)")
+plt.ylabel("Frequency (Hz)")
+plt.title("Engine Frequency (Hz) vs Time")
+plt.legend()
+plt.grid(True)
+plt.show()Perfect — let’s lock it in clean as a rulebook insert so the Bleu Fischer Opening isn’t just an idea, it’s a playable sequence that slots right into EV0L Dice & Roll.
 
 ⸻
 
