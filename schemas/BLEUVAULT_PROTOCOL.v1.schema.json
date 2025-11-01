@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bleulion.treasury/schemas/BLEUVAULT_PROTOCOL.v1.schema.json",
+  "title": "BLEU Vault Protocol Schema",
+  "type": "object",
+  "required": ["vaultId", "genesis", "recursions", "enft"],
+  "properties": {
+    "vaultId": { "type": "string", "pattern": "^0x[0-9a-fA-F]+$" },
+    "genesis": {
+      "type": "object",
+      "required": ["blockNumber", "initializer", "merkleRoot"],
+      "properties": {
+        "blockNumber": { "type": "integer", "minimum": 0 },
+        "initializer": { "type": "string", "pattern": "^0x[0-9a-fA-F]{40}$" },
+        "merkleRoot": { "type": "string", "pattern": "^0x[0-9a-fA-F]{64}$" },
+        "deployedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "recursions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["layer", "hash", "trigger"],
+        "properties": {
+          "layer": { "type": "integer", "minimum": 1 },
+          "hash": { "type": "string", "pattern": "^0x[0-9a-fA-F]{64}$" },
+          "trigger": { "type": "string", "enum": ["mint", "audit", "governance"] },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "enft": {
+      "type": "object",
+      "required": ["tokenId", "metadataUri", "recursionHash"],
+      "properties": {
+        "tokenId": { "type": "integer", "minimum": 1 },
+        "metadataUri": { "type": "string", "format": "uri" },
+        "recursionHash": { "type": "string", "pattern": "^0x[0-9a-fA-F]{64}$" },
+        "recipient": { "type": "string", "pattern": "^0x[0-9a-fA-F]{40}$" },
+        "amount": { "type": "integer", "minimum": 1 }
+      }
+    }
+  }
+}

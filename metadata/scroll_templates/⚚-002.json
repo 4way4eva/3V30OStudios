@@ -1,0 +1,11 @@
+{
+  "name": "Scroll ⚚-002",
+  "description": "Second cascade scroll aligning the Watchtower oracles with Polygon governance.",
+  "attributes": [
+    { "trait_type": "Realm", "value": "Polygon Watch" },
+    { "trait_type": "Tier", "value": "Ascendant" },
+    { "trait_type": "Sigil", "value": "⚚" }
+  ],
+  "image": "ipfs://bafybeicoreimage002",
+  "external_url": "ipfs://bafybeicoretemplate002"
+}

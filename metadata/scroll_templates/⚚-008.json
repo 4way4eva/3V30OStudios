@@ -1,0 +1,11 @@
+{
+  "name": "Scroll ⚚-008",
+  "description": "Traces inter-realm liquidity siphons and their oracle safeguards.",
+  "attributes": [
+    { "trait_type": "Realm", "value": "Liquidity Tide" },
+    { "trait_type": "Tier", "value": "Guardian" },
+    { "trait_type": "Sigil", "value": "⚚" }
+  ],
+  "image": "ipfs://bafybeicoreimage008",
+  "external_url": "ipfs://bafybeicoretemplate008"
+}

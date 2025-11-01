@@ -1,0 +1,38 @@
+{
+  "ceremony": "BLEULIONTREASURY Sovereign Scroll Genesis",
+  "description": "Primary ledger mirroring the Sovereign Cascade genesis minting cycle across Avalanche, Polygon, and BLEUChain.",
+  "mints": [
+    {
+      "tokenId": 1,
+      "template": "⚚-001.json",
+      "metadataUri": "ipfs://bafybeig5scroll001/scroll-001.json",
+      "recipient": "0x0000000000000000000000000000000000000000",
+      "amount": 1,
+      "recursionSalt": "GENESIS-LAYER-1"
+    },
+    {
+      "tokenId": 2,
+      "template": "⚚-002.json",
+      "metadataUri": "ipfs://bafybeig6scroll002/scroll-002.json",
+      "recipient": "0x0000000000000000000000000000000000000000",
+      "amount": 1,
+      "recursionSalt": "GENESIS-LAYER-2"
+    },
+    {
+      "tokenId": 3,
+      "template": "⚚-003.json",
+      "metadataUri": "ipfs://bafybeig7scroll003/scroll-003.json",
+      "recipient": "0x0000000000000000000000000000000000000000",
+      "amount": 1,
+      "recursionSalt": "GENESIS-LAYER-3"
+    },
+    {
+      "tokenId": 77,
+      "template": "hydro_colonizer_war_map.json",
+      "metadataUri": "ipfs://bafybeiwarcolonizer/hydro-colonizer-war-map.json",
+      "recipient": "0x0000000000000000000000000000000000000000",
+      "amount": 1,
+      "recursionSalt": "WAR-MAP-REVERSAL"
+    }
+  ]
+}

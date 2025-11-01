@@ -1,0 +1,11 @@
+{
+  "name": "Scroll ⚚-009",
+  "description": "Maps the governance quorum thresholds for cascade personas.",
+  "attributes": [
+    { "trait_type": "Realm", "value": "Governance Halo" },
+    { "trait_type": "Tier", "value": "Quorum" },
+    { "trait_type": "Sigil", "value": "⚚" }
+  ],
+  "image": "ipfs://bafybeicoreimage009",
+  "external_url": "ipfs://bafybeicoretemplate009"
+}
