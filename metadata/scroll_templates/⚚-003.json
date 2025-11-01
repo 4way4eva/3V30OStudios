@@ -1,0 +1,11 @@
+{
+  "name": "Scroll ⚚-003",
+  "description": "Anchors Avalanche liquidity strata into the Sovereign Cascade treasury.",
+  "attributes": [
+    { "trait_type": "Realm", "value": "Avalanche Glacial" },
+    { "trait_type": "Tier", "value": "Glacial" },
+    { "trait_type": "Sigil", "value": "⚚" }
+  ],
+  "image": "ipfs://bafybeicoreimage003",
+  "external_url": "ipfs://bafybeicoretemplate003"
+}

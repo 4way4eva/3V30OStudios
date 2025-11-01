@@ -19,3 +19,6 @@ junit*.properties
 *.csv
 revenue_projections_*.json
 revenue_projections_*.md
+
+# environment overrides
+config/.env

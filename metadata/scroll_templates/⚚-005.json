@@ -1,0 +1,11 @@
+{
+  "name": "Scroll ⚚-005",
+  "description": "Encodes treasury yield routing into the Watchtower attestation bus.",
+  "attributes": [
+    { "trait_type": "Realm", "value": "Yield Watch" },
+    { "trait_type": "Tier", "value": "Oracle" },
+    { "trait_type": "Sigil", "value": "⚚" }
+  ],
+  "image": "ipfs://bafybeicoreimage005",
+  "external_url": "ipfs://bafybeicoretemplate005"
+}

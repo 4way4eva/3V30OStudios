@@ -1,0 +1,11 @@
+{
+  "name": "Hydro-Colonizer War Map ⚔️",
+  "description": "Counter-cartography of colonial hydro empires versus BLEU counter-zones tracing routes from extraction to repair.",
+  "image": "ipfs://placeholder-hydro-colonizer-war-map",
+  "attributes": [
+    { "trait_type": "Axis", "value": "Poseidon ↔ Solar Memory" },
+    { "trait_type": "Counter-Zone", "value": "BLEU Restoration Grid" },
+    { "trait_type": "Artifact", "value": "Hydro-Colonizer War Map" },
+    { "trait_type": "Reciprocal Route", "value": "Looting → Healing" }
+  ]
+}

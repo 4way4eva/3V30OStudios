@@ -1,0 +1,11 @@
+{
+  "name": "Scroll ⚚-004",
+  "description": "Charts the BLEUChain sovereign relay for cascade consensus upgrades.",
+  "attributes": [
+    { "trait_type": "Realm", "value": "BLEUChain Relay" },
+    { "trait_type": "Tier", "value": "Sovereign" },
+    { "trait_type": "Sigil", "value": "⚚" }
+  ],
+  "image": "ipfs://bafybeicoreimage004",
+  "external_url": "ipfs://bafybeicoretemplate004"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Scroll ⚚-006",
+  "description": "Documents recursion-aware ENFT mint proofs for cascade mirrors.",
+  "attributes": [
+    { "trait_type": "Realm", "value": "Recursive Forge" },
+    { "trait_type": "Tier", "value": "Mythic" },
+    { "trait_type": "Sigil", "value": "⚚" }
+  ],
+  "image": "ipfs://bafybeicoreimage006",
+  "external_url": "ipfs://bafybeicoretemplate006"
+}

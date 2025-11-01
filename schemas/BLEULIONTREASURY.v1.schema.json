@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bleulion.treasury/schemas/BLEULIONTREASURY.v1.schema.json",
+  "title": "BLEULIONTREASURY Sovereign Cascade Schema",
+  "type": "object",
+  "required": ["ceremony", "scrolls", "vaults", "personas", "realms"],
+  "properties": {
+    "ceremony": {
+      "type": "object",
+      "required": ["name", "epoch", "chainSet"],
+      "properties": {
+        "name": { "type": "string" },
+        "epoch": { "type": "string", "pattern": "^\\d{4}-Q[1-4]$" },
+        "chainSet": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+        "description": { "type": "string" }
+      }
+    },
+    "scrolls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "uri", "realm"],
+        "properties": {
+          "id": { "type": "integer", "minimum": 1 },
+          "title": { "type": "string" },
+          "uri": { "type": "string", "format": "uri" },
+          "realm": { "type": "string" },
+          "active": { "type": "boolean" },
+          "recursionHash": { "type": "string", "pattern": "^0x[0-9a-fA-F]{64}$" }
+        }
+      }
+    },
+    "vaults": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "asset", "merkleRoot"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^0x[0-9a-fA-F]+$" },
+          "name": { "type": "string" },
+          "asset": { "type": "string", "pattern": "^0x[0-9a-fA-F]{40}$" },
+          "merkleRoot": { "type": "string", "pattern": "^0x[0-9a-fA-F]{64}$" },
+          "realm": { "type": "string" },
+          "status": { "type": "string", "enum": ["active", "sealed", "deprecated"] }
+        }
+      }
+    },
+    "personas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "type", "account"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^0x[0-9a-fA-F]{64}$" },
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "account": { "type": "string", "pattern": "^0x[0-9a-fA-F]{40}$" },
+          "votingPower": { "type": "number", "minimum": 0 },
+          "status": { "type": "string", "enum": ["active", "inactive", "emeritus"] }
+        }
+      }
+    },
+    "realms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "chainId"],
+        "properties": {
+          "name": { "type": "string" },
+          "chainId": { "type": "integer", "minimum": 1 },
+          "governance": { "type": "string", "pattern": "^0x[0-9a-fA-F]{40}$" },
+          "watchtower": { "type": "string", "pattern": "^0x[0-9a-fA-F]{40}$" }
+        }
+      }
+    }
+  }
+}

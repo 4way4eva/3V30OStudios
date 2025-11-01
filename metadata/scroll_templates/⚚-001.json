@@ -1,0 +1,11 @@
+{
+  "name": "Scroll ⚚-001",
+  "description": "BLEULIONTREASURY Sovereign Scroll embodying the Genesis Vault attestation.",
+  "attributes": [
+    { "trait_type": "Realm", "value": "BLEUVerse Core" },
+    { "trait_type": "Tier", "value": "Genesis" },
+    { "trait_type": "Sigil", "value": "⚚" }
+  ],
+  "image": "ipfs://bafybeicoreimage001",
+  "external_url": "ipfs://bafybeicoretemplate001"
+}
