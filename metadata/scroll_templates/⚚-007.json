@@ -1,0 +1,11 @@
+{
+  "name": "Scroll ⚚-007",
+  "description": "Binds WalletID federated identities into the cascade manifest.",
+  "attributes": [
+    { "trait_type": "Realm", "value": "Identity Loom" },
+    { "trait_type": "Tier", "value": "Federated" },
+    { "trait_type": "Sigil", "value": "⚚" }
+  ],
+  "image": "ipfs://bafybeicoreimage007",
+  "external_url": "ipfs://bafybeicoretemplate007"
+}

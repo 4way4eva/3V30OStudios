@@ -21,3 +21,6 @@ junit*.properties
 !data/curriculum/bleuzion_curriculum_schedule.csv
 revenue_projections_*.json
 revenue_projections_*.md
+
+# environment overrides
+config/.env

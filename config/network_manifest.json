@@ -1,0 +1,22 @@
+{
+  "networks": {
+    "avalanche": {
+      "chainId": 43114,
+      "deployments": {},
+      "vaults": {},
+      "scrolls": {}
+    },
+    "polygon": {
+      "chainId": 137,
+      "deployments": {},
+      "vaults": {},
+      "scrolls": {}
+    },
+    "sepolia": {
+      "chainId": 11155111,
+      "deployments": {},
+      "vaults": {},
+      "scrolls": {}
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "registryVersion": "2024.10.01-genesis",
+  "description": "Merkle root attestations for BLEULIONTREASURY cross-realm vaults.",
+  "entries": [
+    {
+      "vaultId": "0x7661756c74476f6c6441757261636c65",
+      "merkleRoot": "0x5b09b5f0559fdba7b4b3cce470fe1d1163ec9d5b140f64b8b3aa3ad3b1d1a111",
+      "reportUri": "ipfs://bafkreidvaultreport1"
+    },
+    {
+      "vaultId": "0x7661756c7453696c76657242726f6f6b",
+      "merkleRoot": "0x8b0f24c1c945cebb5f09ea870a7e5f5a59429eb7623d0a8d8a6f0c65c2c4df22",
+      "reportUri": "ipfs://bafkreidvaultreport2"
+    },
+    {
+      "vaultId": "0x7661756c744f70616c496e6469676f",
+      "merkleRoot": "0xc3d0c4a97e5bd3323b7cf568e24c596cb74d9e5a64f548f94b1d717a8d8e3344",
+      "reportUri": "ipfs://bafkreidvaultreport3"
+    }
+  ]
+}

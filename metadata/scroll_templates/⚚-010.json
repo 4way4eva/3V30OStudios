@@ -1,0 +1,11 @@
+{
+  "name": "Scroll ⚚-010",
+  "description": "Completes the sovereign cascade by sealing multi-chain Merkle proofs.",
+  "attributes": [
+    { "trait_type": "Realm", "value": "Cascade Apex" },
+    { "trait_type": "Tier", "value": "Crown" },
+    { "trait_type": "Sigil", "value": "⚚" }
+  ],
+  "image": "ipfs://bafybeicoreimage010",
+  "external_url": "ipfs://bafybeicoretemplate010"
+}
