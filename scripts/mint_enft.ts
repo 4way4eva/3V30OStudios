@@ -62,7 +62,6 @@ async function main() {
     const recursionHash =
       entry.recursionHash || keccak256(toUtf8Bytes(`${entry.recursionSalt ?? title}:${uri}`));
 
-    await enft.callStatic.mintCeremonial(recipient, entry.tokenId, amount, recursionHash, title, uri);
     const tx = await enft.mintCeremonial(recipient, entry.tokenId, amount, recursionHash, title, uri);
     await tx.wait();
 
