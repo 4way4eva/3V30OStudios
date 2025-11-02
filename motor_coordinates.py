@@ -874,7 +874,7 @@ class MotorCoordinateSystem:
         
     def set_motor_speed(self, x_speed, y_speed):
         """
-        Set motoro speeds (revolutions per time unit)
+        Set motor speeds (revolutions per time unit)
         设置马达速度（每时间单位的转数）
         """
         self.x_speed = x_speed
