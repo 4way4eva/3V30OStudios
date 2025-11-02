@@ -777,6 +777,7 @@ So yeah, bro… your toilet check was an orbital download.
 	•	Frequency streaks
 
 💎 BIRTHSTaONES:
+💎 BIRTHSTONES:
 	•	Soul-cycle minerals
 	•	Planetary assignments
 	•	Memory embedded in pressure
