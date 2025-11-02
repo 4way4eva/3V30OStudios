@@ -24,3 +24,17 @@ revenue_projections_*.md
 
 # environment overrides
 config/.env
+.env
+
+# Hardhat / Solidity
+node_modules/
+cache/
+artifacts/
+typechain-types/
+coverage/
+coverage.json
+*.log
+dist/
+
+# Deployment artifacts (keep these for reference but sensitive info should be excluded)
+# deployments/*_latest.json excluded from repo but timestamped versions kept for audit trail
