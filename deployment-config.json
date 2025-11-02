@@ -1,0 +1,110 @@
+{
+  "description": "Deployment configuration for EVOLVERSE / MEGAZION contracts across multiple networks",
+  "networks": {
+    "mainnet": {
+      "chainId": 1,
+      "rpc": "https://eth-mainnet.g.alchemy.com/v2/YOUR_API_KEY",
+      "gasPrice": "auto",
+      "confirmations": 2,
+      "enabled": false
+    },
+    "polygon": {
+      "chainId": 137,
+      "rpc": "https://polygon-mainnet.g.alchemy.com/v2/YOUR_API_KEY",
+      "gasPrice": "auto",
+      "confirmations": 2,
+      "enabled": true
+    },
+    "avalanche": {
+      "chainId": 43114,
+      "rpc": "https://api.avax.network/ext/bc/C/rpc",
+      "gasPrice": "auto",
+      "confirmations": 2,
+      "enabled": true
+    },
+    "bsc": {
+      "chainId": 56,
+      "rpc": "https://bsc-dataseed.binance.org/",
+      "gasPrice": "auto",
+      "confirmations": 2,
+      "enabled": true
+    },
+    "cronos": {
+      "chainId": 25,
+      "rpc": "https://evm.cronos.org",
+      "gasPrice": "auto",
+      "confirmations": 2,
+      "enabled": true
+    },
+    "sepolia": {
+      "chainId": 11155111,
+      "rpc": "https://eth-sepolia.g.alchemy.com/v2/YOUR_API_KEY",
+      "gasPrice": "auto",
+      "confirmations": 1,
+      "enabled": true
+    },
+    "mumbai": {
+      "chainId": 80001,
+      "rpc": "https://polygon-mumbai.g.alchemy.com/v2/YOUR_API_KEY",
+      "gasPrice": "auto",
+      "confirmations": 1,
+      "enabled": true
+    },
+    "fuji": {
+      "chainId": 43113,
+      "rpc": "https://api.avax-test.network/ext/bc/C/rpc",
+      "gasPrice": "auto",
+      "confirmations": 1,
+      "enabled": true
+    }
+  },
+  "contracts": {
+    "BLEULION_CASCADE": {
+      "priority": 1,
+      "dependencies": []
+    },
+    "BLEU_WATCHTOWER": {
+      "priority": 2,
+      "dependencies": ["BLEULION_CASCADE"]
+    },
+    "BLEU_GOV_SCROLL": {
+      "priority": 3,
+      "dependencies": ["BLEULION_CASCADE", "BLEU_WATCHTOWER"]
+    },
+    "BLEUToken": {
+      "priority": 4,
+      "dependencies": []
+    },
+    "EV0L1155": {
+      "priority": 5,
+      "dependencies": []
+    },
+    "EV0L721": {
+      "priority": 6,
+      "dependencies": []
+    },
+    "MEGAZIONHybrid1155": {
+      "priority": 7,
+      "dependencies": []
+    },
+    "WalletID": {
+      "priority": 8,
+      "dependencies": []
+    },
+    "BLEU_ENFT_MINT": {
+      "priority": 9,
+      "dependencies": ["BLEULION_CASCADE", "EV0L1155"]
+    }
+  },
+  "initialConfiguration": {
+    "baseURI": "https://ipfs.io/ipfs/",
+    "maxSupply": {
+      "EV0L721": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+    },
+    "roles": {
+      "admin": "deployer",
+      "scribe": "deployer",
+      "oracle": "deployer"
+    }
+  }
+}
