@@ -240,7 +240,7 @@ class Pi4QuarterLatticeEngine:
             
             # BLEU sector allocations (based on daily civilian yield)
             "bleu_sector_allocations": self.calculate_bleu_sector_allocation(
-                self.streams["civilian"]["per_day_usd"]
+                self.streams["civilian"]["per_second_usd"] * self.aggregated["seconds_per_day"]
             ),
             
             # PPPPI layer info

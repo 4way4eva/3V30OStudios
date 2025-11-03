@@ -460,7 +460,27 @@
         // Load and display dashboard data
         async function loadDashboardData() {
             try {
-                const response = await fetch('../data/pi4_dashboard_data.json');
+                // Try multiple paths for data file to handle different server setups
+                let response;
+                const possiblePaths = [
+                    '../data/pi4_dashboard_data.json',
+                    '/data/pi4_dashboard_data.json',
+                    'data/pi4_dashboard_data.json'
+                ];
+                
+                for (const path of possiblePaths) {
+                    try {
+                        response = await fetch(path);
+                        if (response.ok) break;
+                    } catch (e) {
+                        continue;
+                    }
+                }
+                
+                if (!response || !response.ok) {
+                    throw new Error('Could not load dashboard data from any known path');
+                }
+                
                 const data = await response.json();
 
                 // Update generation time

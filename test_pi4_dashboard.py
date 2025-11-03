@@ -50,10 +50,14 @@ def test_quarter_trace():
     assert trace[0]["day"] == 1, "First day should be 1"
     assert trace[-1]["day"] == 90, "Last day should be 90"
     
-    # Check cumulative growth
+    # Check cumulative growth (linear accumulation within quarter, not compounded)
+    # Day 1 cumulative = 1 day of yield
+    # Day 90 cumulative = 90 days of yield (sum of daily yields)
     day1_total = trace[0]["total_cumulative"]
     day90_total = trace[-1]["total_cumulative"]
-    assert day90_total == day1_total * 90, "Cumulative totals don't scale correctly"
+    # Within a quarter, yields accumulate linearly (compounding happens between quarters)
+    expected_day90 = day1_total * 90
+    assert day90_total == expected_day90, f"Cumulative totals incorrect: {day90_total} vs {expected_day90}"
     
     print("  ✅ Quarter trace validated")
 
