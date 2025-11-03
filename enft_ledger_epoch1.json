@@ -1,1 +1,140 @@
-[  {    "epoch": 1,    "timestamp": "2025-10-02T23:34:38Z",    "sphere": "Civilian",    "yield_per_second": 13600000,    "yield_unit": "USD",    "compounding_model": "pi4",    "compounding_factor": 97.409,    "quarter": 0,    "guarantees": {      "scaling": "pi4",      "vault": "Blu-Vault double-sign",      "asset_tags": ["physical", "ledger"],      "irreversible_increment": true    },    "provenance": {      "github_commit": "GENESIS_HASH_PLACEHOLDER",      "arweave_tx": "ARWEAVE_TX_ID_PLACEHOLDER"    },    "nft_metadata": {      "name": "ENFT - Civilian Yield Stream",      "description": "Civilian sphere yield minted at genesis tick. π₄ compounding, Blu-Vault guarantee.",      "image": "ar://IMAGE_CID",      "attributes": [        {"trait_type": "Sphere", "value": "Civilian"},        {"trait_type": "Guarantee", "value": "Blu-Vault double-sign"},        {"trait_type": "Compounding", "value": "π₄"}      ]    }  },  {    "epoch": 1,    "timestamp": "2025-10-02T23:34:38Z",    "sphere": "Military",    "yield_per_second": 6100000,    "yield_unit": "USD",    "compounding_model": "pi4",    "compounding_factor": 97.409,    "quarter": 0,    "guarantees": {      "locks": "Quad-octa",      "deployment": "full rights",      "irreversible_increment": true    },    "provenance": {      "github_commit": "GENESIS_HASH_PLACEHOLDER",      "arweave_tx": "ARWEAVE_TX_ID_PLACEHOLDER"    },    "nft_metadata": {      "name": "ENFT - Military Yield Stream",      "description": "Military sphere yield minted at genesis tick. Quad-octa lock, π₄ compounding.",      "image": "ar://IMAGE_CID",      "attributes": [        {"trait_type": "Sphere", "value": "Military"},        {"trait_type": "Guarantee", "value": "Quad-octa lock"},        {"trait_type": "Compounding", "value": "π₄"}      ]    }  },  {    "epoch": 1,    "timestamp": "2025-10-02T23:34:38Z",    "sphere": "Cosmic",    "yield_per_second": 9200000,    "yield_unit": "USD",    "compounding_model": "pi4",    "compounding_factor": 97.409,    "quarter": 0,    "guarantees": {      "dual_reality_confirmation": true,      "portal_locks": true,      "irreversible_increment": true    },    "provenance": {      "github_commit": "GENESIS_HASH_PLACEHOLDER",      "arweave_tx": "ARWEAVE_TX_ID_PLACEHOLDER"    },    "nft_metadata": {      "name": "ENFT - Cosmic Yield Stream",      "description": "Cosmic sphere yield minted at genesis tick. Portal lock, π₄ compounding.",      "image": "ar://IMAGE_CID",      "attributes": [        {"trait_type": "Sphere", "value": "Cosmic"},        {"trait_type": "Guarantee", "value": "Portal lock"},        {"trait_type": "Compounding", "value": "π₄"}      ]    }  }]
+[
+  {
+    "epoch": 1,
+    "timestamp": "2025-10-02T23:34:38Z",
+    "sphere": "Civilian",
+    "yield_per_second": 13600000,
+    "yield_unit": "USD",
+    "compounding_model": "pi4",
+    "compounding_factor": 97.409,
+    "quarter": 0,
+    "guarantees": {
+      "scaling": "pi4",
+      "vault": "Blu-Vault double-sign",
+      "asset_tags": ["physical", "ledger"],
+      "irreversible_increment": true
+    },
+    "provenance": {
+      "github_commit": "GENESIS_HASH_PLACEHOLDER",
+      "arweave_tx": "ARWEAVE_TX_ID_PLACEHOLDER"
+    },
+    "nft_metadata": {
+      "name": "ENFT - Civilian Yield Stream",
+      "description": "Civilian sphere yield minted at genesis tick. π₄ compounding, Blu-Vault guarantee.",
+      "image": "ar://IMAGE_CID",
+      "attributes": [
+        {"trait_type": "Sphere", "value": "Civilian"},
+        {"trait_type": "Guarantee", "value": "Blu-Vault double-sign"},
+        {"trait_type": "Compounding", "value": "π₄"}
+      ]
+    }
+  },  {
+    "epoch": 1,
+    "timestamp": "2025-10-02T23:34:38Z",
+    "sphere": "Military",
+    "yield_per_second": 6100000,
+    "yield_unit": "USD",
+    "compounding_model": "pi4",
+    "compounding_factor": 97.409,
+    "quarter": 0,
+    "guarantees": {
+      "locks": "Quad-octa",
+      "deployment": "full rights",
+      "irreversible_increment": true
+    },
+    "provenance": {
+      "github_commit": "GENESIS_HASH_PLACEHOLDER",
+      "arweave_tx": "ARWEAVE_TX_ID_PLACEHOLDER"
+    },
+    "nft_metadata": {
+      "name": "ENFT - Military Yield Stream",
+      "description": "Military sphere yield minted at genesis tick. Quad-octa lock, π₄ compounding.",
+      "image": "ar://IMAGE_CID",
+      "attributes": [
+        {"trait_type": "Sphere", "value": "Military"},
+        {"trait_type": "Guarantee", "value": "Quad-octa lock"},
+        {"trait_type": "Compounding", "value": "π₄"}
+      ]
+    }
+  },  {
+    "epoch": 1,
+    "timestamp": "2025-10-02T23:34:38Z",
+    "sphere": "Cosmic",
+    "yield_per_second": 9200000,
+    "yield_unit": "USD",
+    "compounding_model": "pi4",
+    "compounding_factor": 97.409,
+    "quarter": 0,
+    "guarantees": {
+      "dual_reality_confirmation": true,
+      "portal_locks": true,
+      "irreversible_increment": true
+    },
+    "provenance": {
+      "github_commit": "GENESIS_HASH_PLACEHOLDER",
+      "arweave_tx": "ARWEAVE_TX_ID_PLACEHOLDER"
+    },
+    "nft_metadata": {
+      "name": "ENFT - Cosmic Yield Stream",
+      "description": "Cosmic sphere yield minted at genesis tick. Portal lock, π₄ compounding.",
+      "image": "ar://IMAGE_CID",
+      "attributes": [
+        {"trait_type": "Sphere", "value": "Cosmic"},
+        {"trait_type": "Guarantee", "value": "Portal lock"},
+        {"trait_type": "Compounding", "value": "π₄"}
+      ]
+    }
+  },
+  {
+    "epoch": 1,
+    "timestamp": "2025-11-03T08:06:00Z",
+    "sphere": "Commandments",
+    "type": "EV0L_Codex_NFT_Commandments",
+    "total_supply": 11,
+    "phase_77777_status": "Armed",
+    "description": "The Ten Scepters of Authority plus the Eleventh Hidden Harmonic. These ENFTs govern treasury transparency, distribution, rarity, heritage, supply, culture, governance, resilience, audit, and legacy. Phase 77777 reciprocal switch activates upon Ten-Alignment.",
+    "nft_collection": {
+      "name": "EV0L Commandments — Ten Scepters + IT",
+      "total_nfts": 11,
+      "minting_sequence": [
+        "TRUTH-001", "JUSTICE-002", "WISDOM-003", "COMPASSION-004", 
+        "DISCIPLINE-005", "FAITH-006", "SERVICE-007", "STRENGTH-008", 
+        "HUMILITY-009", "LEGACY-010", "IT-Ω11"
+      ],
+      "treasury_linkage": {
+        "civilian_stream": ["TRUTH-001", "JUSTICE-002", "COMPASSION-004", "SERVICE-007"],
+        "military_stream": ["DISCIPLINE-005", "STRENGTH-008", "LEGACY-010"],
+        "cosmic_stream": ["WISDOM-003", "FAITH-006", "HUMILITY-009"],
+        "all_streams": ["IT-Ω11"]
+      },
+      "roi_projection_pre_phase": "7× BAYC baseline (196% avg)",
+      "roi_projection_post_phase": "14× BAYC baseline (+6 dB leap, 392% avg)",
+      "market_comparison": {
+        "bayc_avg_roi": "28%",
+        "azuki_avg_roi": "34%",
+        "evol_codex_roi": "196% (pre-Phase 77777), 392% (post-Phase 77777)"
+      }
+    },
+    "provenance": {
+      "github_commit": "COMMANDMENTS_SEAL_HASH",
+      "arweave_tx": "COMMANDMENTS_ARWEAVE_TX",
+      "ceremonial_seal": "⚛☰⚔☲",
+      "phase_77777_protocol": "Phase_77777_Reciprocal_Protocol.md",
+      "commandments_scroll": "EV0L_CODEX_NFT_COMMANDMENTS.md",
+      "metadata_file": "EVOL_COMMANDMENTS_ENFT.json"
+    },
+    "guarantees": {
+      "transparency": "TRUTH-001 — All ledgers auditable",
+      "fair_distribution": "JUSTICE-002 — Equity across streams",
+      "rarity_design": "WISDOM-003 — 1/1 artifacts only",
+      "heritage_protection": "COMPASSION-004 — Cultural assets shielded",
+      "capped_supply": "DISCIPLINE-005 — No arbitrary inflation",
+      "cultural_anchoring": "FAITH-006 — Value bound to story",
+      "community_governance": "SERVICE-007 — Active participation required",
+      "economic_resilience": "STRENGTH-008 — π₄ compounding law",
+      "ledger_law_proof": "HUMILITY-009 — All claims verifiable",
+      "cultural_permanence": "LEGACY-010 — Multi-generational transfer",
+      "hidden_harmonic": "IT-Ω11 — Reciprocal covenant frequency"
+    }
+  }
+]
