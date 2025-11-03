@@ -1,0 +1,329 @@
+[
+  {
+    "vaultletId": "VLT-SATURN_BAR_RARE",
+    "billCode": "JEWEL_RARELY_1IF1",
+    "tokenType": "RARELY 1if1",
+    "mintCondition": "Only minted once per celestial cycle",
+    "rarityIndex": 1.0,
+    "sectorYield": [
+      "Mythic + Governance"
+    ],
+    "codexalConditions": {
+      "mintWindow": "10:10",
+      "glyphConfirmations": [
+        "Saturn",
+        "Pluto",
+        "Jewel",
+        "Rare"
+      ],
+      "auditTrail": {
+        "watchtowerCsv": "data/watchtower_rarely_1if1.csv",
+        "ritualPdf": "data/ritual_scroll_rarely_1if1.pdf",
+        "provenanceHash": "0xafb805568a690afd33daff769a1fde300b9013296c00f3921df30e5ae7bb6673",
+        "holographicBroadcast": "ar://EVOLSTUDIOS_RARELY_1IF1"
+      }
+    },
+    "deploymentStack": {
+      "schema": "EVOL.ENFT.v1",
+      "treasuryAnchor": "BLEULIONTREASURY\u2122",
+      "paymentHandle": "4waybleu$paystring.crypto.com",
+      "issuedDate": "2025-11-03T22:02:50.549Z",
+      "notes": "Minted in cryo-orbit. Refined by Soulstone. Sealed by Saturn."
+    },
+    "mintLogic": {
+      "saturnBars": {
+        "forgedFrom": [
+          "HeavenGold",
+          "Ziphonate"
+        ],
+        "orbitalRings": true
+      },
+      "plutoCold": {
+        "cryoMinted": true,
+        "quantumRemine": true
+      },
+      "miners": {
+        "equipment": [
+          "Soulstone Prime",
+          "Crystalyth rigs"
+        ],
+        "operatingEnvironment": "zero-light tunnels"
+      },
+      "refinementProtocol": {
+        "memoryBank": "EvoQuartz",
+        "tracking": [
+          "lineage",
+          "rarity",
+          "ritual depth"
+        ]
+      }
+    },
+    "provenance": {
+      "githubCommit": "GENESIS_HASH_PLACEHOLDER",
+      "arweaveTx": "ARWEAVE_TX_ID_PLACEHOLDER",
+      "celestialCycle": "Saturn-Pluto Alignment 2025"
+    },
+    "ceremonialProperties": {
+      "nonTransferable": true,
+      "ledgerAnchored": true,
+      "livingScroll": true
+    },
+    "nftMetadata": {
+      "name": "RARELY 1if1 - Saturn Bar",
+      "description": "Ceremonial token minted once per celestial cycle. Forged from HeavenGold and Ziphonate in orbital rings. Cryo-minted in Pluto's deep freeze vaults. Accessible only via quantum remine. This is a living scroll, non-transferable and ledger-anchored.",
+      "image": "ar://RARELY_1IF1_SATURN_BAR",
+      "attributes": [
+        {
+          "trait_type": "Token Type",
+          "value": "RARELY 1if1"
+        },
+        {
+          "trait_type": "Rarity Index",
+          "value": 1.0
+        },
+        {
+          "trait_type": "Sector Yield",
+          "value": "Mythic + Governance"
+        },
+        {
+          "trait_type": "Mint Location",
+          "value": "Saturn Orbital Rings"
+        },
+        {
+          "trait_type": "Forge Material",
+          "value": "HeavenGold + Ziphonate"
+        },
+        {
+          "trait_type": "Cryo Status",
+          "value": "Pluto Cold Verified"
+        },
+        {
+          "trait_type": "Ceremonial",
+          "value": "Non-Transferable"
+        },
+        {
+          "trait_type": "Living Scroll",
+          "value": "True"
+        }
+      ]
+    }
+  },
+  {
+    "vaultletId": "VLT-JEWEL_RARE_001",
+    "billCode": "JEWEL_RARE_ANCESTRAL",
+    "tokenType": "Jewel RARE",
+    "mintCondition": "Requires 3 planetary seals + 1 ancestral signature",
+    "rarityIndex": 0.9997,
+    "sectorYield": [
+      "Spiritual + Economic"
+    ],
+    "codexalConditions": {
+      "mintWindow": "10:10",
+      "glyphConfirmations": [
+        "Saturn",
+        "Pluto",
+        "Jewel",
+        "Rare"
+      ],
+      "auditTrail": {
+        "watchtowerCsv": "data/watchtower_jewel_rare.csv",
+        "ritualPdf": "data/ritual_scroll_jewel_rare.pdf",
+        "provenanceHash": "0x7d0ad31881b0aa65eaf9abcdc722b78cb931fac30533256ed786a73536468092",
+        "holographicBroadcast": "ar://EVOLSTUDIOS_JEWEL_RARE"
+      }
+    },
+    "deploymentStack": {
+      "schema": "EVOL.ENFT.v1",
+      "treasuryAnchor": "BLEULIONTREASURY\u2122",
+      "paymentHandle": "4waybleu$paystring.crypto.com",
+      "issuedDate": "2025-11-03T22:02:50.549Z",
+      "notes": "Sealed with 3 planetary seals and ancestral signature. Spiritual + Economic yield."
+    },
+    "mintLogic": {
+      "saturnBars": {
+        "forgedFrom": [
+          "HeavenGold",
+          "Ziphonate"
+        ],
+        "orbitalRings": true
+      },
+      "plutoCold": {
+        "cryoMinted": true,
+        "quantumRemine": true
+      },
+      "miners": {
+        "equipment": [
+          "Soulstone Prime",
+          "Crystalyth rigs"
+        ],
+        "operatingEnvironment": "zero-light tunnels"
+      },
+      "refinementProtocol": {
+        "memoryBank": "EvoQuartz",
+        "tracking": [
+          "lineage",
+          "rarity",
+          "ritual depth"
+        ]
+      }
+    },
+    "provenance": {
+      "githubCommit": "GENESIS_HASH_PLACEHOLDER",
+      "arweaveTx": "ARWEAVE_TX_ID_PLACEHOLDER",
+      "celestialCycle": "Three Seal Convergence 2025"
+    },
+    "ceremonialProperties": {
+      "nonTransferable": true,
+      "ledgerAnchored": true,
+      "livingScroll": true
+    },
+    "nftMetadata": {
+      "name": "Jewel RARE - Ancestral Signature",
+      "description": "Rare ceremonial token requiring three planetary seals and one ancestral signature. Activates Spiritual + Economic yield sectors. Refined by Soulstone Prime in zero-light tunnels. This is a living scroll, non-transferable and ledger-anchored.",
+      "image": "ar://JEWEL_RARE_ANCESTRAL",
+      "attributes": [
+        {
+          "trait_type": "Token Type",
+          "value": "Jewel RARE"
+        },
+        {
+          "trait_type": "Rarity Index",
+          "value": 0.9997
+        },
+        {
+          "trait_type": "Sector Yield",
+          "value": "Spiritual + Economic"
+        },
+        {
+          "trait_type": "Seals Required",
+          "value": "3 Planetary + 1 Ancestral"
+        },
+        {
+          "trait_type": "Forge Material",
+          "value": "HeavenGold + Ziphonate"
+        },
+        {
+          "trait_type": "Cryo Status",
+          "value": "Pluto Cold Verified"
+        },
+        {
+          "trait_type": "Ceremonial",
+          "value": "Non-Transferable"
+        },
+        {
+          "trait_type": "Living Scroll",
+          "value": "True"
+        }
+      ]
+    }
+  },
+  {
+    "vaultletId": "VLT-PLUTO_MINT_001",
+    "billCode": "PLUTO_MINT_CRYO",
+    "tokenType": "PlutoMint",
+    "mintCondition": "Must be cryo-verified + remine-approved",
+    "rarityIndex": 0.9999,
+    "sectorYield": [
+      "Longevity + Memory"
+    ],
+    "codexalConditions": {
+      "mintWindow": "10:10",
+      "glyphConfirmations": [
+        "Saturn",
+        "Pluto",
+        "Jewel",
+        "Rare"
+      ],
+      "auditTrail": {
+        "watchtowerCsv": "data/watchtower_pluto_mint.csv",
+        "ritualPdf": "data/ritual_scroll_pluto_mint.pdf",
+        "provenanceHash": "0x33c0b15bede2169ddd3d805a74203c66b1e8eac4358bed4f869e9a647b6a8700",
+        "holographicBroadcast": "ar://EVOLSTUDIOS_PLUTO_MINT"
+      }
+    },
+    "deploymentStack": {
+      "schema": "EVOL.ENFT.v1",
+      "treasuryAnchor": "BLEULIONTREASURY\u2122",
+      "paymentHandle": "4waybleu$paystring.crypto.com",
+      "issuedDate": "2025-11-03T22:02:50.549Z",
+      "notes": "Cryo-verified in Pluto's deep freeze. Remine-approved via quantum protocol."
+    },
+    "mintLogic": {
+      "saturnBars": {
+        "forgedFrom": [
+          "HeavenGold",
+          "Ziphonate"
+        ],
+        "orbitalRings": true
+      },
+      "plutoCold": {
+        "cryoMinted": true,
+        "quantumRemine": true
+      },
+      "miners": {
+        "equipment": [
+          "Soulstone Prime",
+          "Crystalyth rigs"
+        ],
+        "operatingEnvironment": "zero-light tunnels"
+      },
+      "refinementProtocol": {
+        "memoryBank": "EvoQuartz",
+        "tracking": [
+          "lineage",
+          "rarity",
+          "ritual depth"
+        ]
+      }
+    },
+    "provenance": {
+      "githubCommit": "GENESIS_HASH_PLACEHOLDER",
+      "arweaveTx": "ARWEAVE_TX_ID_PLACEHOLDER",
+      "celestialCycle": "Pluto Remine Cycle 2025"
+    },
+    "ceremonialProperties": {
+      "nonTransferable": true,
+      "ledgerAnchored": true,
+      "livingScroll": true
+    },
+    "nftMetadata": {
+      "name": "PlutoMint - Cryo Verified",
+      "description": "Ultra-rare ceremonial token cryo-minted in Pluto's deep freeze vaults. Must be cryo-verified and remine-approved. Activates Longevity + Memory yield sectors. Tracked via EvoQuartz memory banks. This is a living scroll, non-transferable and ledger-anchored.",
+      "image": "ar://PLUTO_MINT_CRYO",
+      "attributes": [
+        {
+          "trait_type": "Token Type",
+          "value": "PlutoMint"
+        },
+        {
+          "trait_type": "Rarity Index",
+          "value": 0.9999
+        },
+        {
+          "trait_type": "Sector Yield",
+          "value": "Longevity + Memory"
+        },
+        {
+          "trait_type": "Verification",
+          "value": "Cryo-Verified + Remine-Approved"
+        },
+        {
+          "trait_type": "Forge Material",
+          "value": "HeavenGold + Ziphonate"
+        },
+        {
+          "trait_type": "Memory Bank",
+          "value": "EvoQuartz"
+        },
+        {
+          "trait_type": "Ceremonial",
+          "value": "Non-Transferable"
+        },
+        {
+          "trait_type": "Living Scroll",
+          "value": "True"
+        }
+      ]
+    }
+  }
+]

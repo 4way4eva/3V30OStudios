@@ -1,0 +1,103 @@
+{
+  "proposalId": "BLEU_GALACTIC_MINT_001",
+  "title": "RARELY 1if1 Ceremonial Mint Proposal",
+  "proposalType": "ceremonial_mint",
+  "status": "awaiting_signatures",
+  "createdAt": "2025-11-03T22:10:01.244690Z",
+  "votingPeriod": {
+    "start": "2025-11-03T22:10:01.244690Z",
+    "end": "2025-11-10T22:02:50.549Z",
+    "durationDays": 7
+  },
+  "quorumRequired": 4,
+  "signaturesRequired": {
+    "glyphs": [
+      "Saturn",
+      "Pluto",
+      "Jewel",
+      "Rare"
+    ],
+    "councilMembers": 3,
+    "description": "Requires all 4 glyph confirmations and 3 council member signatures"
+  },
+  "mintDetails": {
+    "vaultletId": "VLT-SATURN_BAR_RARE",
+    "billCode": "JEWEL_RARELY_1IF1",
+    "tokenType": "RARELY 1if1",
+    "rarityIndex": 1.0,
+    "recipient": "0x0000000000000000000000000000000000000000",
+    "amount": 1,
+    "mintWindow": "10:10",
+    "celestialCycle": "Saturn-Pluto Alignment 2025"
+  },
+  "codexalValidation": {
+    "timeWindowCheck": false,
+    "glyphConfirmations": {
+      "Saturn": false,
+      "Pluto": false,
+      "Jewel": false,
+      "Rare": false
+    },
+    "auditTrailComplete": false,
+    "cryoVerified": false,
+    "quantumRemineApproved": false
+  },
+  "signatories": [
+    {
+      "address": "0x0000000000000000000000000000000000000001",
+      "role": "Saturn Keeper",
+      "signed": false,
+      "signedAt": null,
+      "signature": null
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000002",
+      "role": "Pluto Guardian",
+      "signed": false,
+      "signedAt": null,
+      "signature": null
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000003",
+      "role": "Jewel Custodian",
+      "signed": false,
+      "signedAt": null,
+      "signature": null
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000004",
+      "role": "Rare Steward",
+      "signed": false,
+      "signedAt": null,
+      "signature": null
+    }
+  ],
+  "auditTrail": {
+    "watchtowerCsv": "data/watchtower_galactic_mint.csv",
+    "ritualPdf": "data/ritual_scrolls/ritual_scroll_jewel_rarely_1if1.pdf",
+    "provenanceHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "holographicBroadcast": "ar://EVOLSTUDIOS_RARELY_1IF1",
+    "githubCommit": "GENESIS_HASH_PLACEHOLDER",
+    "arweaveTx": "ARWEAVE_TX_ID_PLACEHOLDER"
+  },
+  "treasuryDetails": {
+    "schema": "EVOL.ENFT.v1",
+    "treasuryAnchor": "BLEULIONTREASURY\u2122",
+    "paymentHandle": "4waybleu$paystring.crypto.com",
+    "contractAddress": "0x0000000000000000000000000000000000000000",
+    "notes": "Minted in cryo-orbit. Refined by Soulstone. Sealed by Saturn."
+  },
+  "executionDetails": {
+    "canExecute": false,
+    "executedAt": null,
+    "executionTx": null,
+    "mintedTokenId": null
+  },
+  "comments": [
+    {
+      "author": "Council Proposal System",
+      "timestamp": "2025-11-03T22:02:50.549Z",
+      "comment": "Ceremonial mint proposal initiated. Awaiting glyph confirmations and council signatures during the 10:10 \u03c6-Boost window."
+    }
+  ]
+}

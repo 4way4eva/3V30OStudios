@@ -1,0 +1,220 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bleulion.treasury/schemas/BLEU_GALACTIC_MINT.v1.schema.json",
+  "title": "BLEU Galactic Mint Charter - RARELY 1if1 Schema",
+  "type": "object",
+  "required": ["vaultletId", "billCode", "tokenType", "mintCondition", "rarityIndex", "sectorYield", "codexalConditions", "deploymentStack", "provenance"],
+  "properties": {
+    "vaultletId": {
+      "type": "string",
+      "pattern": "^VLT-[A-Z_]+$",
+      "description": "Vault identifier for the ceremonial mint"
+    },
+    "billCode": {
+      "type": "string",
+      "pattern": "^[A-Z_0-9]+$",
+      "description": "Bill code identifier for the token type"
+    },
+    "tokenType": {
+      "type": "string",
+      "enum": ["RARELY 1if1", "Jewel RARE", "PlutoMint"],
+      "description": "Type of ceremonial token being minted"
+    },
+    "mintCondition": {
+      "type": "string",
+      "description": "Ceremonial conditions required for minting"
+    },
+    "rarityIndex": {
+      "type": "number",
+      "minimum": 0.9990,
+      "maximum": 1.0000,
+      "description": "Rarity index score (0.9990-1.0000)"
+    },
+    "sectorYield": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["Mythic + Governance", "Spiritual + Economic", "Longevity + Memory"]
+      },
+      "description": "Activated sector yields"
+    },
+    "codexalConditions": {
+      "type": "object",
+      "required": ["mintWindow", "glyphConfirmations", "auditTrail"],
+      "properties": {
+        "mintWindow": {
+          "type": "string",
+          "pattern": "^\\d{2}:\\d{2}$",
+          "description": "φ-Boost window time (format: HH:MM)"
+        },
+        "glyphConfirmations": {
+          "type": "array",
+          "minItems": 4,
+          "items": {
+            "type": "string",
+            "enum": ["Saturn", "Pluto", "Jewel", "Rare"]
+          },
+          "description": "Required glyph confirmations"
+        },
+        "auditTrail": {
+          "type": "object",
+          "required": ["watchtowerCsv", "ritualPdf", "provenanceHash", "holographicBroadcast"],
+          "properties": {
+            "watchtowerCsv": {
+              "type": "string",
+              "description": "Path to Watchtower CSV file"
+            },
+            "ritualPdf": {
+              "type": "string",
+              "description": "Path to Ritual PDF file"
+            },
+            "provenanceHash": {
+              "type": "string",
+              "pattern": "^0x[0-9a-fA-F]{64}$",
+              "description": "SHA3-256 provenance hash"
+            },
+            "holographicBroadcast": {
+              "type": "string",
+              "format": "uri",
+              "description": "EVOLSTUDIOS broadcast URI"
+            }
+          }
+        }
+      }
+    },
+    "deploymentStack": {
+      "type": "object",
+      "required": ["schema", "treasuryAnchor", "paymentHandle", "issuedDate"],
+      "properties": {
+        "schema": {
+          "type": "string",
+          "enum": ["EVOL.ENFT.v1"],
+          "description": "Schema version identifier"
+        },
+        "treasuryAnchor": {
+          "type": "string",
+          "enum": ["BLEULIONTREASURY™"],
+          "description": "Treasury anchor identifier"
+        },
+        "paymentHandle": {
+          "type": "string",
+          "description": "Payment string handle"
+        },
+        "issuedDate": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Auto-timestamped mint date"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Ceremonial notes and seals"
+        }
+      }
+    },
+    "mintLogic": {
+      "type": "object",
+      "description": "Mint logic for Saturn Bars and Pluto Cold",
+      "properties": {
+        "saturnBars": {
+          "type": "object",
+          "properties": {
+            "forgedFrom": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["HeavenGold", "Ziphonate"]
+              }
+            },
+            "orbitalRings": {
+              "type": "boolean",
+              "description": "Minted in orbital rings"
+            }
+          }
+        },
+        "plutoCold": {
+          "type": "object",
+          "properties": {
+            "cryoMinted": {
+              "type": "boolean",
+              "description": "Cryo-minted in deep freeze vaults"
+            },
+            "quantumRemine": {
+              "type": "boolean",
+              "description": "Accessible via quantum remine"
+            }
+          }
+        },
+        "miners": {
+          "type": "object",
+          "properties": {
+            "equipment": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["Soulstone Prime", "Crystalyth rigs"]
+              }
+            },
+            "operatingEnvironment": {
+              "type": "string",
+              "enum": ["zero-light tunnels"]
+            }
+          }
+        },
+        "refinementProtocol": {
+          "type": "object",
+          "properties": {
+            "memoryBank": {
+              "type": "string",
+              "enum": ["EvoQuartz"]
+            },
+            "tracking": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["lineage", "rarity", "ritual depth"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["githubCommit", "arweaveTx", "celestialCycle"],
+      "properties": {
+        "githubCommit": {
+          "type": "string",
+          "description": "GitHub commit hash for this mint"
+        },
+        "arweaveTx": {
+          "type": "string",
+          "description": "Arweave transaction ID"
+        },
+        "celestialCycle": {
+          "type": "string",
+          "description": "Celestial cycle during which mint occurred"
+        }
+      }
+    },
+    "ceremonialProperties": {
+      "type": "object",
+      "properties": {
+        "nonTransferable": {
+          "type": "boolean",
+          "default": true,
+          "description": "Token is ceremonial and non-transferable"
+        },
+        "ledgerAnchored": {
+          "type": "boolean",
+          "default": true,
+          "description": "Token is ledger-anchored"
+        },
+        "livingScroll": {
+          "type": "boolean",
+          "default": true,
+          "description": "Token is a living scroll"
+        }
+      }
+    }
+  }
+}
