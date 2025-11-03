@@ -14,7 +14,10 @@
     "deploy:treasury": "hardhat run scripts/deploy_treasury.ts",
     "compile": "hardhat compile",
     "test": "hardhat test",
-    "clean": "hardhat clean"
+    "clean": "hardhat clean",
+    "galactic:activate": "python3 scripts/activate_galactic_mint.py",
+    "galactic:csv": "python3 scripts/generate_watchtower_csv.py",
+    "galactic:scrolls": "python3 scripts/generate_ritual_scroll.py"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
