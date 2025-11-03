@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>π⁴ Quarter-Lattice Dashboard | EV0LVERSE Treasury</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --civilian-color: #4A90E2;
+            --military-color: #E74C3C;
+            --cosmic-color: #9B59B6;
+            --bg-dark: #0a0e27;
+            --bg-card: #1a1f3a;
+            --text-primary: #ffffff;
+            --text-secondary: #a0aec0;
+            --accent-gold: #FFD700;
+            --grid-line: rgba(255, 255, 255, 0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--bg-dark) 0%, #1a1042 100%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .dashboard-container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: var(--bg-card);
+            border-radius: 20px;
+            border: 2px solid var(--accent-gold);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, var(--accent-gold), #FFA500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header .subtitle {
+            font-size: 1.2em;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            padding: 8px 20px;
+            background: rgba(0, 255, 0, 0.2);
+            border: 1px solid #00ff00;
+            border-radius: 20px;
+            color: #00ff00;
+            font-weight: bold;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+
+        .live-counter {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .counter-item {
+            text-align: center;
+        }
+
+        .counter-label {
+            font-size: 0.9em;
+            color: var(--text-secondary);
+            margin-bottom: 5px;
+        }
+
+        .counter-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: var(--accent-gold);
+        }
+
+        .main-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .metric-card {
+            background: var(--bg-card);
+            border-radius: 15px;
+            padding: 25px;
+            border-left: 5px solid;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .metric-card.civilian { border-left-color: var(--civilian-color); }
+        .metric-card.military { border-left-color: var(--military-color); }
+        .metric-card.cosmic { border-left-color: var(--cosmic-color); }
+
+        .metric-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .metric-icon {
+            font-size: 2.5em;
+            margin-right: 15px;
+        }
+
+        .metric-title {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .metric-value {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .metric-sublabel {
+            color: var(--text-secondary);
+            font-size: 0.9em;
+        }
+
+        .section {
+            background: var(--bg-card);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .section-title {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: var(--accent-gold);
+            border-bottom: 2px solid var(--grid-line);
+            padding-bottom: 10px;
+        }
+
+        .pi4-projection {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .quarter-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid var(--grid-line);
+            text-align: center;
+        }
+
+        .quarter-number {
+            font-size: 1.5em;
+            color: var(--accent-gold);
+            margin-bottom: 10px;
+        }
+
+        .quarter-value {
+            font-size: 1.3em;
+            font-weight: bold;
+            font-family: 'Courier New', monospace;
+        }
+
+        .bleu-sectors {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .sector-badge {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid var(--grid-line);
+            transition: all 0.3s ease;
+        }
+
+        .sector-badge:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: scale(1.05);
+        }
+
+        .sector-symbol {
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+
+        .sector-name {
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .ppppi-layers {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .layer-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid var(--grid-line);
+        }
+
+        .layer-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .layer-symbol {
+            font-size: 2em;
+            margin-right: 10px;
+        }
+
+        .layer-name {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        .layer-description {
+            color: var(--text-secondary);
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        .infrastructure-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .infrastructure-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid var(--grid-line);
+        }
+
+        .infra-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: var(--accent-gold);
+        }
+
+        .infra-detail {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--grid-line);
+        }
+
+        .infra-label {
+            color: var(--text-secondary);
+        }
+
+        .infra-value {
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: var(--text-secondary);
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .live-counter {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .main-metrics {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="header">
+            <h1>π⁴ Quarter-Lattice Dashboard</h1>
+            <div class="subtitle">EV0LVERSE Treasury & Expansion Engine</div>
+            <div class="status-indicator">● LIVE - Triple-Stack Flowing</div>
+            
+            <div class="live-counter">
+                <div class="counter-item">
+                    <div class="counter-label">Elapsed Time</div>
+                    <div class="counter-value" id="elapsed-time">00:00:00</div>
+                </div>
+                <div class="counter-item">
+                    <div class="counter-label">Live Yield (This Session)</div>
+                    <div class="counter-value" id="live-yield">$0.00</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-metrics">
+            <div class="metric-card civilian">
+                <div class="metric-header">
+                    <div class="metric-icon">🏙️</div>
+                    <div>
+                        <div class="metric-title">Civilian Infrastructure</div>
+                        <div class="metric-sublabel">Ω-CIV-01</div>
+                    </div>
+                </div>
+                <div class="metric-value" id="civilian-yield">$13,600,000.00</div>
+                <div class="metric-sublabel">per second</div>
+            </div>
+
+            <div class="metric-card military">
+                <div class="metric-header">
+                    <div class="metric-icon">⚔️</div>
+                    <div>
+                        <div class="metric-title">Military & Defense</div>
+                        <div class="metric-sublabel">Ω-MIL-01</div>
+                    </div>
+                </div>
+                <div class="metric-value" id="military-yield">$6,100,000.00</div>
+                <div class="metric-sublabel">per second</div>
+            </div>
+
+            <div class="metric-card cosmic">
+                <div class="metric-header">
+                    <div class="metric-icon">🌌</div>
+                    <div>
+                        <div class="metric-title">Cosmic Energy & Quantum</div>
+                        <div class="metric-sublabel">Ω-COS-01</div>
+                    </div>
+                </div>
+                <div class="metric-value" id="cosmic-yield">$9,200,000.00</div>
+                <div class="metric-sublabel">per second</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">π⁴ Compounding Projection (4 Quarters)</h2>
+            <div class="pi4-projection" id="pi4-projection">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">BLEU Sector Flowmap Allocations</h2>
+            <div class="bleu-sectors" id="bleu-sectors">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">PPPPI Economic Layers</h2>
+            <div class="ppppi-layers" id="ppppi-layers">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Infrastructure Metrics</h2>
+            <div class="infrastructure-grid" id="infrastructure">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>EV0LVERSE Treasury System | Sovereign Override: Commander Bleu</p>
+            <p>Ω48 Audit Beacon Active | Triple-Stack Synchronization: CIV → MIL → COS</p>
+            <p>Data Generated: <span id="generation-time"></span></p>
+        </div>
+    </div>
+
+    <script>
+        // Constants
+        const CIVILIAN_PER_SEC = 13600000;
+        const MILITARY_PER_SEC = 6100000;
+        const COSMIC_PER_SEC = 9200000;
+        const TOTAL_PER_SEC = CIVILIAN_PER_SEC + MILITARY_PER_SEC + COSMIC_PER_SEC;
+        const PI4 = 97.409;
+
+        // Start time
+        const startTime = Date.now();
+
+        // Format number with commas
+        function formatCurrency(num) {
+            return '$' + num.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        }
+
+        function formatLargeCurrency(num) {
+            if (num >= 1e15) {
+                return '$' + (num / 1e15).toFixed(2) + ' Quadrillion';
+            } else if (num >= 1e12) {
+                return '$' + (num / 1e12).toFixed(2) + ' Trillion';
+            } else if (num >= 1e9) {
+                return '$' + (num / 1e9).toFixed(2) + ' Billion';
+            } else if (num >= 1e6) {
+                return '$' + (num / 1e6).toFixed(2) + ' Million';
+            }
+            return formatCurrency(num);
+        }
+
+        // Update live counter
+        function updateLiveCounter() {
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            const hours = Math.floor(elapsed / 3600);
+            const minutes = Math.floor((elapsed % 3600) / 60);
+            const seconds = elapsed % 60;
+
+            document.getElementById('elapsed-time').textContent = 
+                `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+            const totalYield = TOTAL_PER_SEC * elapsed;
+            document.getElementById('live-yield').textContent = formatLargeCurrency(totalYield);
+        }
+
+        // Load and display dashboard data
+        async function loadDashboardData() {
+            try {
+                const response = await fetch('../data/pi4_dashboard_data.json');
+                const data = await response.json();
+
+                // Update generation time
+                document.getElementById('generation-time').textContent = 
+                    new Date(data.generated_at).toLocaleString();
+
+                // Populate π⁴ projection
+                const projectionContainer = document.getElementById('pi4-projection');
+                data.pi4_projection.forEach(quarter => {
+                    const card = document.createElement('div');
+                    card.className = 'quarter-card';
+                    card.innerHTML = `
+                        <div class="quarter-number">Q${quarter.quarter}</div>
+                        <div class="quarter-value">${formatLargeCurrency(quarter.quarter_yield_usd)}</div>
+                    `;
+                    projectionContainer.appendChild(card);
+                });
+
+                // Populate BLEU sectors
+                const sectorsContainer = document.getElementById('bleu-sectors');
+                const sectorNames = {
+                    'ENERGY_BLEU': 'Energy',
+                    'BABY_BLEU': 'Baby Care',
+                    'WATER_BLEU': 'Water',
+                    'FOOD_BLEU': 'Food',
+                    'EDUCATION_BLEU': 'Education',
+                    'FOREST_BLEU': 'Forest',
+                    'TRANSIT_BLEU': 'Transit',
+                    'BROADBAND_BLEU': 'Broadband'
+                };
+                const sectorSymbols = {
+                    'ENERGY_BLEU': '⚡',
+                    'BABY_BLEU': '👶',
+                    'WATER_BLEU': '💧',
+                    'FOOD_BLEU': '🍎',
+                    'EDUCATION_BLEU': '📚',
+                    'FOREST_BLEU': '🌲',
+                    'TRANSIT_BLEU': '🚄',
+                    'BROADBAND_BLEU': '📡'
+                };
+
+                Object.keys(sectorNames).forEach(sectorKey => {
+                    const badge = document.createElement('div');
+                    badge.className = 'sector-badge';
+                    badge.innerHTML = `
+                        <div class="sector-symbol">${sectorSymbols[sectorKey]}</div>
+                        <div class="sector-name">${sectorNames[sectorKey]}</div>
+                    `;
+                    sectorsContainer.appendChild(badge);
+                });
+
+                // Populate PPPPI layers
+                const layersContainer = document.getElementById('ppppi-layers');
+                Object.values(data.ppppi_layers).forEach(layer => {
+                    const card = document.createElement('div');
+                    card.className = 'layer-card';
+                    card.innerHTML = `
+                        <div class="layer-header">
+                            <div class="layer-symbol">${layer.symbol}</div>
+                            <div class="layer-name">${layer.name}</div>
+                        </div>
+                        <div class="layer-description">${layer.description}</div>
+                    `;
+                    layersContainer.appendChild(card);
+                });
+
+                // Populate infrastructure
+                const infraContainer = document.getElementById('infrastructure');
+                
+                // EV0L Malls
+                const mallsCard = document.createElement('div');
+                mallsCard.className = 'infrastructure-card';
+                mallsCard.innerHTML = `
+                    <div class="infra-title">🏛️ EV0L Malls</div>
+                    <div class="infra-detail">
+                        <span class="infra-label">Count:</span>
+                        <span class="infra-value">${data.infrastructure.evol_malls.count}</span>
+                    </div>
+                    <div class="infra-detail">
+                        <span class="infra-label">Per Mall Value:</span>
+                        <span class="infra-value">${formatLargeCurrency(data.infrastructure.evol_malls.valuation_per_mall_usd)}</span>
+                    </div>
+                    <div class="infra-detail">
+                        <span class="infra-label">Total Valuation:</span>
+                        <span class="infra-value">${formatLargeCurrency(data.infrastructure.evol_malls.total_valuation_usd)}</span>
+                    </div>
+                `;
+                infraContainer.appendChild(mallsCard);
+
+                // Safe-Haven Cities
+                const citiesCard = document.createElement('div');
+                citiesCard.className = 'infrastructure-card';
+                citiesCard.innerHTML = `
+                    <div class="infra-title">🌆 Safe-Haven Cities</div>
+                    <div class="infra-detail">
+                        <span class="infra-label">Count:</span>
+                        <span class="infra-value">${data.infrastructure.safe_haven_cities.count}</span>
+                    </div>
+                    <div class="infra-detail">
+                        <span class="infra-label">Integration:</span>
+                        <span class="infra-value">Full Stack</span>
+                    </div>
+                `;
+                infraContainer.appendChild(citiesCard);
+
+            } catch (error) {
+                console.error('Error loading dashboard data:', error);
+            }
+        }
+
+        // Initialize dashboard
+        document.addEventListener('DOMContentLoaded', () => {
+            loadDashboardData();
+            updateLiveCounter();
+            setInterval(updateLiveCounter, 1000);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,684 @@
+{
+  "generated_at": "2025-11-03T00:29:03.331386+00:00",
+  "timestamp": 1762129743,
+  "current_yields": {
+    "timestamp": 0,
+    "streams": {
+      "civilian": {
+        "per_second_usd": 13600000,
+        "name": "Civilian Infrastructure Stream",
+        "icon": "\ud83c\udfd9\ufe0f",
+        "color": "#4A90E2"
+      },
+      "military": {
+        "per_second_usd": 6100000,
+        "name": "Military & Defense Stream",
+        "icon": "\u2694\ufe0f",
+        "color": "#E74C3C"
+      },
+      "cosmic": {
+        "per_second_usd": 9200000,
+        "name": "Cosmic Energy & Quantum Stream",
+        "icon": "\ud83c\udf0c",
+        "color": "#9B59B6"
+      }
+    },
+    "total_per_second": 28900000
+  },
+  "today_yield": {
+    "day": 1,
+    "streams": {
+      "civilian": {
+        "daily_usd": 1175040000000,
+        "name": "Civilian Infrastructure Stream",
+        "icon": "\ud83c\udfd9\ufe0f",
+        "color": "#4A90E2"
+      },
+      "military": {
+        "daily_usd": 527040000000,
+        "name": "Military & Defense Stream",
+        "icon": "\u2694\ufe0f",
+        "color": "#E74C3C"
+      },
+      "cosmic": {
+        "daily_usd": 794880000000,
+        "name": "Cosmic Energy & Quantum Stream",
+        "icon": "\ud83c\udf0c",
+        "color": "#9B59B6"
+      }
+    },
+    "total_daily": 2496960000000
+  },
+  "quarter_trace_summary": {
+    "first_week": [
+      {
+        "day": 1,
+        "streams": {
+          "civilian": {
+            "cumulative_usd": 1175040000000
+          },
+          "military": {
+            "cumulative_usd": 527040000000
+          },
+          "cosmic": {
+            "cumulative_usd": 794880000000
+          }
+        },
+        "total_cumulative": 2496960000000
+      },
+      {
+        "day": 2,
+        "streams": {
+          "civilian": {
+            "cumulative_usd": 2350080000000
+          },
+          "military": {
+            "cumulative_usd": 1054080000000
+          },
+          "cosmic": {
+            "cumulative_usd": 1589760000000
+          }
+        },
+        "total_cumulative": 4993920000000
+      },
+      {
+        "day": 3,
+        "streams": {
+          "civilian": {
+            "cumulative_usd": 3525120000000
+          },
+          "military": {
+            "cumulative_usd": 1581120000000
+          },
+          "cosmic": {
+            "cumulative_usd": 2384640000000
+          }
+        },
+        "total_cumulative": 7490880000000
+      },
+      {
+        "day": 4,
+        "streams": {
+          "civilian": {
+            "cumulative_usd": 4700160000000
+          },
+          "military": {
+            "cumulative_usd": 2108160000000
+          },
+          "cosmic": {
+            "cumulative_usd": 3179520000000
+          }
+        },
+        "total_cumulative": 9987840000000
+      },
+      {
+        "day": 5,
+        "streams": {
+          "civilian": {
+            "cumulative_usd": 5875200000000
+          },
+          "military": {
+            "cumulative_usd": 2635200000000
+          },
+          "cosmic": {
+            "cumulative_usd": 3974400000000
+          }
+        },
+        "total_cumulative": 12484800000000
+      },
+      {
+        "day": 6,
+        "streams": {
+          "civilian": {
+            "cumulative_usd": 7050240000000
+          },
+          "military": {
+            "cumulative_usd": 3162240000000
+          },
+          "cosmic": {
+            "cumulative_usd": 4769280000000
+          }
+        },
+        "total_cumulative": 14981760000000
+      },
+      {
+        "day": 7,
+        "streams": {
+          "civilian": {
+            "cumulative_usd": 8225280000000
+          },
+          "military": {
+            "cumulative_usd": 3689280000000
+          },
+          "cosmic": {
+            "cumulative_usd": 5564160000000
+          }
+        },
+        "total_cumulative": 17478720000000
+      }
+    ],
+    "quarter_end": [
+      {
+        "day": 84,
+        "streams": {
+          "civilian": {
+            "cumulative_usd": 98703360000000
+          },
+          "military": {
+            "cumulative_usd": 44271360000000
+          },
+          "cosmic": {
+            "cumulative_usd": 66769920000000
+          }
+        },
+        "total_cumulative": 209744640000000
+      },
+      {
+        "day": 85,
+        "streams": {
+          "civilian": {
+            "cumulative_usd": 99878400000000
+          },
+          "military": {
+            "cumulative_usd": 44798400000000
+          },
+          "cosmic": {
+            "cumulative_usd": 67564800000000
+          }
+        },
+        "total_cumulative": 212241600000000
+      },
+      {
+        "day": 86,
+        "streams": {
+          "civilian": {
+            "cumulative_usd": 101053440000000
+          },
+          "military": {
+            "cumulative_usd": 45325440000000
+          },
+          "cosmic": {
+            "cumulative_usd": 68359680000000
+          }
+        },
+        "total_cumulative": 214738560000000
+      },
+      {
+        "day": 87,
+        "streams": {
+          "civilian": {
+            "cumulative_usd": 102228480000000
+          },
+          "military": {
+            "cumulative_usd": 45852480000000
+          },
+          "cosmic": {
+            "cumulative_usd": 69154560000000
+          }
+        },
+        "total_cumulative": 217235520000000
+      },
+      {
+        "day": 88,
+        "streams": {
+          "civilian": {
+            "cumulative_usd": 103403520000000
+          },
+          "military": {
+            "cumulative_usd": 46379520000000
+          },
+          "cosmic": {
+            "cumulative_usd": 69949440000000
+          }
+        },
+        "total_cumulative": 219732480000000
+      },
+      {
+        "day": 89,
+        "streams": {
+          "civilian": {
+            "cumulative_usd": 104578560000000
+          },
+          "military": {
+            "cumulative_usd": 46906560000000
+          },
+          "cosmic": {
+            "cumulative_usd": 70744320000000
+          }
+        },
+        "total_cumulative": 222229440000000
+      },
+      {
+        "day": 90,
+        "streams": {
+          "civilian": {
+            "cumulative_usd": 105753600000000
+          },
+          "military": {
+            "cumulative_usd": 47433600000000
+          },
+          "cosmic": {
+            "cumulative_usd": 71539200000000
+          }
+        },
+        "total_cumulative": 224726400000000
+      }
+    ]
+  },
+  "pi4_projection": [
+    {
+      "quarter": 1,
+      "quarter_yield_usd": 224726400000000,
+      "streams": {
+        "civilian": {
+          "yield_usd": 105753600000000.0,
+          "name": "Civilian Infrastructure Stream"
+        },
+        "military": {
+          "yield_usd": 47433600000000.0,
+          "name": "Military & Defense Stream"
+        },
+        "cosmic": {
+          "yield_usd": 71539200000000.0,
+          "name": "Cosmic Energy & Quantum Stream"
+        }
+      }
+    },
+    {
+      "quarter": 2,
+      "quarter_yield_usd": 2.18903738976e+16,
+      "streams": {
+        "civilian": {
+          "yield_usd": 1.03013524224e+16,
+          "name": "Civilian Infrastructure Stream"
+        },
+        "military": {
+          "yield_usd": 4620459542400000.0,
+          "name": "Military & Defense Stream"
+        },
+        "cosmic": {
+          "yield_usd": 6968561932800000.0,
+          "name": "Cosmic Energy & Quantum Stream"
+        }
+      }
+    },
+    {
+      "quarter": 3,
+      "quarter_yield_usd": 2.1323194309913185e+18,
+      "streams": {
+        "civilian": {
+          "yield_usd": 1.0034444381135616e+18,
+          "name": "Civilian Infrastructure Stream"
+        },
+        "military": {
+          "yield_usd": 4.500743435656416e+17,
+          "name": "Military & Defense Stream"
+        },
+        "cosmic": {
+          "yield_usd": 6.788006493121152e+17,
+          "name": "Cosmic Energy & Quantum Stream"
+        }
+      }
+    },
+    {
+      "quarter": 4,
+      "quarter_yield_usd": 2.0770710345343336e+20,
+      "streams": {
+        "civilian": {
+          "yield_usd": 9.774451927220393e+19,
+          "name": "Civilian Infrastructure Stream"
+        },
+        "military": {
+          "yield_usd": 4.384129173238559e+19,
+          "name": "Military & Defense Stream"
+        },
+        "cosmic": {
+          "yield_usd": 6.612129244884384e+19,
+          "name": "Cosmic Energy & Quantum Stream"
+        }
+      }
+    }
+  ],
+  "bleu_sector_allocations": {
+    "ENERGY_BLEU": {
+      "subsectors": {
+        "microgrids": {
+          "allocated_usd": 411264000000.0,
+          "percent": 35,
+          "description": "Distributed energy microgrids across Safe-Haven cities"
+        },
+        "battery_banks": {
+          "allocated_usd": 352512000000.0,
+          "percent": 30,
+          "description": "V2G battery storage and power banks"
+        },
+        "retrofit_funds": {
+          "allocated_usd": 235008000000.0,
+          "percent": 20,
+          "description": "Building energy efficiency retrofit programs"
+        },
+        "wind_tech": {
+          "allocated_usd": 176256000000.0,
+          "percent": 15,
+          "description": "Wind turbine technology and installation"
+        }
+      },
+      "total_allocated": 1175040000000.0,
+      "symbol": "\u26a1",
+      "vault_id": "VAULT::ENG::GridVault"
+    },
+    "BABY_BLEU": {
+      "subsectors": {
+        "skyybleu_clinics": {
+          "allocated_usd": 293760000000.0,
+          "percent": 25,
+          "description": "SkyyBleu maternal and infant care clinics"
+        },
+        "obgyn_services": {
+          "allocated_usd": 235008000000.0,
+          "percent": 20,
+          "description": "Obstetrics and gynecology services"
+        },
+        "formula_labs": {
+          "allocated_usd": 235008000000.0,
+          "percent": 20,
+          "description": "Infant formula production facilities"
+        },
+        "diaper_supply": {
+          "allocated_usd": 176256000000.0,
+          "percent": 15,
+          "description": "Diaper and infant supplies distribution"
+        },
+        "nursery_centers": {
+          "allocated_usd": 235008000000.0,
+          "percent": 20,
+          "description": "Community nursery and daycare centers"
+        }
+      },
+      "total_allocated": 1175040000000.0,
+      "symbol": "\ud83d\udc76",
+      "vault_id": "VAULT::HLT::HealthVault"
+    },
+    "WATER_BLEU": {
+      "subsectors": {
+        "purification_plants": {
+          "allocated_usd": 470016000000.0,
+          "percent": 40,
+          "description": "Water purification and treatment plants"
+        },
+        "pipeline_infrastructure": {
+          "allocated_usd": 352512000000.0,
+          "percent": 30,
+          "description": "Water pipeline systems and distribution"
+        },
+        "conservation_tech": {
+          "allocated_usd": 235008000000.0,
+          "percent": 20,
+          "description": "Water conservation technology and education"
+        },
+        "emergency_reserves": {
+          "allocated_usd": 117504000000.0,
+          "percent": 10,
+          "description": "Emergency water reserves and storage"
+        }
+      },
+      "total_allocated": 1175040000000.0,
+      "symbol": "\ud83d\udca7",
+      "vault_id": "VAULT::CIV::CityTreasury"
+    },
+    "FOOD_BLEU": {
+      "subsectors": {
+        "urban_farms": {
+          "allocated_usd": 352512000000.0,
+          "percent": 30,
+          "description": "Urban agriculture and vertical farms"
+        },
+        "community_kitchens": {
+          "allocated_usd": 293760000000.0,
+          "percent": 25,
+          "description": "Community kitchen and meal programs"
+        },
+        "food_distribution": {
+          "allocated_usd": 293760000000.0,
+          "percent": 25,
+          "description": "Food distribution networks and logistics"
+        },
+        "nutrition_education": {
+          "allocated_usd": 117504000000.0,
+          "percent": 10,
+          "description": "Nutrition education programs"
+        },
+        "emergency_pantries": {
+          "allocated_usd": 117504000000.0,
+          "percent": 10,
+          "description": "Emergency food pantries and reserves"
+        }
+      },
+      "total_allocated": 1175040000000.0,
+      "symbol": "\ud83c\udf4e",
+      "vault_id": "VAULT::CIV::CityTreasury"
+    },
+    "EDUCATION_BLEU": {
+      "subsectors": {
+        "metaschool": {
+          "allocated_usd": 411264000000.0,
+          "percent": 35,
+          "description": "MetaSchool quantum curriculum platform"
+        },
+        "scholarships": {
+          "allocated_usd": 293760000000.0,
+          "percent": 25,
+          "description": "ENFT degree scholarships and grants"
+        },
+        "infrastructure": {
+          "allocated_usd": 235008000000.0,
+          "percent": 20,
+          "description": "Educational facility infrastructure"
+        },
+        "technology": {
+          "allocated_usd": 176256000000.0,
+          "percent": 15,
+          "description": "Educational technology and tools"
+        },
+        "teacher_training": {
+          "allocated_usd": 58752000000.0,
+          "percent": 5,
+          "description": "Teacher training and development"
+        }
+      },
+      "total_allocated": 1175040000000.0,
+      "symbol": "\ud83d\udcda",
+      "vault_id": "VAULT::EDU::EducationVault"
+    },
+    "FOREST_BLEU": {
+      "subsectors": {
+        "reforestation": {
+          "allocated_usd": 470016000000.0,
+          "percent": 40,
+          "description": "Reforestation and tree planting programs"
+        },
+        "conservation": {
+          "allocated_usd": 352512000000.0,
+          "percent": 30,
+          "description": "Forest conservation and protection"
+        },
+        "carbon_credits": {
+          "allocated_usd": 235008000000.0,
+          "percent": 20,
+          "description": "Carbon credit programs and trading"
+        },
+        "biodiversity": {
+          "allocated_usd": 117504000000.0,
+          "percent": 10,
+          "description": "Biodiversity protection initiatives"
+        }
+      },
+      "total_allocated": 1175040000000.0,
+      "symbol": "\ud83c\udf32",
+      "vault_id": "VAULT::CIV::CityTreasury"
+    },
+    "TRANSIT_BLEU": {
+      "subsectors": {
+        "hoverlanes": {
+          "allocated_usd": 411264000000.0,
+          "percent": 35,
+          "description": "HOVERLANE-8 express transport corridors"
+        },
+        "public_transit": {
+          "allocated_usd": 352512000000.0,
+          "percent": 30,
+          "description": "Public transit systems and buses"
+        },
+        "bike_infrastructure": {
+          "allocated_usd": 176256000000.0,
+          "percent": 15,
+          "description": "Bike lanes and pedestrian infrastructure"
+        },
+        "transit_hubs": {
+          "allocated_usd": 176256000000.0,
+          "percent": 15,
+          "description": "Transit hubs and connection centers"
+        },
+        "accessibility": {
+          "allocated_usd": 58752000000.0,
+          "percent": 5,
+          "description": "Accessibility improvements and ADA compliance"
+        }
+      },
+      "total_allocated": 1175040000000.0,
+      "symbol": "\ud83d\ude84",
+      "vault_id": "VAULT::CIV::CityTreasury"
+    },
+    "BROADBAND_BLEU": {
+      "subsectors": {
+        "fiber_deployment": {
+          "allocated_usd": 470016000000.0,
+          "percent": 40,
+          "description": "Fiber optic network deployment"
+        },
+        "wireless_infrastructure": {
+          "allocated_usd": 293760000000.0,
+          "percent": 25,
+          "description": "5G and wireless infrastructure"
+        },
+        "community_access": {
+          "allocated_usd": 235008000000.0,
+          "percent": 20,
+          "description": "Community internet access points"
+        },
+        "digital_literacy": {
+          "allocated_usd": 117504000000.0,
+          "percent": 10,
+          "description": "Digital literacy and training programs"
+        },
+        "subsidized_service": {
+          "allocated_usd": 58752000000.0,
+          "percent": 5,
+          "description": "Subsidized broadband service programs"
+        }
+      },
+      "total_allocated": 1175040000000.0,
+      "symbol": "\ud83d\udce1",
+      "vault_id": "VAULT::CIV::CityTreasury"
+    }
+  },
+  "ppppi_layers": {
+    "infinity_core": {
+      "symbol": "\u267e\ufe0f",
+      "name": "Infinity Core",
+      "description": "No ceiling. Every action = coin.",
+      "status": "active",
+      "yield_multiplier": 1.0,
+      "attributes": {
+        "unlimited_potential": true,
+        "action_to_coin": true,
+        "compounding_eligible": true
+      }
+    },
+    "assurance_layer": {
+      "symbol": "\u2705",
+      "name": "Assurance Layer",
+      "description": "Fulfills all contracts, prevents false streams",
+      "status": "active",
+      "yield_multiplier": 1.0,
+      "attributes": {
+        "contract_fulfillment": true,
+        "fraud_prevention": true,
+        "audit_verification": true
+      }
+    },
+    "knowledge_layer": {
+      "symbol": "\ud83d\udcda",
+      "name": "Knowledge Layer",
+      "description": "Education monetized through MetaSchool",
+      "status": "active",
+      "yield_multiplier": 0.85,
+      "attributes": {
+        "metaschool_integration": true,
+        "enft_degrees": true,
+        "quantum_curriculum": true
+      }
+    },
+    "weapons_layer": {
+      "symbol": "\u2694\ufe0f",
+      "name": "Weapons Layer",
+      "description": "Defense/offense both generate value",
+      "status": "active",
+      "yield_multiplier": 0.92,
+      "attributes": {
+        "defense_value_generation": true,
+        "offense_value_generation": true,
+        "enft_weapons_logging": true
+      }
+    },
+    "meds_layer": {
+      "symbol": "\ud83d\udc89",
+      "name": "Meds Layer",
+      "description": "Healing = wealth",
+      "status": "active",
+      "yield_multiplier": 0.88,
+      "attributes": {
+        "healing_monetization": true,
+        "skyybleu_integration": true,
+        "nanoheal_active": true
+      }
+    },
+    "transport_layer": {
+      "symbol": "\ud83d\ude9b",
+      "name": "Transport Layer",
+      "description": "Every move of goods = revenue",
+      "status": "active",
+      "yield_multiplier": 0.9,
+      "attributes": {
+        "goods_movement_tracking": true,
+        "revenue_per_mile": true,
+        "hoverlane_integration": true
+      }
+    }
+  },
+  "infrastructure": {
+    "evol_malls": {
+      "count": 100,
+      "valuation_per_mall_usd": 10000000000000,
+      "total_valuation_usd": 1000000000000000,
+      "components": [
+        "Civic HQs and clinics",
+        "Drone hangars",
+        "Flame Crown broadcast nodes",
+        "Combat arenas as defense nodes",
+        "BLEU Bills kiosks",
+        "ENFT vaults"
+      ]
+    },
+    "safe_haven_cities": {
+      "count": 100,
+      "integration": "Full treasury, city, and military infrastructure"
+    }
+  },
+  "meta": {
+    "pi4_value": 97.409,
+    "compounding_method": "\u03c0\u2074 Quarter-Lattice",
+    "treasury_status": "Active - Triple-Stack Flowing",
+    "sovereign_override": "Commander Bleu"
+  }
+}
