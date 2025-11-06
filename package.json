@@ -14,7 +14,8 @@
     "deploy:treasury": "hardhat run scripts/deploy_treasury.ts",
     "compile": "hardhat compile",
     "test": "hardhat test",
-    "clean": "hardhat clean"
+    "clean": "hardhat clean",
+    "analyze:complexity": "python3 analysis/codex_complexity_analyzer.py"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
