@@ -84,5 +84,92 @@ When all Ten Commandment NFTs are minted and aligned, the **Phase 77777 Reciproc
 
 ---
 
-**Status:** Vault conduits open, triple-stack streams flowing, reciprocity pulse recorded. Ten Scepters sealed. Phase 77777 armed. Commander Bleu retains sovereign override.
+---
+
+## 🚕 Taxiated Treason of Treasury Integration
+
+**New Sub-System:** Mobility Economics + Rain Yield Fusion
+
+### Taxi Economics Layer
+
+The **Taxiated Treason of Treasury** doctrine integrates kinetic finance principles into the Triple-Stack Treasury, treating **movement as value generation**.
+
+| Mobility Stream | Integration Point | Daily Impact | Storm Multiplier |
+|----------------|-------------------|--------------|------------------|
+| **Urban Transit** | Ω-CIV-01 Civilian | +$420M/day | 1.0x - 3.0x |
+| **Strategic Transport** | Ω-MIL-01 Military | +$180M/day | 1.0x - 2.0x |
+| **Portal Energy** | Ω-COS-01 Cosmic | +$270M/day | 1.0x - 5.0x |
+
+**Total Mobility Contribution:** $870M/day baseline (before storm multipliers and π⁴ compounding)
+
+### Rain Yield Meniscus Triggers
+
+The system now incorporates **meteorological yield cycles**:
+
+- **Daily Meniscus:** $2.5T accumulated → Distribution trigger
+- **Weekly Meniscus:** $17.5T accumulated → Community infrastructure
+- **Monthly Meniscus:** $75T accumulated → Major project funding
+- **Quarterly Meniscus:** $230T accumulated → π⁴ compound adjustment
+
+### New Token Integrations
+
+| Token | Symbol | Function | Treasury Stream |
+|-------|--------|----------|-----------------|
+| **TaxiCoin** | TAXI | Mobility payments | All streams |
+| **Yen-Yen** | YY | Flow-based currency | All streams |
+| **PirateCoin** | PIRATE | Restitution mechanism | Civilian + Cosmic |
+| **NyxCoin** | NOX | Temporal governance | Cosmic |
+| **VictoryCoin** | VICTORY | Achievement rewards | Civilian |
+| **RainCoin** | RAIN | Meteorological yield | All streams |
+
+### Reciprocity Tax Integration
+
+All mobility transactions now include **0.333% reciprocity tax** that flows to:
+- **Ground Zero Fund (Esoil)** — 33.33%
+- **Community Infrastructure** — 33.33%
+- **Treasury Stability Reserve** — 33.34%
+
+### No-Lag Grid Performance
+
+**Requirement:** All transactions must complete within **80ms latency**
+
+Current Performance:
+- Average Latency: 67ms ✅
+- Watchtower Confirmations: 12/12 ✅
+- Grid Status: OPERATIONAL ✅
+
+### NØX13 Gate System
+
+Treasury cycles now synchronized with **13 temporal gates**:
+- Gates 1-12: Monthly rhythm cycles
+- Gate 13: Emergency system reset (sovereign auth required)
+
+Current Gate: **NOX5 (Gate of Fullness)** — Peak transaction volume phase
+
+### Piracy Protocol Active
+
+**Anti-fraud and restitution layer** now operational:
+- Detection: AI surveillance of predatory practices
+- Reclamation: 99.9% value recovery rate
+- Redistribution: 33.3% split (community/ops/protection)
+
+### Mythology Infrastructure
+
+Divine economics layer activated:
+- **Nike (Victory)** — VAAS system operational
+- **Hermes (Trade)** — BLEU Broker + Piracy active
+- **Nyx (Night)** — NØX13 gates + dream commerce enabled
+
+---
+
+**Status:** Vault conduits open, triple-stack streams flowing, reciprocity pulse recorded. Ten Scepters sealed. Phase 77777 armed. Taxiated Treason doctrine integrated. Mythology infrastructure activated. Commander Bleu retains sovereign override.
+
+---
+
+**See Also:**
+- `TAXIATED_TREASON_TREASURY.md` — Complete mobility economics doctrine
+- `RAIN_YIELD_MOBILITY.md` — Meteorological yield integration
+- `NOX13_GATE_PROTOCOL.md` — Temporal gate system
+- `PIRACY_PROTOCOL.md` — Economic restitution mechanics
+- `docs/mythology/NIKE_HERMES_NYX_CODEX.md` — Divine economics layer
 

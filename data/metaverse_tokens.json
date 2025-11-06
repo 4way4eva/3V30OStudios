@@ -76,5 +76,126 @@
       "Priority routing through Octopus Junction trade lanes",
       "Access to interdimensional cargo insurance"
     ]
+  },
+  {
+    "name": "TaxiCoin",
+    "symbol": "TAXI",
+    "category": "Mobility Credit",
+    "chain": "BLEUChain",
+    "token_standard": "ERC-1155",
+    "total_supply": "∞ (velocity-adaptive)",
+    "backing_assets": ["Taxi Fare Reserve", "Rain Yield Vault", "Ground Zero Fund"],
+    "utility": [
+      "Payment for all EvolRide and transport services",
+      "Staking for mobility infrastructure governance",
+      "Reciprocity tax redistribution pool (0.333%)",
+      "Storm surge pricing participation"
+    ],
+    "codex_ref": "CODEXX.TAXI.v1",
+    "mythology_link": "Hermes (Trade & Travel)"
+  },
+  {
+    "name": "Yen-Yen",
+    "symbol": "YY",
+    "category": "Flow Token",
+    "chain": "BLEUChain",
+    "token_standard": "ERC-1155 Dynamic",
+    "total_supply": "∞ (flow-based)",
+    "backing_assets": ["Network Velocity", "Reciprocal Pi Bridge", "Meniscus Reserves"],
+    "utility": [
+      "Primary currency for holographic commerce",
+      "Dynamic denomination based on network velocity",
+      "Jetsons Inertia Credit rewards",
+      "Pirate Refund Logic pool"
+    ],
+    "codex_ref": "CODEXX.TAXI.v1",
+    "special_features": [
+      "Expands/contracts with transaction velocity",
+      "0.333% reciprocity tax on all transactions",
+      "Antifragile economy design"
+    ]
+  },
+  {
+    "name": "PirateCoin",
+    "symbol": "PIRATE",
+    "category": "Restitution Token",
+    "chain": "BLEUChain",
+    "token_standard": "ERC-1155",
+    "total_supply": "Reclaimed value only",
+    "backing_assets": ["Pirate Bay Harvest", "Treason Vaults", "Restitution Reserves"],
+    "utility": [
+      "Represents reclaimed value from exploitative systems",
+      "Distributed to victims of economic extraction",
+      "Convertible through Reciprocal Pi Bridge",
+      "Community redistribution mechanism"
+    ],
+    "codex_ref": "CODEXX.PIRATE.v1",
+    "mythology_link": "Hermes (Thief & Trickster)",
+    "conversion_rate": "0.999 (stolen) → 0.333 (community)"
+  },
+  {
+    "name": "NyxCoin",
+    "symbol": "NOX",
+    "category": "Temporal Credit",
+    "chain": "BLEUChain",
+    "token_standard": "ERC-1155 Gated",
+    "total_supply": "13 emissions per cycle",
+    "backing_assets": ["Gate System Reserve", "Dream Wallet Vault", "Chaos Access Fund"],
+    "utility": [
+      "Access to NØX gates 1-13",
+      "Dream-state commerce enablement",
+      "Death-code ENFT activation",
+      "Checkout Cloak anonymity layer"
+    ],
+    "codex_ref": "CODEXX.NOX13.v1",
+    "mythology_link": "Nyx (Night, Dreams, Death)",
+    "special_features": [
+      "Gate-phase synchronized emissions",
+      "NOX13 requires sovereign authorization",
+      "Temporal cycle governance"
+    ]
+  },
+  {
+    "name": "VictoryCoin",
+    "symbol": "VICTORY",
+    "category": "Achievement Token",
+    "chain": "BLEUChain",
+    "token_standard": "ERC-1155 Merit",
+    "total_supply": "Achievement-based",
+    "backing_assets": ["Victory Vault", "Triumph Ledger", "Achievement Reserve"],
+    "utility": [
+      "Minted upon significant achievements",
+      "Victory-as-a-Service (VAAS) rewards",
+      "BLEUStyle QuickFit bonuses",
+      "Economic multipliers for holders"
+    ],
+    "codex_ref": "CODEXX.MYTHOLOGY.v1",
+    "mythology_link": "Nike (Victory & Speed)",
+    "special_features": [
+      "Each token represents unique victory",
+      "Tradeable proof of achievement",
+      "Yield multiplier bonuses"
+    ]
+  },
+  {
+    "name": "RainCoin",
+    "symbol": "RAIN",
+    "category": "Meteorological Yield",
+    "chain": "BLEUChain",
+    "token_standard": "ERC-1155 Storm",
+    "total_supply": "Storm-cycle based",
+    "backing_assets": ["Rain Vault", "Storm Reserve", "Meniscus Fund"],
+    "utility": [
+      "Represents accumulated mobility yield",
+      "Released at meniscus checkpoints",
+      "Weather-correlated value",
+      "Redistribution mechanism for community"
+    ],
+    "codex_ref": "CODEXX.RAIN.TAXI.v1",
+    "special_features": [
+      "Value accumulates like precipitation",
+      "Meniscus-triggered distribution",
+      "Storm category multipliers"
+    ]
   }
 ]

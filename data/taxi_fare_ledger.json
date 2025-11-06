@@ -1,0 +1,157 @@
+[
+  {
+    "transaction_id": "TAXI-2025-001",
+    "timestamp": "2025-11-06T14:44:29.845Z",
+    "route": {
+      "origin": {"lat": 40.7580, "lon": -73.9855, "location": "Times Square, NYC"},
+      "destination": {"lat": 40.7489, "lon": -73.9680, "location": "Grand Central, NYC"},
+      "distance_km": 1.8
+    },
+    "fare": {
+      "base_fare": 12.50,
+      "storm_multiplier": 1.5,
+      "weather_condition": "rain",
+      "gross_fare": 18.75,
+      "reciprocity_tax": 0.062,
+      "net_fare": 18.688,
+      "currency": "USD"
+    },
+    "redistribution": {
+      "community_infrastructure": 6.229,
+      "driver_compensation": 9.344,
+      "system_maintenance": 2.812,
+      "treasury_reserve": 0.303
+    },
+    "grid_performance": {
+      "latency_ms": 67,
+      "no_lag_status": "PASS",
+      "watchtower_confirmations": 12
+    },
+    "storm_category": 3,
+    "gate_phase": "NOX5"
+  },
+  {
+    "transaction_id": "TAXI-2025-002",
+    "timestamp": "2025-11-06T15:30:12.331Z",
+    "route": {
+      "origin": {"lat": 34.0522, "lon": -118.2437, "location": "Downtown LA"},
+      "destination": {"lat": 34.1341, "lon": -118.3216, "location": "Hollywood"},
+      "distance_km": 12.3
+    },
+    "fare": {
+      "base_fare": 32.00,
+      "storm_multiplier": 1.0,
+      "weather_condition": "clear",
+      "gross_fare": 32.00,
+      "reciprocity_tax": 0.107,
+      "net_fare": 31.893,
+      "currency": "USD"
+    },
+    "redistribution": {
+      "community_infrastructure": 10.631,
+      "driver_compensation": 15.946,
+      "system_maintenance": 4.784,
+      "treasury_reserve": 0.532
+    },
+    "grid_performance": {
+      "latency_ms": 54,
+      "no_lag_status": "PASS",
+      "watchtower_confirmations": 12
+    },
+    "storm_category": 1,
+    "gate_phase": "NOX5"
+  },
+  {
+    "transaction_id": "TAXI-2025-003",
+    "timestamp": "2025-11-06T16:15:44.892Z",
+    "route": {
+      "origin": {"lat": 51.5074, "lon": -0.1278, "location": "London Bridge"},
+      "destination": {"lat": 51.5194, "lon": -0.1270, "location": "King's Cross"},
+      "distance_km": 3.2
+    },
+    "fare": {
+      "base_fare": 18.50,
+      "storm_multiplier": 2.0,
+      "weather_condition": "storm_warning",
+      "gross_fare": 37.00,
+      "reciprocity_tax": 0.123,
+      "net_fare": 36.877,
+      "currency": "GBP"
+    },
+    "redistribution": {
+      "community_infrastructure": 12.292,
+      "driver_compensation": 18.439,
+      "system_maintenance": 5.532,
+      "treasury_reserve": 0.614
+    },
+    "grid_performance": {
+      "latency_ms": 71,
+      "no_lag_status": "PASS",
+      "watchtower_confirmations": 12
+    },
+    "storm_category": 4,
+    "gate_phase": "NOX5"
+  },
+  {
+    "transaction_id": "TAXI-2025-004",
+    "timestamp": "2025-11-06T17:45:21.102Z",
+    "route": {
+      "origin": {"lat": 35.6762, "lon": 139.6503, "location": "Tokyo Station"},
+      "destination": {"lat": 35.6895, "lon": 139.6917, "location": "Shinjuku"},
+      "distance_km": 5.7
+    },
+    "fare": {
+      "base_fare": 2400,
+      "storm_multiplier": 1.2,
+      "weather_condition": "light_rain",
+      "gross_fare": 2880,
+      "reciprocity_tax": 9.59,
+      "net_fare": 2870.41,
+      "currency": "JPY"
+    },
+    "redistribution": {
+      "community_infrastructure": 957.14,
+      "driver_compensation": 1435.71,
+      "system_maintenance": 430.71,
+      "treasury_reserve": 47.85
+    },
+    "grid_performance": {
+      "latency_ms": 62,
+      "no_lag_status": "PASS",
+      "watchtower_confirmations": 12
+    },
+    "storm_category": 2,
+    "gate_phase": "NOX5"
+  },
+  {
+    "transaction_id": "TAXI-2025-005",
+    "timestamp": "2025-11-06T18:22:33.457Z",
+    "route": {
+      "origin": {"lat": -33.8688, "lon": 151.2093, "location": "Sydney Opera House"},
+      "destination": {"lat": -33.9173, "lon": 151.2313, "location": "Sydney Airport"},
+      "distance_km": 9.8
+    },
+    "fare": {
+      "base_fare": 45.00,
+      "storm_multiplier": 1.0,
+      "weather_condition": "clear",
+      "gross_fare": 45.00,
+      "reciprocity_tax": 0.150,
+      "net_fare": 44.850,
+      "currency": "AUD"
+    },
+    "redistribution": {
+      "community_infrastructure": 14.950,
+      "driver_compensation": 22.425,
+      "system_maintenance": 6.728,
+      "treasury_reserve": 0.747
+    },
+    "grid_performance": {
+      "latency_ms": 58,
+      "no_lag_status": "PASS",
+      "watchtower_confirmations": 12
+    },
+    "storm_category": 1,
+    "gate_phase": "NOX5"
+  }
+]
