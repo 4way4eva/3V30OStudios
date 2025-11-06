@@ -20,6 +20,12 @@ import re
 class CodexComplexityAnalyzer:
     """Analyzes the complexity and structure of codex systems."""
     
+    # Ceremonial symbols used throughout the codex
+    CEREMONIAL_SYMBOLS = '🌀🔷💎🧬⚡🛡️👁️🌊⛽🏛️🎓💰🗝️📜✨🔮'
+    
+    # Assumed average characters per line for maintainability calculation
+    AVG_CHARS_PER_LINE = 80
+    
     def __init__(self, codex_root: str = "."):
         self.codex_root = Path(codex_root)
         self.metrics = {
@@ -50,7 +56,8 @@ class CodexComplexityAnalyzer:
         unique_words = set(w.lower() for w in words)
         
         # Ceremonial symbols and special markers
-        symbols = re.findall(r'[🌀🔷💎🧬⚡🛡️👁️🌊⛽🏛️🎓💰🗝️📜✨🔮]', content)
+        symbol_pattern = f'[{self.CEREMONIAL_SYMBOLS}]'
+        symbols = re.findall(symbol_pattern, content)
         unique_symbols = set(symbols)
         
         # Nested structure depth (headers, lists, blockquotes)
@@ -85,8 +92,10 @@ class CodexComplexityAnalyzer:
             
             # Check for blockquotes
             if line.strip().startswith('>'):
-                depth = len(re.match(r'^>+', line.strip()).group())
-                max_depth = max(max_depth, depth)
+                match = re.match(r'^>+', line.strip())
+                if match:
+                    depth = len(match.group())
+                    max_depth = max(max_depth, depth)
         
         return max_depth
     
@@ -158,8 +167,8 @@ class CodexComplexityAnalyzer:
             len(total_vocab), total_length
         )
         
-        # Estimate lines (assuming avg 80 chars per line)
-        estimated_lines = total_length / 80
+        # Estimate lines (assuming avg chars per line)
+        estimated_lines = total_length / self.AVG_CHARS_PER_LINE
         maintainability = self.calculate_maintainability_index(
             halstead_volume, total_cyclomatic, estimated_lines
         )

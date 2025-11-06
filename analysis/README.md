@@ -60,6 +60,8 @@ python3 analysis/codex_complexity_analyzer.py
 
 ### Sample Output
 
+*Note: The sample below shows actual metrics from the BLEU Codex. The low maintainability score reflects the deliberate trade-off between ceremonial depth/complexity and conventional software maintainability - this is expected and appropriate for a visionary codex system prioritizing strategic richness over simplicity.*
+
 ```
 ================================================================================
 BLEU CODEX & ARIEL FORTRESS - COMPLEXITY ANALYSIS

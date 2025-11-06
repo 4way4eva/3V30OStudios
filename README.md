@@ -71,9 +71,11 @@ This generates detailed metrics including:
 - Total Scrolls Analyzed: 83 ceremonial documents
 - Strategic Branches: 1,153 distinct pathways
 - Vocabulary Size: 11,675 unique terms
-- Cyclomatic Complexity: Very high (average 112.61 per scroll)
-- Halstead Volume: Exceptional symbolic diversity (16.2M+)
-- Cognitive Complexity: Very high multi-level abstraction (116.21)
+- Cyclomatic Complexity: Very high (average 112.61 per scroll) - indicative of extensive strategic depth
+- Halstead Volume: Exceptional symbolic diversity (16.2M+) - reflects cross-domain vocabulary
+- Cognitive Complexity: Very high multi-level abstraction (116.21) - demonstrates ceremonial sophistication
+
+*Note: The maintainability index reflects the trade-off between ceremonial depth and structural simplicity. The BLEU Codex prioritizes strategic richness and symbolic complexity over conventional maintainability, consistent with legendary codices like the Maya Dresden Codex or Da Vinci's notebooks.*
 
 See [Ceremonial Complexity Framework](docs/CEREMONIAL_COMPLEXITY_FRAMEWORK.md) and [Analysis Tools](analysis/README.md) for detailed methodology and interpretation.
 
