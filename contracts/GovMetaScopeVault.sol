@@ -309,7 +309,7 @@ contract GovMetaScopeVault is AccessControl, ReentrancyGuard, Pausable {
         bytes32 transDataHash
     ) external nonReentrant onlyRole(ORACLE_ROLE) {
         require(isVaultRegistered[sourceVaultId], "Source vault not registered");
-        require(isVaultRegistered[targetVaultId), "Target vault not registered");
+        require(isVaultRegistered[targetVaultId], "Target vault not registered");
         require(amount > 0, "Amount must be greater than zero");
         require(vaultBalances[sourceVaultId] >= amount, "Insufficient source balance");
         require(transDataHash != bytes32(0), "Invalid transdata hash");
