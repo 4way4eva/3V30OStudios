@@ -136,10 +136,11 @@ async function main() {
       console.log(`\n  🔷 Stage ${stage + 1}: ${name}`);
 
       // Generate ceremonial signature for this stage
+      const currentBlock = await ethers.provider.getBlock("latest");
       const ceremorialSignature = ethers.utils.keccak256(
         ethers.utils.defaultAbiCoder.encode(
           ["uint256", "uint8", "uint256", "address"],
-          [tokenId, stage, block.timestamp, deployer.address]
+          [tokenId, stage, currentBlock.timestamp, deployer.address]
         )
       );
 

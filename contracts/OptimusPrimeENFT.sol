@@ -306,6 +306,7 @@ contract OptimusPrimeENFT is
 
     /**
      * @dev Distribute restitution to beneficiaries
+     * @notice Uses nonReentrant guard and gas-limited transfers for security
      */
     function distributeRestitution(
         uint256 tokenId,
@@ -322,8 +323,9 @@ contract OptimusPrimeENFT is
             totalAmount += amounts[i];
             record.allocations[beneficiaries[i]] += amounts[i];
             
-            // Transfer funds
-            (bool success, ) = beneficiaries[i].call{value: amounts[i]}("");
+            // Transfer funds with gas limit to prevent griefing
+            // Using 2300 gas (same as transfer()) to prevent complex fallback execution
+            (bool success, ) = beneficiaries[i].call{value: amounts[i], gas: 2300}("");
             require(success, "Transfer failed");
         }
 
