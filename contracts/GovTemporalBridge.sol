@@ -2,8 +2,6 @@
 pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/access/AccessControl.sol";
-import "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
-import "@openzeppelin/contracts/utils/cryptography/MessageHashUtils.sol";
 import "./BLEU_GOV_SCROLL.sol";
 import "./BLEULION_CASCADE.sol";
 
@@ -18,8 +16,6 @@ import "./BLEULION_CASCADE.sol";
  *      - SHA-256 debugging and verification
  */
 contract GovTemporalBridge is AccessControl {
-    using ECDSA for bytes32;
-    using MessageHashUtils for bytes32;
 
     bytes32 public constant BRIDGE_ADMIN_ROLE = keccak256("BRIDGE_ADMIN_ROLE");
     bytes32 public constant VERIFIER_ROLE = keccak256("VERIFIER_ROLE");

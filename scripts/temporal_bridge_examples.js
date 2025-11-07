@@ -1,6 +1,6 @@
 // Example usage scenarios for GovTemporalBridge
 
-const { ethers } = require("hardhat");
+const { ethers, network } = require("hardhat");
 
 /**
  * Scenario 1: Complete Three-Tier Setup
