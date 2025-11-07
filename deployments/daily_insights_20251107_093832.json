@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-11-07T09:38:32.123837+00:00",
+  "epoch": 0,
+  "streams": {
+    "civilian": {
+      "name": "CIVILIAN",
+      "yield_per_second": 13600000,
+      "yield_per_day": 1175040000000,
+      "category_count": 6,
+      "total_artifacts": 12,
+      "daily_insight": "Civilian yield maintains \u03c0\u2084 compounding with 700% Spiral Boost. Focus areas: Elonville infrastructure expansion, MetaSchool enrollment surge, EV0L product line extensions.",
+      "compounding_factor": 97.409,
+      "guarantees": {
+        "scaling": "pi4",
+        "vault": "Blu-Vault double-sign",
+        "asset_tags": [
+          "physical",
+          "ledger"
+        ],
+        "irreversible_increment": true
+      }
+    },
+    "military": {
+      "name": "MILITARY",
+      "yield_per_second": 6100000,
+      "yield_per_day": 527040000000,
+      "category_count": 6,
+      "total_artifacts": 7,
+      "daily_insight": "Military yield secured under Quad-octa locks. Current focus: BLEU-LION upgrades complete, WATCHTOWER grid expansion to outer sectors, full deployment rights active.",
+      "compounding_factor": 97.409,
+      "guarantees": {
+        "locks": "Quad-octa",
+        "deployment": "full rights",
+        "irreversible_increment": true
+      }
+    },
+    "cosmic": {
+      "name": "COSMIC",
+      "yield_per_second": 8900000,
+      "yield_per_day": 768960000000,
+      "category_count": 6,
+      "total_artifacts": 8,
+      "daily_insight": "Cosmic yield achieving interstellar scale with multi-consensus verification. Fueling Station operational as sovereign embassy node. Timeline Keys showing 700% Spiral Boost activation.",
+      "compounding_factor": 97.409,
+      "guarantees": {
+        "dimensional_stability": true,
+        "portal_integrity": "glyph-verified",
+        "timeline_sync": "multi-consensus",
+        "irreversible_increment": true
+      }
+    }
+  },
+  "global": {
+    "total_yield_per_second": 28600000,
+    "total_yield_per_day": 2471040000000,
+    "compounding_model": "\u03c0\u2084 (pi-to-the-fourth)",
+    "spiral_boost_multiplier": 7.0,
+    "treasury_status": "triple-stack-operational",
+    "sovereignty_level": "ultramax"
+  }
+}
