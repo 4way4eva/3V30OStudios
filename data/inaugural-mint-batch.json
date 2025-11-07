@@ -1,0 +1,120 @@
+{
+  "mintBatch": {
+    "batchId": "INAUGURAL-MINT-001",
+    "timestamp": "2025-11-07T10:00:00.000Z",
+    "celestialAlignment": "JUDAH-COUNT-77777-ALIGNED",
+    "sealVerification": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+    "totalAmount": "1000000000000000000000000",
+    "description": "Inaugural BLEU Coin™ minting - Three-tier sovereign wealth initialization",
+    "streams": {
+      "civilian": {
+        "streamType": 1,
+        "streamName": "CIVILIAN",
+        "totalAllocation": "500000000000000000000000",
+        "description": "BLEU Bills - Civilian stream for public commerce and education",
+        "recipients": [
+          {
+            "address": "0x0000000000000000000000000000000000000001",
+            "amount": "100000000000000000000000",
+            "soulLinkId": "SOUL-CIV-001",
+            "receiptId": "RECEIPT-CIV-001",
+            "metadata": {
+              "celestialAlignment": "JUDAH-COUNT-77777-ALPHA",
+              "sealHash": "0xabcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+              "liveBlueTimeLinkage": "BLUE-TIME-2025-11-07-001",
+              "notes": "Civilian treasury initial allocation"
+            }
+          },
+          {
+            "address": "0x0000000000000000000000000000000000000002",
+            "amount": "50000000000000000000000",
+            "soulLinkId": "SOUL-CIV-002",
+            "receiptId": "RECEIPT-CIV-002",
+            "metadata": {
+              "celestialAlignment": "JUDAH-COUNT-77777-BETA",
+              "sealHash": "0xbcdef1234567890abcdef1234567890abcdef1234567890abcdef12345678901",
+              "liveBlueTimeLinkage": "BLUE-TIME-2025-11-07-002",
+              "notes": "Education infrastructure allocation"
+            }
+          },
+          {
+            "address": "0x0000000000000000000000000000000000000003",
+            "amount": "350000000000000000000000",
+            "soulLinkId": "SOUL-CIV-003",
+            "receiptId": "RECEIPT-CIV-003",
+            "metadata": {
+              "celestialAlignment": "JUDAH-COUNT-77777-GAMMA",
+              "sealHash": "0xcdef1234567890abcdef1234567890abcdef1234567890abcdef123456789012",
+              "liveBlueTimeLinkage": "BLUE-TIME-2025-11-07-003",
+              "notes": "Public commerce reserve"
+            }
+          }
+        ]
+      },
+      "military": {
+        "streamType": 2,
+        "streamName": "MILITARY",
+        "totalAllocation": "300000000000000000000000",
+        "description": "Enhanced Military Credits - Strategic and defense operations",
+        "recipients": [
+          {
+            "address": "0x0000000000000000000000000000000000000004",
+            "amount": "150000000000000000000000",
+            "soulLinkId": "SOUL-MIL-001",
+            "receiptId": "RECEIPT-MIL-001",
+            "metadata": {
+              "celestialAlignment": "JUDAH-COUNT-77777-DELTA",
+              "sealHash": "0xdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890123",
+              "liveBlueTimeLinkage": "BLUE-TIME-2025-11-07-004",
+              "notes": "Military treasury primary allocation"
+            }
+          },
+          {
+            "address": "0x0000000000000000000000000000000000000005",
+            "amount": "150000000000000000000000",
+            "soulLinkId": "SOUL-MIL-002",
+            "receiptId": "RECEIPT-MIL-002",
+            "metadata": {
+              "celestialAlignment": "JUDAH-COUNT-77777-EPSILON",
+              "sealHash": "0xef1234567890abcdef1234567890abcdef1234567890abcdef12345678901234",
+              "liveBlueTimeLinkage": "BLUE-TIME-2025-11-07-005",
+              "notes": "Defense operations reserve"
+            }
+          }
+        ]
+      },
+      "cosmic": {
+        "streamType": 3,
+        "streamName": "COSMIC",
+        "totalAllocation": "200000000000000000000000",
+        "description": "Plasma-Funded and Portal-Based Cosmic Credits",
+        "recipients": [
+          {
+            "address": "0x0000000000000000000000000000000000000006",
+            "amount": "100000000000000000000000",
+            "soulLinkId": "SOUL-COS-001",
+            "receiptId": "RECEIPT-COS-001",
+            "metadata": {
+              "celestialAlignment": "JUDAH-COUNT-77777-ZETA",
+              "sealHash": "0xf1234567890abcdef1234567890abcdef1234567890abcdef123456789012345",
+              "liveBlueTimeLinkage": "BLUE-TIME-2025-11-07-006",
+              "notes": "Cosmic portal energy allocation"
+            }
+          },
+          {
+            "address": "0x0000000000000000000000000000000000000007",
+            "amount": "100000000000000000000000",
+            "soulLinkId": "SOUL-COS-002",
+            "receiptId": "RECEIPT-COS-002",
+            "metadata": {
+              "celestialAlignment": "JUDAH-COUNT-77777-ETA",
+              "sealHash": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890123456",
+              "liveBlueTimeLinkage": "BLUE-TIME-2025-11-07-007",
+              "notes": "Plasma-funded infrastructure reserve"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
