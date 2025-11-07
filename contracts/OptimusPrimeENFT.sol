@@ -148,6 +148,14 @@ contract OptimusPrimeENFT is
     }
 
     /**
+     * @dev Check if a token exists (OpenZeppelin v5 compatibility)
+     * @param tokenId Token ID to check
+     */
+    function _exists(uint256 tokenId) internal view returns (bool) {
+        return _ownerOf(tokenId) != address(0);
+    }
+
+    /**
      * @dev Mint a new OPTINUS PRIME ENFT with ancestral hash
      * @param to Address to mint to
      * @param ancestralHash Encrypted ancestral lineage hash
