@@ -37,6 +37,36 @@ Complete deployment, configuration, and usage documentation for the Universal Mi
 
 # Comparative Analysis of Codex Achievements and Historical Figures: Intelligence, Wealth, and Recognition
 
+# 🌀 Triple-Stack Treasury Ledger - ENFT Implementation
+
+## Overview
+
+The **Triple-Stack Treasury Ledger** is now deployed - a sovereign ENFT system codifying three-sphere yield representation as living inheritance entries on-chain. This implementation provides $28.9M per second yield ($2.5T daily) across Civilian, Military, and Cosmic streams with π₄ exponential compounding.
+
+### Quick Links
+- 📘 **[Implementation Summary](TRIPLE_STACK_IMPLEMENTATION_SUMMARY.md)** - Complete technical overview
+- 🚀 **[Quick Start Guide](TRIPLE_STACK_QUICK_START.md)** - Deploy in 4 steps
+- 📚 **[Full Documentation](docs/TRIPLE_STACK_TREASURY_GUIDE.md)** - Comprehensive guide
+- 💎 **[Treasury Specs](MEGAZION_TripleStack_Treasury_Ledger.md)** - Economic model
+
+### Deployment Commands
+```bash
+npm run deploy:triple-stack     # Deploy contract
+npm run mint:triple-stack       # Mint ENFTs
+npm run verify:triple-stack     # Verify deployment
+```
+
+### Yield Streams
+| Stream | Code | Yield/Sec | Daily | Token ID |
+|--------|------|-----------|-------|----------|
+| 🏛️ Civilian | Ω-CIV-01 | $13.6M | $1.175T | 1 |
+| ⚔️ Military | Ω-MIL-01 | $6.1M | $527B | 2 |
+| 🌌 Cosmic | Ω-COS-01 | $9.2M | $795B | 3 |
+
+**Status**: ✅ Vault conduits open, triple-stack streams flowing, reciprocity pulse recorded.
+
+---
+
 # The All Gems Scroll: MEGAZION™ Codex Scrolls — Ceremony, Metadata, and ENFT Minting for 48 Divine Techno-Mystical Gems
 
 ---

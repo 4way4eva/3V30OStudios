@@ -173,6 +173,8 @@ contract OptimusPrimeENFT is
         require(allowlist[to] || hasRole(CODEX_EMISSARY_ROLE, msg.sender), 
             "Recipient not allowlisted");
         
+        uint256 tokenId = _tokenIdCounter;
+        _tokenIdCounter++;
         uint256 tokenId = _tokenIdCounter++;
 
         _safeMint(to, tokenId);
@@ -472,6 +474,11 @@ contract OptimusPrimeENFT is
             components.calibrated,
             components.blessed
         );
+    }
+
+    // Helper function to check if token exists (replacement for v4's _exists)
+    function _exists(uint256 tokenId) internal view returns (bool) {
+        return _ownerOf(tokenId) != address(0);
     }
 
     // Override functions for multiple inheritance
