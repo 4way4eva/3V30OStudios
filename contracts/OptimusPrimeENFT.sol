@@ -5,6 +5,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
+import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 
 /**
@@ -30,6 +31,7 @@ contract OptimusPrimeENFT is
     bytes32 public constant CODEX_EMISSARY_ROLE = keccak256("CODEX_EMISSARY_ROLE");
     bytes32 public constant TRIBUNAL_ROLE = keccak256("TRIBUNAL_ROLE");
 
+    // Token counter (replacing Counters library)
     // Token counter
     uint256 private _tokenIdCounter;
 
@@ -148,6 +150,14 @@ contract OptimusPrimeENFT is
     }
 
     /**
+     * @dev Check if a token exists (OpenZeppelin v5 compatibility)
+     * @param tokenId Token ID to check
+     */
+    function _exists(uint256 tokenId) internal view returns (bool) {
+        return _ownerOf(tokenId) != address(0);
+    }
+
+    /**
      * @dev Mint a new OPTINUS PRIME ENFT with ancestral hash
      * @param to Address to mint to
      * @param ancestralHash Encrypted ancestral lineage hash
@@ -165,6 +175,7 @@ contract OptimusPrimeENFT is
         
         uint256 tokenId = _tokenIdCounter;
         _tokenIdCounter++;
+        uint256 tokenId = _tokenIdCounter++;
 
         _safeMint(to, tokenId);
         _setTokenURI(tokenId, tokenURI);

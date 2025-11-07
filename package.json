@@ -15,6 +15,9 @@
     "deploy:triple-stack": "hardhat run scripts/deploy_triple_stack_treasury.ts",
     "mint:triple-stack": "hardhat run scripts/mint_triple_stack_yields.ts",
     "verify:triple-stack": "hardhat run scripts/verify_triple_stack_treasury.ts",
+    "deploy:codex-governance": "hardhat run scripts/deploy_codex_governance.ts",
+    "deploy:enft-ledger": "hardhat run scripts/deploy_enft_ledger.ts",
+    "deploy:metacurriculum": "hardhat run scripts/deploy_metacurriculum.ts",
     "compile": "hardhat compile",
     "test": "hardhat test",
     "clean": "hardhat clean",
@@ -23,6 +26,7 @@
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.0",
     "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
     "ipfs-http-client": "^59.0.0"
   },
   "devDependencies": {
