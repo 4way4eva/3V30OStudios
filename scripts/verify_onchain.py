@@ -277,8 +277,8 @@ class OnChainVerifier:
         minting_files = sorted(glob.glob(str(deployments_dir / pattern)))
         
         if not minting_files:
-            print("  ℹ️  No artifacts minted yet")
-            print("     Run: npx hardhat run scripts/mint.js --network", self.network)
+            print(f"  ℹ️  No artifacts minted yet")
+            print(f"     Run: npx hardhat run scripts/mint.js --network {self.network}")
             return
             
         latest_file = minting_files[-1]

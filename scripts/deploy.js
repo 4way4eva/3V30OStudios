@@ -23,8 +23,19 @@ async function main() {
   console.log("");
 
   // Configuration
-  const treasuryVault = process.env.TREASURY_VAULT || deployer.address;
-  console.log("🏦 Treasury Vault:", treasuryVault);
+  const treasuryVault = process.env.TREASURY_VAULT;
+  
+  if (!treasuryVault) {
+    console.error("\n❌ Error: TREASURY_VAULT not set in .env file");
+    console.error("   For production deployments, please set TREASURY_VAULT=0x...");
+    console.error("   Using deployer address as fallback for testing only.\n");
+  }
+  
+  const treasuryAddress = treasuryVault || deployer.address;
+  console.log("🏦 Treasury Vault:", treasuryAddress);
+  if (!treasuryVault) {
+    console.log("⚠️  WARNING: Using deployer address as treasury (testing only)");
+  }
   console.log("");
 
   // Deploy zkPoRVerifier
@@ -39,7 +50,7 @@ async function main() {
   // Deploy BleuCrownMintUltraMax
   console.log("📦 [2/2] Deploying BleuCrownMintUltraMax...");
   const BleuCrownMintUltraMax = await hre.ethers.getContractFactory("BleuCrownMintUltraMax");
-  const mintController = await BleuCrownMintUltraMax.deploy(treasuryVault, zkVerifierAddress);
+  const mintController = await BleuCrownMintUltraMax.deploy(treasuryAddress, zkVerifierAddress);
   await mintController.waitForDeployment();
   const mintControllerAddress = await mintController.getAddress();
   console.log("✅ BleuCrownMintUltraMax deployed to:", mintControllerAddress);
@@ -69,7 +80,7 @@ async function main() {
       }
     },
     configuration: {
-      treasuryVault: treasuryVault,
+      treasuryVault: treasuryAddress,
       zkVerifierLinked: zkVerifierAddress
     }
   };
@@ -116,6 +127,9 @@ async function main() {
   console.log("\n2. Configure environment variables:");
   console.log(`   ZKPOR_VERIFIER=${zkVerifierAddress}`);
   console.log(`   BLEU_MINT_CONTROLLER=${mintControllerAddress}`);
+  if (!treasuryVault) {
+    console.log(`   TREASURY_VAULT=<your_secure_treasury_address>`);
+  }
   
   console.log("\n3. Run minting script:");
   console.log(`   npx hardhat run scripts/mint.js --network ${networkName}`);

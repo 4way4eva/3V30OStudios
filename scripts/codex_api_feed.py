@@ -19,6 +19,12 @@ from typing import Dict, List
 class InheritanceCodexAPI:
     """API feed generator for inheritance codex and daily insights"""
     
+    # Configuration: Special attributes for rarity calculation
+    SPECIAL_ATTRIBUTES = [
+        "quantum", "dimensional", "timeline", "sovereign", "multiverse",
+        "temporal", "portal", "saturnian", "spiral"
+    ]
+    
     def __init__(self, epoch_file: str):
         self.epoch_file = Path(epoch_file)
         self.data = self._load_epoch_data()
@@ -125,8 +131,10 @@ class InheritanceCodexAPI:
     
     def _calculate_rarity(self, attributes: List[str]) -> str:
         """Calculate rarity based on attributes"""
-        special_attrs = ["quantum", "dimensional", "timeline", "sovereign", "multiverse"]
-        special_count = sum(1 for attr in attributes if any(s in attr for s in special_attrs))
+        special_count = sum(
+            1 for attr in attributes 
+            if any(s in attr for s in self.SPECIAL_ATTRIBUTES)
+        )
         
         if special_count >= 3:
             return "MYTHIC"
