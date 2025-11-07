@@ -30,6 +30,7 @@ contract OptimusPrimeENFT is
     bytes32 public constant CODEX_EMISSARY_ROLE = keccak256("CODEX_EMISSARY_ROLE");
     bytes32 public constant TRIBUNAL_ROLE = keccak256("TRIBUNAL_ROLE");
 
+    // Token counter (replacing Counters library)
     // Token counter
     uint256 private _tokenIdCounter;
 
