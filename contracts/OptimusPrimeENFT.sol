@@ -5,8 +5,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
-import "@openzeppelin/contracts/utils/Counters.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 
 /**
  * @title OptimusPrimeENFT
@@ -26,15 +25,13 @@ contract OptimusPrimeENFT is
     AccessControl,
     ReentrancyGuard 
 {
-    using Counters for Counters.Counter;
-
     // Role definitions
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     bytes32 public constant CODEX_EMISSARY_ROLE = keccak256("CODEX_EMISSARY_ROLE");
     bytes32 public constant TRIBUNAL_ROLE = keccak256("TRIBUNAL_ROLE");
 
-    // Token counter
-    Counters.Counter private _tokenIdCounter;
+    // Token counter (replacing Counters library)
+    uint256 private _tokenIdCounter;
 
     // Deployment permission flags
     enum DeploymentPermission {
@@ -166,8 +163,7 @@ contract OptimusPrimeENFT is
         require(allowlist[to] || hasRole(CODEX_EMISSARY_ROLE, msg.sender), 
             "Recipient not allowlisted");
         
-        uint256 tokenId = _tokenIdCounter.current();
-        _tokenIdCounter.increment();
+        uint256 tokenId = _tokenIdCounter++;
 
         _safeMint(to, tokenId);
         _setTokenURI(tokenId, tokenURI);
