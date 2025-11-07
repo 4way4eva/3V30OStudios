@@ -33,15 +33,18 @@ async function main() {
     if (fs.existsSync(deploymentsDir)) {
       const files = fs.readdirSync(deploymentsDir)
         .filter(f => f.startsWith("triple-stack-treasury") && f.endsWith(".json"))
-        .sort()
-        .reverse();
+        .map(f => {
+          const stats = fs.statSync(path.join(deploymentsDir, f));
+          return { name: f, mtime: stats.mtime.getTime() };
+        })
+        .sort((a, b) => b.mtime - a.mtime); // Sort by modification time, newest first
       
       if (files.length > 0) {
         const latestDeployment = JSON.parse(
-          fs.readFileSync(path.join(deploymentsDir, files[0]), "utf-8")
+          fs.readFileSync(path.join(deploymentsDir, files[0].name), "utf-8")
         );
         treasuryAddress = latestDeployment.contracts.TripleStackTreasuryLedger.address;
-        console.log("📦 Loaded contract from:", files[0]);
+        console.log("📦 Loaded contract from:", files[0].name);
       }
     }
   }

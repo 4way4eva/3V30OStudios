@@ -101,15 +101,20 @@ async function main() {
   console.log("👥 Recipients:", mintConfig.recipients.length);
   console.log();
 
-  // Generate Blu-Vault authorization tag
+  // Generate Blu-Vault authorization tag using blockchain timestamp and nonce
+  const blockNumber = await ethers.provider.getBlockNumber();
+  const block = await ethers.provider.getBlock(blockNumber);
+  const nonce = await deployer.getNonce();
+  
   const authTag = ethers.keccak256(
     ethers.solidityPacked(
-      ["address", "uint256", "string"],
-      [deployer.address, Date.now(), "BLU-VAULT-π4-AUTHORIZATION"]
+      ["address", "uint256", "uint256", "string"],
+      [deployer.address, block?.timestamp || 0, nonce, "BLU-VAULT-π4-AUTHORIZATION"]
     )
   );
 
   console.log("🔐 Blu-Vault Auth Tag:", authTag);
+  console.log("   Block:", blockNumber, "| Nonce:", nonce);
   console.log();
 
   // Mint records

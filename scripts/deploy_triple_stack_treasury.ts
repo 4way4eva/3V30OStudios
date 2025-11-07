@@ -20,8 +20,12 @@ async function main() {
   console.log("💰 Balance:", ethers.formatEther(await ethers.provider.getBalance(deployer.address)), "ETH");
   console.log();
 
-  // Base URI for metadata (can be IPFS or centralized)
-  const baseURI = process.env.TREASURY_BASE_URI || "https://megazion.enft/treasury/";
+  // Base URI for metadata (required from environment)
+  const baseURI = process.env.TREASURY_BASE_URI;
+  
+  if (!baseURI) {
+    throw new Error("TREASURY_BASE_URI environment variable is required for deployment");
+  }
 
   console.log("📦 Deploying TripleStackTreasuryLedger...");
   const TripleStackTreasuryLedger = await ethers.getContractFactory("TripleStackTreasuryLedger");

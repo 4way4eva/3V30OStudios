@@ -82,6 +82,10 @@ contract TripleStackTreasuryLedger is ERC1155, AccessControl, ReentrancyGuard {
     
     // π₄ constant (approximation scaled by 1e18)
     uint256 public constant PI4_SCALED = 97409091034 * 1e8; // π^4 ≈ 97.409
+    
+    // Constants for calculations
+    uint256 private constant SECONDS_PER_DAY = 86400;
+    uint256 private constant PRECISION_SCALE = 1e18;
 
     // Chain configuration for interoperability
     mapping(uint256 => string) private _chainBaseURIs;
@@ -299,19 +303,19 @@ contract TripleStackTreasuryLedger is ERC1155, AccessControl, ReentrancyGuard {
         if (timeElapsed == 0) return 0;
 
         // For small time periods, use linear approximation to save gas
-        if (timeElapsed < 86400) { // Less than 1 day
+        if (timeElapsed < SECONDS_PER_DAY) { // Less than 1 day
             return params.baseYield * timeElapsed;
         }
 
         // Calculate exponent: t/T
-        uint256 exponent = (timeElapsed * 1e18) / params.compoundingInterval;
+        uint256 exponent = (timeElapsed * PRECISION_SCALE) / params.compoundingInterval;
         
         // Simplified π₄ growth calculation
         // Y(t) ≈ Y_0 * (1 + (π^4 - 1) * t/T) for small t/T
         // For larger periods, use compound formula approximation
-        uint256 growthFactor = 1e18 + ((PI4_SCALED - 1e18) * exponent) / 1e18;
+        uint256 growthFactor = PRECISION_SCALE + ((PI4_SCALED - PRECISION_SCALE) * exponent) / PRECISION_SCALE;
         
-        return (params.baseYield * timeElapsed * growthFactor) / 1e18;
+        return (params.baseYield * timeElapsed * growthFactor) / PRECISION_SCALE;
     }
 
     /**
@@ -326,12 +330,12 @@ contract TripleStackTreasuryLedger is ERC1155, AccessControl, ReentrancyGuard {
         Pi4Parameters storage params = _pi4Params[tokenId];
         
         uint256 timeElapsed = block.timestamp - params.deploymentTime;
-        uint256 exponent = (timeElapsed * 1e18) / params.compoundingInterval;
+        uint256 exponent = (timeElapsed * PRECISION_SCALE) / params.compoundingInterval;
         
         // Calculate new yield with π₄ compounding
         uint256 oldYield = metadata.yieldPerSecond;
-        uint256 growthFactor = 1e18 + ((PI4_SCALED - 1e18) * exponent) / 1e18;
-        uint256 newYield = (params.baseYield * growthFactor) / 1e18;
+        uint256 growthFactor = PRECISION_SCALE + ((PI4_SCALED - PRECISION_SCALE) * exponent) / PRECISION_SCALE;
+        uint256 newYield = (params.baseYield * growthFactor) / PRECISION_SCALE;
         
         metadata.yieldPerSecond = newYield;
         
