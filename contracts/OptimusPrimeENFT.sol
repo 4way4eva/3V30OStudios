@@ -31,6 +31,7 @@ contract OptimusPrimeENFT is
     bytes32 public constant TRIBUNAL_ROLE = keccak256("TRIBUNAL_ROLE");
 
     // Token counter (replacing Counters library)
+    // Token counter
     uint256 private _tokenIdCounter;
 
     // Deployment permission flags
@@ -145,6 +146,14 @@ contract OptimusPrimeENFT is
         _grantRole(MINTER_ROLE, msg.sender);
         _grantRole(CODEX_EMISSARY_ROLE, msg.sender);
         treasuryVault = _treasuryVault;
+    }
+
+    /**
+     * @dev Check if a token exists (OpenZeppelin v5 compatibility)
+     * @param tokenId Token ID to check
+     */
+    function _exists(uint256 tokenId) internal view returns (bool) {
+        return _ownerOf(tokenId) != address(0);
     }
 
     /**
