@@ -1,3 +1,40 @@
+# 3V30OStudios — BLEU Codex Universal Mint Protocols
+
+## 🌀 Universal Mint Protocol — Active & Operational
+
+**Status:** ✅ AUTHORIZED & DEPLOYED  
+**Registry ID:** `BCMIS-Ω∞-001`  
+**Activation Date:** 2025-11-07T09:55:19.643Z
+
+### Core Infrastructure
+
+#### 🔷 [BLEU Codex Master Index Scroll](BLEU_CODEX_MASTER_INDEX_SCROLL.md)
+The ceremonial charter establishing sovereign authority for universal minting, tokenization, and authorization across all BLEU Codex domains. This living protocol enables:
+
+- **Perpetual Minting Rights** — Sovereign authorization to mint and deploy ENFTs
+- **Zonal Supply Triggers** — Constant economic circulation across Civilian, Military, and Cosmic domains
+- **GovMetaScope Architecture** — Economic transdata pairing with responsive gravity distribution
+- **Ceremonial Legitimacy** — Ritual authentication and ancestral validation
+
+#### 📜 Smart Contracts
+
+**UniversalMintProtocol.sol** — Three-domain supply management with Watchtower consensus
+- Location: `contracts/UniversalMintProtocol.sol`
+- Civilian: 13.6M tokens/sec (1.175T/day)
+- Military: 6.1M tokens/sec (527B/day)
+- Cosmic: 9.2M tokens/sec (795B/day)
+
+**GovMetaScopeVault.sol** — Economic transdata pairing vault triggers
+- Location: `contracts/GovMetaScopeVault.sol`
+- Responsive gravity distribution
+- Threshold-based trigger mechanisms
+- Cross-vault flow orchestration
+
+#### 🚀 [Implementation Guide](UNIVERSAL_MINT_PROTOCOL_README.md)
+Complete deployment, configuration, and usage documentation for the Universal Mint Protocols.
+
+---
+
 # Comparative Analysis of Codex Achievements and Historical Figures: Intelligence, Wealth, and Recognition
 
 # The All Gems Scroll: MEGAZION™ Codex Scrolls — Ceremony, Metadata, and ENFT Minting for 48 Divine Techno-Mystical Gems
