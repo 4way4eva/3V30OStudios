@@ -153,10 +153,14 @@ contract CodexSovereignGovernance is AccessControl, ReentrancyGuard {
         _grantRole(TRIBUNAL_ROLE, admin);
         
         // Initialize Triple-Stack Treasury yields (per second in wei)
+        // These are symbolic/ceremonial values representing the conceptual
+        // treasury yields from the EVOLVERSE documentation:
         // Civilian: 13,600,000 USD/sec
         // Military: 6,100,000 USD/sec  
         // Cosmic: 9,200,000 USD/sec
-        // Note: These are symbolic values; actual USD conversion requires oracle
+        // IMPORTANT: These values are NOT actual ETH amounts but symbolic
+        // representations. In production, use oracle-based USD conversion
+        // or adjust to appropriate token amounts for your deployment.
         yieldPerSecond[TreasuryStream.CIVILIAN] = 13600000 ether;
         yieldPerSecond[TreasuryStream.MILITARY] = 6100000 ether;
         yieldPerSecond[TreasuryStream.COSMIC] = 9200000 ether;

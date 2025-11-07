@@ -4,7 +4,6 @@ pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-import "@openzeppelin/contracts/token/ERC1155/IERC1155.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 
@@ -91,6 +90,7 @@ contract ENFTLedger is
     // State variables
     uint256 private _tokenIdCounter;
     uint256 private _triggerIdCounter;
+    uint256 public maxBatchMintSize = 100; // Configurable batch mint limit
 
     mapping(uint256 => ENFTMetadata) public enftMetadata;
     mapping(uint256 => ChainTrigger) public chainTriggers;
@@ -231,7 +231,7 @@ contract ENFTLedger is
         bool isBridgeable
     ) external onlyRole(MINTER_ROLE) nonReentrant returns (uint256[] memory) {
         require(to != address(0), "ENFTLedger: mint to zero address");
-        require(count > 0 && count <= 100, "ENFTLedger: invalid count");
+        require(count > 0 && count <= maxBatchMintSize, "ENFTLedger: invalid count");
         require(bytes(baseMetadataURI).length > 0, "ENFTLedger: empty metadata URI");
         
         uint256[] memory tokenIds = new uint256[](count);
@@ -363,6 +363,17 @@ contract ENFTLedger is
         ChainStatus status
     ) external onlyRole(DEFAULT_ADMIN_ROLE) {
         chainSupport[chainId] = status;
+        emit ChainSupportUpdated(chainId, status);
+    }
+
+    /**
+     * @dev Update maximum batch mint size
+     * @param newMaxSize New maximum batch size
+     */
+    function updateMaxBatchMintSize(uint256 newMaxSize) external onlyRole(DEFAULT_ADMIN_ROLE) {
+        require(newMaxSize > 0 && newMaxSize <= 1000, "ENFTLedger: invalid max size");
+        maxBatchMintSize = newMaxSize;
+    }
         emit ChainSupportUpdated(chainId, status);
     }
 
