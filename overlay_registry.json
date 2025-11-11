@@ -1,0 +1,403 @@
+{
+  "version": "1.0.0",
+  "description": "48-Layer Overlay Registry for MEGAZION BLEULIONTREASURY Codex",
+  "total_layers": 48,
+  "base_layer": {
+    "id": 0,
+    "name": "Foundation",
+    "description": "Base economic layer with three-domain structure",
+    "domains": ["CIVILIAN", "MILITARY", "COSMIC"]
+  },
+  "layers": [
+    {
+      "id": 1,
+      "name": "Economic Foundation",
+      "type": "structural",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.0,
+      "ritual_reference": "R001"
+    },
+    {
+      "id": 2,
+      "name": "Defensive Protocols",
+      "type": "security",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.0,
+      "ritual_reference": "R002"
+    },
+    {
+      "id": 3,
+      "name": "Quantum Gateway",
+      "type": "portal",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.0,
+      "ritual_reference": "R003"
+    },
+    {
+      "id": 4,
+      "name": "Treasury Anchor",
+      "type": "financial",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.05,
+      "ritual_reference": "R004"
+    },
+    {
+      "id": 5,
+      "name": "Tactical Reserve",
+      "type": "strategic",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.05,
+      "ritual_reference": "R005"
+    },
+    {
+      "id": 6,
+      "name": "Dimensional Fold",
+      "type": "spatial",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.05,
+      "ritual_reference": "R006"
+    },
+    {
+      "id": 7,
+      "name": "Commercial Hub",
+      "type": "economic",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.1,
+      "ritual_reference": "R007"
+    },
+    {
+      "id": 8,
+      "name": "Arsenal Cache",
+      "type": "armament",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.1,
+      "ritual_reference": "R008"
+    },
+    {
+      "id": 9,
+      "name": "Stellar Nexus",
+      "type": "cosmic",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.1,
+      "ritual_reference": "R009"
+    },
+    {
+      "id": 10,
+      "name": "Education Matrix",
+      "type": "knowledge",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.15,
+      "ritual_reference": "R010"
+    },
+    {
+      "id": 11,
+      "name": "Command Structure",
+      "type": "hierarchy",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.15,
+      "ritual_reference": "R011"
+    },
+    {
+      "id": 12,
+      "name": "Void Bridge",
+      "type": "transit",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.15,
+      "ritual_reference": "R012"
+    },
+    {
+      "id": 13,
+      "name": "Infrastructure Grid",
+      "type": "utility",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.2,
+      "ritual_reference": "R013"
+    },
+    {
+      "id": 14,
+      "name": "War Machine",
+      "type": "operational",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.2,
+      "ritual_reference": "R014"
+    },
+    {
+      "id": 15,
+      "name": "Temporal Anchor",
+      "type": "chronological",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.2,
+      "ritual_reference": "R015"
+    },
+    {
+      "id": 16,
+      "name": "Real Estate Vault",
+      "type": "property",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.25,
+      "ritual_reference": "R016"
+    },
+    {
+      "id": 17,
+      "name": "Intelligence Network",
+      "type": "information",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.25,
+      "ritual_reference": "R017"
+    },
+    {
+      "id": 18,
+      "name": "Nebula Forge",
+      "type": "creation",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.25,
+      "ritual_reference": "R018"
+    },
+    {
+      "id": 19,
+      "name": "Trade Federation",
+      "type": "commerce",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.3,
+      "ritual_reference": "R019"
+    },
+    {
+      "id": 20,
+      "name": "Strategic Command",
+      "type": "planning",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.3,
+      "ritual_reference": "R020"
+    },
+    {
+      "id": 21,
+      "name": "Quantum Processor",
+      "type": "computation",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.3,
+      "ritual_reference": "R021"
+    },
+    {
+      "id": 22,
+      "name": "Cultural Heritage",
+      "type": "legacy",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.35,
+      "ritual_reference": "R022"
+    },
+    {
+      "id": 23,
+      "name": "Defense Shield",
+      "type": "protection",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.35,
+      "ritual_reference": "R023"
+    },
+    {
+      "id": 24,
+      "name": "Wormhole Station",
+      "type": "passage",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.35,
+      "ritual_reference": "R024"
+    },
+    {
+      "id": 25,
+      "name": "Banking Consortium",
+      "type": "financial",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.4,
+      "ritual_reference": "R025"
+    },
+    {
+      "id": 26,
+      "name": "Weapons Development",
+      "type": "research",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.4,
+      "ritual_reference": "R026"
+    },
+    {
+      "id": 27,
+      "name": "Singularity Core",
+      "type": "energy",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.4,
+      "ritual_reference": "R027"
+    },
+    {
+      "id": 28,
+      "name": "Civic Assembly",
+      "type": "governance",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.45,
+      "ritual_reference": "R028"
+    },
+    {
+      "id": 29,
+      "name": "Joint Operations",
+      "type": "coordination",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.45,
+      "ritual_reference": "R029"
+    },
+    {
+      "id": 30,
+      "name": "Astral Observatory",
+      "type": "observation",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.45,
+      "ritual_reference": "R030"
+    },
+    {
+      "id": 31,
+      "name": "Labor Exchange",
+      "type": "workforce",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.5,
+      "ritual_reference": "R031"
+    },
+    {
+      "id": 32,
+      "name": "Logistics Network",
+      "type": "supply",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.5,
+      "ritual_reference": "R032"
+    },
+    {
+      "id": 33,
+      "name": "Dark Matter Reactor",
+      "type": "power",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.5,
+      "ritual_reference": "R033"
+    },
+    {
+      "id": 34,
+      "name": "Healthcare Network",
+      "type": "wellness",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.55,
+      "ritual_reference": "R034"
+    },
+    {
+      "id": 35,
+      "name": "Cyber Warfare Unit",
+      "type": "digital",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.55,
+      "ritual_reference": "R035"
+    },
+    {
+      "id": 36,
+      "name": "Dimension Shifter",
+      "type": "phase",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.55,
+      "ritual_reference": "R036"
+    },
+    {
+      "id": 37,
+      "name": "Innovation Hub",
+      "type": "technology",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.6,
+      "ritual_reference": "R037"
+    },
+    {
+      "id": 38,
+      "name": "Special Forces",
+      "type": "elite",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.6,
+      "ritual_reference": "R038"
+    },
+    {
+      "id": 39,
+      "name": "Cosmic Archive",
+      "type": "memory",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.6,
+      "ritual_reference": "R039"
+    },
+    {
+      "id": 40,
+      "name": "Transport Grid",
+      "type": "mobility",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.65,
+      "ritual_reference": "R040"
+    },
+    {
+      "id": 41,
+      "name": "Strategic Reserves",
+      "type": "stockpile",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.65,
+      "ritual_reference": "R041"
+    },
+    {
+      "id": 42,
+      "name": "Infinity Engine",
+      "type": "perpetual",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.65,
+      "ritual_reference": "R042"
+    },
+    {
+      "id": 43,
+      "name": "Resource Management",
+      "type": "allocation",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.7,
+      "ritual_reference": "R043"
+    },
+    {
+      "id": 44,
+      "name": "Tactical Supremacy",
+      "type": "dominance",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.7,
+      "ritual_reference": "R044"
+    },
+    {
+      "id": 45,
+      "name": "Universal Constant",
+      "type": "fundamental",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.7,
+      "ritual_reference": "R045"
+    },
+    {
+      "id": 46,
+      "name": "Prosperity Protocol",
+      "type": "wealth",
+      "domain": "CIVILIAN",
+      "yield_multiplier": 1.75,
+      "ritual_reference": "R046"
+    },
+    {
+      "id": 47,
+      "name": "Ultimate Defense",
+      "type": "absolute",
+      "domain": "MILITARY",
+      "yield_multiplier": 1.75,
+      "ritual_reference": "R047"
+    },
+    {
+      "id": 48,
+      "name": "Omega Convergence",
+      "type": "transcendent",
+      "domain": "COSMIC",
+      "yield_multiplier": 1.75,
+      "ritual_reference": "R048"
+    }
+  ],
+  "metadata": {
+    "created_at": "2024-11-11T22:16:01.766Z",
+    "author": "MEGAZION Codex Compiler",
+    "version": "1.0.0",
+    "total_yield_multiplier_sum": 64.8
+  }
+}
