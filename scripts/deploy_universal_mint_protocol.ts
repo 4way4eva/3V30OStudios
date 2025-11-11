@@ -49,10 +49,26 @@ async function main() {
   const vaultNames = ["Civilian", "Military", "Cosmic"];
 
   for (let i = 0; i < vaultIds.length; i++) {
-    console.log(`\nRegistering ${vaultNames[i]} Vault...`);
-    const tx = await govVault.registerVault(vaultIds[i]);
-    await tx.wait();
-    console.log(`✅ ${vaultNames[i]} Vault registered with ID:`, vaultIds[i]);
+    let attempts = 0;
+    const maxAttempts = 3;
+    let registered = false;
+    while (!registered && attempts < maxAttempts) {
+      try {
+        console.log(`\nRegistering ${vaultNames[i]} Vault (Attempt ${attempts + 1})...`);
+        const tx = await govVault.registerVault(vaultIds[i]);
+        await tx.wait();
+        console.log(`✅ ${vaultNames[i]} Vault registered with ID:`, vaultIds[i]);
+        registered = true;
+      } catch (error) {
+        attempts++;
+        console.error(`❌ Failed to register ${vaultNames[i]} Vault (Attempt ${attempts}):`, error);
+        if (attempts >= maxAttempts) {
+          console.error(`🚨 Giving up on registering ${vaultNames[i]} Vault after ${maxAttempts} attempts.`);
+        } else {
+          console.log(`🔄 Retrying ${vaultNames[i]} Vault registration...`);
+        }
+      }
+    }
   }
 
   // Configure vaults in UniversalMintProtocol
