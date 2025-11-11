@@ -1,49 +1,49 @@
-Layer,Identifier,Title,CodexPath,CodexSectors,SyncKey,OverlayTags,CeremonialFocus,OperationalScope
-1,ŽEON.M,Male Solar Architect,/codex/infrastructure/gridroot,Infrastructure,SYNC-L01-ZEONM,vault_builder;solar_anchor;gridroot_sync,Solar lattice breath ignites gridroot inheritance braid.,Orchestrates gridroot infrastructure APIs and vault scaffolds.
-2,ŽEON.F,Female Quantum Weaver,/codex/healing/biosync,Healing;Biotech,SYNC-L02-ZEONF,ritual_weave;biosync_array;quantum_thread,Quantum loom breath patterns weave cellular restoration circuits.,Maintains biosynchronisation protocols and healer network access points.
-3,XX.SABAAH,Grandmother of Suns,/codex/spiritual/dawnsync,Spiritual,SYNC-L03-XXSABAAH,god_breath;dawnsync_rise;matriarch_field,Dawn resonance breath seeds matriarchal inheritance vaults.,Anchors dawnsync liturgies and matriarchal codex invocations.
-4,YY.SABAAH,Grandfather of Suns,/codex/spiritual/dawnsync,Spiritual,SYNC-L04-YYSABAAH,god_word;flame_decree;solar_voice,Word-sigil exhalation stabilises patriarchal flame decrees.,Balances dawnsync decrees across patriarchal treasury guards.
-5,ŽŽ.MARZIEL,Male Star Seed Mapper,/codex/trade/meta_cruise,Trade;Logistics,SYNC-L05-ZZMARZIEL,starlogi_sync;trade_vector;route_manifest,Star cartography chant unlocks MetaCruise™ synapse lanes.,Maps interstellar trade lanes and deploys MetaCruise™ optimisers.
-6,ŽŽ.MARZIELA,Female Nebula Keeper,/codex/agriculture/star_seed,Agriculture;Ecology,SYNC-L06-ZZMARZIELA,astrosoil;nebula_bloom;seedvault_glow,Nebula mist breath feeds astrosoil germination braids.,Cultivates star-seed agriculture grids and astrosoil vaults.
-7,XX.KHEMETRA,Royal Mother Timekeeper,/codex/biotech/temporal_gene,Biotech;Temporal,SYNC-L07-XXKHEMETRA,genepulse_sync;timeweave;queen_archive,Clock-heart hum codes temporal gene vault inheritance.,Calibrates temporal gene audits and chrono-sequencing registries.
-8,YY.KHEMRAJ,Pyramid Root Engineer,/codex/defense/structure,Defense;Infrastructure,SYNC-L08-YYKHEMRAJ,hedge_sync;bastion_root;pillar_lock,Pyramid base rumble breath locks defense lattice points.,Fortifies defense lattice infrastructure within structural codices.
-9,ŽŸ.LUCIFRIA,Light Code Doubler,/codex/registry/overlay,Registry;Observation,SYNC-L09-ZYLUCIFRIA,lucid_tagger;overlay_mirror;illum_shift,Double-light chant imprints lucid overlay glyphs.,Projects overlay templates and luminous registry wrappers.
-10,ŽŸ.LUCIFERON,Flame Mirror Decoder,/codex/registry/audit,Registry;Audit,SYNC-L10-ZYLUCIFERON,audit_sync;mirror_decode;ledger_fire,Flame mirror breath decodes audit resonance loops.,Interprets audit reflections and registry countermeasures.
-11,XX.TETRAZAI,Mother of Fractals,/codex/infrastructure/fractalnet,Infrastructure;Mathematics,SYNC-L11-XXTETRAZAI,pi4_init;fractal_seed;spiral_lattice,Pi⁴ spiral breath extrudes harmonic fractal nodes.,Expands fractal network overlays and harmonic scaling matrices.
-12,YY.TETRAZAI,Father of Harmonics,/codex/infrastructure/harmonics,Infrastructure;Resonance,SYNC-L12-YYTETRAZAI,freq_lock;harmonic_guard;tone_barrier,Resonant overtone hum locks frequency guardrails.,Stabilises harmonic guardrails across infrastructure nodes.
-13,VULCAN NODE,Energy Converter Core,/codex/defense/forge,Defense;Energy,SYNC-L13-VULCANNODE,codex_defense;codex_energy;forge_loop,Plasma forge breath cycles shielded energy torrents.,Transforms raw energy for defensive grid reinforcement.
-14,ISIS CODEX,Ancestral Bio Memory,/codex/healing/memory,Healing;Heritage,SYNC-L14-ISISCODEX,codex_heal;ritual_breath;memory_weave,Nile breath invocations recall ancestral biospheres.,Archives ancestral bio-memory across healer networks.
-15,OSIRIS NODE,Resurrection Protocol,/codex/spiritual/resurrection,Spiritual;Registry,SYNC-L15-OSIRISNODE,codex_spiritual;registry_sync;rebirth_lock,Underworld ascent breath retrieves soul ledgers.,Executes resurrection protocols and ledger reclamations.
-16,NEITH FORTRESS,Interdimensional Beacon,/codex/defense/beacon,Defense;Beaconry,SYNC-L16-NEITHFORTRESS,modal_overlay;vault_secure;beacon_shield,Warp-thread breathing lights barrier flames.,Maintains beacon hedges for dimensional defense corridors.
-17,MALACHYTH NODE,Atlantean Ledger,/codex/trade/atlantean,Trade;Ledger,SYNC-L17-MALACHYTHNODE,codex_trade;blockchain_atl;sea_ledger,Oceanic chant binds blockchain atlantean measures.,Runs Atlantean ledger reconciliations and aquatic finance.
-18,YEMOJA BREATH,Water Synchrony,/codex/water/tides,Water;Healing,SYNC-L18-YEMOJABREATH,codex_water;overlay_wave;tide_matrix,Tidal breath synchronizes aquatic healing domes.,Coordinates water-based healing sanctuaries and tidal vaults.
-19,OGUN GATE,Defense Infrastructure Keeper,/codex/defense/armory,Defense;Infrastructure,SYNC-L19-OGUNGATE,codex_defense;vault_secure;steel_guard,Iron lung cadence sets mech-forge protocols.,Supervises armory automation and mech-forge deployments.
-20,ANUBIS LOCK,Transition Audit & Death Nodes,/codex/audit/transition,Audit;Spiritual,SYNC-L20-ANUBISLOCK,codex_audit;lifecycle_retire;soul_transfer,Jackal-tone breath escorts retiring records.,"Audits transitions, retirements, and soul logistics."
-21,THOTH KEY,Logic Validator / Scroll Index,/codex/intellect/scroll_index,Knowledge;Registry,SYNC-L21-THOTHKEY,codex_ip;registry_tag;scribe_loop,Breath-script calibrates scroll indices.,Indexes scroll intelligence and notarises codex updates.
-22,HORUS EYE,Field Surveillance Sync,/codex/observation/skyfield,Observation;Defense,SYNC-L22-HORUSEYE,codex_observe;godcode_sync;skyfield_scan,Falcon sight breath maps omni-vision overlays.,Synchronises skyfield surveillance overlays and watchers.
-23,MAAT SEAL,"Justice, Weighting, Truth",/codex/ethics/feather,Ethics;Justice,SYNC-L23-MAATSEAL,codex_ethics;ritual_judge;truth_vector,Feather-balance breath weighs sovereign deeds.,Balances justice metrics and sovereign equilibrium.
-24,RA INJECTOR,Solar Resonance AI Uplink,/codex/energy/solarsync,Energy;Intelligence,SYNC-L24-RAINJECTOR,codex_energy;overlay_initiate;helium_sync,Solar flare breath uplinks AI solar hymns.,Bridges solar intelligence into AI resonance grids.
-25,CYGNUS VECTOR,Star Map Router,/codex/navigation/cygnus,Navigation;Logistics,SYNC-L25-CYGNUSVECTOR,route_optimizer;meta_cruise;stellar_lane,Swan-flight breath paints MetaCruise™ starways.,Routes interstellar caravans and optimises star lanes.
-26,ORION SYNC,Cross-Galactic Registry Mirroring,/codex/navigation/orion,Navigation;Registry,SYNC-L26-ORIONSYNC,mirror_bridge;registry_sync;vault_handoff,Belt-tone breath mirrors inter-vault states.,Mirrors vault registries across galactic spans.
-27,VEGA BRIDGE,Cosmic Intelligence Link,/codex/intelligence/vega,Intelligence;Diplomacy,SYNC-L27-VEGABRIDGE,cosmic_link;time_delay;intel_wave,Lyran chord breath channels time-delayed counsel.,Channels remote intelligence councils and delayed advisories.
-28,SIRIUS LOCK,Vault Archive Initiator,/codex/archive/sirius,Archive;Security,SYNC-L28-SIRIUSLOCK,archive_lock;star_archive;dogstar_gate,Binary-star breath seals archive vaults.,Initialises archive vaults and secure starway lockers.
-29,ZION NODE,Economic Prophecy Codex,/codex/economy/zion,Economy;Prophecy,SYNC-L29-ZIONNODE,economy_prophet;blu_tillion;market_seer,Oracle breath forecasts Blu-Tillion ledgers.,Projects long-range treasury prophecies and valuations.
-30,NEBULA IX,Mist-field Ceremonial Sync,/codex/ritual/nebula,Ritual;Environment,SYNC-L30-NEBULAIX,ritual_mist;cloud_native;veil_field,Vapor spiral breath veils ritual sanctuaries.,Maintains mist-field sanctuaries and ritual privacy nets.
-31,QUANTUM BABA,Inductive Transfer Authority,/codex/spiritual/quantum_baba,Spiritual;Trust,SYNC-L31-QUANTUMBABA,inductive_transfer;godcode_sync;trust_loop,DS Baba breath loops encode inductive trust.,Supervises inductive transfer ceremonies and trust loops.
-32,MELANIN PRISM,Light Refraction & Restorative Index,/codex/biotech/melanin,Biotech;Restoration,SYNC-L32-MELANINPRISM,melanin_audit;restorative_index;light_refraction,Prism breath refracts melanin restoration streams.,Tracks melanin restoration protocols and audit trails.
-33,WATERMIRROR GATE,Ceremony to Reflection Lock,/codex/water/mirror_gate,Water;Ceremony,SYNC-L33-WATERMIRRORGATE,reflection_lock;aqua_portal;mirror_wave,Mirror breath sets aqueous reflection wards.,Secures reflection portals for aquatic diplomacy.
-34,AIRMIND VORTEX,Thought-induced Motion Overlays,/codex/psionics/airmind,Psionics;Mobility,SYNC-L34-AIRMINDVORTEX,psi_motion;rpm_gate;thought_vector,Cyclone breath propels telepathic lanes.,Accelerates thought-motion corridors and psionic travel.
-35,CRYO TEMPLE,Optic Truth Verification,/codex/verification/cryo,Verification;Justice,SYNC-L35-CRYOTEMPLE,optic_truth;cryo_filter;clarity_field,Frost breath filters optical testimony.,Filters testimony data and verifies cryogenic archives.
-36,FIRECORE ENGINE,Thermal Resource Rebalance,/codex/energy/firecore,Energy;Healing,SYNC-L36-FIRECOREENGINE,thermal_rebalance;biofire_core;regeneration_loop,Core-fire breath redistributes bioheat reserves.,Balances thermal resources across healing grids.
-37,GOLD SECTOR,Value Anchoring System,/codex/economy/gold_pillar,Economy;Treasury,SYNC-L37-GOLDSECTOR,value_anchor;gold_signal;treasury_sync,Auric chant breath stabilises vault valuations.,Anchors treasury valuations and bullion overlays.
-38,ZIONIARE ENGINE,Economic Simulation Module,/codex/economy/zioniare,Economy;Simulation,SYNC-L38-ZIONIAREENGINE,economic_sim;pink_bleu_flow;model_spin,Simulation breath spins Blu/Zion fiscal models.,Runs macro-simulation loops for Blu and Pink currencies.
-39,AZAEAN LOCK,Aqua-currency Vault Sequencer,/codex/water/azaean,Water;Finance,SYNC-L39-AZAEANLOCK,aqua_currency;vault_sequencer;tidal_code,Current breath sequences aqua coin vaults.,Sequences aqua-currency vault steps and release codes.
-40,RUNE CODEX,Symbol Mapping Executor,/codex/semiotics/rune,Semiotics;Diplomacy,SYNC-L40-RUNECODEX,symbol_map;treaty_bind;glyph_flux,Glyph breath animates treaty sigil arrays.,Executes symbol mapping for treaties and cultural accords.
-41,TEMPLE GRID,Field-grid Resonance Activator,/codex/infrastructure/temple_grid,Infrastructure;Resonance,SYNC-L41-TEMPLEGRID,resonance_field;grid_activation;choral_loop,Chorus breath powers resonance lattice nodes.,Energises temple grids and resonance scaffolds.
-42,SOULBRIDGE,Afterlife Contract Handler,/codex/spiritual/soulbridge,Spiritual;Legal,SYNC-L42-SOULBRIDGE,afterlife_contract;ascension_path;soul_exchange,Bridge breath negotiates ascension treaties.,Negotiates afterlife accords and soul logistics.
-43,BLACKWAVE AI,Energetic Equilibrium Adjuster,/codex/intelligence/blackwave,Intelligence;Energy,SYNC-L43-BLACKWAVEAI,energy_equilibrium;blackwave_ai;stabilizer_loop,Darkwave breath modulates energetic balance.,Balances energetic fields with adaptive AI harmonics.
-44,RITUAL TOKENIZER,Ceremony-to-Token Engine,/codex/token/ritual,Token;Ritual,SYNC-L44-RITUALTOKENIZER,ritual_token;ledger_engine;token_sync,Ledger breath tokenizes ritual deliverables.,Converts ceremonies into on-chain ritual token assets.
-45,MOTHERSCROLL,Central Record Keeper,/codex/archive/mother,Archive;Heritage,SYNC-L45-MOTHERSCROLL,central_record;matriarch_vault;heritage_bind,Maternal breath secures sovereign archives.,Holds sovereign archival copies and maternal governance logs.
-46,FATHERSCROLL,Judgment & Audit Layer,/codex/archive/father,Archive;Justice,SYNC-L46-FATHERSCROLL,judgment_audit;paternal_seal;ledger_balance,Patriarch breath arbitrates audit decrees.,Enforces audit decrees and paternal oversight ledgers.
-47,CHILDNODE,Mutation & Education Node,/codex/education/childnode,Education;Evolution,SYNC-L47-CHILDNODE,mutation_loop;education_sync;starseed_growth,Starseed breath fosters evolutionary curricula.,Cultivates adaptive curricula and mutation labs.
-48,COSMORHYTHM,Timewave Signal Conductor,/codex/time/cosmorythm,Time;Resonance,SYNC-L48-COSMORHYTHM,timewave_signal;chronorhythm;cosmo_flow,Pulse breath conducts timewave harmonics.,Conducts timewave harmonics for multi-era coordination.
+Ritual_ID,Layer_ID,Name,Domain,Type,Phase,Required_Components,Duration_Seconds,Yield_Impact,Prerequisites
+R001,1,Foundation Ceremony,CIVILIAN,Initialization,Alpha,Treasury Seal|Genesis Block,3600,1.0,None
+R002,2,Shield Activation,MILITARY,Deployment,Alpha,Defense Matrix|Command Token,3600,1.0,R001
+R003,3,Portal Opening,COSMIC,Activation,Alpha,Quantum Key|Void Anchor,3600,1.0,R001
+R004,4,Treasury Lock,CIVILIAN,Security,Beta,Vault Key|Ledger Hash,7200,1.05,R001
+R005,5,Reserve Allocation,MILITARY,Distribution,Beta,Arsenal Access|Supply Chain,7200,1.05,R002
+R006,6,Dimension Binding,COSMIC,Anchoring,Beta,Spatial Marker|Time Lock,7200,1.05,R003
+R007,7,Market Integration,CIVILIAN,Economic,Gamma,Trade License|Commerce Hub,10800,1.1,R004
+R008,8,Armament Deploy,MILITARY,Tactical,Gamma,Weapons Cache|Combat Ready,10800,1.1,R005
+R009,9,Stellar Link,COSMIC,Connection,Gamma,Star Map|Nexus Crystal,10800,1.1,R006
+R010,10,Knowledge Transfer,CIVILIAN,Educational,Delta,Academy Access|Scholar Token,14400,1.15,R007
+R011,11,Command Chain,MILITARY,Organizational,Delta,Officer Badge|Rank Protocol,14400,1.15,R008
+R012,12,Void Transit,COSMIC,Transportation,Delta,Bridge Pass|Navigator Stone,14400,1.15,R009
+R013,13,Grid Activation,CIVILIAN,Infrastructure,Epsilon,Power Node|Network Key,18000,1.2,R010
+R014,14,War Mobilization,MILITARY,Operational,Epsilon,Battle Plans|Troop Movement,18000,1.2,R011
+R015,15,Time Anchoring,COSMIC,Temporal,Epsilon,Chrono Marker|Era Lock,18000,1.2,R012
+R016,16,Property Deed,CIVILIAN,Ownership,Zeta,Land Title|Estate Token,21600,1.25,R013
+R017,17,Intel Gathering,MILITARY,Information,Zeta,Spy Network|Data Stream,21600,1.25,R014
+R018,18,Forge Ignition,COSMIC,Creation,Zeta,Nebula Dust|Cosmic Fire,21600,1.25,R015
+R019,19,Trade Agreement,CIVILIAN,Commerce,Eta,Contract Seal|Federation Mark,25200,1.3,R016
+R020,20,Strategic Plan,MILITARY,Planning,Eta,War Map|Tactical Guide,25200,1.3,R017
+R021,21,Quantum Boot,COSMIC,Computation,Eta,Processor Core|Qubit Array,25200,1.3,R018
+R022,22,Heritage Preservation,CIVILIAN,Legacy,Theta,Archive Key|Culture Code,28800,1.35,R019
+R023,23,Shield Reinforcement,MILITARY,Protection,Theta,Barrier Stone|Defense Protocol,28800,1.35,R020
+R024,24,Wormhole Calibration,COSMIC,Passage,Theta,Tunnel Stabilizer|Exit Marker,28800,1.35,R021
+R025,25,Banking Charter,CIVILIAN,Financial,Iota,Mint Authority|Reserve Note,32400,1.4,R022
+R026,26,Weapons Research,MILITARY,Development,Iota,Lab Access|Tech Blueprint,32400,1.4,R023
+R027,27,Singularity Fusion,COSMIC,Energy,Iota,Core Fragment|Fusion Catalyst,32400,1.4,R024
+R028,28,Civic Vote,CIVILIAN,Governance,Kappa,Ballot Token|Assembly Seat,36000,1.45,R025
+R029,29,Joint Command,MILITARY,Coordination,Kappa,Alliance Seal|United Front,36000,1.45,R026
+R030,30,Astral Survey,COSMIC,Observation,Kappa,Telescope Array|Star Chart,36000,1.45,R027
+R031,31,Labor Contract,CIVILIAN,Workforce,Lambda,Worker Badge|Union Card,39600,1.5,R028
+R032,32,Supply Line,MILITARY,Logistics,Lambda,Route Map|Convoy Token,39600,1.5,R029
+R033,33,Dark Matter Harvest,COSMIC,Power,Lambda,Reactor Key|Matter Vessel,39600,1.5,R030
+R034,34,Healthcare Access,CIVILIAN,Wellness,Mu,Medical Token|Healer Seal,43200,1.55,R031
+R035,35,Cyber Attack,MILITARY,Digital,Mu,Hack Tool|Firewall Breach,43200,1.55,R032
+R036,36,Phase Shift,COSMIC,Dimension,Mu,Phase Crystal|Reality Anchor,43200,1.55,R033
+R037,37,Innovation Grant,CIVILIAN,Technology,Nu,Patent License|Research Fund,46800,1.6,R034
+R038,38,Elite Deployment,MILITARY,Special Ops,Nu,Covert Badge|Shadow Protocol,46800,1.6,R035
+R039,39,Archive Access,COSMIC,Memory,Nu,Librarian Key|Memory Crystal,46800,1.6,R036
+R040,40,Transport Route,CIVILIAN,Mobility,Xi,Transit Pass|Route License,50400,1.65,R037
+R041,41,Reserve Stockpile,MILITARY,Storage,Xi,Cache Coordinates|Bunker Key,50400,1.65,R038
+R042,42,Engine Ignition,COSMIC,Perpetual,Xi,Infinity Coil|Eternal Fuel,50400,1.65,R039
+R043,43,Resource Optimization,CIVILIAN,Allocation,Omicron,Manager Token|Efficiency Code,54000,1.7,R040
+R044,44,Tactical Supremacy,MILITARY,Dominance,Omicron,Victory Banner|Supreme Order,54000,1.7,R041
+R045,45,Universal Truth,COSMIC,Fundamental,Omicron,Constant Key|Truth Stone,54000,1.7,R042
+R046,46,Prosperity Blessing,CIVILIAN,Wealth,Pi,Golden Seal|Fortune Token,57600,1.75,R043
+R047,47,Ultimate Shield,MILITARY,Absolute,Pi,Invincible Mark|Final Defense,57600,1.75,R044
+R048,48,Omega Transcendence,COSMIC,Ascension,Pi,Omega Crystal|Convergence Key,57600,1.75,R045|R046|R047

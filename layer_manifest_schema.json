@@ -1,0 +1,193 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://megazion.io/schemas/layer-manifest-v1.0.json",
+  "title": "MEGAZION Layer Manifest Schema",
+  "description": "JSON Schema for validating MEGAZION 48-Fold Codex layer manifests",
+  "type": "object",
+  "required": ["version", "description", "total_layers", "base_layer", "layers", "metadata"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version of the layer manifest"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Human-readable description of the layer system"
+    },
+    "total_layers": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 48,
+      "description": "Total number of layers in the system"
+    },
+    "base_layer": {
+      "type": "object",
+      "required": ["id", "name", "description", "domains"],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Base layer ID (typically 0)"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Name of the base layer"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Description of the base layer"
+        },
+        "domains": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["CIVILIAN", "MILITARY", "COSMIC"]
+          },
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "List of domains in the base layer"
+        }
+      }
+    },
+    "layers": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 48,
+      "items": {
+        "$ref": "#/definitions/layer"
+      },
+      "description": "Array of layer definitions"
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["created_at", "author", "version"],
+      "properties": {
+        "created_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of creation"
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Author or system that generated the manifest"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "description": "Version of the manifest format"
+        },
+        "total_yield_multiplier_sum": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Sum of all layer yield multipliers"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "layer": {
+      "type": "object",
+      "required": ["id", "name", "type", "domain", "yield_multiplier", "ritual_reference"],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 48,
+          "description": "Unique layer ID"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100,
+          "description": "Human-readable layer name"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "structural", "security", "portal", "financial", "strategic", 
+            "spatial", "economic", "armament", "cosmic", "knowledge", 
+            "hierarchy", "transit", "utility", "operational", "chronological", 
+            "property", "information", "creation", "commerce", "planning", 
+            "computation", "legacy", "protection", "passage", "research", 
+            "energy", "governance", "coordination", "observation", "workforce", 
+            "supply", "power", "wellness", "digital", "phase", "technology", 
+            "elite", "memory", "mobility", "stockpile", "perpetual", 
+            "allocation", "dominance", "fundamental", "wealth", "absolute", 
+            "transcendent"
+          ],
+          "description": "Type classification of the layer"
+        },
+        "domain": {
+          "type": "string",
+          "enum": ["CIVILIAN", "MILITARY", "COSMIC"],
+          "description": "Economic domain of the layer"
+        },
+        "yield_multiplier": {
+          "type": "number",
+          "minimum": 1.0,
+          "maximum": 10.0,
+          "multipleOf": 0.05,
+          "description": "Yield multiplier factor for this layer"
+        },
+        "ritual_reference": {
+          "type": "string",
+          "pattern": "^R\\d{3}$",
+          "description": "Reference to associated ritual (format: R###)"
+        },
+        "description": {
+          "type": "string",
+          "description": "Optional detailed description of the layer"
+        },
+        "prerequisites": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 47
+          },
+          "uniqueItems": true,
+          "description": "Optional array of prerequisite layer IDs"
+        },
+        "archetype_id": {
+          "type": "string",
+          "pattern": "^ARCH\\d{3}$",
+          "description": "Optional archetype mapping ID"
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "version": "1.0.0",
+      "description": "48-Layer Overlay Registry for MEGAZION BLEULIONTREASURY Codex",
+      "total_layers": 48,
+      "base_layer": {
+        "id": 0,
+        "name": "Foundation",
+        "description": "Base economic layer with three-domain structure",
+        "domains": ["CIVILIAN", "MILITARY", "COSMIC"]
+      },
+      "layers": [
+        {
+          "id": 1,
+          "name": "Economic Foundation",
+          "type": "structural",
+          "domain": "CIVILIAN",
+          "yield_multiplier": 1.0,
+          "ritual_reference": "R001"
+        }
+      ],
+      "metadata": {
+        "created_at": "2024-11-11T22:16:01.766Z",
+        "author": "MEGAZION Codex Compiler",
+        "version": "1.0.0",
+        "total_yield_multiplier_sum": 64.8
+      }
+    }
+  ]
+}

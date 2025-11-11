@@ -1,6 +1,6 @@
 {
-  "registryVersion": "2024.10.01-genesis",
-  "description": "Merkle root attestations for BLEULIONTREASURY cross-realm vaults.",
+  "registryVersion": "2024.11.11-48fold",
+  "description": "Merkle root attestations for BLEULIONTREASURY cross-realm vaults including 48-Fold Codex system.",
   "entries": [
     {
       "vaultId": "0x7661756c74476f6c6441757261636c65",
@@ -16,6 +16,43 @@
       "vaultId": "0x7661756c744f70616c496e6469676f",
       "merkleRoot": "0xc3d0c4a97e5bd3323b7cf568e24c596cb74d9e5a64f548f94b1d717a8d8e3344",
       "reportUri": "ipfs://bafkreidvaultreport3"
+    },
+    {
+      "vaultId": "0x48464f4c44434956494c49414e",
+      "name": "48-Fold CIVILIAN Vault",
+      "domain": "CIVILIAN",
+      "merkleRoot": "0xPLACEHOLDER_CIVILIAN_MERKLE_ROOT_REPLACE_WITH_ACTUAL",
+      "reportUri": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/civilian_vault_report.json",
+      "yieldPerSec": 13752400,
+      "layerRange": "1-48"
+    },
+    {
+      "vaultId": "0x48464f4c444d494c4954415259",
+      "name": "48-Fold MILITARY Vault",
+      "domain": "MILITARY",
+      "merkleRoot": "0xPLACEHOLDER_MILITARY_MERKLE_ROOT_REPLACE_WITH_ACTUAL",
+      "reportUri": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/military_vault_report.json",
+      "yieldPerSec": 6155700,
+      "layerRange": "1-48"
+    },
+    {
+      "vaultId": "0x48464f4c44434f534d4943",
+      "name": "48-Fold COSMIC Vault",
+      "domain": "COSMIC",
+      "merkleRoot": "0xPLACEHOLDER_COSMIC_MERKLE_ROOT_REPLACE_WITH_ACTUAL",
+      "reportUri": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/cosmic_vault_report.json",
+      "yieldPerSec": 8987900,
+      "layerRange": "1-48"
+    },
+    {
+      "vaultId": "0x4d455441564155545459494541",
+      "name": "MetaVault Yield Aggregator",
+      "domain": "HYBRID",
+      "merkleRoot": "0xPLACEHOLDER_METAVAULT_MERKLE_ROOT_REPLACE_WITH_ACTUAL",
+      "reportUri": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/metavault_report.json",
+      "yieldPerSec": 28900000,
+      "layerRange": "0-48",
+      "description": "Aggregated yield from all three domains with π₄ compounding"
     }
   ]
 }

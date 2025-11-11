@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEGAZION Royal Rumble Arena - Interactive Mock</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        header {
+            background: rgba(15, 23, 42, 0.8);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #f97316;
+        }
+        
+        h1 {
+            color: #f97316;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #94a3b8;
+            font-size: 1.2em;
+        }
+        
+        .container {
+            flex: 1;
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+        
+        .arena-section {
+            flex: 2;
+            background: rgba(15, 23, 42, 0.6);
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+        }
+        
+        .arena-circle {
+            width: 500px;
+            height: 500px;
+            margin: 20px auto;
+            position: relative;
+            border: 3px solid #475569;
+            border-radius: 50%;
+        }
+        
+        .center-stake {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 120px;
+            height: 120px;
+            background: radial-gradient(circle, #fbbf24, #f97316);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 30px rgba(249, 115, 22, 0.6);
+        }
+        
+        .stake-amount {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #0f172a;
+        }
+        
+        .stake-label {
+            font-size: 0.8em;
+            color: #1e293b;
+        }
+        
+        .player-dot {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background: #3b82f6;
+            border: 2px solid #60a5fa;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .player-dot:hover {
+            transform: scale(1.3);
+            background: #60a5fa;
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.8);
+        }
+        
+        .player-dot.active {
+            background: #10b981;
+            border-color: #34d399;
+        }
+        
+        .player-dot.eliminated {
+            background: #ef4444;
+            border-color: #f87171;
+            opacity: 0.5;
+        }
+        
+        .info-section {
+            flex: 1;
+            background: rgba(15, 23, 42, 0.6);
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .info-box {
+            background: rgba(30, 41, 59, 0.8);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #f97316;
+        }
+        
+        .info-box h3 {
+            color: #f97316;
+            margin-bottom: 10px;
+        }
+        
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #334155;
+        }
+        
+        .stat-row:last-child {
+            border-bottom: none;
+        }
+        
+        .stat-label {
+            color: #94a3b8;
+        }
+        
+        .stat-value {
+            color: #e2e8f0;
+            font-weight: bold;
+        }
+        
+        .domain-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin: 5px;
+        }
+        
+        .domain-civilian {
+            background: #3b82f6;
+            color: white;
+        }
+        
+        .domain-military {
+            background: #e74c3c;
+            color: white;
+        }
+        
+        .domain-cosmic {
+            background: #9b59b6;
+            color: white;
+        }
+        
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        button {
+            flex: 1;
+            padding: 12px;
+            background: #f97316;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        button:hover {
+            background: #fb923c;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(249, 115, 22, 0.4);
+        }
+        
+        .warning {
+            background: rgba(251, 191, 36, 0.1);
+            border: 1px solid #fbbf24;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 20px;
+            color: #fbbf24;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>⚡ ROYAL RUMBLE ARENA ⚡</h1>
+        <div class="subtitle">48-Player Tournament • Yield Stakes • Multi-Domain Combat</div>
+    </header>
+    
+    <div class="container">
+        <div class="arena-section">
+            <div class="arena-circle" id="arena">
+                <div class="center-stake">
+                    <div class="stake-amount" id="stakeAmount">$2.5T</div>
+                    <div class="stake-label">YIELD POOL</div>
+                </div>
+                <!-- Player dots will be generated by JavaScript -->
+            </div>
+            
+            <div class="warning">
+                ⚠️ <strong>PLACEHOLDER MOCK UI</strong> - Replace with actual interactive arena interface
+            </div>
+        </div>
+        
+        <div class="info-section">
+            <div class="info-box">
+                <h3>Arena Status</h3>
+                <div class="stat-row">
+                    <span class="stat-label">Players Active:</span>
+                    <span class="stat-value" id="activePlayers">48 / 48</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Round:</span>
+                    <span class="stat-value" id="currentRound">1</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Total Stake:</span>
+                    <span class="stat-value">$2.497 Trillion</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Winner Prize:</span>
+                    <span class="stat-value">$1.248 Trillion</span>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <h3>Domain Distribution</h3>
+                <span class="domain-badge domain-civilian">Ω-CIV: 16</span>
+                <span class="domain-badge domain-military">Ω-MIL: 16</span>
+                <span class="domain-badge domain-cosmic">Ω-COS: 16</span>
+            </div>
+            
+            <div class="info-box">
+                <h3>Selected Player</h3>
+                <div class="stat-row">
+                    <span class="stat-label">Position:</span>
+                    <span class="stat-value" id="playerPos">-</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Domain:</span>
+                    <span class="stat-value" id="playerDomain">-</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Status:</span>
+                    <span class="stat-value" id="playerStatus">-</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Yield Stake:</span>
+                    <span class="stat-value" id="playerStake">-</span>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button onclick="simulateRound()">▶ Next Round</button>
+                <button onclick="resetArena()">↻ Reset</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Generate 48 player positions in a circle
+        const arena = document.getElementById('arena');
+        const totalPlayers = 48;
+        const radius = 220; // Distance from center
+        let players = [];
+        
+        function initArena() {
+            arena.innerHTML = '<div class="center-stake"><div class="stake-amount" id="stakeAmount">$2.5T</div><div class="stake-label">YIELD POOL</div></div>';
+            players = [];
+            
+            for (let i = 0; i < totalPlayers; i++) {
+                const angle = (i / totalPlayers) * 2 * Math.PI - Math.PI / 2;
+                const x = 250 + radius * Math.cos(angle);
+                const y = 250 + radius * Math.sin(angle);
+                
+                const domain = i % 3 === 0 ? 'CIVILIAN' : i % 3 === 1 ? 'MILITARY' : 'COSMIC';
+                
+                const dot = document.createElement('div');
+                dot.className = 'player-dot active';
+                dot.style.left = x + 'px';
+                dot.style.top = y + 'px';
+                dot.textContent = i + 1;
+                dot.dataset.position = i + 1;
+                dot.dataset.domain = domain;
+                dot.dataset.status = 'active';
+                
+                dot.addEventListener('click', function() {
+                    selectPlayer(this);
+                });
+                
+                arena.appendChild(dot);
+                players.push({ position: i + 1, domain, status: 'active', element: dot });
+            }
+        }
+        
+        function selectPlayer(element) {
+            document.getElementById('playerPos').textContent = element.dataset.position;
+            document.getElementById('playerDomain').textContent = element.dataset.domain;
+            document.getElementById('playerStatus').textContent = element.dataset.status;
+            document.getElementById('playerStake').textContent = '$52B';
+        }
+        
+        function simulateRound() {
+            const activePlayers = players.filter(p => p.status === 'active');
+            if (activePlayers.length <= 1) {
+                alert('Tournament Complete!');
+                return;
+            }
+            
+            // Randomly eliminate 1-3 players
+            const toEliminate = Math.floor(Math.random() * 3) + 1;
+            for (let i = 0; i < toEliminate && activePlayers.length > 1; i++) {
+                const randomIdx = Math.floor(Math.random() * activePlayers.length);
+                const player = activePlayers[randomIdx];
+                player.status = 'eliminated';
+                player.element.classList.remove('active');
+                player.element.classList.add('eliminated');
+                activePlayers.splice(randomIdx, 1);
+            }
+            
+            const active = players.filter(p => p.status === 'active').length;
+            document.getElementById('activePlayers').textContent = active + ' / 48';
+            
+            const currentRound = parseInt(document.getElementById('currentRound').textContent);
+            document.getElementById('currentRound').textContent = currentRound + 1;
+        }
+        
+        function resetArena() {
+            document.getElementById('currentRound').textContent = '1';
+            initArena();
+            document.getElementById('activePlayers').textContent = '48 / 48';
+        }
+        
+        // Initialize on load
+        initArena();
+    </script>
+</body>
+</html>
