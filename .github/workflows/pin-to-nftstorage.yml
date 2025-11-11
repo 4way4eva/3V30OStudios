@@ -1,0 +1,231 @@
+# DISABLED BY DEFAULT - REQUIRES NFT_STORAGE_KEY SECRET
+#
+# This workflow pins metadata and visual assets to nft.storage
+# 
+# To enable:
+# 1. Uncomment all lines in this file
+# 2. Set NFT_STORAGE_KEY secret in repository settings
+# 3. Verify IPFS CIDs are correct in metadata files
+# 4. Test on testnet metadata first
+#
+# SECURITY WARNING:
+# - Never commit NFT_STORAGE_KEY to repository
+# - Always test pinning with test data first
+# - Verify CIDs before using in production contracts
+# - Keep backup copies of all pinned data
+
+# name: Pin to NFT.Storage
+# 
+# on:
+#   workflow_dispatch:
+#     inputs:
+#       pin_type:
+#         description: 'What to pin'
+#         required: true
+#         default: 'metadata-only'
+#         type: choice
+#         options:
+#           - metadata-only
+#           - visual-only
+#           - all-assets
+#       environment:
+#         description: 'Environment'
+#         required: true
+#         default: 'testnet'
+#         type: choice
+#         options:
+#           - testnet
+#           - mainnet
+# 
+# jobs:
+#   validate:
+#     name: Validate Assets
+#     runs-on: ubuntu-latest
+#     
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v3
+#       
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: '16'
+#       
+#       - name: Check for placeholder CIDs
+#         run: |
+#           echo "🔍 Checking for placeholder CIDs..."
+#           if grep -r "QmPLACEHOLDER" metadata/; then
+#             echo "⚠️  WARNING: Found placeholder CIDs in metadata"
+#             echo "Replace all placeholders before pinning"
+#             if [ "${{ github.event.inputs.environment }}" == "mainnet" ]; then
+#               echo "❌ Cannot pin mainnet assets with placeholders"
+#               exit 1
+#             fi
+#           fi
+#       
+#       - name: Validate JSON files
+#         run: |
+#           echo "✓ Validating JSON files..."
+#           for file in metadata/*.json; do
+#             if [ -f "$file" ]; then
+#               if ! python3 -m json.tool "$file" > /dev/null 2>&1; then
+#                 echo "❌ Invalid JSON: $file"
+#                 exit 1
+#               fi
+#             fi
+#           done
+#           echo "✓ All JSON files valid"
+#       
+#       - name: Check required secrets
+#         run: |
+#           if [ -z "${{ secrets.NFT_STORAGE_KEY }}" ]; then
+#             echo "❌ NFT_STORAGE_KEY not set"
+#             echo "Set this secret in repository settings to enable IPFS pinning"
+#             exit 1
+#           fi
+#           echo "✓ NFT_STORAGE_KEY is set"
+#   
+#   pin-metadata:
+#     name: Pin Metadata
+#     runs-on: ubuntu-latest
+#     needs: validate
+#     if: ${{ github.event.inputs.pin_type == 'metadata-only' || github.event.inputs.pin_type == 'all-assets' }}
+#     
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v3
+#       
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: '16'
+#           cache: 'npm'
+#       
+#       - name: Install dependencies
+#         run: npm install --legacy-peer-deps
+#       
+#       - name: Pin metadata to nft.storage
+#         env:
+#           NFT_STORAGE_KEY: ${{ secrets.NFT_STORAGE_KEY }}
+#         run: |
+#           echo "📌 Pinning metadata files to nft.storage..."
+#           
+#           # Pin individual metadata files
+#           for file in metadata/*.json; do
+#             if [ -f "$file" ]; then
+#               echo "Pinning: $file"
+#               RESPONSE=$(curl -X POST \
+#                 -H "Authorization: Bearer $NFT_STORAGE_KEY" \
+#                 -F "file=@$file" \
+#                 https://api.nft.storage/upload)
+#               
+#               CID=$(echo $RESPONSE | jq -r '.value.cid')
+#               echo "✓ Pinned: $file -> $CID"
+#               echo "$file: $CID" >> pinned_metadata.txt
+#             fi
+#           done
+#       
+#       - name: Upload pin report
+#         uses: actions/upload-artifact@v3
+#         with:
+#           name: pinned-metadata-cids-${{ github.event.inputs.environment }}
+#           path: pinned_metadata.txt
+#   
+#   pin-visual:
+#     name: Pin Visual Assets
+#     runs-on: ubuntu-latest
+#     needs: validate
+#     if: ${{ github.event.inputs.pin_type == 'visual-only' || github.event.inputs.pin_type == 'all-assets' }}
+#     
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v3
+#       
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: '16'
+#       
+#       - name: Pin visual assets to nft.storage
+#         env:
+#           NFT_STORAGE_KEY: ${{ secrets.NFT_STORAGE_KEY }}
+#         run: |
+#           echo "📌 Pinning visual assets to nft.storage..."
+#           
+#           # Pin SVG files
+#           for file in visual/*.svg; do
+#             if [ -f "$file" ]; then
+#               echo "Pinning: $file"
+#               RESPONSE=$(curl -X POST \
+#                 -H "Authorization: Bearer $NFT_STORAGE_KEY" \
+#                 -F "file=@$file" \
+#                 https://api.nft.storage/upload)
+#               
+#               CID=$(echo $RESPONSE | jq -r '.value.cid')
+#               echo "✓ Pinned: $file -> $CID"
+#               echo "$file: $CID" >> pinned_visual.txt
+#             fi
+#           done
+#       
+#       - name: Upload pin report
+#         uses: actions/upload-artifact@v3
+#         with:
+#           name: pinned-visual-cids-${{ github.event.inputs.environment }}
+#           path: pinned_visual.txt
+#   
+#   summary:
+#     name: Pinning Summary
+#     runs-on: ubuntu-latest
+#     needs: [pin-metadata, pin-visual]
+#     if: always()
+#     
+#     steps:
+#       - name: Download artifacts
+#         uses: actions/download-artifact@v3
+#       
+#       - name: Create summary
+#         run: |
+#           echo "## IPFS Pinning Summary" >> $GITHUB_STEP_SUMMARY
+#           echo "" >> $GITHUB_STEP_SUMMARY
+#           echo "- **Environment**: ${{ github.event.inputs.environment }}" >> $GITHUB_STEP_SUMMARY
+#           echo "- **Pin Type**: ${{ github.event.inputs.pin_type }}" >> $GITHUB_STEP_SUMMARY
+#           echo "- **Triggered By**: ${{ github.actor }}" >> $GITHUB_STEP_SUMMARY
+#           echo "" >> $GITHUB_STEP_SUMMARY
+#           
+#           if [ -f pinned_metadata.txt ]; then
+#             echo "### Pinned Metadata" >> $GITHUB_STEP_SUMMARY
+#             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+#             cat pinned_metadata.txt >> $GITHUB_STEP_SUMMARY
+#             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+#           fi
+#           
+#           if [ -f pinned_visual.txt ]; then
+#             echo "### Pinned Visual Assets" >> $GITHUB_STEP_SUMMARY
+#             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+#             cat pinned_visual.txt >> $GITHUB_STEP_SUMMARY
+#             echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+#           fi
+#           
+#           echo "" >> $GITHUB_STEP_SUMMARY
+#           echo "### Next Steps" >> $GITHUB_STEP_SUMMARY
+#           echo "1. Update metadata files with new CIDs" >> $GITHUB_STEP_SUMMARY
+#           echo "2. Update contract base URI" >> $GITHUB_STEP_SUMMARY
+#           echo "3. Test IPFS gateway access" >> $GITHUB_STEP_SUMMARY
+#           echo "4. Verify on multiple gateways" >> $GITHUB_STEP_SUMMARY
+
+# USAGE INSTRUCTIONS:
+#
+# 1. Uncomment entire file
+# 2. Set secrets:
+#    - NFT_STORAGE_KEY (get from nft.storage)
+# 3. Run workflow manually from Actions tab
+# 4. Choose pin type and environment
+# 5. Download CID artifacts
+# 6. Update metadata files with new CIDs
+# 7. Redeploy contracts with updated base URI
+#
+# IMPORTANT:
+# - Always test on testnet first
+# - Keep backup of all CIDs
+# - Verify accessibility on multiple gateways
+# - Never commit secrets to repository
