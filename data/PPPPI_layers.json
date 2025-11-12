@@ -1,0 +1,83 @@
+{
+  "ppppi_layers": {
+    "infinity_core": {
+      "symbol": "♾️",
+      "name": "Infinity Core",
+      "description": "No ceiling. Every action = coin.",
+      "status": "active",
+      "yield_multiplier": 1.0,
+      "attributes": {
+        "unlimited_potential": true,
+        "action_to_coin": true,
+        "compounding_eligible": true
+      }
+    },
+    "assurance_layer": {
+      "symbol": "✅",
+      "name": "Assurance Layer",
+      "description": "Fulfills all contracts, prevents false streams",
+      "status": "active",
+      "yield_multiplier": 1.0,
+      "attributes": {
+        "contract_fulfillment": true,
+        "fraud_prevention": true,
+        "audit_verification": true
+      }
+    },
+    "knowledge_layer": {
+      "symbol": "📚",
+      "name": "Knowledge Layer",
+      "description": "Education monetized through MetaSchool",
+      "status": "active",
+      "yield_multiplier": 0.85,
+      "attributes": {
+        "metaschool_integration": true,
+        "enft_degrees": true,
+        "quantum_curriculum": true
+      }
+    },
+    "weapons_layer": {
+      "symbol": "⚔️",
+      "name": "Weapons Layer",
+      "description": "Defense/offense both generate value",
+      "status": "active",
+      "yield_multiplier": 0.92,
+      "attributes": {
+        "defense_value_generation": true,
+        "offense_value_generation": true,
+        "enft_weapons_logging": true
+      }
+    },
+    "meds_layer": {
+      "symbol": "💉",
+      "name": "Meds Layer",
+      "description": "Healing = wealth",
+      "status": "active",
+      "yield_multiplier": 0.88,
+      "attributes": {
+        "healing_monetization": true,
+        "skyybleu_integration": true,
+        "nanoheal_active": true
+      }
+    },
+    "transport_layer": {
+      "symbol": "🚛",
+      "name": "Transport Layer",
+      "description": "Every move of goods = revenue",
+      "status": "active",
+      "yield_multiplier": 0.90,
+      "attributes": {
+        "goods_movement_tracking": true,
+        "revenue_per_mile": true,
+        "hoverlane_integration": true
+      }
+    }
+  },
+  "meta": {
+    "version": "1.0.0",
+    "ceremony": "Enato Treasury Foundation",
+    "epoch": "2025-Q1",
+    "legal_framework": "PPPPI Codified Economy",
+    "description": "Layered economic logic for the EV0LVERSE Treasury System"
+  }
+}

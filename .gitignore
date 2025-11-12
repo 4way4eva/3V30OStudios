@@ -42,5 +42,10 @@ coverage.json
 *.log
 dist/
 
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
 # Deployment artifacts (keep these for reference but sensitive info should be excluded)
 # deployments/*_latest.json excluded from repo but timestamped versions kept for audit trail
