@@ -167,7 +167,12 @@ class Pi4ENFTCompoundingEngine {
       type: "Pi4CompoundingPoint",
       timeQuarters,
       compoundFactor,
-      yields,
+      yields: {
+        civilian: yields.civilian.toString(),
+        military: yields.military.toString(),
+        cosmic: yields.cosmic.toString(),
+        total: yields.total.toString()
+      },
       timestamp: Date.now(),
       pi4Constant: this.PI4
     };
