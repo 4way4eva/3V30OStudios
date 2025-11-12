@@ -1,0 +1,41 @@
+{
+  "contractAddress": "REPLACE_WITH_DEPLOYED_ADDRESS",
+  "entries": [
+    {
+      "recipient": "REPLACE_WITH_RECIPIENT_ADDRESS",
+      "sphere": "CIVILIAN",
+      "ledgerWorth": "1000000",
+      "metadataURI": "ipfs://QmCivilianExample/metadata.json",
+      "amount": 1,
+      "primarySigner": "REPLACE_WITH_PRIMARY_SIGNER",
+      "secondarySigner": "REPLACE_WITH_SECONDARY_SIGNER",
+      "physicalAssetId": "CIV-ASSET-001",
+      "interactiveRegistryId": "CIV-REG-001",
+      "linkedDimensions": [1, 137, 43114]
+    },
+    {
+      "recipient": "REPLACE_WITH_RECIPIENT_ADDRESS",
+      "sphere": "MILITARY",
+      "ledgerWorth": "500000",
+      "metadataURI": "ipfs://QmMilitaryExample/metadata.json",
+      "amount": 1,
+      "primarySigner": "REPLACE_WITH_PRIMARY_SIGNER",
+      "secondarySigner": "REPLACE_WITH_SECONDARY_SIGNER",
+      "physicalAssetId": "MIL-ASSET-001",
+      "interactiveRegistryId": "MIL-REG-001",
+      "linkedDimensions": [1, 137]
+    },
+    {
+      "recipient": "REPLACE_WITH_RECIPIENT_ADDRESS",
+      "sphere": "COSMIC",
+      "ledgerWorth": "750000",
+      "metadataURI": "ipfs://QmCosmicExample/metadata.json",
+      "amount": 1,
+      "primarySigner": "REPLACE_WITH_PRIMARY_SIGNER",
+      "secondarySigner": "REPLACE_WITH_SECONDARY_SIGNER",
+      "physicalAssetId": "COS-ASSET-001",
+      "interactiveRegistryId": "COS-REG-001",
+      "linkedDimensions": [1, 137, 43114, 56]
+    }
+  ]
+}

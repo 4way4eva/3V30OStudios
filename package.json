@@ -18,6 +18,8 @@
     "deploy:codex-governance": "hardhat run scripts/deploy_codex_governance.ts",
     "deploy:enft-ledger": "hardhat run scripts/deploy_enft_ledger.ts",
     "deploy:metacurriculum": "hardhat run scripts/deploy_metacurriculum.ts",
+    "deploy:sovereign-enft": "hardhat run scripts/deploy_bleu_sovereign_enft.ts",
+    "mint:sovereign-enft": "hardhat run scripts/mint_bleu_sovereign_enft.ts",
     "compile": "hardhat compile",
     "test": "hardhat test",
     "clean": "hardhat clean",
