@@ -1,40 +1,4 @@
-workspace.xml
-junitvmwatcher*.properties
-build.properties
-
-# generated java classes and java source files
-#   manually add any custom artifacts that can't be generated from the models
-#   http://confluence.jetbrains.com/display/MPSD25/HowTo+--+MPS+and+Git
-classes_gen
-source_gen
-source_gen.caches
-
-# generated test code and test results
-test_gen
-test_gen.caches
-TEST-*.xml
-junit*.properties
-
-# generated CSV and report files
-*.csv
-!data/ritual_map.csv
-!data/curriculum/bleuzion_curriculum_schedule.csv
-revenue_projections_*.json
-revenue_projections_*.md
-
-# environment overrides
-config/.env
-.env
-
-# Hardhat / Solidity
 node_modules/
-cache/
-artifacts/
-typechain-types/
-coverage/
-coverage.json
-*.log
-dist/
-
-# Deployment artifacts (keep these for reference but sensitive info should be excluded)
-# deployments/*_latest.json excluded from repo but timestamped versions kept for audit trail
+.env
+.DS_Store
+/dist
