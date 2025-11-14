@@ -35,7 +35,12 @@
     "galactic:activate": "python3 scripts/activate_galactic_mint.py",
     "galactic:csv": "python3 scripts/generate_watchtower_csv.py",
     "galactic:scrolls": "python3 scripts/generate_ritual_scroll.py",
-    "analyze:complexity": "python3 analysis/codex_complexity_analyzer.py"
+    "analyze:complexity": "python3 analysis/codex_complexity_analyzer.py",
+    "bleu:backbone:summary": "node scripts/bleu_backbone_utils.js summary",
+    "bleu:backbone:top-roi": "node scripts/bleu_backbone_utils.js top-roi",
+    "bleu:backbone:top-overscale": "node scripts/bleu_backbone_utils.js top-overscale",
+    "bleu:backbone:export-csv": "node scripts/bleu_backbone_utils.js export-csv",
+    "bleu:backbone:export-md": "node scripts/bleu_backbone_utils.js export-md"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.0",
