@@ -47,10 +47,14 @@ router.post('/api/admin/sabbath', hmacAuth, (req, res) => {
   if (fs.existsSync(notifier) && process.env.WEBHOOK_SECRET && process.env.WEBXR_SERVER_URL) {
     const id = `SABBATH-${mode}-${Date.now()}`;
     const args = [notifier, '--url', `${process.env.WEBXR_SERVER_URL}/api/block`, '--secret', process.env.WEBHOOK_SECRET, '--id', id, '--intensity', '0.01', '--meta', JSON.stringify({ type: 'sabbath', mode, actor, timestamp: now })];
-    try {
-      spawnSync('node', args, { stdio: 'inherit' });
-    } catch (e) {
-      // noop
+    const result = spawnSync('node', args, { stdio: 'inherit' });
+    if (result.error) {
+      console.error('Failed to spawn notify-on-mint.js:', result.error);
+    } else if (result.status !== 0) {
+      console.error(`notify-on-mint.js exited with code ${result.status}`, {
+        stdout: result.stdout && result.stdout.toString(),
+        stderr: result.stderr && result.stderr.toString(),
+      });
     }
   }
 
