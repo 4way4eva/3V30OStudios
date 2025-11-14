@@ -11,13 +11,13 @@ contract DynamicMapNFT is ERC721 {
 
     // Update the metadata URI for a map NFT (e.g., when the Codex expands)
     function updateMapURI(uint256 tokenId, string memory newURI) public {
-        require(_exists(tokenId), "Token does not exist");
+        require(_ownerOf(tokenId) != address(0), "Token does not exist");
         _tokenURIs[tokenId] = newURI;
     }
 
     // Override tokenURI to return dynamic metadata
     function tokenURI(uint256 tokenId) public view override returns (string memory) {
-        require(_exists(tokenId), "Token does not exist");
+        require(_ownerOf(tokenId) != address(0), "Token does not exist");
         return _tokenURIs[tokenId];
     }
 
