@@ -1,0 +1,124 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BLEU Coin Mass Mint Specification",
+  "description": "Schema for inaugural currency issuance across all three streams",
+  "type": "object",
+  "properties": {
+    "mintBatch": {
+      "type": "object",
+      "properties": {
+        "batchId": {
+          "type": "string",
+          "description": "Unique identifier for this mint batch"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of mint initiation"
+        },
+        "celestialAlignment": {
+          "type": "string",
+          "description": "Judah-count alignment tick for this mint window"
+        },
+        "sealVerification": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{64}$",
+          "description": "☆seal alignment hash"
+        },
+        "totalAmount": {
+          "type": "string",
+          "description": "Total BLEU to be minted in this batch"
+        },
+        "streams": {
+          "type": "object",
+          "properties": {
+            "civilian": {
+              "$ref": "#/definitions/streamMint"
+            },
+            "military": {
+              "$ref": "#/definitions/streamMint"
+            },
+            "cosmic": {
+              "$ref": "#/definitions/streamMint"
+            }
+          },
+          "required": ["civilian", "military", "cosmic"]
+        }
+      },
+      "required": ["batchId", "timestamp", "celestialAlignment", "sealVerification", "totalAmount", "streams"]
+    }
+  },
+  "definitions": {
+    "streamMint": {
+      "type": "object",
+      "properties": {
+        "streamType": {
+          "type": "integer",
+          "enum": [1, 2, 3],
+          "description": "1=Civilian, 2=Military, 3=Cosmic"
+        },
+        "streamName": {
+          "type": "string",
+          "enum": ["CIVILIAN", "MILITARY", "COSMIC"]
+        },
+        "totalAllocation": {
+          "type": "string",
+          "description": "Total BLEU allocated to this stream"
+        },
+        "recipients": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/recipient"
+          },
+          "minItems": 1
+        }
+      },
+      "required": ["streamType", "streamName", "totalAllocation", "recipients"]
+    },
+    "recipient": {
+      "type": "object",
+      "properties": {
+        "address": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{40}$",
+          "description": "Ethereum address of recipient"
+        },
+        "amount": {
+          "type": "string",
+          "description": "Amount of BLEU to mint"
+        },
+        "soulLinkId": {
+          "type": "string",
+          "description": "Soul-link identifier for tracing"
+        },
+        "receiptId": {
+          "type": "string",
+          "description": "Unique receipt identifier"
+        },
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "celestialAlignment": {
+              "type": "string",
+              "description": "Individual celestial alignment for this mint"
+            },
+            "sealHash": {
+              "type": "string",
+              "pattern": "^0x[a-fA-F0-9]{64}$"
+            },
+            "liveBlueTimeLinkage": {
+              "type": "string",
+              "description": "Time linkage data"
+            },
+            "notes": {
+              "type": "string",
+              "description": "Additional notes or justification"
+            }
+          },
+          "required": ["celestialAlignment", "sealHash", "liveBlueTimeLinkage"]
+        }
+      },
+      "required": ["address", "amount", "soulLinkId", "receiptId", "metadata"]
+    }
+  }
+}

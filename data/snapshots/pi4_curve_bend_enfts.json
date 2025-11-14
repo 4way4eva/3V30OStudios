@@ -1,0 +1,1712 @@
+{
+  "metadata": {
+    "title": "π₄ Compounding Curve Bend ENFTs",
+    "description": "Each curve bend as an irreversible public ledger asset",
+    "totalBends": 81,
+    "quarters": 4,
+    "bendsPerQuarter": 20
+  },
+  "curveBends": [
+    {
+      "enftId": "CURVE-BEND-0000",
+      "curveBendIndex": 0,
+      "timeQuarters": 0,
+      "timeDays": 0,
+      "compoundFactor": 1,
+      "yields": {
+        "civilian": "108103680000000",
+        "military": "48487680000000",
+        "cosmic": "73128960000000",
+        "total": "229720320000000"
+      },
+      "metadataHash": "0x2d207f6b3228ce7355f0a17413fe797bf062d42bc657ca6408e5822d8dca6e34",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Common",
+        "acceleration": 0,
+        "significance": "Year Milestone"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0001",
+      "curveBendIndex": 1,
+      "timeQuarters": 0.05,
+      "timeDays": 4.6000000000000005,
+      "compoundFactor": 1.2572741156691836,
+      "yields": {
+        "civilian": "135915946168320",
+        "military": "60962299384320",
+        "cosmic": "91943140055040",
+        "total": "288821385607680"
+      },
+      "metadataHash": "0x442d0c45743362589642b7c1dd4566feeb06bca6f01bbee602efe746192b0efa",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Common",
+        "acceleration": 0.25727411566918357,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0002",
+      "curveBendIndex": 2,
+      "timeQuarters": 0.1,
+      "timeDays": 9.200000000000001,
+      "compoundFactor": 1.5807382019317275,
+      "yields": {
+        "civilian": "170883594915840",
+        "military": "76646318307840",
+        "cosmic": "115597725972480",
+        "total": "363127639196160"
+      },
+      "metadataHash": "0x7e9795c99fb1f2a08f3c575413cd31d5ac2af1058345372a8700e4a486c16479",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Common",
+        "acceleration": 0.32346408626254397,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0003",
+      "curveBendIndex": 3,
+      "timeQuarters": 0.15,
+      "timeDays": 13.799999999999999,
+      "compoundFactor": 1.9874212249382077,
+      "yields": {
+        "civilian": "214847523809280",
+        "military": "96365433473280",
+        "cosmic": "145338030812160",
+        "total": "456550988094720"
+      },
+      "metadataHash": "0x134eb15c9052a386b078efb9a578c52b2c3a0c7473512edd9e403bbc942c2d35",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Common",
+        "acceleration": 0.4066830230064802,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0004",
+      "curveBendIndex": 4,
+      "timeQuarters": 0.2,
+      "timeDays": 18.400000000000002,
+      "compoundFactor": 2.4987332630463506,
+      "yields": {
+        "civilian": "270122232637440",
+        "military": "121157766109440",
+        "cosmic": "182729745607680",
+        "total": "574009744354560"
+      },
+      "metadataHash": "0x6dbb0acea717c51facf7ba1e5e54ea3a56e869152d64a7a89de321de7e287efb",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Uncommon",
+        "acceleration": 0.5113120381081429,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0005",
+      "curveBendIndex": 5,
+      "timeQuarters": 0.25,
+      "timeDays": 23,
+      "compoundFactor": 3.1415926535897736,
+      "yields": {
+        "civilian": "339617656258560",
+        "military": "152328507586560",
+        "cosmic": "229741355704320",
+        "total": "721687519549440"
+      },
+      "metadataHash": "0x4bd9ae7690d04365a4784dfb0a853d424709c90ef9d029c7d229de591baf7313",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Uncommon",
+        "acceleration": 0.642859390543423,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0006",
+      "curveBendIndex": 6,
+      "timeQuarters": 0.3,
+      "timeDays": 27.599999999999998,
+      "compoundFactor": 3.949843125334886,
+      "yields": {
+        "civilian": "426992563722240",
+        "military": "191518723434240",
+        "cosmic": "288847910753280",
+        "total": "907359197909760"
+      },
+      "metadataHash": "0x95363848090793a5a4928735009ca7063189e00e7c4790a0cb340338053ce7fa",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Uncommon",
+        "acceleration": 0.8082504717451124,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0007",
+      "curveBendIndex": 7,
+      "timeQuarters": 0.35,
+      "timeDays": 32.199999999999996,
+      "compoundFactor": 4.966035522437422,
+      "yields": {
+        "civilian": "536846658508800",
+        "military": "240791515948800",
+        "cosmic": "363160974873600",
+        "total": "1140799149331200"
+      },
+      "metadataHash": "0x78ad9387c838992aa729e940e2119f5961d7b8b3b427c929e40841b4c7dc9ab0",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Uncommon",
+        "acceleration": 1.016192397102536,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0008",
+      "curveBendIndex": 8,
+      "timeQuarters": 0.4,
+      "timeDays": 36.800000000000004,
+      "compoundFactor": 6.243667919854262,
+      "yields": {
+        "civilian": "674963379394560",
+        "military": "302740927522560",
+        "cosmic": "456592874296320",
+        "total": "1434297181213440"
+      },
+      "metadataHash": "0x04877806bd338994dbd1d1b5940064b37ef8ddb0d66654b2f0e3877e3bcc3308",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Uncommon",
+        "acceleration": 1.2776323974168404,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0009",
+      "curveBendIndex": 9,
+      "timeQuarters": 0.45,
+      "timeDays": 41.4,
+      "compoundFactor": 7.850002062466818,
+      "yields": {
+        "civilian": "848614104207360",
+        "military": "380628384975360",
+        "cosmic": "574062482257920",
+        "total": "1803304971440640"
+      },
+      "metadataHash": "0xb7c656193e6ce914e22a99ad133806eefee839c6ea83f79778db87a731181a9a",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Uncommon",
+        "acceleration": 1.606334142612556,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0010",
+      "curveBendIndex": 10,
+      "timeQuarters": 0.5,
+      "timeDays": 46,
+      "compoundFactor": 9.869604401089235,
+      "yields": {
+        "civilian": "1066940512542720",
+        "military": "478554200478720",
+        "cosmic": "721753876131840",
+        "total": "2267248589153280"
+      },
+      "metadataHash": "0xd0080c860a02340bc66e4bc991f64530d3ed5f38f8b44eb6bac3968d95a7d617",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Uncommon",
+        "acceleration": 2.019602338622417,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0011",
+      "curveBendIndex": 11,
+      "timeQuarters": 0.55,
+      "timeDays": 50.6,
+      "compoundFactor": 12.408798145384152,
+      "yields": {
+        "civilian": "1341436728176640",
+        "military": "601673826608640",
+        "cosmic": "907442492590080",
+        "total": "2850553047375360"
+      },
+      "metadataHash": "0x8a06e699884e78b602f1bbad790bf44a088fb69470e3bb03f1d25a9d8446e8d5",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Rare",
+        "acceleration": 2.5391937442949164,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0012",
+      "curveBendIndex": 12,
+      "timeQuarters": 0.6,
+      "timeDays": 55.199999999999996,
+      "compoundFactor": 15.60126071475526,
+      "yields": {
+        "civilian": "1686553618636800",
+        "military": "756468902476800",
+        "cosmic": "1140903918489600",
+        "total": "3583926439603200"
+      },
+      "metadataHash": "0x50213becc417163a75138ffa516c4f6f98afb3ba4b0ecfe3062c9946b765b24a",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Rare",
+        "acceleration": 3.1924625693711075,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0013",
+      "curveBendIndex": 13,
+      "timeQuarters": 0.65,
+      "timeDays": 59.800000000000004,
+      "compoundFactor": 19.615061268468295,
+      "yields": {
+        "civilian": "2120460277524480",
+        "military": "951088800948480",
+        "cosmic": "1434429011266560",
+        "total": "4505978089739520"
+      },
+      "metadataHash": "0xb452303493c307331174e18258e3f4da767a6d8ed0b6c06beb04dd7410038751",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Rare",
+        "acceleration": 4.013800553713036,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0014",
+      "curveBendIndex": 14,
+      "timeQuarters": 0.7,
+      "timeDays": 64.39999999999999,
+      "compoundFactor": 24.66150881011032,
+      "yields": {
+        "civilian": "2665999769149440",
+        "military": "1195779308221440",
+        "cosmic": "1803470432071680",
+        "total": "5665249509442560"
+      },
+      "metadataHash": "0xcc94043223bc2486f6fc8f6084eeb790dac7bcb965a87ada8d023547e3e908a7",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Rare",
+        "acceleration": 5.046447541642024,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0015",
+      "curveBendIndex": 15,
+      "timeQuarters": 0.75,
+      "timeDays": 69,
+      "compoundFactor": 31.006276680299237,
+      "yields": {
+        "civilian": "3351892538695680",
+        "military": "1503422388679680",
+        "cosmic": "2267456717352960",
+        "total": "7122771644728320"
+      },
+      "metadataHash": "0x206463a903b77cbaa759bef50e7e536a35488205ebd12d5e50bd0f343dd83b73",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Rare",
+        "acceleration": 6.344767870188917,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0016",
+      "curveBendIndex": 16,
+      "timeQuarters": 0.8,
+      "timeDays": 73.60000000000001,
+      "compoundFactor": 38.98338909341726,
+      "yields": {
+        "civilian": "4214247809771520",
+        "military": "1890214091147520",
+        "cosmic": "2850814694845440",
+        "total": "8955276595764480"
+      },
+      "metadataHash": "0xb9a5f16c1444a01c29ce0de9b1c824d4d410a2ab2b2ffdc1c1d85a5daa619c92",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Rare",
+        "acceleration": 7.9771124131180215,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0017",
+      "curveBendIndex": 17,
+      "timeQuarters": 0.85,
+      "timeDays": 78.2,
+      "compoundFactor": 49.01280604821386,
+      "yields": {
+        "civilian": "5298464695726080",
+        "military": "2376517253230080",
+        "cosmic": "3584255529461760",
+        "total": "11259237478417920"
+      },
+      "metadataHash": "0x840bb57c8b59958208b00ce80b2879f05e405d5422d3db971386718b055f6681",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Rare",
+        "acceleration": 10.029416954796602,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0018",
+      "curveBendIndex": 18,
+      "timeQuarters": 0.9,
+      "timeDays": 82.8,
+      "compoundFactor": 61.622532380733304,
+      "yields": {
+        "civilian": "6661622480117760",
+        "military": "2987933612405760",
+        "cosmic": "4506391677726720",
+        "total": "14155947770250240"
+      },
+      "metadataHash": "0xf118988ee4be325c9e0639c689420a12c751548072ca004b24c16364b9228fab",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Rare",
+        "acceleration": 12.609726332519443,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0019",
+      "curveBendIndex": 19,
+      "timeQuarters": 0.95,
+      "timeDays": 87.39999999999999,
+      "compoundFactor": 77.47641490428207,
+      "yields": {
+        "civilian": "8375485466603520",
+        "military": "3756651569579520",
+        "cosmic": "5665769580349440",
+        "total": "17797906616532480"
+      },
+      "metadataHash": "0x8a9e05bbbe569a77bbd06d289f79ec10eb98d048c736742988044e4a63b863b2",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Rare",
+        "acceleration": 15.853882523548762,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0020",
+      "curveBendIndex": 20,
+      "timeQuarters": 1,
+      "timeDays": 92,
+      "compoundFactor": 97.409091034,
+      "yields": {
+        "civilian": "10530281202554880",
+        "military": "4723140833498880",
+        "cosmic": "7123425519375360",
+        "total": "22376847555429120"
+      },
+      "metadataHash": "0x53db2b70d34ae4efc144eb7643c55c29472bb60d3a620c448277dc03830e4b55",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Rare",
+        "acceleration": 19.932676129717933,
+        "significance": "Quarter Milestone"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0021",
+      "curveBendIndex": 21,
+      "timeQuarters": 1.05,
+      "timeDays": 96.60000000000001,
+      "compoundFactor": 122.46992878791136,
+      "yields": {
+        "civilian": "13239449906135040",
+        "military": "5938282678487040",
+        "cosmic": "8956098465914880",
+        "total": "28133831050536960"
+      },
+      "metadataHash": "0x22af8e03b051d3786266f8a053b15e654677f56a02390896fa24bce617df05e7",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Epic",
+        "acceleration": 25.060837753911358,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0022",
+      "curveBendIndex": 22,
+      "timeQuarters": 1.1,
+      "timeDays": 101.2,
+      "compoundFactor": 153.97827141288917,
+      "yields": {
+        "civilian": "16645617735137280",
+        "military": "7466049131201280",
+        "cosmic": "11260270820828160",
+        "total": "35371937687166720"
+      },
+      "metadataHash": "0x39234f4243b508fde9b7f3bb969618101e01652ab8df7924877a1ce8c4e1de9d",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Epic",
+        "acceleration": 31.508342624977814,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0023",
+      "curveBendIndex": 23,
+      "timeQuarters": 1.15,
+      "timeDays": 105.8,
+      "compoundFactor": 193.5928950229096,
+      "yields": {
+        "civilian": "20928104371353600",
+        "military": "9386870343033600",
+        "cosmic": "14157247074739200",
+        "total": "44472221789126400"
+      },
+      "metadataHash": "0x3ce05e239a4d5e9c4d6fa0394337f82199d8e56b0f9aaf13edd278d93d443f9d",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Epic",
+        "acceleration": 39.61462361002043,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0024",
+      "curveBendIndex": 24,
+      "timeQuarters": 1.2,
+      "timeDays": 110.39999999999999,
+      "compoundFactor": 243.39933588976578,
+      "yields": {
+        "civilian": "26312363823052800",
+        "military": "11801869067692800",
+        "cosmic": "17799540233241600",
+        "total": "55913773123987200"
+      },
+      "metadataHash": "0x79dea198c70b6e1396cb32db990ea0e49d439a597dbed8d81953033e69d62fb6",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Epic",
+        "acceleration": 49.80644086685618,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0025",
+      "curveBendIndex": 25,
+      "timeQuarters": 1.25,
+      "timeDays": 115,
+      "compoundFactor": 306.01968478527186,
+      "yields": {
+        "civilian": "33081853992837120",
+        "military": "14838184511493120",
+        "cosmic": "22378901230448640",
+        "total": "70298939734778880"
+      },
+      "metadataHash": "0xb479e4575f567b6de2192b16a43dd7e19ca36c4b3122674ec11e4dbad3baeaf2",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Epic",
+        "acceleration": 62.62034889550608,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0026",
+      "curveBendIndex": 26,
+      "timeQuarters": 1.3,
+      "timeDays": 119.60000000000001,
+      "compoundFactor": 384.75062856576506,
+      "yields": {
+        "civilian": "41592958769111040",
+        "military": "18655665330263040",
+        "cosmic": "28136413284986880",
+        "total": "88385037384360960"
+      },
+      "metadataHash": "0x0bea7067bcbf980f4efb2a0187a88838073873e8990aedef5b1b1ab0cd65931a",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Epic",
+        "acceleration": 78.73094378049319,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0027",
+      "curveBendIndex": 27,
+      "timeQuarters": 1.35,
+      "timeDays": 124.2,
+      "compoundFactor": 483.7370062831849,
+      "yields": {
+        "civilian": "52293750500782080",
+        "military": "23455285151086080",
+        "cosmic": "35375184162293760",
+        "total": "111124219814161920"
+      },
+      "metadataHash": "0xcaf818b7d9d184014c1fb4111a0226d6a8dbde7caf2a0f3be7d51d1703f7a2ea",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Epic",
+        "acceleration": 98.98637771741983,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0028",
+      "curveBendIndex": 28,
+      "timeQuarters": 1.4,
+      "timeDays": 128.79999999999998,
+      "compoundFactor": 608.190016791149,
+      "yields": {
+        "civilian": "65747578868858880",
+        "military": "29489722875002880",
+        "cosmic": "44476303352463360",
+        "total": "139713605096325120"
+      },
+      "metadataHash": "0x6818a974fd05c6dc5936c29c5c87be561d2b7a9cf7cbf758d24abb413d5504b1",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Epic",
+        "acceleration": 124.45301050796411,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0029",
+      "curveBendIndex": 29,
+      "timeQuarters": 1.45,
+      "timeDays": 133.4,
+      "compoundFactor": 764.6615655199179,
+      "yields": {
+        "civilian": "82662729131059200",
+        "military": "37076665272019200",
+        "cosmic": "55918905000422400",
+        "total": "175658299403500800"
+      },
+      "metadataHash": "0xf5e4cc642d74eb0551f2f5029b7b97ee63b3b28ebc6cebb5933d92d7da9d71fa",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Epic",
+        "acceleration": 156.47154872876888,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0030",
+      "curveBendIndex": 30,
+      "timeQuarters": 1.5,
+      "timeDays": 138,
+      "compoundFactor": 961.3891935752683,
+      "yields": {
+        "civilian": "103929709675530240",
+        "military": "46615531545642240",
+        "cosmic": "70305391839329280",
+        "total": "220850633060501760"
+      },
+      "metadataHash": "0xf89a14b847f891bb360dc721b6bfb448a1f19fce69a29d39ea6e16a514e6dde8",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Epic",
+        "acceleration": 196.72762805535046,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0031",
+      "curveBendIndex": 31,
+      "timeQuarters": 1.55,
+      "timeDays": 142.6,
+      "compoundFactor": 1208.7297481662551,
+      "yields": {
+        "civilian": "130668133884272640",
+        "military": "58608501227504640",
+        "cosmic": "88393149392302080",
+        "total": "277669784504079360"
+      },
+      "metadataHash": "0x5d877081bb30af8206d5e03b82bbfa19b56b2871a27eade579c98407460af629",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 247.3405545909868,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0032",
+      "curveBendIndex": 32,
+      "timeQuarters": 1.6,
+      "timeDays": 147.20000000000002,
+      "compoundFactor": 1519.7046252087637,
+      "yields": {
+        "civilian": "164285662475520000",
+        "military": "73686951551520000",
+        "cosmic": "111134418733440000",
+        "total": "349107032760480000"
+      },
+      "metadataHash": "0x1be0a30c2efa072e2da80e3e194d3b2f6a700c5ff81d12ec26741520c71f666e",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 310.9748770425085,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0033",
+      "curveBendIndex": 33,
+      "timeQuarters": 1.65,
+      "timeDays": 151.79999999999998,
+      "compoundFactor": 1910.6852887377147,
+      "yields": {
+        "civilian": "206552110954659840",
+        "military": "92644696825251840",
+        "cosmic": "139726427998740480",
+        "total": "438923235778652160"
+      },
+      "metadataHash": "0x32d2c00073f381cf35f35b5fa4cf27e9303fba9b009882bdcdfc7fb329a69bf5",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 390.980663528951,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0034",
+      "curveBendIndex": 34,
+      "timeQuarters": 1.7,
+      "timeDays": 156.4,
+      "compoundFactor": 2402.2551567198293,
+      "yields": {
+        "civilian": "259692622662574080",
+        "military": "116479779282478080",
+        "cosmic": "175674421212917760",
+        "total": "551846823157969920"
+      },
+      "metadataHash": "0x185c823dd2f90da948303e054c64d3004e287035afd3492f2e2799dcfacca93b",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 491.5698679821146,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0035",
+      "curveBendIndex": 35,
+      "timeQuarters": 1.75,
+      "timeDays": 161,
+      "compoundFactor": 3020.2932277766595,
+      "yields": {
+        "civilian": "326504812517775360",
+        "military": "146447011496943360",
+        "cosmic": "220870902585553920",
+        "total": "693822726600272640"
+      },
+      "metadataHash": "0xbe686398ca91bf9672bd02f0ac6d665b5d7011b3c2c9cca37342381b632b6d8e",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 618.0380710568302,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0036",
+      "curveBendIndex": 36,
+      "timeQuarters": 1.8,
+      "timeDays": 165.6,
+      "compoundFactor": 3797.3364970145244,
+      "yields": {
+        "civilian": "410506049524008960",
+        "military": "184124036918856960",
+        "cosmic": "277695268795653120",
+        "total": "872325355238519040"
+      },
+      "metadataHash": "0xa47c635c9db6521816057e2d82644ba60b4bc2dc8c455c001d983d7b5667e257",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 777.0432692378649,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0037",
+      "curveBendIndex": 37,
+      "timeQuarters": 1.85,
+      "timeDays": 170.20000000000002,
+      "compoundFactor": 4774.292886182252,
+      "yields": {
+        "civilian": "516118630374420480",
+        "military": "231494385682644480",
+        "cosmic": "349139073488578560",
+        "total": "1096752089545643520"
+      },
+      "metadataHash": "0xf8911f564c902739883fce28d7854e323ef3ae9269bf91b341d03c936a063cf4",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 976.9563891677276,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0038",
+      "curveBendIndex": 38,
+      "timeQuarters": 1.9,
+      "timeDays": 174.79999999999998,
+      "compoundFactor": 6002.594866420461,
+      "yields": {
+        "civilian": "648902594563706880",
+        "military": "291051899032250880",
+        "cosmic": "438963519851919360",
+        "total": "1378918013447877120"
+      },
+      "metadataHash": "0xb06a89b67299f2491acdccea679767bffe64d7fb68b2d0b249dbaa46797ca0ba",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 1228.3019802382087,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0039",
+      "curveBendIndex": 39,
+      "timeQuarters": 1.95,
+      "timeDays": 179.4,
+      "compoundFactor": 7546.907152399166,
+      "yields": {
+        "civilian": "815848435749519360",
+        "military": "365932018975887360",
+        "cosmic": "551897471242321920",
+        "total": "1733677925967728640"
+      },
+      "metadataHash": "0x64bac319e35cd03e9fb63a5ab0259517fc34f126a8540cf1cd2d2434385710ab",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 1544.3122859787054,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0040",
+      "curveBendIndex": 40,
+      "timeQuarters": 2,
+      "timeDays": 184,
+      "compoundFactor": 9488.5310160701,
+      "yields": {
+        "civilian": "1025745120623738880",
+        "military": "460076855573882880",
+        "cosmic": "693886405127823360",
+        "total": "2179708381325445120"
+      },
+      "metadataHash": "0x7da98a84f517710d694eeea0f33189aeb0a59a5048cd1a1d6ed446e8c307022b",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 1941.6238636709331,
+        "significance": "Quarter Milestone"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0041",
+      "curveBendIndex": 41,
+      "timeQuarters": 2.05,
+      "timeDays": 188.6,
+      "compoundFactor": 11929.684442229143,
+      "yields": {
+        "civilian": "1289642789418946560",
+        "military": "578442721724674560",
+        "cosmic": "872405416371640320",
+        "total": "2740490927515261440"
+      },
+      "metadataHash": "0x9a3abd2c42b8d345ac01ae664a078299040d911f6082fffec725ba7c43c01270",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 2441.153426159044,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0042",
+      "curveBendIndex": 42,
+      "timeQuarters": 2.1,
+      "timeDays": 193.20000000000002,
+      "compoundFactor": 14998.88345731608,
+      "yields": {
+        "civilian": "1621434497592821760",
+        "military": "727261061420309760",
+        "cosmic": "1096852748371614720",
+        "total": "3445548307384746240"
+      },
+      "metadataHash": "0x37922667b1d18762379d9c7c7f063b1335410e5faa0e60d989a9cfa5dd8424db",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 3069.199015086937,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0043",
+      "curveBendIndex": 43,
+      "timeQuarters": 2.15,
+      "timeDays": 197.79999999999998,
+      "compoundFactor": 18857.707934822203,
+      "yields": {
+        "civilian": "2038587624030597120",
+        "military": "914366507837253120",
+        "cosmic": "1379044569197168640",
+        "total": "4331998701065018880"
+      },
+      "metadataHash": "0xe32b7fae09244d3b1f5656c3158debbae1b6312e256638045df024feaabf64e6",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 3858.824477506123,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0044",
+      "curveBendIndex": 44,
+      "timeQuarters": 2.2,
+      "timeDays": 202.4,
+      "compoundFactor": 23709.30806730136,
+      "yields": {
+        "civilian": "2563063452296386560",
+        "military": "1149609342574114560",
+        "cosmic": "1733837041259320320",
+        "total": "5446509836129821440"
+      },
+      "metadataHash": "0x2737b6064b4e87910a46366a9a24cc3cd7e3229f5e04f78fdddbd55e67f06ed4",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 4851.600132479158,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0045",
+      "curveBendIndex": 45,
+      "timeQuarters": 2.25,
+      "timeDays": 207,
+      "compoundFactor": 29809.099333444534,
+      "yields": {
+        "civilian": "3222473335382845440",
+        "military": "1445374069546717440",
+        "cosmic": "2179908432758983680",
+        "total": "6847755837688546560"
+      },
+      "metadataHash": "0xa30eb7d54de1c14528a144fcaf67f839cb63bbf007777df4cf3302bb4df27cde",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 6099.791266143173,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0046",
+      "curveBendIndex": 46,
+      "timeQuarters": 2.3,
+      "timeDays": 211.6,
+      "compoundFactor": 37478.209003351294,
+      "yields": {
+        "civilian": "4051532313033431040",
+        "military": "1817231405110583040",
+        "cosmic": "2740742447052026880",
+        "total": "8609506165196040960"
+      },
+      "metadataHash": "0x7ddc6e95441f83619e8baf36809fa5124cb05a1052918a29001b2ea477bc9e9e",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 7669.10966990676,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0047",
+      "curveBendIndex": 47,
+      "timeQuarters": 2.35,
+      "timeDays": 216.20000000000002,
+      "compoundFactor": 47120.38208155338,
+      "yields": {
+        "civilian": "5093886705962158080",
+        "military": "2284758007821262080",
+        "cosmic": "3445864536386165760",
+        "total": "10824509250169585920"
+      },
+      "metadataHash": "0x34a75e10f396fee7cd034d4ecb74688a64f842c3cb7547b5294228555bd6af04",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 9642.17307820209,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0048",
+      "curveBendIndex": 48,
+      "timeQuarters": 2.4,
+      "timeDays": 220.79999999999998,
+      "compoundFactor": 59243.23671157902,
+      "yields": {
+        "civilian": "6404411903570196480",
+        "military": "2872567103807220480",
+        "cosmic": "4332396287709250560",
+        "total": "13609375295086667520"
+      },
+      "metadataHash": "0xb74570a5a0aedddf6874829807f5b3bba2a9ca98e4e2c017abf3cb0d65c08823",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 12122.854630025635,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0049",
+      "curveBendIndex": 49,
+      "timeQuarters": 2.45,
+      "timeDays": 225.4,
+      "compoundFactor": 74484.98804593072,
+      "yields": {
+        "civilian": "8052101312420505600",
+        "military": "3611604265129785600",
+        "cosmic": "5447009711343283200",
+        "total": "17110715288893574400"
+      },
+      "metadataHash": "0x2d3183379f3a8667c2b7a6be86d352557d30f11bb1497de7c2972f94c3c2e213",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 15241.751334351698,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0050",
+      "curveBendIndex": 50,
+      "timeQuarters": 2.5,
+      "timeDays": 230,
+      "compoundFactor": 93648.04747607716,
+      "yields": {
+        "civilian": "10123698556970311680",
+        "military": "4540776558641095680",
+        "cosmic": "6848384317950504960",
+        "total": "21512859433561912320"
+      },
+      "metadataHash": "0xd5ae42d0d21d6f2d8139eb45f604eeab76934f89d100a6a5d5cdda28b858e1f2",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 19163.059430146444,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0051",
+      "curveBendIndex": 51,
+      "timeQuarters": 2.55,
+      "timeDays": 234.6,
+      "compoundFactor": 117741.26607463053,
+      "yields": {
+        "civilian": "12728264150458552320",
+        "military": "5709000832190968320",
+        "cosmic": "8610296337074903040",
+        "total": "27047561319724423680"
+      },
+      "metadataHash": "0x5d9e2fd1e8e1e69c77a283c44dbf15a56b3c2a5298497ac7b2348bc87c37f80a",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 24093.218598553372,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0052",
+      "curveBendIndex": 52,
+      "timeQuarters": 2.6,
+      "timeDays": 239.20000000000002,
+      "compoundFactor": 148033.0461817513,
+      "yields": {
+        "civilian": "16002917053776046080",
+        "military": "7177778972649550080",
+        "cosmic": "10825502712848501760",
+        "total": "34006198739274097920"
+      },
+      "metadataHash": "0x53a9231aed8e2840ba0fbb778f1643be1edb8df82c5789b4f705707b52ed0085",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 30291.780107120765,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0053",
+      "curveBendIndex": 53,
+      "timeQuarters": 2.65,
+      "timeDays": 243.79999999999998,
+      "compoundFactor": 186118.11722797662,
+      "yields": {
+        "civilian": "20120053386910095360",
+        "military": "9024435710305263360",
+        "cosmic": "13610624349968593920",
+        "total": "42755113447183952640"
+      },
+      "metadataHash": "0x1ced8daea3f6b53aeb73cd4a993617ff7845187f1282e916efc686b2df3ccf4b",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 38085.07104622532,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0054",
+      "curveBendIndex": 54,
+      "timeQuarters": 2.7,
+      "timeDays": 248.4,
+      "compoundFactor": 234001.49124781802,
+      "yields": {
+        "civilian": "25296422329288488960",
+        "military": "11346189427107336960",
+        "cosmic": "17112285693342213120",
+        "total": "53754897449738039040"
+      },
+      "metadataHash": "0x2bca3a6e9357c6271d83eb818ddf13f76fef7175c1ce3fd40225b55ae29028aa",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 47883.3740198414,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0055",
+      "curveBendIndex": 55,
+      "timeQuarters": 2.75,
+      "timeDays": 253,
+      "compoundFactor": 294204.01797387033,
+      "yields": {
+        "civilian": "31804537013667440640",
+        "military": "14265270278189072640",
+        "cosmic": "21514833862186798080",
+        "total": "67584641154043311360"
+      },
+      "metadataHash": "0x3583dabf228087ce1af8cb48f098fcab62749d569b20537e242eaff2342e66de",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 60202.52672605231,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0056",
+      "curveBendIndex": 56,
+      "timeQuarters": 2.8,
+      "timeDays": 257.59999999999997,
+      "compoundFactor": 369895.0965244181,
+      "yields": {
+        "civilian": "39987021148199608320",
+        "military": "17935355073824824320",
+        "cosmic": "27050043717899735040",
+        "total": "84972419939924167680"
+      },
+      "metadataHash": "0x6546d47d7930ae6dee49722bb3a58fca9a43c47660f4a915d38d1ea75bcd539f",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 75691.07855054777,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0057",
+      "curveBendIndex": 57,
+      "timeQuarters": 2.85,
+      "timeDays": 262.2,
+      "compoundFactor": 465059.5303731056,
+      "yields": {
+        "civilian": "50274646652393072640",
+        "military": "22549657689676304640",
+        "cosmic": "34009319794265902080",
+        "total": "106833624136335279360"
+      },
+      "metadataHash": "0x7ef75868d0225236f286def78489a979d928db72087ef4da29292cd2f67f4286",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 95164.4338486875,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0058",
+      "curveBendIndex": 58,
+      "timeQuarters": 2.9,
+      "timeDays": 266.8,
+      "compoundFactor": 584707.3097833716,
+      "yields": {
+        "civilian": "63209011910442301440",
+        "military": "28351100930418973440",
+        "cosmic": "42759037468828615680",
+        "total": "134319150309689890560"
+      },
+      "metadataHash": "0xe5b9c7edfeb068b59b12cea683b14110120574fe56fe8c0bf7c6dfcd3821d908",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 119647.77941026603,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0059",
+      "curveBendIndex": 59,
+      "timeQuarters": 2.95,
+      "timeDays": 271.40000000000003,
+      "compoundFactor": 735137.3658331968,
+      "yields": {
+        "civilian": "79471054552053565440",
+        "military": "35645105350553437440",
+        "cosmic": "53759831020506823680",
+        "total": "168875990923113826560"
+      },
+      "metadataHash": "0x66f09d43019299ac6c4cb1f7d92229f6a16339f9bb994da3c010fe5a6acbe0e2",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 150430.05604982516,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0060",
+      "curveBendIndex": 60,
+      "timeQuarters": 3,
+      "timeDays": 276,
+      "compoundFactor": 924269.1815233048,
+      "yields": {
+        "civilian": "99916899833224304640",
+        "military": "44815668307549136640",
+        "cosmic": "67590844004828206080",
+        "total": "212323412145601647360"
+      },
+      "metadataHash": "0xf39eba993e13c5d58f0bd2eeed628ec3d17b7cd179ab3c0ef2a76919a72e157b",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 189131.815690108,
+        "significance": "Quarter Milestone"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0061",
+      "curveBendIndex": 61,
+      "timeQuarters": 3.05,
+      "timeDays": 280.59999999999997,
+      "compoundFactor": 1162059.7178399921,
+      "yields": {
+        "civilian": "125622931878157547520",
+        "military": "56345579739467723520",
+        "cosmic": "84980218623459517440",
+        "total": "266948730241084788480"
+      },
+      "metadataHash": "0xf368e42e2dcbe28aac85a7f5f00cdc4ecd7326844e41331a6493e4d95bd3cadf",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 237790.53631668736,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0062",
+      "curveBendIndex": 62,
+      "timeQuarters": 3.1,
+      "timeDays": 285.2,
+      "compoundFactor": 1461027.6041020588,
+      "yields": {
+        "civilian": "157942460585009295360",
+        "military": "70841838938864463360",
+        "cosmic": "106843429219270993920",
+        "total": "335627728743144752640"
+      },
+      "metadataHash": "0x79835046f0be1f7f2416c344050e1a723bfa2c2bcf5b049768f7e9e1f2885507",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 298967.88626206666,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0063",
+      "curveBendIndex": 63,
+      "timeQuarters": 3.15,
+      "timeDays": 289.8,
+      "compoundFactor": 1836912.1889156804,
+      "yields": {
+        "civilian": "198576967458566707200",
+        "military": "89067610404210067200",
+        "cosmic": "134331477986677478400",
+        "total": "421976055849454252800"
+      },
+      "metadataHash": "0xcb2ffa4fd11b860127f0dc8e499968973015148e68c916e1ed181d27f0446c2a",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 375884.5848136216,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0064",
+      "curveBendIndex": 64,
+      "timeQuarters": 3.2,
+      "timeDays": 294.40000000000003,
+      "compoundFactor": 2309502.147880909,
+      "yields": {
+        "civilian": "249665681153732198400",
+        "military": "111982401105718118400",
+        "cosmic": "168891490192230604800",
+        "total": "530539572451680921600"
+      },
+      "metadataHash": "0xff1091a64cec767e4619489897ba72be069738fe161f8cda05f3e370dac3eae5",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 472589.95896522864,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0065",
+      "curveBendIndex": 65,
+      "timeQuarters": 3.25,
+      "timeDays": 299,
+      "compoundFactor": 2903677.2706130473,
+      "yields": {
+        "civilian": "313898198485621155840",
+        "military": "140792574320756547840",
+        "cosmic": "212342898975567252480",
+        "total": "667033671781944956160"
+      },
+      "metadataHash": "0x52e919d5723cd710cb879a73d2f5b2939c5cb5817fa46ff22a1b99443eec6601",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 594175.1227321383,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0066",
+      "curveBendIndex": 66,
+      "timeQuarters": 3.3,
+      "timeDays": 303.59999999999997,
+      "compoundFactor": 3650718.2725987243,
+      "yields": {
+        "civilian": "394656079911086960640",
+        "military": "177014859371884592640",
+        "cosmic": "266973230528088238080",
+        "total": "838644169811059791360"
+      },
+      "metadataHash": "0x71c3937680ada45f7223cd37bb02760dc5bd168371cf74f71b9ff324b7a266fb",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 747041.001985677,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0067",
+      "curveBendIndex": 67,
+      "timeQuarters": 3.35,
+      "timeDays": 308.2,
+      "compoundFactor": 4589953.587738896,
+      "yields": {
+        "civilian": "496190873863680675840",
+        "military": "222556200777092067840",
+        "cosmic": "335658532319548692480",
+        "total": "1054405606960321436160"
+      },
+      "metadataHash": "0xd48a52ed33d794e3ddabf177a8ed42110da75e6ad7fc15094703ec4aedadceba",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 939235.3151401714,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0068",
+      "curveBendIndex": 68,
+      "timeQuarters": 3.4,
+      "timeDays": 312.8,
+      "compoundFactor": 5770829.837987011,
+      "yields": {
+        "civilian": "623847942140198492160",
+        "military": "279814150518765500160",
+        "cosmic": "422014784388957803520",
+        "total": "1325676877047921795840"
+      },
+      "metadataHash": "0x2ea5995f529fc5b58e754b26e3bdf6bd85116f8558b53b6e6ac86ac73742f5c2",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 1180876.2502481155,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0069",
+      "curveBendIndex": 69,
+      "timeQuarters": 3.45,
+      "timeDays": 317.40000000000003,
+      "compoundFactor": 7255514.981232466,
+      "yields": {
+        "civilian": "784347869766310133760",
+        "military": "351803088645183221760",
+        "cosmic": "530588264841915678720",
+        "total": "1666739223253409034240"
+      },
+      "metadataHash": "0x3c24b4234e428e0a75034a8fcc8af89d3bd457c9619b05a79e88f12e79cd22d7",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 1484685.1432454549,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0070",
+      "curveBendIndex": 70,
+      "timeQuarters": 3.5,
+      "timeDays": 322,
+      "compoundFactor": 9122171.181753553,
+      "yields": {
+        "civilian": "986140274337448151040",
+        "military": "442312917166061303040",
+        "cosmic": "667094891463567866880",
+        "total": "2095548082967077320960"
+      },
+      "metadataHash": "0x852907f5832dfb4e545ca28df0a0cef3020883879a32340ebdd0810cb1727bc1",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 1866656.2005210873,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0071",
+      "curveBendIndex": 71,
+      "timeQuarters": 3.55,
+      "timeDays": 326.59999999999997,
+      "compoundFactor": 11469069.705522101,
+      "yields": {
+        "civilian": "1239848641343444520960",
+        "military": "556108581779044968960",
+        "cosmic": "838721139732330117120",
+        "total": "2634678362854819607040"
+      },
+      "metadataHash": "0x8a4fd2b6dea90bc3bc253efcf25e45b2250f5b5eebfb83e6a4415bee02475133",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 2346898.523768548,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0072",
+      "curveBendIndex": 72,
+      "timeQuarters": 3.6,
+      "timeDays": 331.2,
+      "compoundFactor": 14419764.47155854,
+      "yields": {
+        "civilian": "1558829604108675133440",
+        "military": "699180925372273405440",
+        "cosmic": "1054502379249986119680",
+        "total": "3312512908730934658560"
+      },
+      "metadataHash": "0x001d4bc7b6ec5fcaa2c710f918a46b48f03b4332da52354c80ca58a2f6de9449",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 2950694.766036438,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0073",
+      "curveBendIndex": 73,
+      "timeQuarters": 3.65,
+      "timeDays": 335.8,
+      "compoundFactor": 18129596.62413666,
+      "yields": {
+        "civilian": "1959876111984678420480",
+        "military": "879062079640186644480",
+        "cosmic": "1325798546342576578560",
+        "total": "4164736737967441643520"
+      },
+      "metadataHash": "0xab1a9720c68f9c1a2b2e1f56c58744a97a317103c1af2f227a4fc0a9016855ed",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 3709832.152578121,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0074",
+      "curveBendIndex": 74,
+      "timeQuarters": 3.7,
+      "timeDays": 340.40000000000003,
+      "compoundFactor": 22793872.56305046,
+      "yields": {
+        "civilian": "2464101505516737024000",
+        "military": "1105221998797948224000",
+        "cosmic": "1666892194908380928000",
+        "total": "5236215699223066176000"
+      },
+      "metadataHash": "0x9841293308b6923cc9ad59377687ed8ebc78363c9efc24c1038288d3c9f10a87",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 4664275.9389138,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0075",
+      "curveBendIndex": 75,
+      "timeQuarters": 3.75,
+      "timeDays": 345,
+      "compoundFactor": 28658145.969385307,
+      "yields": {
+        "civilian": "3098051041267685836800",
+        "military": "1389567011156829676800",
+        "cosmic": "2095740410269316889600",
+        "total": "6583358462693832403200"
+      },
+      "metadataHash": "0xffd8bbe97561a5d7772fb4fe6c2d7d3617877a7050c3a48c949583c6fd952fbc",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 5864273.406334847,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0076",
+      "curveBendIndex": 76,
+      "timeQuarters": 3.8,
+      "timeDays": 349.59999999999997,
+      "compoundFactor": 36031145.13037726,
+      "yields": {
+        "civilian": "3895099383207833487360",
+        "military": "1747066635115278255360",
+        "cosmic": "2634920170993534417920",
+        "total": "8277086189316646160640"
+      },
+      "metadataHash": "0xb69d0edf28453e9b806bbd48d59219a5a7e1ab4da5f1f5851dad6adcff4c8948",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 7372999.160991956,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0077",
+      "curveBendIndex": 77,
+      "timeQuarters": 3.85,
+      "timeDays": 354.2,
+      "compoundFactor": 45301026.13034313,
+      "yields": {
+        "civilian": "4897207632466237962240",
+        "military": "2196541658679709674240",
+        "cosmic": "3312816927844808033280",
+        "total": "10406566218990755669760"
+      },
+      "metadataHash": "0x6e3fa5067f09db9ac34cabd4818e62e9e0ed47c3bf79e08c74d5aa06e8b170a1",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 9269880.999965869,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0078",
+      "curveBendIndex": 78,
+      "timeQuarters": 3.9,
+      "timeDays": 358.8,
+      "compoundFactor": 56955807.56693369,
+      "yields": {
+        "civilian": "6157132395357303613440",
+        "military": "2761654971447025885440",
+        "cosmic": "4165118973329940679680",
+        "total": "13083906340134270178560"
+      },
+      "metadataHash": "0xc92a58fb93d727a990b1c8413dd75db785b7f616eb26acb38c7cfcfb0194dda4",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 11654781.43659056,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0079",
+      "curveBendIndex": 79,
+      "timeQuarters": 3.95,
+      "timeDays": 363.40000000000003,
+      "compoundFactor": 71609062.59094083,
+      "yields": {
+        "civilian": "7741203187430948659200",
+        "military": "3472157312009469619200",
+        "cosmic": "5236696273850347622400",
+        "total": "16450056773290765900800"
+      },
+      "metadataHash": "0x2f92278c1935b6c8d9e1b2bb7b4cc710c95f4340e5c79f91c7b4d70158a4f920",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 14653255.024007142,
+        "significance": "Intermediate Point"
+      }
+    },
+    {
+      "enftId": "CURVE-BEND-0080",
+      "curveBendIndex": 80,
+      "timeQuarters": 4,
+      "timeDays": 368,
+      "compoundFactor": 90032220.84292427,
+      "yields": {
+        "civilian": "9732814391692786360320",
+        "military": "4365453513921029176320",
+        "cosmic": "6583962676733355479040",
+        "total": "20682230582347171015680"
+      },
+      "metadataHash": "0x60f5a3ddb832b8351728468d6ea1a0bea73efd0f76d35d9c3692139361256ff3",
+      "irreversible": true,
+      "onChainEncoded": true,
+      "attributes": {
+        "rarity": "Legendary",
+        "acceleration": 18423158.251983434,
+        "significance": "Year Milestone"
+      }
+    }
+  ]
+}

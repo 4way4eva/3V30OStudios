@@ -1,0 +1,102 @@
+{
+  "name": "Titan Ticket #{tokenId}",
+  "description": "MEGAZION Titan Ticket - Premium tier access token with full arena participation rights, exclusive event access, and enhanced yield distribution.",
+  "image": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/ticket_titan.png",
+  "animation_url": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/ticket_titan_animated.mp4",
+  "external_url": "https://megazion.io/tickets/titan/{tokenId}",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Access Token"
+    },
+    {
+      "trait_type": "Tier",
+      "value": "Premium"
+    },
+    {
+      "trait_type": "Access Level",
+      "value": "Titan",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Arena Access",
+      "value": "Full Participant"
+    },
+    {
+      "trait_type": "Event Access",
+      "value": "All Events + VIP"
+    },
+    {
+      "trait_type": "Yield Share",
+      "value": 10,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Arena Slots",
+      "value": 3,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Governance Weight",
+      "value": 10,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Series",
+      "value": "Genesis"
+    },
+    {
+      "trait_type": "Epoch",
+      "value": 1,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Valid Until",
+      "value": "Perpetual"
+    },
+    {
+      "trait_type": "Transferable",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Special Ability",
+      "value": "Royal Rumble Entry"
+    }
+  ],
+  "properties": {
+    "category": "Ticket",
+    "access_rights": [
+      "royal_rumble_arena_full_participant",
+      "vip_yield_distribution",
+      "exclusive_events",
+      "priority_governance_vote",
+      "backstage_access",
+      "early_mint_access",
+      "whitelist_privileges"
+    ],
+    "files": [
+      {
+        "uri": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/ticket_titan.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/ticket_titan_animated.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "creators": [
+      {
+        "address": "0xPLACEHOLDER_REPLACE_WITH_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "compiler": {
+    "name": "MEGAZION Codex Compiler",
+    "version": "1.0.0"
+  }
+}
