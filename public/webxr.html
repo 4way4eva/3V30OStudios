@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>BLEUCHAIN WebXR — Hologram Scene</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { margin:0; background:#000; color:#fff; font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial; }
+    #enterVr { position: absolute; right: 16px; top: 16px; z-index: 10; padding:10px 14px; background:#0A73FF; color:#fff; border:none; cursor:pointer; border-radius:6px}
+    #status { position: absolute; left: 16px; top: 16px; z-index: 10; background: rgba(0,0,0,0.4); padding:8px 10px; border-radius:6px; font-size:13px; }
+    canvas { display:block; width:100vw; height:100vh; }
+  </style>
+</head>
+<body>
+  <div id="status">BLEUCHAIN WebXR — disconnected</div>
+  <button id="enterVr">Enter VR</button>
+  <script type="module" src="./js/webxr_scene.js"></script>
+</body>
+</html>
