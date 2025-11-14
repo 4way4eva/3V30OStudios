@@ -34,7 +34,7 @@
     "clean": "hardhat clean",
     "galactic:activate": "python3 scripts/activate_galactic_mint.py",
     "galactic:csv": "python3 scripts/generate_watchtower_csv.py",
-    "galactic:scrolls": "python3 scripts/generate_ritual_scroll.py"
+    "galactic:scrolls": "python3 scripts/generate_ritual_scroll.py",
     "analyze:complexity": "python3 analysis/codex_complexity_analyzer.py"
   },
   "dependencies": {
