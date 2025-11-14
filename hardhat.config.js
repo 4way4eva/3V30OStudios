@@ -1,30 +1,19 @@
-require('dotenv').config();
-require('@nomiclabs/hardhat-ethers');
-
-const { DEPLOY_PRIVATE_KEY, SEPOLIA_RPC_URL, MUMBAI_RPC_URL, FUJI_RPC_URL, BSC_RPC_URL, CRONOS_RPC_URL } = process.env;
+require("@nomicfoundation/hardhat-toolbox");
+require("dotenv").config();
 
 module.exports = {
   solidity: "0.8.20",
   networks: {
     sepolia: {
-      url: SEPOLIA_RPC_URL || "",
-      accounts: DEPLOY_PRIVATE_KEY ? [DEPLOY_PRIVATE_KEY] : []
+      url: `https://sepolia.infura.io/v3/${process.env.INFURA_API_KEY}`,
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : []
     },
     mumbai: {
-      url: MUMBAI_RPC_URL || "",
-      accounts: DEPLOY_PRIVATE_KEY ? [DEPLOY_PRIVATE_KEY] : []
-    },
-    fuji: {
-      url: FUJI_RPC_URL || "",
-      accounts: DEPLOY_PRIVATE_KEY ? [DEPLOY_PRIVATE_KEY] : []
-    },
-    bscTestnet: {
-      url: BSC_RPC_URL || "",
-      accounts: DEPLOY_PRIVATE_KEY ? [DEPLOY_PRIVATE_KEY] : []
-    },
-    cronosTestnet: {
-      url: CRONOS_RPC_URL || "",
-      accounts: DEPLOY_PRIVATE_KEY ? [DEPLOY_PRIVATE_KEY] : []
+      url: process.env.MUMBAI_RPC_URL || "",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : []
     }
+  },
+  etherscan: {
+    apiKey: process.env.ETHERSCAN_API_KEY || ""
   }
 };
