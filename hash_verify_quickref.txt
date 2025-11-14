@@ -1,0 +1,7 @@
+macOS/Linux:
+  shasum -a 256 EvolVerse_War_Codex_Scroll_SEALED.pdf
+
+Windows PowerShell:
+  Get-FileHash .\EvolVerse_War_Codex_Scroll_SEALED.pdf -Algorithm SHA256 | Select-Object -ExpandProperty Hash
+
+Expected: f19f018eb2508f736c4a5694aad4e221a2a97b22b4657817760e490073cc1681

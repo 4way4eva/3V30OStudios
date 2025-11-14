@@ -1,0 +1,13 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.3",
+  "Category": "EV0L",
+  "Description": "EV0L OneBuild Unreal Skeleton",
+  "Modules": [
+    {
+      "Name": "EvolCore",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}
