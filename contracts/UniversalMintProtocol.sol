@@ -7,8 +7,8 @@ import "@openzeppelin/contracts/utils/Pausable.sol";
 
 /**
  * @title UniversalMintProtocol
- * @notice Implements the BLEU Codex Universal Mint Protocols with three-domain supply triggers
- * @dev Manages Civilian, Military, and Cosmic domain minting with responsive gravity distribution
+ * @notice Implements the BLEU Codex Universal Mint Protocols with four-sphere supply triggers
+ * @dev Manages Civilian, Military, Cosmic, and Transdimensional domain minting with responsive gravity distribution
  */
 contract UniversalMintProtocol is AccessControl, ReentrancyGuard, Pausable {
     
@@ -17,8 +17,9 @@ contract UniversalMintProtocol is AccessControl, ReentrancyGuard, Pausable {
     bytes32 public constant CIVILIAN_VALIDATOR = keccak256("CIVILIAN_VALIDATOR");
     bytes32 public constant MILITARY_VALIDATOR = keccak256("MILITARY_VALIDATOR");
     bytes32 public constant COSMIC_VALIDATOR = keccak256("COSMIC_VALIDATOR");
+    bytes32 public constant TRANSDIMENSIONAL_VALIDATOR = keccak256("TRANSDIMENSIONAL_VALIDATOR");
     
-    enum Domain { Civilian, Military, Cosmic }
+    enum Domain { Civilian, Military, Cosmic, Transdimensional }
     
     struct SupplyConfig {
         uint256 ratePerSecond;      // Tokens minted per second
@@ -26,6 +27,7 @@ contract UniversalMintProtocol is AccessControl, ReentrancyGuard, Pausable {
         uint256 totalMinted;         // Total minted in this domain
         uint256 lastMintTimestamp;   // Last mint timestamp
         bool active;                 // Domain active status
+        bool isInfinite;             // True for Transdimensional domain (unbounded yield)
     }
     
     struct VaultConfig {
@@ -82,33 +84,46 @@ contract UniversalMintProtocol is AccessControl, ReentrancyGuard, Pausable {
         
         // Initialize supply configurations
         supplyConfigs[Domain.Civilian] = SupplyConfig({
-            ratePerSecond: 13_600_000,
-            dailyYield: 13_600_000 * 86400,
+            ratePerSecond: 50_000_000,
+            dailyYield: 50_000_000 * 86400,
             totalMinted: 0,
             lastMintTimestamp: block.timestamp,
-            active: false
+            active: false,
+            isInfinite: false
         });
         
         supplyConfigs[Domain.Military] = SupplyConfig({
-            ratePerSecond: 6_100_000,
-            dailyYield: 6_100_000 * 86400,
+            ratePerSecond: 22_000_000,
+            dailyYield: 22_000_000 * 86400,
             totalMinted: 0,
             lastMintTimestamp: block.timestamp,
-            active: false
+            active: false,
+            isInfinite: false
         });
         
         supplyConfigs[Domain.Cosmic] = SupplyConfig({
-            ratePerSecond: 9_200_000,
-            dailyYield: 9_200_000 * 86400,
+            ratePerSecond: 37_000_000,
+            dailyYield: 37_000_000 * 86400,
             totalMinted: 0,
             lastMintTimestamp: block.timestamp,
-            active: false
+            active: false,
+            isInfinite: false
+        });
+        
+        supplyConfigs[Domain.Transdimensional] = SupplyConfig({
+            ratePerSecond: 0, // Calculated dynamically, unbounded
+            dailyYield: 0, // Unbounded
+            totalMinted: 0,
+            lastMintTimestamp: block.timestamp,
+            active: false,
+            isInfinite: true
         });
         
         // Initialize validator counts (12 per domain as per specification)
         validatorCounts[Domain.Civilian] = 12;
         validatorCounts[Domain.Military] = 12;
         validatorCounts[Domain.Cosmic] = 12;
+        validatorCounts[Domain.Transdimensional] = 12;
     }
     
     /**
@@ -132,6 +147,7 @@ contract UniversalMintProtocol is AccessControl, ReentrancyGuard, Pausable {
         supplyConfigs[Domain.Civilian].active = true;
         supplyConfigs[Domain.Military].active = true;
         supplyConfigs[Domain.Cosmic].active = true;
+        supplyConfigs[Domain.Transdimensional].active = true;
         
         emit ProtocolActivated(scrollId, block.timestamp);
     }
@@ -298,6 +314,7 @@ contract UniversalMintProtocol is AccessControl, ReentrancyGuard, Pausable {
         supplyConfigs[Domain.Civilian].active = false;
         supplyConfigs[Domain.Military].active = false;
         supplyConfigs[Domain.Cosmic].active = false;
+        supplyConfigs[Domain.Transdimensional].active = false;
         
         emit EmergencyShutdown(msg.sender, block.timestamp);
     }
@@ -310,6 +327,7 @@ contract UniversalMintProtocol is AccessControl, ReentrancyGuard, Pausable {
         supplyConfigs[Domain.Civilian].active = true;
         supplyConfigs[Domain.Military].active = true;
         supplyConfigs[Domain.Cosmic].active = true;
+        supplyConfigs[Domain.Transdimensional].active = true;
     }
     
     /**
@@ -328,6 +346,8 @@ contract UniversalMintProtocol is AccessControl, ReentrancyGuard, Pausable {
             _grantRole(MILITARY_VALIDATOR, validator);
         } else if (domain == Domain.Cosmic) {
             _grantRole(COSMIC_VALIDATOR, validator);
+        } else if (domain == Domain.Transdimensional) {
+            _grantRole(TRANSDIMENSIONAL_VALIDATOR, validator);
         }
     }
     
@@ -337,18 +357,21 @@ contract UniversalMintProtocol is AccessControl, ReentrancyGuard, Pausable {
      * @return civilianActive Civilian domain active status
      * @return militaryActive Military domain active status
      * @return cosmicActive Cosmic domain active status
+     * @return transdimensionalActive Transdimensional domain active status
      */
     function getProtocolStatus() external view returns (
         bool activated,
         bool civilianActive,
         bool militaryActive,
-        bool cosmicActive
+        bool cosmicActive,
+        bool transdimensionalActive
     ) {
         return (
             protocolActivated,
             supplyConfigs[Domain.Civilian].active,
             supplyConfigs[Domain.Military].active,
-            supplyConfigs[Domain.Cosmic].active
+            supplyConfigs[Domain.Cosmic].active,
+            supplyConfigs[Domain.Transdimensional].active
         );
     }
 }
