@@ -1,0 +1,90 @@
+
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                    INVESTMENT PRIORITY MATRIX                             ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+TIER 1: HIGHEST PRIORITY (Top Combined Score)
+────────────────────────────────────────────────────────────────────────────────
+1. Ziphonate Cores
+   ⚡ Energy, Agriculture & Planet Systems
+   ROI: 186% | Overscale: $1200B | Score: 223K
+   "Power beyond limits."
+
+2. BLEU SportsVerse Arenas
+   🎭 Culture, Sports & Influence
+   ROI: 248% | Overscale: $730B | Score: 181K
+   "Play for the cosmos."
+
+3. MirrorGuard Shields
+   🛡️ Defense, Military & Security
+   ROI: 194% | Overscale: $910B | Score: 177K
+   "Reflect intent. Protect peace."
+
+4. WarpJump Engines
+   🚀 Travel, Expansion & Mobility
+   ROI: 200% | Overscale: $870B | Score: 174K
+   "Plug in. Jump out."
+
+5. HeavenGold Bonds
+   ⚡ Energy, Agriculture & Planet Systems
+   ROI: 167% | Overscale: $1040B | Score: 174K
+   "Build once. Regenerate forever."
+
+6. Immortality Credits
+   🧬 Healing, Medicine & Biology
+   ROI: 204% | Overscale: $820B | Score: 167K
+   "Buy resurrection. Mint eternity."
+
+7. PlasmaPearl Reactors
+   ⚡ Energy, Agriculture & Planet Systems
+   ROI: 187% | Overscale: $890B | Score: 166K
+   "Ocean-born energy."
+
+
+TIER 2: HIGH VALUE (Balanced Growth)
+────────────────────────────────────────────────────────────────────────────────
+8. HoverLane 8 Pods - 🚀 Travel, Expansion & Mobility
+   ROI: 222% | Overscale: $740B
+
+9. PhaseWalk Cannons - 🛡️ Defense, Military & Security
+   ROI: 165% | Overscale: $980B
+
+10. BLEUFleet Outposts - 🚀 Travel, Expansion & Mobility
+   ROI: 244% | Overscale: $620B
+
+11. InfinityLoop Vaultlets - ⚡ Energy, Agriculture & Planet Systems
+   ROI: 186% | Overscale: $800B
+
+12. HydroDome Farms - ⚡ Energy, Agriculture & Planet Systems
+   ROI: 200% | Overscale: $720B
+
+13. SmartAd Beacons - 💰 Economy, Commerce & Finance
+   ROI: 146% | Overscale: $960B
+
+14. HoloConcert Domes - 🎭 Culture, Sports & Influence
+   ROI: 244% | Overscale: $550B
+
+
+TIER 3: SPECIALIZED IMPACT
+────────────────────────────────────────────────────────────────────────────────
+15. NanoHeal Clouds - 🧬 Healing, Medicine & Biology
+   ROI: 184% | Overscale: $710B
+
+16. History Rewrite Modules - 🧠 Memory, Legacy & Knowledge
+   ROI: 216% | Overscale: $600B
+
+17. Codex Authority Badges - 🛡️ Defense, Military & Security
+   ROI: 200% | Overscale: $630B
+
+18. Ancestral Engrams - 🧠 Memory, Legacy & Knowledge
+   ROI: 205% | Overscale: $610B
+
+19. Combat Academies - 🏛️ Education & Justice
+   ROI: 195% | Overscale: $560B
+
+20. Lineage Bridges - 🧠 Memory, Legacy & Knowledge
+   ROI: 206% | Overscale: $520B
+
+21. SkyyBleu Serums - 🧬 Healing, Medicine & Biology
+   ROI: 194% | Overscale: $530B
+
