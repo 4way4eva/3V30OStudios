@@ -1,0 +1,215 @@
+{
+  "bleu_flowmap": {
+    "ENERGY_BLEU": {
+      "total_allocation_percent": 100,
+      "sectors": {
+        "microgrids": {
+          "percent": 35,
+          "description": "Distributed energy microgrids across Safe-Haven cities"
+        },
+        "battery_banks": {
+          "percent": 30,
+          "description": "V2G battery storage and power banks"
+        },
+        "retrofit_funds": {
+          "percent": 20,
+          "description": "Building energy efficiency retrofit programs"
+        },
+        "wind_tech": {
+          "percent": 15,
+          "description": "Wind turbine technology and installation"
+        }
+      },
+      "vault_id": "VAULT::ENG::GridVault",
+      "symbol": "⚡"
+    },
+    "BABY_BLEU": {
+      "total_allocation_percent": 100,
+      "sectors": {
+        "skyybleu_clinics": {
+          "percent": 25,
+          "description": "SkyyBleu maternal and infant care clinics"
+        },
+        "obgyn_services": {
+          "percent": 20,
+          "description": "Obstetrics and gynecology services"
+        },
+        "formula_labs": {
+          "percent": 20,
+          "description": "Infant formula production facilities"
+        },
+        "diaper_supply": {
+          "percent": 15,
+          "description": "Diaper and infant supplies distribution"
+        },
+        "nursery_centers": {
+          "percent": 20,
+          "description": "Community nursery and daycare centers"
+        }
+      },
+      "vault_id": "VAULT::HLT::HealthVault",
+      "symbol": "👶"
+    },
+    "WATER_BLEU": {
+      "total_allocation_percent": 100,
+      "sectors": {
+        "purification_plants": {
+          "percent": 40,
+          "description": "Water purification and treatment plants"
+        },
+        "pipeline_infrastructure": {
+          "percent": 30,
+          "description": "Water pipeline systems and distribution"
+        },
+        "conservation_tech": {
+          "percent": 20,
+          "description": "Water conservation technology and education"
+        },
+        "emergency_reserves": {
+          "percent": 10,
+          "description": "Emergency water reserves and storage"
+        }
+      },
+      "vault_id": "VAULT::CIV::CityTreasury",
+      "symbol": "💧"
+    },
+    "FOOD_BLEU": {
+      "total_allocation_percent": 100,
+      "sectors": {
+        "urban_farms": {
+          "percent": 30,
+          "description": "Urban agriculture and vertical farms"
+        },
+        "community_kitchens": {
+          "percent": 25,
+          "description": "Community kitchen and meal programs"
+        },
+        "food_distribution": {
+          "percent": 25,
+          "description": "Food distribution networks and logistics"
+        },
+        "nutrition_education": {
+          "percent": 10,
+          "description": "Nutrition education programs"
+        },
+        "emergency_pantries": {
+          "percent": 10,
+          "description": "Emergency food pantries and reserves"
+        }
+      },
+      "vault_id": "VAULT::CIV::CityTreasury",
+      "symbol": "🍎"
+    },
+    "EDUCATION_BLEU": {
+      "total_allocation_percent": 100,
+      "sectors": {
+        "metaschool": {
+          "percent": 35,
+          "description": "MetaSchool quantum curriculum platform"
+        },
+        "scholarships": {
+          "percent": 25,
+          "description": "ENFT degree scholarships and grants"
+        },
+        "infrastructure": {
+          "percent": 20,
+          "description": "Educational facility infrastructure"
+        },
+        "technology": {
+          "percent": 15,
+          "description": "Educational technology and tools"
+        },
+        "teacher_training": {
+          "percent": 5,
+          "description": "Teacher training and development"
+        }
+      },
+      "vault_id": "VAULT::EDU::EducationVault",
+      "symbol": "📚"
+    },
+    "FOREST_BLEU": {
+      "total_allocation_percent": 100,
+      "sectors": {
+        "reforestation": {
+          "percent": 40,
+          "description": "Reforestation and tree planting programs"
+        },
+        "conservation": {
+          "percent": 30,
+          "description": "Forest conservation and protection"
+        },
+        "carbon_credits": {
+          "percent": 20,
+          "description": "Carbon credit programs and trading"
+        },
+        "biodiversity": {
+          "percent": 10,
+          "description": "Biodiversity protection initiatives"
+        }
+      },
+      "vault_id": "VAULT::CIV::CityTreasury",
+      "symbol": "🌲"
+    },
+    "TRANSIT_BLEU": {
+      "total_allocation_percent": 100,
+      "sectors": {
+        "hoverlanes": {
+          "percent": 35,
+          "description": "HOVERLANE-8 express transport corridors"
+        },
+        "public_transit": {
+          "percent": 30,
+          "description": "Public transit systems and buses"
+        },
+        "bike_infrastructure": {
+          "percent": 15,
+          "description": "Bike lanes and pedestrian infrastructure"
+        },
+        "transit_hubs": {
+          "percent": 15,
+          "description": "Transit hubs and connection centers"
+        },
+        "accessibility": {
+          "percent": 5,
+          "description": "Accessibility improvements and ADA compliance"
+        }
+      },
+      "vault_id": "VAULT::CIV::CityTreasury",
+      "symbol": "🚄"
+    },
+    "BROADBAND_BLEU": {
+      "total_allocation_percent": 100,
+      "sectors": {
+        "fiber_deployment": {
+          "percent": 40,
+          "description": "Fiber optic network deployment"
+        },
+        "wireless_infrastructure": {
+          "percent": 25,
+          "description": "5G and wireless infrastructure"
+        },
+        "community_access": {
+          "percent": 20,
+          "description": "Community internet access points"
+        },
+        "digital_literacy": {
+          "percent": 10,
+          "description": "Digital literacy and training programs"
+        },
+        "subsidized_service": {
+          "percent": 5,
+          "description": "Subsidized broadband service programs"
+        }
+      },
+      "vault_id": "VAULT::CIV::CityTreasury",
+      "symbol": "📡"
+    }
+  },
+  "meta": {
+    "version": "1.0.0",
+    "description": "BLEU sector resource allocation flowmaps defining real-world spending blueprint",
+    "total_sectors": 8,
+    "treasury_integration": "BLEU-BILL Yield Engine™",
+    "update_cadence": "quarterly"
+  }
+}

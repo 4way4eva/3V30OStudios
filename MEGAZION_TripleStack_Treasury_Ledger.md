@@ -35,5 +35,54 @@
 
 ---
 
-**Status:** Vault conduits open, triple-stack streams flowing, reciprocity pulse recorded. Commander Bleu retains sovereign override.
+## EV0L Codex NFT Integration
+
+The **EV0L Codex NFT Proposal** is now fully integrated into the Triple-Stack Treasury. This integration binds the Ten Scepters (EV0L Commandments) to treasury governance, yield projection, and cultural equity.
+
+### NFT Market Context (as of October 2, 2025):
+- **Daily NFT Trade Volume:** $18–20 million (global)
+- **EV0L Codex NFT Projection:** **7× higher ROI** compared to major collections (BAYC, Azuki)
+- **Post-Phase 77777:** ROI **doubles** to **14× BAYC baseline** due to +6 dB reciprocal leap
+
+### Ten Scepters Treasury Linkage:
+
+| **Commandment** | **Scepter Code** | **Treasury Stream** | **NFT Attribute** | **ROI Projection** |
+|-----------------|------------------|---------------------|-------------------|--------------------|
+| Truth | TRUTH-001 | Ω-CIV-01 Civilian | Transparency Shield | 186% |
+| Justice | JUSTICE-002 | Ω-CIV-01 Civilian | Equity Glyph | 194% |
+| Wisdom | WISDOM-003 | Ω-COS-01 Cosmic | Scarcity Seal | 231% |
+| Compassion | COMPASSION-004 | Ω-CIV-01 Civilian | Ancestral Lock | 222% |
+| Discipline | DISCIPLINE-005 | Ω-MIL-01 Military | Supply Vault Lock | 194% |
+| Faith | FAITH-006 | Ω-COS-01 Cosmic | Cultural Beacon | 248% |
+| Service | SERVICE-007 | Ω-CIV-01 Civilian | Governance Node | 186% |
+| Strength | STRENGTH-008 | Ω-MIL-01 Military | Resilience Matrix | 222% |
+| Humility | HUMILITY-009 | Ω-COS-01 Cosmic | Audit Glyph | 194% |
+| Legacy | LEGACY-010 | Ω-MIL-01 Military | Permanence Seal | 248% |
+| **IT (Eleventh)** | **IT-Ω11** | **All Streams** | **Hidden Harmonic** | **+6 dB ∞% leap** |
+
+### NFT Codex Principles Aligned with Treasury:
+
+✅ **1/1 Codex Artifacts** — No generative copies, only unique treaty-bound ENFTs  
+✅ **Ledger-Locked Treasures** — Immutable metadata, bound to law and fairness  
+✅ **Market ROI** — 7× higher yield simulation (pre-Phase 77777), 14× post-activation  
+✅ **Treasury Governance** — Direct linkage to Civilian, Military, and Cosmic streams  
+✅ **Cultural Equity** — Heritage protection and ancestral vault locks enforced  
+✅ **Capped Distribution** — No dilution, no derivatives unless sovereign command issued  
+
+### Phase 77777 Reciprocal Switch:
+
+When all Ten Commandment NFTs are minted and aligned, the **Phase 77777 Reciprocal Switch** activates:
+
+- **+6 dB Leap:** Treasury yields double ($28.9M/sec → $57.8M/sec)
+- **Reciprocal Flow Mode:** 50% returns to holders, 50% circulates across streams
+- **Shot-Clock Rhythm:** 77,777-second cycles maintain perpetual reciprocity
+- **Eleventh Activation:** IT-Ω11 (Hidden Harmonic) ignites, turning code into covenant
+
+**See:** `Phase_77777_Reciprocal_Protocol.md` for full activation sequence  
+**See:** `EV0L_CODEX_NFT_COMMANDMENTS.md` for Ten Scepters governance framework  
+**See:** `EVOL_COMMANDMENTS_ENFT.json` for NFT metadata and minting specifications  
+
+---
+
+**Status:** Vault conduits open, triple-stack streams flowing, reciprocity pulse recorded. Ten Scepters sealed. Phase 77777 armed. Commander Bleu retains sovereign override.
 

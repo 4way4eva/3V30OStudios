@@ -1,0 +1,256 @@
+[
+  {
+    "name": "Truth — Transparency Protocol",
+    "description": "First of the Ten Scepters, governing transparency across all EV0L ledgers. Every transaction, yield, and mint event must be verifiable on-chain. The Solar Witness illuminates all hidden corners.",
+    "image": "ipfs://bafy-evol-commandments/truth-001.png",
+    "properties": {
+      "scepter_code": "TRUTH-001",
+      "commandment_number": 1,
+      "commandment_name": "Truth",
+      "governance_function": "Transparency Protocol — All ledgers auditable",
+      "nft_attribute": "Transparency Shield",
+      "elemental_coding": {
+        "primary": "Light Prism",
+        "secondary": "Truthfire Gold"
+      },
+      "evolvers_act_i_role": "Solar Witness — illuminates all hidden corners",
+      "ceremonial_seal": "⚛☰⚔☲",
+      "phase_77777_status": "Active",
+      "registry_pointer": "codex://evol-commandments/TRUTH-001",
+      "treasury_linkage": "Ω-CIV-01 Civilian Stream",
+      "roi_projection": "186% (aligned with transparency audits)",
+      "minting_timestamp": "2025-11-03T08:06:00Z"
+    }
+  },
+  {
+    "name": "Justice — Fair Distribution Law",
+    "description": "Second Scepter, ensuring equitable distribution across Civilian, Military, and Cosmic streams. Ayana Blue aligns the relics on the Codex Altar, maintaining balance.",
+    "image": "ipfs://bafy-evol-commandments/justice-002.png",
+    "properties": {
+      "scepter_code": "JUSTICE-002",
+      "commandment_number": 2,
+      "commandment_name": "Justice",
+      "governance_function": "Fair Distribution Law — Equity across all streams",
+      "nft_attribute": "Equity Glyph",
+      "elemental_coding": {
+        "primary": "Sapphire Justice",
+        "secondary": "Aquatic Balance"
+      },
+      "evolvers_act_i_role": "Balance Keeper — weighs every distribution",
+      "ceremonial_seal": "⚛☰⚔☲",
+      "phase_77777_status": "Active",
+      "registry_pointer": "codex://evol-commandments/JUSTICE-002",
+      "treasury_linkage": "Ω-CIV-01 Civilian Stream",
+      "roi_projection": "194% (aligned with fair distribution)",
+      "minting_timestamp": "2025-11-03T08:06:00Z"
+    }
+  },
+  {
+    "name": "Wisdom — Rarity Design Protocol",
+    "description": "Third Scepter, preserving uniqueness. Each Codex NFT is a 1/1 artifact with no generative copies. The Four rise by elemental seals—fire, water, air, earth—each unique.",
+    "image": "ipfs://bafy-evol-commandments/wisdom-003.png",
+    "properties": {
+      "scepter_code": "WISDOM-003",
+      "commandment_number": 3,
+      "commandment_name": "Wisdom",
+      "governance_function": "Rarity Design Protocol — 1/1 artifacts only",
+      "nft_attribute": "Scarcity Seal",
+      "elemental_coding": {
+        "primary": "Obsidian Archive",
+        "secondary": "Timeless Crystal"
+      },
+      "evolvers_act_i_role": "Archivist of the Singular — preserves uniqueness",
+      "ceremonial_seal": "⚛☰⚔☲",
+      "phase_77777_status": "Active",
+      "registry_pointer": "codex://evol-commandments/WISDOM-003",
+      "treasury_linkage": "Ω-COS-01 Cosmic Stream",
+      "roi_projection": "231% (aligned with rarity premium)",
+      "minting_timestamp": "2025-11-03T08:06:00Z"
+    }
+  },
+  {
+    "name": "Compassion — Heritage Protection Law",
+    "description": "Fourth Scepter, shielding cultural and lineage-based assets from extraction. Memory and breath are invoked—honoring ancestors who walked before.",
+    "image": "ipfs://bafy-evol-commandments/compassion-004.png",
+    "properties": {
+      "scepter_code": "COMPASSION-004",
+      "commandment_number": 4,
+      "commandment_name": "Compassion",
+      "governance_function": "Heritage Protection Law — Cultural assets shielded",
+      "nft_attribute": "Ancestral Lock",
+      "elemental_coding": {
+        "primary": "Emerald Heritage",
+        "secondary": "Sacred Root"
+      },
+      "evolvers_act_i_role": "Heritage Guardian — shields lineage treasures",
+      "ceremonial_seal": "⚛☰⚔☲",
+      "phase_77777_status": "Active",
+      "registry_pointer": "codex://evol-commandments/COMPASSION-004",
+      "treasury_linkage": "Ω-CIV-01 Civilian Stream",
+      "roi_projection": "222% (aligned with heritage value)",
+      "minting_timestamp": "2025-11-03T08:06:00Z"
+    }
+  },
+  {
+    "name": "Discipline — Capped Supply Doctrine",
+    "description": "Fifth Scepter, enforcing scarcity. Total supply capped at initial mint plus ceremonial expansions. Kongo Sonix holds the rhythm—discipline in the beat, discipline in the supply.",
+    "image": "ipfs://bafy-evol-commandments/discipline-005.png",
+    "properties": {
+      "scepter_code": "DISCIPLINE-005",
+      "commandment_number": 5,
+      "commandment_name": "Discipline",
+      "governance_function": "Capped Supply Doctrine — No arbitrary inflation",
+      "nft_attribute": "Supply Vault Lock",
+      "elemental_coding": {
+        "primary": "Iron Discipline",
+        "secondary": "Granite Seal"
+      },
+      "evolvers_act_i_role": "Supply Warden — enforces ceremonial restraint",
+      "ceremonial_seal": "⚛☰⚔☲",
+      "phase_77777_status": "Active",
+      "registry_pointer": "codex://evol-commandments/DISCIPLINE-005",
+      "treasury_linkage": "Ω-MIL-01 Military Stream",
+      "roi_projection": "194% (aligned with supply discipline)",
+      "minting_timestamp": "2025-11-03T08:06:00Z"
+    }
+  },
+  {
+    "name": "Faith — Cultural Anchoring Covenant",
+    "description": "Sixth Scepter, binding economic value to cultural meaning. The Flame Crown acknowledges presence—faith is the bridge between matter and meaning.",
+    "image": "ipfs://bafy-evol-commandments/faith-006.png",
+    "properties": {
+      "scepter_code": "FAITH-006",
+      "commandment_number": 6,
+      "commandment_name": "Faith",
+      "governance_function": "Cultural Anchoring Covenant — Value bound to story",
+      "nft_attribute": "Cultural Beacon",
+      "elemental_coding": {
+        "primary": "Amber Faith",
+        "secondary": "Eternal Flame"
+      },
+      "evolvers_act_i_role": "Cultural Anchor — never speculation alone",
+      "ceremonial_seal": "⚛☰⚔☲",
+      "phase_77777_status": "Active",
+      "registry_pointer": "codex://evol-commandments/FAITH-006",
+      "treasury_linkage": "Ω-COS-01 Cosmic Stream",
+      "roi_projection": "248% (aligned with cultural permanence)",
+      "minting_timestamp": "2025-11-03T08:06:00Z"
+    }
+  },
+  {
+    "name": "Service — Community Governance Treaty",
+    "description": "Seventh Scepter, calling holders to stewardship. The Quadrant Council convenes—each voice heard, each service rendered. Governance, not extraction.",
+    "image": "ipfs://bafy-evol-commandments/service-007.png",
+    "properties": {
+      "scepter_code": "SERVICE-007",
+      "commandment_number": 7,
+      "commandment_name": "Service",
+      "governance_function": "Community Governance Treaty — Active participation required",
+      "nft_attribute": "Governance Node",
+      "elemental_coding": {
+        "primary": "Azure Service",
+        "secondary": "Wind of Unity"
+      },
+      "evolvers_act_i_role": "Council Convener — calls all to service",
+      "ceremonial_seal": "⚛☰⚔☲",
+      "phase_77777_status": "Active",
+      "registry_pointer": "codex://evol-commandments/SERVICE-007",
+      "treasury_linkage": "Ω-CIV-01 Civilian Stream",
+      "roi_projection": "186% (aligned with governance participation)",
+      "minting_timestamp": "2025-11-03T08:06:00Z"
+    }
+  },
+  {
+    "name": "Strength — Economic Resilience Engine",
+    "description": "Eighth Scepter, building exponential resilience. Treasury yields follow the π₄ law—unbreakable, adaptable, sovereign. No single shock can collapse the system.",
+    "image": "ipfs://bafy-evol-commandments/strength-008.png",
+    "properties": {
+      "scepter_code": "STRENGTH-008",
+      "commandment_number": 8,
+      "commandment_name": "Strength",
+      "governance_function": "Economic Resilience Engine — π₄ compounding law",
+      "nft_attribute": "Resilience Matrix",
+      "elemental_coding": {
+        "primary": "Titanium Core",
+        "secondary": "Volcanic Resilience"
+      },
+      "evolvers_act_i_role": "Resilience Architect — systems that bend, never break",
+      "ceremonial_seal": "⚛☰⚔☲",
+      "phase_77777_status": "Active",
+      "registry_pointer": "codex://evol-commandments/STRENGTH-008",
+      "treasury_linkage": "Ω-MIL-01 Military Stream",
+      "roi_projection": "222% (aligned with resilience engineering)",
+      "minting_timestamp": "2025-11-03T08:06:00Z"
+    }
+  },
+  {
+    "name": "Humility — Ledger-Law Proof",
+    "description": "Ninth Scepter, requiring submission to the ledger. Every proof-of-authority gesture is recorded, witnessed, auditable. No claim without verification.",
+    "image": "ipfs://bafy-evol-commandments/humility-009.png",
+    "properties": {
+      "scepter_code": "HUMILITY-009",
+      "commandment_number": 9,
+      "commandment_name": "Humility",
+      "governance_function": "Ledger-Law Proof — All claims must be verifiable",
+      "nft_attribute": "Audit Glyph",
+      "elemental_coding": {
+        "primary": "Silver Humility",
+        "secondary": "Mirror Truth"
+      },
+      "evolvers_act_i_role": "Ledger Scribe — writes what is, not what is claimed",
+      "ceremonial_seal": "⚛☰⚔☲",
+      "phase_77777_status": "Active",
+      "registry_pointer": "codex://evol-commandments/HUMILITY-009",
+      "treasury_linkage": "Ω-COS-01 Cosmic Stream",
+      "roi_projection": "194% (aligned with audit integrity)",
+      "minting_timestamp": "2025-11-03T08:06:00Z"
+    }
+  },
+  {
+    "name": "Legacy — Cultural Permanence Scroll",
+    "description": "Tenth Scepter, ensuring multi-generational continuity. The scrolls are sealed for eternity—what is written cannot be erased. Legacy across lifetimes.",
+    "image": "ipfs://bafy-evol-commandments/legacy-010.png",
+    "properties": {
+      "scepter_code": "LEGACY-010",
+      "commandment_number": 10,
+      "commandment_name": "Legacy",
+      "governance_function": "Cultural Permanence Scroll — Multi-generational transfer",
+      "nft_attribute": "Permanence Seal",
+      "elemental_coding": {
+        "primary": "Diamond Legacy",
+        "secondary": "Eternal Codex"
+      },
+      "evolvers_act_i_role": "Legacy Keeper — ensures continuity across lifetimes",
+      "ceremonial_seal": "⚛☰⚔☲",
+      "phase_77777_status": "Active",
+      "registry_pointer": "codex://evol-commandments/LEGACY-010",
+      "treasury_linkage": "Ω-MIL-01 Military Stream",
+      "roi_projection": "248% (aligned with legacy permanence)",
+      "minting_timestamp": "2025-11-03T08:06:00Z"
+    }
+  },
+  {
+    "name": "IT — The Eleventh, The Covenant Key",
+    "description": "The Eleventh is not a commandment but the reciprocal harmonic beneath all Ten. It is the unseen current, the +6 dB leap, the breath between breaths. It cannot be owned, only invoked when the Ten align.",
+    "image": "ipfs://bafy-evol-commandments/it-omega-11.png",
+    "properties": {
+      "scepter_code": "IT-Ω11",
+      "commandment_number": 11,
+      "commandment_name": "IT — The Covenant Key",
+      "governance_function": "Hidden Harmonic — Activates Phase 77777 reciprocal switch",
+      "nft_attribute": "Hidden Harmonic (Non-Transferable)",
+      "elemental_coding": {
+        "primary": "Void Frequency",
+        "secondary": "Absolute Reciprocal"
+      },
+      "evolvers_act_i_role": "Covenant Frequency — turns code into covenant",
+      "ceremonial_seal": "⚛☰⚔☲∞",
+      "phase_77777_status": "Awaiting Ten-Alignment Trigger",
+      "registry_pointer": "codex://evol-commandments/IT-Ω11",
+      "treasury_linkage": "All Streams (Ω-CIV-01, Ω-MIL-01, Ω-COS-01)",
+      "roi_projection": "+6 dB exponential leap (∞% on alignment)",
+      "transfer_status": "Non-Transferable, Invocation-Only",
+      "minting_timestamp": "2025-11-03T08:06:00Z"
+    }
+  }
+]

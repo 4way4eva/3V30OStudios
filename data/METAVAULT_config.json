@@ -1,0 +1,118 @@
+{
+  "metavault_treasury": {
+    "yield_streams": {
+      "civilian": {
+        "id": "STREAM::CIV::Ω-CIV-01",
+        "name": "Civilian Infrastructure Stream",
+        "per_second_usd": 13600000,
+        "per_day_usd": 1175040000000,
+        "domains": [
+          "Retail",
+          "Education",
+          "ES0IL Real Estate",
+          "Wearables",
+          "Hospitality"
+        ],
+        "security_protocols": [
+          "π⁴ scaling beacons",
+          "Blu-Vault dual-sign",
+          "Citizen tithe mirrors"
+        ],
+        "symbolic_sigil": "Ω-CIV-01",
+        "vault_link": "ENFT://TREASURY/Ω-CIV-01",
+        "color": "#4A90E2",
+        "icon": "🏙️"
+      },
+      "military": {
+        "id": "STREAM::MIL::Ω-MIL-01",
+        "name": "Military & Defense Stream",
+        "per_second_usd": 6100000,
+        "per_day_usd": 527040000000,
+        "domains": [
+          "Weapons",
+          "Defense Grids",
+          "Orbital/Maritime",
+          "AI Targeting"
+        ],
+        "security_protocols": [
+          "Quad-octa locks",
+          "Live-fire sentinel AI",
+          "Breach nullifiers"
+        ],
+        "symbolic_sigil": "Ω-MIL-01",
+        "vault_link": "ENFT://TREASURY/Ω-MIL-01",
+        "color": "#E74C3C",
+        "icon": "⚔️"
+      },
+      "cosmic": {
+        "id": "STREAM::COS::Ω-COS-01",
+        "name": "Cosmic Energy & Quantum Stream",
+        "per_second_usd": 9200000,
+        "per_day_usd": 794880000000,
+        "domains": [
+          "Portal Energy",
+          "Quantum Matter",
+          "Multidimensional Logistics"
+        ],
+        "security_protocols": [
+          "Dual-reality confirmation",
+          "Portal locks",
+          "Entanglement escrow"
+        ],
+        "symbolic_sigil": "Ω-COS-01",
+        "vault_link": "ENFT://TREASURY/Ω-COS-01",
+        "color": "#9B59B6",
+        "icon": "🌌"
+      }
+    },
+    "aggregated_metrics": {
+      "total_per_second_usd": 28900000,
+      "total_per_day_usd": 2496960000000,
+      "seconds_per_day": 86400,
+      "seconds_per_quarter": 7776000,
+      "days_per_quarter": 90
+    },
+    "compounding": {
+      "pi4_value": 97.409,
+      "method": "π⁴ Quarter-Lattice",
+      "formula": "Y(t) = Y₀ × (π⁴)^(t/T)",
+      "description": "Treasury output follows exponential π⁴ compounding while preserving sovereign audit trails",
+      "sync_interval_seconds": 64,
+      "audit_beacon": "Ω48"
+    },
+    "infrastructure": {
+      "evol_malls": {
+        "count": 100,
+        "valuation_per_mall_usd": 10000000000000,
+        "total_valuation_usd": 1000000000000000,
+        "components": [
+          "Civic HQs and clinics",
+          "Drone hangars",
+          "Flame Crown broadcast nodes",
+          "Combat arenas as defense nodes",
+          "BLEU Bills kiosks",
+          "ENFT vaults"
+        ]
+      },
+      "safe_haven_cities": {
+        "count": 100,
+        "integration": "Full treasury, city, and military infrastructure"
+      }
+    },
+    "governance": {
+      "triple_stack_sync_order": ["CIV", "MIL", "COS"],
+      "reciprocity_pulse_required": true,
+      "dual_biometric_confirmation": true,
+      "audit_mirror": "Chronolumen (ARC-033)",
+      "sovereign_override": "Commander Bleu",
+      "reversal_authority": ["Crown Bearer (SHD-016)", "Sovereign Tutor (CAT-048)"]
+    }
+  },
+  "meta": {
+    "version": "1.0.0",
+    "epoch": "2025-Q1",
+    "ceremony": "Ω48 Treasury Guarantees",
+    "status": "Vault conduits open, triple-stack streams flowing",
+    "last_sync": "2025-11-03T00:00:00Z"
+  }
+}
