@@ -142,7 +142,11 @@ function flashHoloPulse(payload) {
   // small pulse animation on payload -> scale the hologram briefly
   if (!holo) return;
   const original = holo.scale.x;
-  const target = original * (1 + (payload.intensity || 0.14));
+  let intensity = Number(payload.intensity);
+  if (!Number.isFinite(intensity) || intensity < 0) {
+    intensity = 0.14;
+  }
+  const target = original * (1 + intensity);
   // tween (simple)
   let t = 0;
   const dur = 0.55;
