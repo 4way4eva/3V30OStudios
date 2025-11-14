@@ -19,9 +19,15 @@ junit*.properties
 *.csv
 !data/ritual_map.csv
 !data/curriculum/bleuzion_curriculum_schedule.csv
+!data/watchtower_template.csv
 revenue_projections_*.json
 revenue_projections_*.md
 codex_complexity_report.json
+
+# BLEU Galactic Mint generated files (recreate with npm run galactic:activate)
+data/watchtower_galactic_mint.csv
+data/multisig_mint_proposal_active.json
+data/ritual_scrolls/*.md
 
 # environment overrides
 config/.env
