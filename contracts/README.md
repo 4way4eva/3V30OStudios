@@ -2,7 +2,76 @@
 
 ## Overview
 
-This directory contains the smart contracts for the Three-Yield Treasury Economy system.
+This directory contains the smart contracts for the Three-Yield Treasury Economy system and the BLEUE Infrastructure Map Scroll.
+
+## BLEUE Infrastructure Map Scroll Contracts
+
+### BLEUEInfrastructureRegistry.sol
+**Central Registry for Infrastructure Nodes**
+
+Manages the complete BLEUE Infrastructure Map with nine node types, each with unique governance circuits and vault systems.
+
+**Node Types:**
+- **Jaguar Cities**: Defense, Governance, Art
+- **Mega Parks**: Art, Healing, Education
+- **Blue Banks**: Trade, Audit
+- **Alien Embassies**: Trade, Education, Diplomacy
+- **Healing Temples**: Healing, Education
+- **Ritual Kitchens**: Trade, Art
+- **Codex Compilers**: Education, Art
+- **Spiral Nodes**: Education, Defense, Healing
+- **144 Divisions**: Governance, Defense
+
+**Key Features:**
+- Node type registration and management
+- BleuCoin variant registry (9 variants)
+- Vault route configuration
+- Governance circuit integration
+- Dual-reality confirmation
+- Comprehensive audit trail
+
+**Key Functions:**
+```solidity
+registerBleuCoin(coinName, tokenAddress, vaultRoute, vaultAddress, yieldCycle, accessTier, scrollSeal, reinvestmentLogic, scholarshipReference)
+registerNode(nodeType, nodeName, location, coreFunctions, governanceCircuit, governanceAddress, bleuCoinId, ceremonialSeal)
+confirmDualReality(nodeId)
+updateVaultRoute(coinId, newVaultAddress)
+getNodesByType(nodeType)
+```
+
+### Vault Contracts
+
+#### BLEUEBaseVault.sol
+**Base Vault Implementation**
+
+ERC-4626-like vault with pull payment security pattern, time-locks, and role-based access control.
+
+#### Specialized Vaults (BLEUESpecializedVaults.sol):
+- **CouncilVault**: Multi-signature vault with spiral council mood states (Jaguar Cities)
+- **NatureVault**: Quadratic voting vault for ecological stewards (Mega Parks)
+- **EmbassyVault**: Mission-based diplomatic vault (Alien Embassies)
+- **HealingPool**: Wellness-gated vault with ZK ritual tracking (Healing Temples)
+
+#### Additional Vaults (BLEUEAdditionalVaults.sol):
+- **LarderVault**: Feast cycle vault with recipe NFT management (Ritual Kitchens)
+- **ScriptoriumVault**: Scholar progression vault with compilation rewards (Codex Compilers)
+- **CycleVault**: Mood cycle vault with spiral progression (Spiral Nodes)
+- **FractalVault**: Constellation-aligned vault for division governance (144 Divisions)
+
+**Deployment:**
+```bash
+npm run deploy:bleue-infrastructure --network sepolia
+npm run initialize:bleue-nodes --network sepolia
+```
+
+**Documentation:**
+- Full Spec: `BLEUE_Infrastructure_Map_Scroll_and_Registry_Schema.md`
+- Quick Start: `BLEUE_INFRASTRUCTURE_QUICKSTART.md`
+- Schema: `schemas/BLEUE_INFRASTRUCTURE_REGISTRY.v1.schema.json`
+
+---
+
+## Three-Yield Treasury Contracts
 
 ## Main Contracts
 
