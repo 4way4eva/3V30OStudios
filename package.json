@@ -20,6 +20,8 @@
     "deploy:metacurriculum": "hardhat run scripts/deploy_metacurriculum.ts",
     "deploy:sovereign-enft": "hardhat run scripts/deploy_bleu_sovereign_enft.ts",
     "mint:sovereign-enft": "hardhat run scripts/mint_bleu_sovereign_enft.ts",
+    "deploy:bleue-infrastructure": "hardhat run scripts/deploy_bleue_infrastructure.ts",
+    "initialize:bleue-nodes": "hardhat run scripts/initialize_bleue_nodes.ts",
     "sync:live-trace": "python3 scripts/live_quarter_law_trace.py",
     "sync:pi4-enft": "ts-node scripts/pi4_enft_compounding_engine.ts",
     "sync:full": "hardhat run scripts/full_synchronization_mint.ts",
