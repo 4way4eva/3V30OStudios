@@ -1,0 +1,288 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BLEUE Infrastructure Registry Schema",
+  "description": "Registry schema for BLEUE Infrastructure Map Scroll nodes and BleuCoin variants",
+  "version": "1.0.0",
+  
+  "definitions": {
+    "NodeType": {
+      "type": "string",
+      "enum": [
+        "JaguarCity",
+        "MegaPark",
+        "BlueBank",
+        "AlienEmbassy",
+        "HealingTemple",
+        "RitualKitchen",
+        "CodexCompiler",
+        "SpiralNode",
+        "Division144"
+      ]
+    },
+    
+    "AccessTier": {
+      "type": "string",
+      "enum": [
+        "Open",
+        "Quadratic",
+        "Steward",
+        "RitualLeader",
+        "Scholar",
+        "Master",
+        "WellnessTier",
+        "High",
+        "Mission",
+        "DivisionStake"
+      ]
+    },
+    
+    "YieldCycle": {
+      "type": "string",
+      "enum": [
+        "Continuous",
+        "EventDriven",
+        "Seasonal",
+        "MoonCycle",
+        "FeastEvent",
+        "ScrollCompletion",
+        "MoodCycle",
+        "CosmicAlign"
+      ]
+    },
+    
+    "BleuCoinRegistryEntry": {
+      "type": "object",
+      "required": [
+        "coinName",
+        "tokenAddress",
+        "vaultRoute",
+        "vaultAddress",
+        "yieldCycle",
+        "accessTier"
+      ],
+      "properties": {
+        "coinName": {
+          "type": "string",
+          "description": "Name of BleuCoin variant",
+          "examples": ["JaguarCoin", "ParkCoin", "BleuCoin"]
+        },
+        "tokenAddress": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{40}$",
+          "description": "Ethereum address of token contract"
+        },
+        "vaultRoute": {
+          "type": "string",
+          "description": "Vault pattern identifier",
+          "examples": ["Council Vault", "Nature Vault", "Tokenized Vault"]
+        },
+        "vaultAddress": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{40}$",
+          "description": "Ethereum address of vault contract"
+        },
+        "yieldCycle": {
+          "$ref": "#/definitions/YieldCycle"
+        },
+        "accessTier": {
+          "$ref": "#/definitions/AccessTier"
+        },
+        "scrollSeal": {
+          "type": "string",
+          "description": "Scroll-seal identifier (NFT tokenID or IPFS hash)",
+          "examples": ["CouncilSigil", "TreeOfLife NFT", "ipfs://..."]
+        },
+        "reinvestmentLogic": {
+          "type": "string",
+          "description": "Reinvestment pattern reference",
+          "examples": ["20% to festival grants", "Auto-compound rewilding"]
+        },
+        "scholarshipReference": {
+          "type": "string",
+          "description": "Narrative/lore anchor",
+          "examples": ["Codex #7, Festival Archive", "Lost Islands Archive"]
+        },
+        "auditTrail": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{64}$",
+          "description": "Audit log hash (bytes32)"
+        },
+        "isActive": {
+          "type": "boolean",
+          "description": "Active status"
+        },
+        "registeredAt": {
+          "type": "integer",
+          "description": "Unix timestamp of registration"
+        }
+      }
+    },
+    
+    "NodeRegistryEntry": {
+      "type": "object",
+      "required": [
+        "nodeType",
+        "nodeName",
+        "location",
+        "coreFunctions",
+        "governanceCircuit",
+        "bleuCoinId"
+      ],
+      "properties": {
+        "nodeType": {
+          "$ref": "#/definitions/NodeType"
+        },
+        "nodeName": {
+          "type": "string",
+          "description": "Name of the infrastructure node",
+          "examples": ["Tenochtitlan Prime", "Emerald Grove Park"]
+        },
+        "location": {
+          "type": "string",
+          "description": "Geographic or virtual location",
+          "examples": ["Sector 7, Grid Alpha", "Virtual Realm Beta"]
+        },
+        "coreFunctions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Defense",
+              "Governance",
+              "Art",
+              "Healing",
+              "Education",
+              "Trade",
+              "Audit",
+              "Diplomacy"
+            ]
+          },
+          "minItems": 1,
+          "description": "Core functions of the node"
+        },
+        "governanceCircuit": {
+          "type": "string",
+          "description": "Governance pattern identifier",
+          "examples": [
+            "Spiral Council",
+            "Harmony Assembly",
+            "Trilateral Quorum",
+            "Council Power Chain",
+            "Templar Synod",
+            "Elderstone Assembly",
+            "Codex Council",
+            "Mood Oversight",
+            "Celestial Congress"
+          ]
+        },
+        "governanceAddress": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{40}$",
+          "description": "Ethereum address of governance contract"
+        },
+        "bleuCoinId": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Reference to BleuCoin registry entry ID"
+        },
+        "ceremonialSeal": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{64}$",
+          "description": "Ceremonial authentication seal (bytes32)"
+        },
+        "dualRealityConfirmed": {
+          "type": "boolean",
+          "description": "Dual-reality validation status"
+        },
+        "registeredAt": {
+          "type": "integer",
+          "description": "Unix timestamp of registration"
+        }
+      }
+    },
+    
+    "AuditLogEntry": {
+      "type": "object",
+      "required": [
+        "eventHash",
+        "eventType",
+        "actor",
+        "timestamp"
+      ],
+      "properties": {
+        "eventHash": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{64}$",
+          "description": "Unique event hash (bytes32)"
+        },
+        "eventType": {
+          "type": "string",
+          "description": "Type of audit event",
+          "examples": [
+            "BleuCoinRegistered",
+            "NodeRegistered",
+            "DualRealityConfirmed",
+            "VaultRouteUpdated",
+            "GovernanceCircuitUpdated"
+          ]
+        },
+        "actor": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{40}$",
+          "description": "Ethereum address of actor"
+        },
+        "timestamp": {
+          "type": "integer",
+          "description": "Unix timestamp of event"
+        },
+        "docHash": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{64}$",
+          "description": "IPFS hash or document reference (bytes32)"
+        }
+      }
+    }
+  },
+  
+  "type": "object",
+  "properties": {
+    "registryVersion": {
+      "type": "string",
+      "description": "Version of the registry schema"
+    },
+    "networkId": {
+      "type": "integer",
+      "description": "Blockchain network ID"
+    },
+    "registryAddress": {
+      "type": "string",
+      "pattern": "^0x[a-fA-F0-9]{40}$",
+      "description": "Address of the main registry contract"
+    },
+    "deployedAt": {
+      "type": "integer",
+      "description": "Unix timestamp of deployment"
+    },
+    "bleuCoins": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/BleuCoinRegistryEntry"
+      },
+      "description": "Array of registered BleuCoin variants"
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/NodeRegistryEntry"
+      },
+      "description": "Array of registered infrastructure nodes"
+    },
+    "auditLogs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/AuditLogEntry"
+      },
+      "description": "Array of audit log entries"
+    }
+  }
+}
