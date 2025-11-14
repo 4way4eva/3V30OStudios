@@ -1,0 +1,277 @@
+{
+  "title": "EV0L Codex — PPPPI Sealed Layers",
+  "version": "1.0",
+  "authority": "Flame Crown / BlueLock",
+  "layers": [
+    {
+      "codex": "Infinity Core",
+      "glyph": "♾️",
+      "law": {
+        "english": "No ceiling. Every action = coin.",
+        "swahili": "Hakuna kikomo. Kila tendo = pesa.",
+        "yoruba": "Ko si opin. Gbogbo iṣe = owo.",
+        "hebrew": "אין גבול. כל פעולה = הון.",
+        "arabic": "لا حدود. كل فعل = رصيد.",
+        "nahuatl": "Ahmo ixiptla. Mochi = tlahtocayotl."
+      },
+      "hmmm": [
+        "hmmm-low",
+        "hmmm-mid",
+        "hmmm-high"
+      ],
+      "hieroglyphs": [
+        "🌞",
+        "🌊",
+        "🔺",
+        "♾️"
+      ],
+      "streams": [
+        "jobs",
+        "prayers",
+        "births",
+        "deaths",
+        "transactions"
+      ],
+      "status": "PPPPI_sealed"
+    },
+    {
+      "codex": "Assurance Layer",
+      "glyph": "✅",
+      "law": {
+        "english": "Every promise fulfilled. No false streams.",
+        "swahili": "Kila ahadi inatimizwa.",
+        "yoruba": "Gbogbo ileri ni a pari.",
+        "hebrew": "כל הבטחה מתקיימת.",
+        "arabic": "كل وعد محقق.",
+        "nahuatl": "Mochi tlanelhuia cualli."
+      },
+      "hmmm": [
+        "hmmm-deep",
+        "hmmm-bright"
+      ],
+      "hieroglyphs": [
+        "👁️",
+        "🔰",
+        "✅"
+      ],
+      "streams": [
+        "contracts",
+        "insurance",
+        "escrow",
+        "royalties"
+      ],
+      "status": "BlueLock_bound"
+    },
+    {
+      "codex": "Knowledge Layer",
+      "glyph": "📚",
+      "law": {
+        "english": "Every page = profit.",
+        "swahili": "Kila ukurasa = faida.",
+        "yoruba": "Gbogbo oju-iwe = èrè.",
+        "hebrew": "כל דף = רווח.",
+        "arabic": "كل صفحة = ربح.",
+        "nahuatl": "Amoxtli = tlahtocayotl."
+      },
+      "hmmm": [
+        "mmm",
+        "mmmm"
+      ],
+      "hieroglyphs": [
+        "📚",
+        "🦉",
+        "🌲"
+      ],
+      "streams": [
+        "MetaSchool",
+        "SmartBooks",
+        "archives",
+        "curriculum"
+      ],
+      "status": "ENFT_monetized"
+    },
+    {
+      "codex": "Puzzle Layer",
+      "glyph": "🧩",
+      "law": {
+        "english": "Every piece fits, none wasted.",
+        "swahili": "Kila kipande kinatosha.",
+        "yoruba": "Ko si nkan ti o sọnu.",
+        "hebrew": "כל חלק מוצא את מקומו.",
+        "arabic": "كل قطعة في مكانها.",
+        "nahuatl": "Mochi tzontli ceppa."
+      },
+      "hmmm": [
+        "hmmm-snap"
+      ],
+      "hieroglyphs": [
+        "🧩",
+        "🌀"
+      ],
+      "streams": [
+        "games",
+        "clips",
+        "retro",
+        "replays"
+      ],
+      "status": "PPPPI_linked"
+    },
+    {
+      "codex": "Blessed Layer",
+      "glyph": "🔰",
+      "law": {
+        "english": "Every venture marked holy.",
+        "swahili": "Kila jitihada imebarikiwa.",
+        "yoruba": "Gbogbo igbiyanju ni a bukun.",
+        "hebrew": "כל מעשה מקודש.",
+        "arabic": "كل مشروع مبارك.",
+        "nahuatl": "Mochi tlazohcamati."
+      },
+      "hmmm": [
+        "hmmm-sacred"
+      ],
+      "hieroglyphs": [
+        "🔰",
+        "🌺",
+        "🌞"
+      ],
+      "streams": [
+        "baby_formula",
+        "combat",
+        "trade",
+        "inheritance"
+      ],
+      "status": "PPPPI_blessed"
+    },
+    {
+      "codex": "Weapons Layer",
+      "glyph": "⚔️",
+      "law": {
+        "english": "Defense and offense generate value.",
+        "swahili": "Ulinzi na shambulio huleta thamani.",
+        "yoruba": "Idaabobo ati ikọlu = iye.",
+        "hebrew": "הגנה והתקפה מייצרות ערך.",
+        "arabic": "الدفاع والهجوم يخلقان قيمة.",
+        "nahuatl": "Tlachinolli = tlahtocayotl."
+      },
+      "hmmm": [
+        "hmmm-clash"
+      ],
+      "hieroglyphs": [
+        "⚔️",
+        "🛡️"
+      ],
+      "streams": [
+        "combat_suits",
+        "smart_bullets",
+        "VR_weapons"
+      ],
+      "status": "PPPPI_locked"
+    },
+    {
+      "codex": "Meds Layer",
+      "glyph": "💉",
+      "law": {
+        "english": "Healing is wealth.",
+        "swahili": "Uponyaji ni mali.",
+        "yoruba": "Iwosan = ọrọ.",
+        "hebrew": "רפואה = הון.",
+        "arabic": "الشفاء ثروة.",
+        "nahuatl": "Tlapani = tlahtocayotl."
+      },
+      "hmmm": [
+        "hmmm-soft"
+      ],
+      "hieroglyphs": [
+        "💉",
+        "🌿"
+      ],
+      "streams": [
+        "detox",
+        "vaccines",
+        "therapy_ENFTs"
+      ],
+      "status": "alchemy_applied"
+    },
+    {
+      "codex": "Transport Layer",
+      "glyph": "🚛",
+      "law": {
+        "english": "Every move of goods = revenue.",
+        "swahili": "Kila usafirishaji ni faida.",
+        "yoruba": "Gbigbe kọọkan jẹ èrè.",
+        "hebrew": "כל הובלה = רווח.",
+        "arabic": "كل نقل = ربح.",
+        "nahuatl": "Mochi motlaloa = tlahtocayotl."
+      },
+      "hmmm": [
+        "hmmm-rolling"
+      ],
+      "hieroglyphs": [
+        "🚛",
+        "🛣️",
+        "⚓️"
+      ],
+      "streams": [
+        "fleet",
+        "shipping",
+        "rail",
+        "air_space"
+      ],
+      "status": "PPPPI_mapped"
+    },
+    {
+      "codex": "Energy Layer",
+      "glyph": "⚡",
+      "law": {
+        "english": "All energy converted into coin.",
+        "swahili": "Nishati zote = pesa.",
+        "yoruba": "Agbara gbogbo = owo.",
+        "hebrew": "כל אנרגיה = כסף.",
+        "arabic": "كل طاقة = مال.",
+        "nahuatl": "Tonalli = tlahtocayotl."
+      },
+      "hmmm": [
+        "hmmm-vibration"
+      ],
+      "hieroglyphs": [
+        "⚡",
+        "🌞",
+        "🔥"
+      ],
+      "streams": [
+        "solar",
+        "plasma",
+        "kinetic",
+        "prayer_resonance"
+      ],
+      "status": "PPPPI_harvested"
+    },
+    {
+      "codex": "Justice Layer",
+      "glyph": "⚖️",
+      "law": {
+        "english": "Balance itself monetized.",
+        "swahili": "Haki yenyewe = pesa.",
+        "yoruba": "Idajọ = owo.",
+        "hebrew": "צדק = רווח.",
+        "arabic": "العدل = مال.",
+        "nahuatl": "Tetlapanitl = tlahtocayotl."
+      },
+      "hmmm": [
+        "hmmm-balance"
+      ],
+      "hieroglyphs": [
+        "⚖️",
+        "👁️",
+        "🦅"
+      ],
+      "streams": [
+        "inheritance",
+        "probate",
+        "indictments"
+      ],
+      "status": "PPPPI_adjudicated"
+    }
+  ]
+}

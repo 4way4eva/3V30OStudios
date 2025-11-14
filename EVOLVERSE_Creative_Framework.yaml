@@ -1,0 +1,42 @@
+metadata:
+  title: EVOLVERSE Creative Framework
+  author: User
+  version: "1.0"
+  notes: Neutral fictional-world design schema. Populate fields freely.
+
+narrative_layer:
+  setting: Describe the world, geography, and era.
+  characters:
+    - name:
+      role:
+      motivation:
+      connections: []
+  themes: [growth, conflict, innovation]
+  timeline:
+    - period:
+      events: []
+
+technology_layer:
+  devices:
+    - name:
+      function:
+      materials:
+      energy_source:
+  materials: [metal, bio-fabric, data-crystal]
+  energy_sources: [solar, kinetic, unknown]
+  governing_principles: [cause–effect, feedback, resonance]
+
+cultural_layer:
+  institutions: [academy, guild, temple]
+  customs: [rite_of_entry, annual_festival]
+  communication_forms: [song, glyph, gesture]
+
+economic_layer:
+  currencies: [token, credit, barter_unit]
+  markets: [local, intercity, virtual]
+  trade_laws: [fair_exchange, resource_cap]
+
+symbolic_layer:
+  cosmology: Outline universal metaphors or myths.
+  mythic_entities: [figure_of_light, guardian, trickster]
+  artistic_motifs: [spiral, mirror, bridge]

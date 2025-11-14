@@ -1,0 +1,1807 @@
+{
+  "schema": "EV0L/BLEU_BILLS_CATALOG.v3",
+  "status": "ACTIVE",
+  "router_defaults_ref": "EV0L/BLEU_PROTOCOL.v3.router_defaults",
+  "bills": [
+    {
+      "code": "BABY_BLEU",
+      "name": "Baby\u2011Bleu",
+      "shade": "Pastel_Baby",
+      "mission": "Prenatal & infant care",
+      "targets": [
+        "SkyyBleu_Clinics",
+        "OBGYNs",
+        "Midwives",
+        "NICU_equipment",
+        "Formula_Labs",
+        "Maternal_Housing"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2",
+        "EV0L/WATER_HOME.v1",
+        "EV0L/MED_PRODUCTION.v1"
+      ],
+      "kpi_focus": [
+        "maternal_mortality_\u2193",
+        "preterm_births_\u2193",
+        "breastfeeding_init_\u2191"
+      ],
+      "split_override": {
+        "benefits_subsidies": 0.45,
+        "capacity_capex": 0.25,
+        "workforce_scholarships": 0.15,
+        "reserves": 0.1,
+        "ops": 0.03,
+        "R&D_innovation": 0.02
+      }
+    },
+    {
+      "code": "SKYY_BLEU",
+      "name": "Skyy\u2011Bleu",
+      "shade": "Sky",
+      "mission": "Healing & civic base",
+      "targets": [
+        "Research_Grants",
+        "Healing_Protocols",
+        "Midwife_Networks",
+        "Permits_One_Stop"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1",
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "service_uptime_\u2191",
+        "permit_time_\u2193"
+      ]
+    },
+    {
+      "code": "MIDNIGHT_BLEU",
+      "name": "Midnight\u2011Bleu",
+      "shade": "Midnight",
+      "mission": "Night labor & resilience",
+      "targets": [
+        "Security_Grants",
+        "Night_Shift_Bonuses",
+        "Trauma_Clinics",
+        "Lighting_Safe_Routes"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1",
+        "EV0L/CIVIC_DEFENSE.v1"
+      ],
+      "kpi_focus": [
+        "night_incidents_\u2193",
+        "worker_retention_\u2191"
+      ]
+    },
+    {
+      "code": "ROYAL_BLEU",
+      "name": "Royal\u2011Bleu",
+      "shade": "Royal",
+      "mission": "Governance & justice",
+      "targets": [
+        "Legal_Clinics",
+        "Sovereign_Courts",
+        "Codex_Archives",
+        "Ombuds_Offices"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "case_resolution_time_\u2193",
+        "access_to_counsel_\u2191"
+      ]
+    },
+    {
+      "code": "OCEAN_BLEU",
+      "name": "Ocean\u2011Bleu",
+      "shade": "Tide",
+      "mission": "Water & marine logistics",
+      "targets": [
+        "Aquatic_Infrastructure",
+        "Desalination",
+        "Marine_Schools",
+        "Ports_Shore_Power"
+      ],
+      "routes_to_modules": [
+        "EV0L/WATER_HOME.v1",
+        "EV0L/TRANSPORT.v1"
+      ],
+      "kpi_focus": [
+        "potable_access_\u2191",
+        "port_emissions_\u2193"
+      ]
+    },
+    {
+      "code": "SOLAR_BLEU",
+      "name": "Solar\u2011Bleu",
+      "shade": "Cobalt",
+      "mission": "Energy & light",
+      "targets": [
+        "Solar_Panels",
+        "Light_Therapy",
+        "Grid_Expansion",
+        "Storage_Banks"
+      ],
+      "routes_to_modules": [
+        "EV0L/ENERGY.v1"
+      ],
+      "kpi_focus": [
+        "co2e_g_kwh_\u2193",
+        "saidi_saifi_\u2193"
+      ]
+    },
+    {
+      "code": "MARTIAN_BLEU",
+      "name": "Martian\u2011Bleu",
+      "shade": "Bluebird",
+      "mission": "Interplanetary logistics (peaceful)",
+      "targets": [
+        "Mars_Sim_Labs",
+        "Orbital_Logistics",
+        "Closed_Loop_Life_Support_R&D"
+      ],
+      "routes_to_modules": [
+        "EV0L/SPACE.v1"
+      ],
+      "kpi_focus": [
+        "open_science_outputs_\u2191"
+      ],
+      "policy_notes": [
+        "peaceful_purposes_only"
+      ]
+    },
+    {
+      "code": "CIVIC_BLEU",
+      "name": "Civic\u2011Bleu",
+      "shade": "Steel",
+      "mission": "Infrastructure & safety",
+      "targets": [
+        "Fire_Stations",
+        "EMS_Dispatch",
+        "Civic_Planning",
+        "Safe_Routes"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1",
+        "EV0L/TRANSPORT.v1",
+        "EV0L/CIVIC_DEFENSE.v1"
+      ],
+      "kpi_focus": [
+        "response_time_min_\u2193"
+      ]
+    },
+    {
+      "code": "COMEDY_BLEU",
+      "name": "Comedy\u2011Bleu",
+      "shade": "Cornflower",
+      "mission": "Laughter & neuroaesthetics",
+      "targets": [
+        "Comedy_Schools",
+        "Hologram_Shows",
+        "Proof_of_Funny_Grants"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "community_wellbeing_index_\u2191"
+      ]
+    },
+    {
+      "code": "NAVY_BLEU",
+      "name": "Navy\u2011Bleu",
+      "shade": "Navy",
+      "mission": "Maritime service & scholarships",
+      "targets": [
+        "Naval_Academies",
+        "Coastal_Rescue",
+        "Fleet_Maintenance",
+        "Worker_Safety",
+        "Veterans_Services"
+      ],
+      "routes_to_modules": [
+        "EV0L/TRANSPORT.v1",
+        "EV0L/CIVIC_DEFENSE.v1"
+      ],
+      "kpi_focus": [
+        "rescue_response_\u2193",
+        "injury_rate_shipyards_\u2193"
+      ],
+      "policy_notes": [
+        "no_weapons_design_or_acquisition_guidance",
+        "human_rights_compliance"
+      ]
+    },
+    {
+      "code": "AGRI_BLEU",
+      "name": "Agri\u2011Bleu",
+      "shade": "Evergreen_Teal",
+      "mission": "Food sovereignty & soil",
+      "targets": [
+        "GrowLabs",
+        "Seed_Banks",
+        "Nutrition_Clinics",
+        "Regen_Mechanization"
+      ],
+      "routes_to_modules": [
+        "EV0L/AGRI_FOOD.v1"
+      ],
+      "kpi_focus": [
+        "soil_carbon_\u2191",
+        "food_security_days_\u2191"
+      ]
+    },
+    {
+      "code": "TRANSPORT_BLEU",
+      "name": "Transport\u2011Bleu",
+      "shade": "Azure",
+      "mission": "Mobility & logistics",
+      "targets": [
+        "EV_Grants",
+        "Public_Transit",
+        "Drone_Fleets",
+        "Para_Transit"
+      ],
+      "routes_to_modules": [
+        "EV0L/TRANSPORT.v1"
+      ],
+      "kpi_focus": [
+        "on_time_pct_\u2191",
+        "tailpipe_emissions_\u2193"
+      ]
+    },
+    {
+      "code": "ENERGY_BLEU",
+      "name": "Energy\u2011Bleu",
+      "shade": "Cobalt",
+      "mission": "Grid stability & renewables",
+      "targets": [
+        "Battery_Banks",
+        "Wind_Tech",
+        "Microgrid_Nodes",
+        "Retrofit_Funds"
+      ],
+      "routes_to_modules": [
+        "EV0L/ENERGY.v1"
+      ],
+      "kpi_focus": [
+        "renewables_share_\u2191"
+      ]
+    },
+    {
+      "code": "HOUSING_BLEU",
+      "name": "Housing\u2011Bleu",
+      "shade": "Ice",
+      "mission": "Shelter & youth\u2011first housing",
+      "targets": [
+        "Modular_Units",
+        "Rent_to_Own_Scrolls",
+        "IAQ_Sensors",
+        "Leak_Detection"
+      ],
+      "routes_to_modules": [
+        "EV0L/WATER_HOME.v1"
+      ],
+      "kpi_focus": [
+        "housing_cost_burden_\u2193",
+        "iaq_score_\u2191"
+      ]
+    },
+    {
+      "code": "EDU_BLEU",
+      "name": "Education\u2011Bleu",
+      "shade": "Cerulean",
+      "mission": "Schools & microcreds",
+      "targets": [
+        "HOMGARTS",
+        "Trade_PHI",
+        "Teacher_Fellows",
+        "Robotics_FieldOps"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "credential_attainment_\u2191",
+        "time_to_job_days_\u2193"
+      ]
+    },
+    {
+      "code": "DEFENSE_BLEU",
+      "name": "Defense\u2011Bleu (Civic Protection)",
+      "shade": "Sapphire",
+      "mission": "Emergency ops & protection",
+      "targets": [
+        "Dispatch_Systems",
+        "PPE_and_Trauma_Care",
+        "De\u2011escalation_Training",
+        "Youth_Safety_Grants"
+      ],
+      "routes_to_modules": [
+        "EV0L/CIVIC_DEFENSE.v1"
+      ],
+      "kpi_focus": [
+        "civilian_harm_\u2193",
+        "response_time_min_\u2193"
+      ],
+      "policy_notes": [
+        "no_weapons_design_or_acquisition_guidance",
+        "minimum_necessary_force"
+      ]
+    },
+    {
+      "code": "ARCHIVE_BLEU",
+      "name": "Archive\u2011Bleu",
+      "shade": "Indigo",
+      "mission": "Historical recovery",
+      "targets": [
+        "Codex_Indexing",
+        "Artifact_Minting",
+        "Scroll_Recovery"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "archives_digitized_\u2191"
+      ]
+    },
+    {
+      "code": "SPORTS_BLEU",
+      "name": "Sports\u2011Bleu",
+      "shade": "Royal",
+      "mission": "Athlete health & youth leagues",
+      "targets": [
+        "EVOLNBA",
+        "EVOLNFL",
+        "Concussion_Protocols",
+        "Athletic_Trainers"
+      ],
+      "routes_to_modules": [
+        "EV0L/LEAGUES.v1"
+      ],
+      "kpi_focus": [
+        "injuries_per_1000h_\u2193",
+        "fan_trust_\u2191"
+      ]
+    },
+    {
+      "code": "MEDIA_BLEU",
+      "name": "Media\u2011Bleu",
+      "shade": "Sky",
+      "mission": "Broadcast & storytelling",
+      "targets": [
+        "Open_Box_Assets",
+        "Holographic_Capsules",
+        "BLEUMAIL_Studios"
+      ],
+      "routes_to_modules": [
+        "EV0L/LEAGUES.v1",
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "viewership_trust_\u2191"
+      ]
+    },
+    {
+      "code": "ELDER_BLEU",
+      "name": "Elder\u2011Bleu",
+      "shade": "Slate",
+      "mission": "Senior care & dignity",
+      "targets": [
+        "Home_Health",
+        "Mobility_Aids",
+        "Memory_Care"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2",
+        "EV0L/WATER_HOME.v1"
+      ],
+      "kpi_focus": [
+        "readmission_rate_\u2193"
+      ]
+    },
+    {
+      "code": "ACCESS_BLEU",
+      "name": "Access\u2011Bleu",
+      "shade": "Mint_Teal",
+      "mission": "Disability access",
+      "targets": [
+        "Assistive_Tech",
+        "Universal_Design",
+        "Interpreter_Services"
+      ],
+      "routes_to_modules": [
+        "EV0L/WATER_HOME.v1",
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "access_score_\u2191"
+      ]
+    },
+    {
+      "code": "MENTAL_BLEU",
+      "name": "Mental\u2011Bleu",
+      "shade": "Lagoon",
+      "mission": "Psych health & resilience",
+      "targets": [
+        "Therapy_Access",
+        "Crisis_Lines",
+        "School_Counselors",
+        "Peer_Support_Training"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "community_wellbeing_index_\u2191"
+      ]
+    },
+    {
+      "code": "RESPIRATORY_BLEU",
+      "name": "Respiratory\u2011Bleu",
+      "shade": "Cerulean",
+      "mission": "Respiratory care & clean air",
+      "targets": [
+        "Asthma_Clinics",
+        "Inhalers_Nebulizers",
+        "Air_Quality_Sensors",
+        "School_HVAC_Upgrades"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2",
+        "EV0L/WATER_HOME.v1",
+        "EV0L/MED_PRODUCTION.v1"
+      ],
+      "kpi_focus": [
+        "asthma_ER_visits_\u2193",
+        "iaq_score_\u2191"
+      ]
+    },
+    {
+      "code": "DENTAL_BLEU",
+      "name": "Dental\u2011Bleu",
+      "shade": "Sky",
+      "mission": "Community dental care",
+      "targets": [
+        "Dental_Clinics",
+        "Hygiene_Programs",
+        "Mobile_Vans"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "untreated_caries_rate_\u2193"
+      ]
+    },
+    {
+      "code": "VISION_BLEU",
+      "name": "Vision\u2011Bleu",
+      "shade": "Cornflower",
+      "mission": "Vision care & screenings",
+      "targets": [
+        "Vision_Clinics",
+        "School_Screenings",
+        "Glasses_Vouchers"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "vision_screening_coverage_\u2191"
+      ]
+    },
+    {
+      "code": "TELEHEALTH_BLEU",
+      "name": "Telehealth\u2011Bleu",
+      "shade": "Bluebird",
+      "mission": "Telehealth & access",
+      "targets": [
+        "Telehealth_Hubs",
+        "Loaner_Devices",
+        "Connectivity_Subsidies"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2",
+        "EV0L/WATER_HOME.v1"
+      ],
+      "kpi_focus": [
+        "telehealth_visits_\u2191",
+        "missed_appointments_\u2193"
+      ]
+    },
+    {
+      "code": "BIOTECH_BLEU",
+      "name": "Biotech\u2011Bleu",
+      "shade": "Slate",
+      "mission": "Biotech safety & ethics",
+      "targets": [
+        "Biosafety_Training",
+        "Lab_Safety_Upgrades",
+        "Ethics_Board_Support"
+      ],
+      "routes_to_modules": [
+        "EV0L/MED_PRODUCTION.v1"
+      ],
+      "kpi_focus": [
+        "lab_incidents_\u2193"
+      ],
+      "policy_notes": [
+        "no pathogen creation, no dual\u2011use guidance"
+      ]
+    },
+    {
+      "code": "DIAGNOSTICS_BLEU",
+      "name": "Diagnostics\u2011Bleu",
+      "shade": "Steel",
+      "mission": "Diagnostics access & quality",
+      "targets": [
+        "POC_Testing",
+        "Lab_Quality_Systems",
+        "Screening_Campaigns"
+      ],
+      "routes_to_modules": [
+        "EV0L/MED_PRODUCTION.v1",
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "time_to_results_\u2193"
+      ]
+    },
+    {
+      "code": "FIRE_BLEU",
+      "name": "Fire\u2011Bleu",
+      "shade": "Sapphire",
+      "mission": "Wildland fire response & prevention",
+      "targets": [
+        "Fire_Crews",
+        "Prescribed_Burns_Licensed",
+        "WUI_Safety",
+        "Air_Support_Contracts"
+      ],
+      "routes_to_modules": [
+        "EV0L/CIVIC_DEFENSE.v1",
+        "EV0L/AGRI_FOOD.v1"
+      ],
+      "kpi_focus": [
+        "response_time_min_\u2193",
+        "acres_burned_severe_\u2193"
+      ]
+    },
+    {
+      "code": "WATERWAY_BLEU",
+      "name": "Waterway\u2011Bleu",
+      "shade": "Tide",
+      "mission": "Rivers & watersheds",
+      "targets": [
+        "Riparian_Restoration",
+        "Stormwater_Retrofit",
+        "Microplastics_Removal"
+      ],
+      "routes_to_modules": [
+        "EV0L/WATER_HOME.v1"
+      ],
+      "kpi_focus": [
+        "water_quality_index_\u2191"
+      ]
+    },
+    {
+      "code": "COMMS_BLEU",
+      "name": "Comms\u2011Bleu",
+      "shade": "Cobalt",
+      "mission": "Broadband & emergency comms",
+      "targets": [
+        "Fiber_Backbone",
+        "Community_WiFi",
+        "Emergency_Comms"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "broadband_coverage_\u2191"
+      ]
+    },
+    {
+      "code": "CYBER_BLEU",
+      "name": "Cyber\u2011Bleu",
+      "shade": "Midnight",
+      "mission": "Cyber resilience (public sector)",
+      "targets": [
+        "SOC_Training",
+        "Incident_Response",
+        "Security_Audits"
+      ],
+      "routes_to_modules": [
+        "EV0L/CIVIC_DEFENSE.v1"
+      ],
+      "kpi_focus": [
+        "breach_rate_\u2193"
+      ]
+    },
+    {
+      "code": "DATA_BLEU",
+      "name": "Data\u2011Bleu",
+      "shade": "Steel",
+      "mission": "Open data & interoperability",
+      "targets": [
+        "Open_Data_Portals",
+        "Privacy_Safe_Pipelines",
+        "Interoperability_Tools"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "datasets_published_\u2191"
+      ]
+    },
+    {
+      "code": "PRIVACY_BLEU",
+      "name": "Privacy\u2011Bleu",
+      "shade": "Indigo",
+      "mission": "Privacy tech & governance",
+      "targets": [
+        "ZK_Receipts",
+        "Differential_Privacy",
+        "Trust_Reviews"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "privacy_incidents_\u2193"
+      ]
+    },
+    {
+      "code": "IDENTITY_BLEU",
+      "name": "Identity\u2011Bleu",
+      "shade": "Royal",
+      "mission": "Portable credentials & ID",
+      "targets": [
+        "Portable_Credentials",
+        "KYC_Safe_Guardrails",
+        "Verifier_Tools"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "identity_verification_time_\u2193"
+      ]
+    },
+    {
+      "code": "MIGRATION_BLEU",
+      "name": "Migration\u2011Bleu",
+      "shade": "Sky",
+      "mission": "Immigration & resettlement services",
+      "targets": [
+        "Legal_Aid",
+        "Language_Access",
+        "Workforce_Placement"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "time_to_status_\u2193"
+      ]
+    },
+    {
+      "code": "YOUTH_BLEU",
+      "name": "Youth\u2011Bleu",
+      "shade": "Azure",
+      "mission": "Youth enrichment & safety",
+      "targets": [
+        "After_School",
+        "Summer_Programs",
+        "Mentorship",
+        "Safe_Rides"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "youth_safety_index_\u2191"
+      ]
+    },
+    {
+      "code": "ARTS_BLEU",
+      "name": "Arts\u2011Bleu",
+      "shade": "Cornflower",
+      "mission": "Arts & oratory",
+      "targets": [
+        "Studios",
+        "Community_Stages",
+        "Scholarships"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "participation_rate_\u2191"
+      ]
+    },
+    {
+      "code": "CULTURE_BLEU",
+      "name": "Culture\u2011Bleu",
+      "shade": "Cerulean",
+      "mission": "Museums & heritage",
+      "targets": [
+        "Exhibits",
+        "Community_Curators",
+        "Mobile_Museums"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "visitor_access_\u2191"
+      ]
+    },
+    {
+      "code": "LANGUAGE_BLEU",
+      "name": "Language\u2011Bleu",
+      "shade": "Mint_Teal",
+      "mission": "Language access",
+      "targets": [
+        "Interpreters",
+        "Translation_Ports",
+        "School_Bilingual_Support"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "language_access_score_\u2191"
+      ]
+    },
+    {
+      "code": "RURAL_BLEU",
+      "name": "Rural\u2011Bleu",
+      "shade": "Evergreen_Teal",
+      "mission": "Rural infrastructure & health",
+      "targets": [
+        "Clinics",
+        "Broadband",
+        "Transport_Micro",
+        "Agri_Coop_Support"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2",
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "rural_service_uptime_\u2191"
+      ]
+    },
+    {
+      "code": "URBAN_BLEU",
+      "name": "Urban\u2011Bleu",
+      "shade": "Steel",
+      "mission": "Urban regeneration",
+      "targets": [
+        "Housing_Upgrades",
+        "Transit_Priority",
+        "Green_Corridors"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "15_min_city_access_\u2191"
+      ]
+    },
+    {
+      "code": "CLIMATE_BLEU",
+      "name": "Climate\u2011Bleu",
+      "shade": "Cobalt",
+      "mission": "Climate adaptation",
+      "targets": [
+        "Cooling_Centers",
+        "Flood_Control",
+        "Urban_Canopy"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "heat_mortality_\u2193"
+      ]
+    },
+    {
+      "code": "AIRQUALITY_BLEU",
+      "name": "AirQuality\u2011Bleu",
+      "shade": "Lagoon",
+      "mission": "Air quality & sensors",
+      "targets": [
+        "Sensor_Grid",
+        "School_HVAC",
+        "Burn_Regulation_Outreach"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1",
+        "EV0L/WATER_HOME.v1"
+      ],
+      "kpi_focus": [
+        "PM2_5_exposure_\u2193"
+      ]
+    },
+    {
+      "code": "HEATSAFE_BLEU",
+      "name": "HeatSafe\u2011Bleu",
+      "shade": "Bluebird",
+      "mission": "Extreme heat mitigation",
+      "targets": [
+        "Shade_Shelters",
+        "Misters",
+        "Cool_Roofs"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "heat_index_alerts_\u2193"
+      ]
+    },
+    {
+      "code": "FLOODSAFE_BLEU",
+      "name": "FloodSafe\u2011Bleu",
+      "shade": "Tide",
+      "mission": "Flood resilience",
+      "targets": [
+        "Levees",
+        "Wetlands_Restore",
+        "Backflow_Valves"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1",
+        "EV0L/WATER_HOME.v1"
+      ],
+      "kpi_focus": [
+        "flood_damage_\u2193"
+      ]
+    },
+    {
+      "code": "QUAKESAFE_BLEU",
+      "name": "QuakeSafe\u2011Bleu",
+      "shade": "Slate",
+      "mission": "Earthquake safety",
+      "targets": [
+        "Seismic_Retrofits",
+        "Early_Warning",
+        "Drills"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "retrofit_completion_rate_\u2191"
+      ]
+    },
+    {
+      "code": "INSUR_POOL_BLEU",
+      "name": "InsurPool\u2011Bleu",
+      "shade": "Royal",
+      "mission": "Community risk pools",
+      "targets": [
+        "Fair_Premiums",
+        "Parametric_Covers",
+        "Rapid_Payouts"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "recovery_time_\u2193"
+      ]
+    },
+    {
+      "code": "MICROFINANCE_BLEU",
+      "name": "Microfinance\u2011Bleu",
+      "shade": "Sky",
+      "mission": "Microloans & coop capital",
+      "targets": [
+        "Microloans",
+        "Coop_Seed",
+        "Credit_Building"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "business_survival_rate_\u2191"
+      ]
+    },
+    {
+      "code": "ENTREPRENEUR_BLEU",
+      "name": "Entrepreneur\u2011Bleu",
+      "shade": "Azure",
+      "mission": "SME acceleration",
+      "targets": [
+        "Incubators",
+        "Procurement_Pipeline",
+        "Export_Readiness"
+      ],
+      "routes_to_modules": [
+        "EV0L/INDUSTRY.v1"
+      ],
+      "kpi_focus": [
+        "jobs_created_\u2191"
+      ]
+    },
+    {
+      "code": "WORKFORCE_BLEU",
+      "name": "Workforce\u2011Bleu",
+      "shade": "Cerulean",
+      "mission": "Apprenticeships & placements",
+      "targets": [
+        "Registered_Apprenticeships",
+        "Mentor_Stipends",
+        "Placement_Services"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "placement_rate_\u2191"
+      ]
+    },
+    {
+      "code": "REENTRY_BLEU",
+      "name": "Reentry\u2011Bleu",
+      "shade": "Indigo",
+      "mission": "Returning citizens & dignity",
+      "targets": [
+        "Legal_Support",
+        "Housing",
+        "Job_Placement"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "recidivism_\u2193"
+      ]
+    },
+    {
+      "code": "CHILDCARE_BLEU",
+      "name": "Childcare\u2011Bleu",
+      "shade": "Pastel_Baby",
+      "mission": "Childcare access",
+      "targets": [
+        "Vouchers",
+        "Provider_Training",
+        "Extended_Hours"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "childcare_slots_\u2191"
+      ]
+    },
+    {
+      "code": "PARENTING_BLEU",
+      "name": "Parenting\u2011Bleu",
+      "shade": "Mint_Teal",
+      "mission": "Parent support",
+      "targets": [
+        "Classes",
+        "Home_Visits",
+        "Peer_Groups"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "parent_readiness_index_\u2191"
+      ]
+    },
+    {
+      "code": "FOSTER_BLEU",
+      "name": "Foster\u2011Bleu",
+      "shade": "Sky",
+      "mission": "Foster system support",
+      "targets": [
+        "Family_Recruitment",
+        "Stipends",
+        "Wraparound_Services"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "placement_stability_\u2191"
+      ]
+    },
+    {
+      "code": "ADOPTION_BLEU",
+      "name": "Adoption\u2011Bleu",
+      "shade": "Royal",
+      "mission": "Adoption services",
+      "targets": [
+        "Legal_Fees_Assist",
+        "Counseling",
+        "Post_Adoption_Support"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "time_to_adoption_\u2193"
+      ]
+    },
+    {
+      "code": "ANIMAL_BLEU",
+      "name": "Animal\u2011Bleu",
+      "shade": "Evergreen_Teal",
+      "mission": "Veterinary & animal welfare",
+      "targets": [
+        "Vet_Clinics",
+        "Spay_Neuter",
+        "Shelter_Upgrades"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "live_release_rate_\u2191"
+      ]
+    },
+    {
+      "code": "PUBLIC_HEALTH_BLEU",
+      "name": "PublicHealth\u2011Bleu",
+      "shade": "Cerulean",
+      "mission": "Public health & prevention",
+      "targets": [
+        "Vaccination_Sites",
+        "Screenings",
+        "Health_Education"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "preventable_disease_rate_\u2193"
+      ]
+    },
+    {
+      "code": "TRANSPARENCY_BLEU",
+      "name": "Transparency\u2011Bleu",
+      "shade": "Steel",
+      "mission": "Open gov & accountability",
+      "targets": [
+        "FOIA_Tools",
+        "Open_Meetings_Cast",
+        "Audit_Portals"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "transparency_score_\u2191"
+      ]
+    },
+    {
+      "code": "PROCUREMENT_BLEU",
+      "name": "Procurement\u2011Bleu",
+      "shade": "Cobalt",
+      "mission": "Clean procurement & ethics",
+      "targets": [
+        "Open_Bids",
+        "Conflict_Checks",
+        "Vendor_Risk_Tools"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "on_time_on_budget_\u2191"
+      ]
+    },
+    {
+      "code": "ETHICS_BLEU",
+      "name": "Ethics\u2011Bleu",
+      "shade": "Indigo",
+      "mission": "IRB & research ethics",
+      "targets": [
+        "IRB_Support",
+        "Consent_Tools",
+        "Risk_Reviews"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "complaint_rate_\u2193"
+      ]
+    },
+    {
+      "code": "SABBATH_BLEU",
+      "name": "Sabbath\u2011Bleu",
+      "shade": "Bluebird",
+      "mission": "Rest & restoration",
+      "targets": [
+        "Quiet_Hours",
+        "Slow_Streets",
+        "Park_Activation"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "burnout_index_\u2193"
+      ]
+    },
+    {
+      "code": "SANCTUARY_BLEU",
+      "name": "Sanctuary\u2011Bleu",
+      "shade": "Slate",
+      "mission": "Safe shelter & dignity",
+      "targets": [
+        "Safe_Houses",
+        "Trauma_Care",
+        "Legal_Support"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "unsheltered_\u2193"
+      ]
+    },
+    {
+      "code": "LIBRARY_BLEU",
+      "name": "Library\u2011Bleu",
+      "shade": "Cornflower",
+      "mission": "Libraries & learning",
+      "targets": [
+        "Collections",
+        "Makerspaces",
+        "Digital_Access"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "circulation_per_capita_\u2191"
+      ]
+    },
+    {
+      "code": "MAKER_BLEU",
+      "name": "Maker\u2011Bleu",
+      "shade": "Azure",
+      "mission": "Makers & fabrication",
+      "targets": [
+        "Tool_Labs",
+        "Safety_Training",
+        "Mentor_Grants"
+      ],
+      "routes_to_modules": [
+        "EV0L/INDUSTRY.v1"
+      ],
+      "kpi_focus": [
+        "startup_projects_\u2191"
+      ]
+    },
+    {
+      "code": "XR_BLEU",
+      "name": "XR\u2011Bleu",
+      "shade": "Royal",
+      "mission": "Simulation & digital twins",
+      "targets": [
+        "Sim_Labs",
+        "City_Twins",
+        "Training_Scenarios"
+      ],
+      "routes_to_modules": [
+        "EV0L/SPACE.v1",
+        "EV0L/LEAGUES.v1"
+      ],
+      "kpi_focus": [
+        "training_hours_sim_\u2191"
+      ]
+    },
+    {
+      "code": "GAMING_BLEU",
+      "name": "Gaming\u2011Bleu",
+      "shade": "Sky",
+      "mission": "Esports & safe play",
+      "targets": [
+        "Youth_Leagues",
+        "Coaching",
+        "Health_Safeguards"
+      ],
+      "routes_to_modules": [
+        "EV0L/LEAGUES.v1"
+      ],
+      "kpi_focus": [
+        "screen_time_balance_index_\u2191"
+      ]
+    },
+    {
+      "code": "FINANCE_BLEU",
+      "name": "Finance\u2011Bleu",
+      "shade": "Cobalt",
+      "mission": "Infra finance & green bonds",
+      "targets": [
+        "Green_Bonds",
+        "Impact_Funds",
+        "Community_Notes"
+      ],
+      "routes_to_modules": [
+        "EV0L/INDUSTRY.v1"
+      ],
+      "kpi_focus": [
+        "capital_mobilized_\u2191"
+      ]
+    },
+    {
+      "code": "CREDIT_UNION_BLEU",
+      "name": "CreditUnion\u2011Bleu",
+      "shade": "Steel",
+      "mission": "Credit union & fair banking",
+      "targets": [
+        "Low_Fee_Accounts",
+        "Credit_Builder",
+        "Small_Business_Lines"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "unbanked_rate_\u2193"
+      ]
+    },
+    {
+      "code": "DRONE_BLEU",
+      "name": "Drone\u2011Bleu",
+      "shade": "Bluebird",
+      "mission": "Licensed UAV for good",
+      "targets": [
+        "Medical_Delivery",
+        "Mapping",
+        "Agri_Scouting"
+      ],
+      "routes_to_modules": [
+        "EV0L/TRANSPORT.v1",
+        "EV0L/AGRI_FOOD.v1"
+      ],
+      "kpi_focus": [
+        "mission_success_rate_\u2191"
+      ],
+      "policy_notes": [
+        "licensed_operations_only",
+        "no_weaponization"
+      ]
+    },
+    {
+      "code": "RAIL_BLEU",
+      "name": "Rail\u2011Bleu",
+      "shade": "Navy",
+      "mission": "Rail modernization",
+      "targets": [
+        "EMU_Upgrades",
+        "Stations_Access",
+        "Freight_Electrification"
+      ],
+      "routes_to_modules": [
+        "EV0L/TRANSPORT.v1"
+      ],
+      "kpi_focus": [
+        "on_time_pct_\u2191"
+      ]
+    },
+    {
+      "code": "PORTS_BLEU",
+      "name": "Ports\u2011Bleu",
+      "shade": "Tide",
+      "mission": "Ports & logistics",
+      "targets": [
+        "Shore_Power",
+        "Cold_Ironing",
+        "Gate_Efficiency"
+      ],
+      "routes_to_modules": [
+        "EV0L/TRANSPORT.v1"
+      ],
+      "kpi_focus": [
+        "turnaround_time_\u2193"
+      ]
+    },
+    {
+      "code": "BIKE_BLEU",
+      "name": "Bike\u2011Bleu",
+      "shade": "Mint_Teal",
+      "mission": "Active mobility cycling",
+      "targets": [
+        "Protected_Bike_Lanes",
+        "Bike_Share",
+        "Parking_Secure"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1",
+        "EV0L/TRANSPORT.v1"
+      ],
+      "kpi_focus": [
+        "bike_mode_share_\u2191"
+      ]
+    },
+    {
+      "code": "PEDESTRIAN_BLEU",
+      "name": "Pedestrian\u2011Bleu",
+      "shade": "Pastel_Baby",
+      "mission": "Walking & safety",
+      "targets": [
+        "Sidewalks",
+        "Crossings_LPI",
+        "Traffic_Calm"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "walk_mode_share_\u2191",
+        "fatalities_per_100k_\u2193"
+      ]
+    },
+    {
+      "code": "ROADSAFE_BLEU",
+      "name": "RoadSafe\u2011Bleu",
+      "shade": "Steel",
+      "mission": "Vision Zero & road safety",
+      "targets": [
+        "Daylighting",
+        "Speed_Management",
+        "Safe_School_Zones"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "serious_crashes_\u2193"
+      ]
+    },
+    {
+      "code": "DESAL_BLEU",
+      "name": "Desal\u2011Bleu",
+      "shade": "Lagoon",
+      "mission": "Desalination where needed",
+      "targets": [
+        "Pre_Treatment",
+        "RO_Systems",
+        "Brine_Management_Best"
+      ],
+      "routes_to_modules": [
+        "EV0L/WATER_HOME.v1"
+      ],
+      "kpi_focus": [
+        "water_security_days_\u2191"
+      ]
+    },
+    {
+      "code": "TREE_BLEU",
+      "name": "Tree\u2011Bleu",
+      "shade": "Evergreen_Teal",
+      "mission": "Urban tree canopy",
+      "targets": [
+        "Street_Trees",
+        "Maintenance",
+        "School_Canopy"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "canopy_pct_\u2191"
+      ]
+    },
+    {
+      "code": "POLLINATOR_BLEU",
+      "name": "Pollinator\u2011Bleu",
+      "shade": "Mint_Teal",
+      "mission": "Pollinators & habitat",
+      "targets": [
+        "Native_Planting",
+        "Corridors",
+        "Community_Gardens"
+      ],
+      "routes_to_modules": [
+        "EV0L/AGRI_FOOD.v1"
+      ],
+      "kpi_focus": [
+        "pollinator_index_\u2191"
+      ]
+    },
+    {
+      "code": "SOIL_BLEU",
+      "name": "Soil\u2011Bleu",
+      "shade": "Evergreen_Teal",
+      "mission": "Soil health",
+      "targets": [
+        "Cover_Crops",
+        "Compost",
+        "No_Till_Training"
+      ],
+      "routes_to_modules": [
+        "EV0L/AGRI_FOOD.v1"
+      ],
+      "kpi_focus": [
+        "soil_organic_matter_\u2191"
+      ]
+    },
+    {
+      "code": "WETLAND_BLEU",
+      "name": "Wetland\u2011Bleu",
+      "shade": "Lagoon",
+      "mission": "Wetlands & buffers",
+      "targets": [
+        "Restoration",
+        "Buffers",
+        "Bird_Habitat"
+      ],
+      "routes_to_modules": [
+        "EV0L/AGRI_FOOD.v1",
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "flood_storage_capacity_\u2191"
+      ]
+    },
+    {
+      "code": "RIVER_BLEU",
+      "name": "River\u2011Bleu",
+      "shade": "Tide",
+      "mission": "River health",
+      "targets": [
+        "Bank_Stabilization",
+        "Fish_Passages",
+        "Flow_Monitoring"
+      ],
+      "routes_to_modules": [
+        "EV0L/WATER_HOME.v1"
+      ],
+      "kpi_focus": [
+        "river_health_index_\u2191"
+      ]
+    },
+    {
+      "code": "LAKE_BLEU",
+      "name": "Lake\u2011Bleu",
+      "shade": "Sky",
+      "mission": "Lakes & waters",
+      "targets": [
+        "Nutrient_Reduction",
+        "Shore_Restoration",
+        "Invasive_Control"
+      ],
+      "routes_to_modules": [
+        "EV0L/WATER_HOME.v1"
+      ],
+      "kpi_focus": [
+        "algal_bloom_days_\u2193"
+      ]
+    },
+    {
+      "code": "MOUNTAIN_BLEU",
+      "name": "Mountain\u2011Bleu",
+      "shade": "Sapphire",
+      "mission": "Mountain regions",
+      "targets": [
+        "Avalanche_Safety",
+        "Trail_Rescue",
+        "Habitat_Protection"
+      ],
+      "routes_to_modules": [
+        "EV0L/CIVIC_DEFENSE.v1",
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "rescue_response_\u2193"
+      ]
+    },
+    {
+      "code": "ISLAND_BLEU",
+      "name": "Island\u2011Bleu",
+      "shade": "Bluebird",
+      "mission": "Island resilience",
+      "targets": [
+        "Ferry_Upgrades",
+        "Microgrids",
+        "Desal_Sites"
+      ],
+      "routes_to_modules": [
+        "EV0L/TRANSPORT.v1",
+        "EV0L/ENERGY.v1",
+        "EV0L/WATER_HOME.v1"
+      ],
+      "kpi_focus": [
+        "service_uptime_\u2191"
+      ]
+    },
+    {
+      "code": "ARCTIC_BLEU",
+      "name": "Arctic\u2011Bleu",
+      "shade": "Midnight",
+      "mission": "Arctic & cold regions",
+      "targets": [
+        "Heat_Pumps",
+        "Insulation",
+        "Emergency_Logistics"
+      ],
+      "routes_to_modules": [
+        "EV0L/ENERGY.v1",
+        "EV0L/CIVIC_DEFENSE.v1"
+      ],
+      "kpi_focus": [
+        "energy_burden_pct_\u2193"
+      ]
+    },
+    {
+      "code": "CULTIVAR_BLEU",
+      "name": "Cultivar\u2011Bleu",
+      "shade": "Cornflower",
+      "mission": "Seed R&D (safe)",
+      "targets": [
+        "Public_Breeding",
+        "Open_Trials",
+        "Seed_Sharing"
+      ],
+      "routes_to_modules": [
+        "EV0L/AGRI_FOOD.v1"
+      ],
+      "kpi_focus": [
+        "seed_diversity_index_\u2191"
+      ],
+      "policy_notes": [
+        "no_GMO_release_without_regulatory_approval"
+      ]
+    },
+    {
+      "code": "NUTRITION_BLEU",
+      "name": "Nutrition\u2011Bleu",
+      "shade": "Pastel_Baby",
+      "mission": "Nutrition & school meals",
+      "targets": [
+        "Healthy_Meals",
+        "Dietitian_Services",
+        "Food_Literacy"
+      ],
+      "routes_to_modules": [
+        "EV0L/AGRI_FOOD.v1",
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "child_BMI_risk_\u2193"
+      ]
+    },
+    {
+      "code": "SCHOOL_SPORTS_BLEU",
+      "name": "SchoolSports\u2011Bleu",
+      "shade": "Royal",
+      "mission": "School athletics safety",
+      "targets": [
+        "Trainer_Coverage",
+        "Baseline_Tests",
+        "Safe_Equipment"
+      ],
+      "routes_to_modules": [
+        "EV0L/LEAGUES.v1"
+      ],
+      "kpi_focus": [
+        "injuries_per_1000h_\u2193"
+      ]
+    },
+    {
+      "code": "TRAINER_BLEU",
+      "name": "Trainer\u2011Bleu",
+      "shade": "Cerulean",
+      "mission": "Athletic trainers pipeline",
+      "targets": [
+        "Scholarships",
+        "Residencies",
+        "Certification_Support"
+      ],
+      "routes_to_modules": [
+        "EV0L/LEAGUES.v1",
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "trainer_to_team_ratio_\u2191"
+      ]
+    },
+    {
+      "code": "OFFICIALS_BLEU",
+      "name": "Officials\u2011Bleu",
+      "shade": "Steel",
+      "mission": "Officiating & integrity",
+      "targets": [
+        "Training",
+        "Transparency_Reports",
+        "Tech_Support"
+      ],
+      "routes_to_modules": [
+        "EV0L/LEAGUES.v1"
+      ],
+      "kpi_focus": [
+        "officiating_transparency_\u2191"
+      ]
+    },
+    {
+      "code": "VENUE_BLEU",
+      "name": "Venue\u2011Bleu",
+      "shade": "Cobalt",
+      "mission": "Community venues & fields",
+      "targets": [
+        "Fields",
+        "Lighting",
+        "Maintenance"
+      ],
+      "routes_to_modules": [
+        "EV0L/LEAGUES.v1",
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "field_uptime_\u2191"
+      ]
+    },
+    {
+      "code": "ARCHITECT_BLEU",
+      "name": "Architect\u2011Bleu",
+      "shade": "Royal",
+      "mission": "Architecture & design",
+      "targets": [
+        "Scholarships",
+        "Community_Studios",
+        "Build_Safety_Training"
+      ],
+      "routes_to_modules": [
+        "EV0L/INDUSTRY.v1"
+      ],
+      "kpi_focus": [
+        "licensed_architects_\u2191"
+      ]
+    },
+    {
+      "code": "CITYPLAN_BLEU",
+      "name": "CityPlan\u2011Bleu",
+      "shade": "Steel",
+      "mission": "City planning & zoning",
+      "targets": [
+        "Zoning_Reform",
+        "Participatory_Planning",
+        "Modeling_Tools"
+      ],
+      "routes_to_modules": [
+        "EV0L/PLACES.v1"
+      ],
+      "kpi_focus": [
+        "housing_supply_\u2191"
+      ]
+    },
+    {
+      "code": "WELD_BLEU",
+      "name": "Weld\u2011Bleu",
+      "shade": "Slate",
+      "mission": "Welding & trades",
+      "targets": [
+        "Apprenticeships",
+        "Safety_Gear",
+        "Test_Centers"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "journeyworker_rate_\u2191"
+      ]
+    },
+    {
+      "code": "MECHANIC_BLEU",
+      "name": "Mechanic\u2011Bleu",
+      "shade": "Steel_Navy",
+      "mission": "Mechanics pipeline",
+      "targets": [
+        "Tool_Grants",
+        "Certs",
+        "Shop_Upgrades"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "placement_rate_\u2191"
+      ]
+    },
+    {
+      "code": "AUTO_BLEU",
+      "name": "Auto\u2011Bleu",
+      "shade": "Azure",
+      "mission": "EV & auto services",
+      "targets": [
+        "Charger_Techs",
+        "Diagnostics",
+        "Safety_Inspections"
+      ],
+      "routes_to_modules": [
+        "EV0L/TRANSPORT.v1"
+      ],
+      "kpi_focus": [
+        "EV_uptime_\u2191"
+      ]
+    },
+    {
+      "code": "AEROSPACE_BLEU",
+      "name": "Aerospace\u2011Bleu",
+      "shade": "Bluebird",
+      "mission": "Aerospace skills (peaceful)",
+      "targets": [
+        "Composite_Training",
+        "Avionics",
+        "Safety_Cert_Preps"
+      ],
+      "routes_to_modules": [
+        "EV0L/INDUSTRY.v1"
+      ],
+      "kpi_focus": [
+        "certification_pass_rate_\u2191"
+      ]
+    },
+    {
+      "code": "SOFTWARE_BLEU",
+      "name": "Software\u2011Bleu",
+      "shade": "Sky",
+      "mission": "Coding & platforms",
+      "targets": [
+        "Bootcamps",
+        "Security_Labs",
+        "Open_Source_Fellows"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "job_placements_\u2191"
+      ]
+    },
+    {
+      "code": "ROBOTICS_BLEU",
+      "name": "Robotics\u2011Bleu",
+      "shade": "Cobalt",
+      "mission": "Robotics & field ops",
+      "targets": [
+        "Kitting_Labs",
+        "Safety_Benches",
+        "Field_Trials"
+      ],
+      "routes_to_modules": [
+        "EV0L/INDUSTRY.v1"
+      ],
+      "kpi_focus": [
+        "robot_reliability_\u2191"
+      ]
+    },
+    {
+      "code": "AI_BLEU",
+      "name": "AI\u2011Bleu",
+      "shade": "Midnight",
+      "mission": "AI literacy & safety",
+      "targets": [
+        "Safety_Labs",
+        "Bias_Audits",
+        "Civic_Deployments"
+      ],
+      "routes_to_modules": [
+        "EV0L/SOCIAL.v2"
+      ],
+      "kpi_focus": [
+        "ai_incident_rate_\u2193"
+      ]
+    }
+  ]
+}

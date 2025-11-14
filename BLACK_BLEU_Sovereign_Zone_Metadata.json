@@ -1,0 +1,119 @@
+{
+  "codex_title": "BLACK§BLEU Sovereign Zone Codex",
+  "version": "v1.0-BLACK§BLEU",
+  "sha3_256_placeholder": "[to be filled post-mint]",
+  "zones": [
+    {
+      "id": "Z01",
+      "name": "Aquatic Vortex Zone",
+      "environment": "Deep Sea Geothermal",
+      "hero_lineage": "Kongo Sonix",
+      "codex_function": "Sonic healing, marine vaults, echo-based diplomacy",
+      "treaty": "Tide Sabbath Protocol",
+      "coin": "AquaCoin"
+    },
+    {
+      "id": "Z02",
+      "name": "TropiCore Forest Dome",
+      "environment": "Jungle & Pollinator Temple",
+      "hero_lineage": "Butterfly Kings & Queens",
+      "codex_function": "Metamorphic diplomacy, nectar-based trade, swarm defense",
+      "treaty": "Pollen Treaty",
+      "coin": "HiveCoin"
+    },
+    {
+      "id": "Z03",
+      "name": "Volcanic Rift Arena",
+      "environment": "Subduction Zones / Lava Caves",
+      "hero_lineage": "Flame Crown Sovereigns",
+      "codex_function": "Resurrection rites, decree-law warfare, flame economy",
+      "treaty": "Ember Decree",
+      "coin": "FlameCoin"
+    },
+    {
+      "id": "Z04",
+      "name": "Polar Womb Vault",
+      "environment": "Arctic Wind & Ice Memory Zone",
+      "hero_lineage": "Frozen Heir(s) of Driftwalker",
+      "codex_function": "Cryo-memory preservation, aurora diplomacy, cold-chain logistics",
+      "treaty": "Aurora Treaty Beacon",
+      "coin": "IceCoin"
+    },
+    {
+      "id": "Z05",
+      "name": "Dimensional Spiral Port",
+      "environment": "Time Warp / Orbital Flux",
+      "hero_lineage": "Ayanna Blue & Rift Guardians",
+      "codex_function": "Time recursion, memory vaulting, spiral diplomacy",
+      "treaty": "Vortex Codex",
+      "coin": "ChronoCoin"
+    },
+    {
+      "id": "Z06",
+      "name": "Galactic Observatory Nexus",
+      "environment": "Zero-G Space Theater",
+      "hero_lineage": "ZIONAIRE Expansion",
+      "codex_function": "Interstellar diplomacy, prism-based travel, solar economy",
+      "treaty": "Prism Treaty",
+      "coin": "SolarCoin"
+    }
+  ],
+  "treaties": [
+    "Tide Sabbath Protocol",
+    "Pollen Treaty",
+    "Ember Decree",
+    "Aurora Treaty Beacon",
+    "Vortex Codex",
+    "Prism Treaty"
+  ],
+  "currencies": [
+    {
+      "name": "Blu-Tillion",
+      "function": "Civil energy",
+      "domain": "Economy"
+    },
+    {
+      "name": "Zioniare",
+      "function": "Defense",
+      "domain": "Military"
+    },
+    {
+      "name": "Azaean",
+      "function": "Education",
+      "domain": "Curriculum"
+    },
+    {
+      "name": "FlameCoin",
+      "function": "Ritual power",
+      "domain": "Ceremony"
+    },
+    {
+      "name": "PraiseCoin",
+      "function": "Art & Culture",
+      "domain": "Cultural Yield"
+    },
+    {
+      "name": "HarvestCoin",
+      "function": "Agriculture",
+      "domain": "Food Systems"
+    },
+    {
+      "name": "HealCoin",
+      "function": "Medicine",
+      "domain": "Health"
+    },
+    {
+      "name": "ScrollCoin",
+      "function": "Archives",
+      "domain": "Knowledge"
+    }
+  ],
+  "appendix_VII": {
+    "title": "BLEUChain Sovereign Expansion Protocol",
+    "references": [
+      "BLEULION TREASURY™",
+      "ENATO Constitution"
+    ],
+    "status": "cross-embedded"
+  }
+}
