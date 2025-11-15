@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-11-12T01:37:54.651889",
+    "generated_at": "2025-11-15T00:10:19.565237",
     "system": "BLEU Codex Triple-Stack Treasury",
     "version": "1.0.0",
     "pi4_constant": 97.409091034
@@ -43,7 +43,7 @@
     "second_trace": [
       {
         "second": 0,
-        "timestamp": 1762911474.651896,
+        "timestamp": 1763165419.565244,
         "civilian": 0,
         "military": 0,
         "cosmic": 0,
@@ -55,7 +55,7 @@
       },
       {
         "second": 1,
-        "timestamp": 1762911475.651898,
+        "timestamp": 1763165420.565246,
         "civilian": 13600000,
         "military": 6100000,
         "cosmic": 9200000,
@@ -67,7 +67,7 @@
       },
       {
         "second": 2,
-        "timestamp": 1762911476.651899,
+        "timestamp": 1763165421.565248,
         "civilian": 27200000,
         "military": 12200000,
         "cosmic": 18400000,
@@ -79,7 +79,7 @@
       },
       {
         "second": 3,
-        "timestamp": 1762911477.6519,
+        "timestamp": 1763165422.565248,
         "civilian": 40800000,
         "military": 18300000,
         "cosmic": 27600000,
@@ -91,7 +91,7 @@
       },
       {
         "second": 4,
-        "timestamp": 1762911478.651901,
+        "timestamp": 1763165423.565249,
         "civilian": 54400000,
         "military": 24400000,
         "cosmic": 36800000,
@@ -103,7 +103,7 @@
       },
       {
         "second": 5,
-        "timestamp": 1762911479.651902,
+        "timestamp": 1763165424.56525,
         "civilian": 68000000,
         "military": 30500000,
         "cosmic": 46000000,
@@ -115,7 +115,7 @@
       },
       {
         "second": 6,
-        "timestamp": 1762911480.651902,
+        "timestamp": 1763165425.565251,
         "civilian": 81600000,
         "military": 36600000,
         "cosmic": 55200000,
@@ -127,7 +127,7 @@
       },
       {
         "second": 7,
-        "timestamp": 1762911481.651903,
+        "timestamp": 1763165426.565252,
         "civilian": 95200000,
         "military": 42700000,
         "cosmic": 64400000,
@@ -139,7 +139,7 @@
       },
       {
         "second": 8,
-        "timestamp": 1762911482.651904,
+        "timestamp": 1763165427.565252,
         "civilian": 108800000,
         "military": 48800000,
         "cosmic": 73600000,
@@ -151,7 +151,7 @@
       },
       {
         "second": 9,
-        "timestamp": 1762911483.651905,
+        "timestamp": 1763165428.565253,
         "civilian": 122400000,
         "military": 54900000,
         "cosmic": 82800000,
@@ -163,7 +163,7 @@
       },
       {
         "second": 10,
-        "timestamp": 1762911484.651905,
+        "timestamp": 1763165429.565254,
         "civilian": 136000000,
         "military": 61000000,
         "cosmic": 92000000,
@@ -175,7 +175,7 @@
       },
       {
         "second": 11,
-        "timestamp": 1762911485.651906,
+        "timestamp": 1763165430.565254,
         "civilian": 149600000,
         "military": 67100000,
         "cosmic": 101200000,
@@ -187,7 +187,7 @@
       },
       {
         "second": 12,
-        "timestamp": 1762911486.651907,
+        "timestamp": 1763165431.565255,
         "civilian": 163200000,
         "military": 73200000,
         "cosmic": 110400000,
@@ -199,7 +199,7 @@
       },
       {
         "second": 13,
-        "timestamp": 1762911487.651908,
+        "timestamp": 1763165432.565256,
         "civilian": 176800000,
         "military": 79300000,
         "cosmic": 119600000,
@@ -211,7 +211,7 @@
       },
       {
         "second": 14,
-        "timestamp": 1762911488.651908,
+        "timestamp": 1763165433.565257,
         "civilian": 190400000,
         "military": 85400000,
         "cosmic": 128800000,
@@ -223,7 +223,7 @@
       },
       {
         "second": 15,
-        "timestamp": 1762911489.651909,
+        "timestamp": 1763165434.565257,
         "civilian": 204000000,
         "military": 91500000,
         "cosmic": 138000000,
@@ -235,7 +235,7 @@
       },
       {
         "second": 16,
-        "timestamp": 1762911490.65191,
+        "timestamp": 1763165435.565258,
         "civilian": 217600000,
         "military": 97600000,
         "cosmic": 147200000,
@@ -247,7 +247,7 @@
       },
       {
         "second": 17,
-        "timestamp": 1762911491.651911,
+        "timestamp": 1763165436.565259,
         "civilian": 231200000,
         "military": 103700000,
         "cosmic": 156400000,
@@ -259,7 +259,7 @@
       },
       {
         "second": 18,
-        "timestamp": 1762911492.651911,
+        "timestamp": 1763165437.56526,
         "civilian": 244800000,
         "military": 109800000,
         "cosmic": 165600000,
@@ -271,7 +271,7 @@
       },
       {
         "second": 19,
-        "timestamp": 1762911493.651912,
+        "timestamp": 1763165438.56526,
         "civilian": 258400000,
         "military": 115900000,
         "cosmic": 174800000,
@@ -283,7 +283,7 @@
       },
       {
         "second": 20,
-        "timestamp": 1762911494.651913,
+        "timestamp": 1763165439.565261,
         "civilian": 272000000,
         "military": 122000000,
         "cosmic": 184000000,
@@ -295,7 +295,7 @@
       },
       {
         "second": 21,
-        "timestamp": 1762911495.651914,
+        "timestamp": 1763165440.565262,
         "civilian": 285600000,
         "military": 128100000,
         "cosmic": 193200000,
@@ -307,7 +307,7 @@
       },
       {
         "second": 22,
-        "timestamp": 1762911496.651914,
+        "timestamp": 1763165441.565262,
         "civilian": 299200000,
         "military": 134200000,
         "cosmic": 202400000,
@@ -319,7 +319,7 @@
       },
       {
         "second": 23,
-        "timestamp": 1762911497.651915,
+        "timestamp": 1763165442.565263,
         "civilian": 312800000,
         "military": 140300000,
         "cosmic": 211600000,
@@ -331,7 +331,7 @@
       },
       {
         "second": 24,
-        "timestamp": 1762911498.651916,
+        "timestamp": 1763165443.565264,
         "civilian": 326400000,
         "military": 146400000,
         "cosmic": 220800000,
@@ -343,7 +343,7 @@
       },
       {
         "second": 25,
-        "timestamp": 1762911499.651917,
+        "timestamp": 1763165444.565265,
         "civilian": 340000000,
         "military": 152500000,
         "cosmic": 230000000,
@@ -355,7 +355,7 @@
       },
       {
         "second": 26,
-        "timestamp": 1762911500.651917,
+        "timestamp": 1763165445.565265,
         "civilian": 353600000,
         "military": 158600000,
         "cosmic": 239200000,
@@ -367,7 +367,7 @@
       },
       {
         "second": 27,
-        "timestamp": 1762911501.651918,
+        "timestamp": 1763165446.565266,
         "civilian": 367200000,
         "military": 164700000,
         "cosmic": 248400000,
@@ -379,7 +379,7 @@
       },
       {
         "second": 28,
-        "timestamp": 1762911502.651919,
+        "timestamp": 1763165447.565267,
         "civilian": 380800000,
         "military": 170800000,
         "cosmic": 257600000,
@@ -391,7 +391,7 @@
       },
       {
         "second": 29,
-        "timestamp": 1762911503.651919,
+        "timestamp": 1763165448.565267,
         "civilian": 394400000,
         "military": 176900000,
         "cosmic": 266800000,
@@ -403,7 +403,7 @@
       },
       {
         "second": 30,
-        "timestamp": 1762911504.65192,
+        "timestamp": 1763165449.565268,
         "civilian": 408000000,
         "military": 183000000,
         "cosmic": 276000000,
@@ -415,7 +415,7 @@
       },
       {
         "second": 31,
-        "timestamp": 1762911505.651921,
+        "timestamp": 1763165450.565269,
         "civilian": 421600000,
         "military": 189100000,
         "cosmic": 285200000,
@@ -427,7 +427,7 @@
       },
       {
         "second": 32,
-        "timestamp": 1762911506.651921,
+        "timestamp": 1763165451.56527,
         "civilian": 435200000,
         "military": 195200000,
         "cosmic": 294400000,
@@ -439,7 +439,7 @@
       },
       {
         "second": 33,
-        "timestamp": 1762911507.651922,
+        "timestamp": 1763165452.565271,
         "civilian": 448800000,
         "military": 201300000,
         "cosmic": 303600000,
@@ -451,7 +451,7 @@
       },
       {
         "second": 34,
-        "timestamp": 1762911508.651923,
+        "timestamp": 1763165453.565271,
         "civilian": 462400000,
         "military": 207400000,
         "cosmic": 312800000,
@@ -463,7 +463,7 @@
       },
       {
         "second": 35,
-        "timestamp": 1762911509.651924,
+        "timestamp": 1763165454.565272,
         "civilian": 476000000,
         "military": 213500000,
         "cosmic": 322000000,
@@ -475,7 +475,7 @@
       },
       {
         "second": 36,
-        "timestamp": 1762911510.651924,
+        "timestamp": 1763165455.565273,
         "civilian": 489600000,
         "military": 219600000,
         "cosmic": 331200000,
@@ -487,7 +487,7 @@
       },
       {
         "second": 37,
-        "timestamp": 1762911511.651925,
+        "timestamp": 1763165456.565273,
         "civilian": 503200000,
         "military": 225700000,
         "cosmic": 340400000,
@@ -499,7 +499,7 @@
       },
       {
         "second": 38,
-        "timestamp": 1762911512.651926,
+        "timestamp": 1763165457.565274,
         "civilian": 516800000,
         "military": 231800000,
         "cosmic": 349600000,
@@ -511,7 +511,7 @@
       },
       {
         "second": 39,
-        "timestamp": 1762911513.651926,
+        "timestamp": 1763165458.565275,
         "civilian": 530400000,
         "military": 237900000,
         "cosmic": 358800000,
@@ -523,7 +523,7 @@
       },
       {
         "second": 40,
-        "timestamp": 1762911514.651927,
+        "timestamp": 1763165459.565276,
         "civilian": 544000000,
         "military": 244000000,
         "cosmic": 368000000,
@@ -535,7 +535,7 @@
       },
       {
         "second": 41,
-        "timestamp": 1762911515.651928,
+        "timestamp": 1763165460.565276,
         "civilian": 557600000,
         "military": 250100000,
         "cosmic": 377200000,
@@ -547,7 +547,7 @@
       },
       {
         "second": 42,
-        "timestamp": 1762911516.651929,
+        "timestamp": 1763165461.565277,
         "civilian": 571200000,
         "military": 256200000,
         "cosmic": 386400000,
@@ -559,7 +559,7 @@
       },
       {
         "second": 43,
-        "timestamp": 1762911517.651929,
+        "timestamp": 1763165462.565278,
         "civilian": 584800000,
         "military": 262300000,
         "cosmic": 395600000,
@@ -571,7 +571,7 @@
       },
       {
         "second": 44,
-        "timestamp": 1762911518.65193,
+        "timestamp": 1763165463.565278,
         "civilian": 598400000,
         "military": 268400000,
         "cosmic": 404800000,
@@ -583,7 +583,7 @@
       },
       {
         "second": 45,
-        "timestamp": 1762911519.651931,
+        "timestamp": 1763165464.565279,
         "civilian": 612000000,
         "military": 274500000,
         "cosmic": 414000000,
@@ -595,7 +595,7 @@
       },
       {
         "second": 46,
-        "timestamp": 1762911520.651932,
+        "timestamp": 1763165465.56528,
         "civilian": 625600000,
         "military": 280600000,
         "cosmic": 423200000,
@@ -607,7 +607,7 @@
       },
       {
         "second": 47,
-        "timestamp": 1762911521.651932,
+        "timestamp": 1763165466.565281,
         "civilian": 639200000,
         "military": 286700000,
         "cosmic": 432400000,
@@ -619,7 +619,7 @@
       },
       {
         "second": 48,
-        "timestamp": 1762911522.651933,
+        "timestamp": 1763165467.565281,
         "civilian": 652800000,
         "military": 292800000,
         "cosmic": 441600000,
@@ -631,7 +631,7 @@
       },
       {
         "second": 49,
-        "timestamp": 1762911523.651934,
+        "timestamp": 1763165468.565282,
         "civilian": 666400000,
         "military": 298900000,
         "cosmic": 450800000,
@@ -643,7 +643,7 @@
       },
       {
         "second": 50,
-        "timestamp": 1762911524.651934,
+        "timestamp": 1763165469.565283,
         "civilian": 680000000,
         "military": 305000000,
         "cosmic": 460000000,
@@ -655,7 +655,7 @@
       },
       {
         "second": 51,
-        "timestamp": 1762911525.651935,
+        "timestamp": 1763165470.565283,
         "civilian": 693600000,
         "military": 311100000,
         "cosmic": 469200000,
@@ -667,7 +667,7 @@
       },
       {
         "second": 52,
-        "timestamp": 1762911526.651936,
+        "timestamp": 1763165471.565284,
         "civilian": 707200000,
         "military": 317200000,
         "cosmic": 478400000,
@@ -679,7 +679,7 @@
       },
       {
         "second": 53,
-        "timestamp": 1762911527.651937,
+        "timestamp": 1763165472.565285,
         "civilian": 720800000,
         "military": 323300000,
         "cosmic": 487600000,
@@ -691,7 +691,7 @@
       },
       {
         "second": 54,
-        "timestamp": 1762911528.651937,
+        "timestamp": 1763165473.565286,
         "civilian": 734400000,
         "military": 329400000,
         "cosmic": 496800000,
@@ -703,7 +703,7 @@
       },
       {
         "second": 55,
-        "timestamp": 1762911529.651938,
+        "timestamp": 1763165474.565286,
         "civilian": 748000000,
         "military": 335500000,
         "cosmic": 506000000,
@@ -715,7 +715,7 @@
       },
       {
         "second": 56,
-        "timestamp": 1762911530.651939,
+        "timestamp": 1763165475.565287,
         "civilian": 761600000,
         "military": 341600000,
         "cosmic": 515200000,
@@ -727,7 +727,7 @@
       },
       {
         "second": 57,
-        "timestamp": 1762911531.651939,
+        "timestamp": 1763165476.565288,
         "civilian": 775200000,
         "military": 347700000,
         "cosmic": 524400000,
@@ -739,7 +739,7 @@
       },
       {
         "second": 58,
-        "timestamp": 1762911532.65194,
+        "timestamp": 1763165477.565289,
         "civilian": 788800000,
         "military": 353800000,
         "cosmic": 533600000,
@@ -751,7 +751,7 @@
       },
       {
         "second": 59,
-        "timestamp": 1762911533.651941,
+        "timestamp": 1763165478.565289,
         "civilian": 802400000,
         "military": 359900000,
         "cosmic": 542800000,
@@ -763,7 +763,7 @@
       },
       {
         "second": 60,
-        "timestamp": 1762911534.651942,
+        "timestamp": 1763165479.56529,
         "civilian": 816000000,
         "military": 366000000,
         "cosmic": 552000000,
