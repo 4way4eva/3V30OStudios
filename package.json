@@ -16,6 +16,7 @@
     "deploy:four-stack": "hardhat run scripts/deploy_four_stack_treasury.ts",
     "mint:triple-stack": "hardhat run scripts/mint_triple_stack_yields.ts",
     "mint:four-stack": "hardhat run scripts/mint_four_sphere_yields.ts",
+    "mint:inheritance-yields": "hardhat run scripts/mint_enft_inheritance_yields.ts",
     "manage:transdimensional": "hardhat run scripts/manage_transdimensional_sphere.ts",
     "verify:triple-stack": "hardhat run scripts/verify_triple_stack_treasury.ts",
     "deploy:codex-governance": "hardhat run scripts/deploy_codex_governance.ts",
