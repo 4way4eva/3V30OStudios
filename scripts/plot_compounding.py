@@ -47,7 +47,6 @@ from datetime import datetime
 
 try:
     import matplotlib.pyplot as plt
-    import matplotlib.dates as mdates
 except ImportError:
     print("Error: matplotlib is required for plotting")
     print("Install with: pip3 install matplotlib")
