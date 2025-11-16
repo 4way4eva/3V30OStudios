@@ -1,0 +1,186 @@
+# MIT License
+# 
+# Copyright (c) 2024 3V30OStudios / MEGAZION Codex
+# 
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# 
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+# 
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+name: NFT.Storage Pin Workflow
+
+# GATED WORKFLOW - Only runs when NFT_STORAGE_KEY secret is configured
+# This workflow is DISABLED by default for security and cost management
+# 
+# To enable:
+#   1. Add NFT_STORAGE_KEY secret to repository secrets
+#   2. Workflow will automatically activate on specified triggers
+#
+# See: https://nft.storage/docs/
+
+on:
+  workflow_dispatch:
+    inputs:
+      metadata_dir:
+        description: 'Directory containing metadata to pin'
+        required: false
+        default: 'metadata'
+      dry_run:
+        description: 'Dry run mode (no actual pinning)'
+        required: false
+        default: 'true'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+
+  # Optionally trigger on push to specific branches (commented out by default)
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - 'metadata/**'
+
+jobs:
+  pin-to-nft-storage:
+    runs-on: ubuntu-latest
+    
+    # GATING: Only run if NFT_STORAGE_KEY secret exists
+    if: ${{ secrets.NFT_STORAGE_KEY != '' }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm install --legacy-peer-deps
+          
+      - name: Verify NFT.Storage dependencies
+        run: |
+          # Check if nft.storage packages are available
+          if ! npm list nft.storage 2>/dev/null; then
+            echo "⚠️  nft.storage package not found in dependencies"
+            echo "Consider adding: npm install nft.storage"
+          fi
+
+      - name: Check metadata directory
+        id: check_metadata
+        run: |
+          METADATA_DIR="${{ github.event.inputs.metadata_dir || 'metadata' }}"
+          if [ -d "$METADATA_DIR" ]; then
+            FILE_COUNT=$(find "$METADATA_DIR" -type f -name "*.json" | wc -l)
+            echo "✓ Found $FILE_COUNT JSON files in $METADATA_DIR"
+            echo "file_count=$FILE_COUNT" >> $GITHUB_OUTPUT
+            echo "metadata_exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "⚠️  Metadata directory not found: $METADATA_DIR"
+            echo "metadata_exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Pin to NFT.Storage
+        if: steps.check_metadata.outputs.metadata_exists == 'true'
+        env:
+          NFT_STORAGE_KEY: ${{ secrets.NFT_STORAGE_KEY }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'true' }}
+        run: |
+          METADATA_DIR="${{ github.event.inputs.metadata_dir || 'metadata' }}"
+          
+          echo "==================================="
+          echo "NFT.Storage Pin Configuration"
+          echo "==================================="
+          echo "Metadata Directory: $METADATA_DIR"
+          echo "Dry Run: $DRY_RUN"
+          echo "Files to pin: ${{ steps.check_metadata.outputs.file_count }}"
+          echo ""
+          
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "🔍 DRY RUN MODE - No actual pinning will occur"
+            echo ""
+            echo "Files that would be pinned:"
+            find "$METADATA_DIR" -type f -name "*.json" | head -10
+            echo ""
+            echo "To perform actual pinning:"
+            echo "  1. Set dry_run input to 'false' when running workflow"
+            echo "  2. Ensure NFT_STORAGE_KEY secret is valid"
+          else
+            echo "📌 LIVE MODE - Pinning to NFT.Storage"
+            echo ""
+            
+            # Use the nftstorage_upload.ts script if it exists
+            if [ -f "scripts/nftstorage_upload.ts" ]; then
+              echo "Using nftstorage_upload.ts script..."
+              npx hardhat run scripts/nftstorage_upload.ts
+            else
+              echo "⚠️  nftstorage_upload.ts not found"
+              echo "Manual pinning required or script needs to be created"
+              exit 1
+            fi
+          fi
+
+      - name: Save pin results
+        if: steps.check_metadata.outputs.metadata_exists == 'true' && github.event.inputs.dry_run == 'false'
+        run: |
+          # Create outputs directory if it doesn't exist
+          mkdir -p outputs
+          
+          # Generate timestamp
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H-%M-%SZ")
+          
+          # Save a record of the pinning operation
+          cat > "outputs/nft_storage_pin_$TIMESTAMP.json" << EOF
+          {
+            "timestamp": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
+            "workflow_run_id": "${{ github.run_id }}",
+            "metadata_directory": "${{ github.event.inputs.metadata_dir || 'metadata' }}",
+            "file_count": ${{ steps.check_metadata.outputs.file_count }},
+            "status": "completed",
+            "note": "See workflow logs for individual CIDs"
+          }
+          EOF
+          
+          echo "✓ Pin record saved to outputs/nft_storage_pin_$TIMESTAMP.json"
+
+      - name: Workflow status
+        if: always()
+        run: |
+          echo ""
+          echo "==================================="
+          echo "Workflow Execution Summary"
+          echo "==================================="
+          
+          if [ "${{ secrets.NFT_STORAGE_KEY }}" = "" ]; then
+            echo "❌ NFT_STORAGE_KEY secret not configured"
+            echo "   This workflow is gated and will not run without the secret"
+            echo ""
+            echo "To enable:"
+            echo "  1. Generate API key at https://nft.storage/"
+            echo "  2. Add as NFT_STORAGE_KEY in repository secrets"
+            echo "  3. Re-run this workflow"
+          elif [ "${{ steps.check_metadata.outputs.metadata_exists }}" != "true" ]; then
+            echo "⚠️  No metadata found to pin"
+          elif [ "${{ github.event.inputs.dry_run || 'true' }}" = "true" ]; then
+            echo "✓ Dry run completed successfully"
+            echo "  Run with dry_run=false to perform actual pinning"
+          else
+            echo "✓ Pinning workflow completed"
+          fi
