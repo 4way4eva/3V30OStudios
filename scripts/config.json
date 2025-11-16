@@ -29,6 +29,7 @@
       "testnet_default": "sepolia",
       "supported_testnets": ["sepolia", "mumbai", "fuji", "bscTestnet"],
       "testnet_first": true
+    },
     "metavault_treasury": {
       "yield_streams": {
         "civilian": {

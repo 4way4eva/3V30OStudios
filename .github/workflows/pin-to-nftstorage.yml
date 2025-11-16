@@ -1,0 +1,128 @@
+name: Pin to NFT.Storage
+
+# SAFETY: Manual dispatch only - no automatic triggers
+# This workflow requires NFT_STORAGE_KEY secret to be present
+# DO NOT run pinning automatically on push or PR open
+# DO NOT broadcast transactions from CI
+on:
+  workflow_dispatch:
+    inputs:
+      directory:
+        description: 'Directory to pin (e.g., metadata/ or outputs/)'
+        required: true
+        default: 'outputs'
+        type: choice
+        options:
+          - metadata
+          - outputs
+          - data
+      pin_name:
+        description: 'Name for the pin on NFT.Storage'
+        required: true
+        default: 'megazion-48fold-codex'
+        type: string
+
+jobs:
+  pin-to-nftstorage:
+    runs-on: ubuntu-latest
+    
+    # Gate: Only run if NFT_STORAGE_KEY secret is present
+    if: ${{ secrets.NFT_STORAGE_KEY != '' }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+      
+      - name: Check for NFT_STORAGE_KEY secret
+        run: |
+          if [ -z "${{ secrets.NFT_STORAGE_KEY }}" ]; then
+            echo "❌ Error: NFT_STORAGE_KEY secret is not set"
+            echo "Please configure the NFT_STORAGE_KEY repository secret"
+            echo "See: https://github.com/${{ github.repository }}/settings/secrets/actions"
+            exit 1
+          fi
+          echo "✓ NFT_STORAGE_KEY secret is configured"
+      
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+      
+      - name: Verify directory exists
+        run: |
+          if [ ! -d "${{ github.event.inputs.directory }}" ]; then
+            echo "❌ Error: Directory ${{ github.event.inputs.directory }} does not exist"
+            exit 1
+          fi
+          echo "✓ Directory ${{ github.event.inputs.directory }} found"
+          echo "Contents:"
+          ls -lh ${{ github.event.inputs.directory }}
+      
+      - name: Pin directory to NFT.Storage
+        env:
+          NFT_STORAGE_KEY: ${{ secrets.NFT_STORAGE_KEY }}
+        run: |
+          echo "Pinning ${{ github.event.inputs.directory }} to NFT.Storage..."
+          echo "Pin name: ${{ github.event.inputs.pin_name }}"
+          
+          # Use nft.storage CLI or API
+          # This is a placeholder - actual implementation depends on nft.storage tooling
+          # For now, we'll create a simple Node script
+          
+          cat > pin_script.js << 'PINSCRIPT'
+          const { NFTStorage, File } = require('nft.storage');
+          const fs = require('fs');
+          const path = require('path');
+          
+          async function pin() {
+            const client = new NFTStorage({ token: process.env.NFT_STORAGE_KEY });
+            const directory = process.argv[2];
+            const pinName = process.argv[3];
+            
+            console.log(`Pinning ${directory} with name: ${pinName}`);
+            
+            // Read all files in directory
+            const files = fs.readdirSync(directory);
+            console.log(`Found ${files.length} files`);
+            
+            for (const file of files) {
+              const filePath = path.join(directory, file);
+              if (fs.statSync(filePath).isFile()) {
+                console.log(`  - ${file}`);
+              }
+            }
+            
+            console.log('\nNote: Actual pinning requires nft.storage package implementation');
+            console.log('This is a placeholder script. See nft.storage documentation for details.');
+            console.log('CID placeholders should be updated after successful pinning.');
+          }
+          
+          pin().catch(console.error);
+          PINSCRIPT
+          
+          node pin_script.js "${{ github.event.inputs.directory }}" "${{ github.event.inputs.pin_name }}"
+      
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Pin to NFT.Storage Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Directory:** \`${{ github.event.inputs.directory }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "**Pin Name:** \`${{ github.event.inputs.pin_name }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### ⚠️ Important Notes" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- This workflow runs **manually only** via workflow_dispatch" >> $GITHUB_STEP_SUMMARY
+          echo "- No transactions are broadcast from CI" >> $GITHUB_STEP_SUMMARY
+          echo "- Requires NFT_STORAGE_KEY repository secret" >> $GITHUB_STEP_SUMMARY
+          echo "- Update placeholder CIDs in code after pinning" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Next Steps" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "1. Retrieve the CID from NFT.Storage" >> $GITHUB_STEP_SUMMARY
+          echo "2. Update \`ipfs://REPLACE_WITH_CID\` placeholders" >> $GITHUB_STEP_SUMMARY
+          echo "3. See README documentation for complete workflow" >> $GITHUB_STEP_SUMMARY
