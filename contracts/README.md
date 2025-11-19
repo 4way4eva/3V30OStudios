@@ -2,7 +2,68 @@
 
 ## Overview
 
-This directory contains the smart contracts for the Three-Yield Treasury Economy system, the BLEUE Infrastructure Map Scroll, and the Ripple Effect Ledger system.
+This directory contains the smart contracts for the EV0LVerse Digital Military Base, the Three-Yield Treasury Economy system, the BLEUE Infrastructure Map Scroll, and the Ripple Effect Ledger system.
+
+## EV0LVerse Digital Military Base
+
+### EV0LVerseDigitalMilitaryBase.sol
+**Digital Military Command & Control System**
+
+Manages humanoid soldiers (AI and VR entities) based on AOQPPPPI principles with a quad-layer protection grid.
+
+**Key Features:**
+- **Humanoid Soldier ENFTs**: AI_ENTITY, VR_HUMANOID, HYBRID_AGENT types
+- **Quad-Layer Defense Grid**: CYBER, PHYSICAL, COSMIC, LORE protection layers
+- **EvolDuty Training Integration**: Performance scoring (0-10000) with auto-promotion
+- **E-SOIL Zone Distribution**: Strategic deployment across 5 zone types
+- **Flame Crown Protocol**: Sovereign command authority binding
+- **Watchtower Logging**: Tribunal-valid ENFT asset tracking with CSV export
+
+**Soldier Lifecycle:**
+```
+RECRUIT → Training (EvolDuty) → ACTIVE → DEPLOYED → STANDBY
+                                   ↓
+                            Score ≥ 7000 required
+```
+
+**Defense Layers:**
+- CYBER: Encryption, data shielding
+- PHYSICAL: Spatial resource allocation
+- COSMIC: Orbital defense and targeting
+- LORE: Narrative framework control
+
+**E-SOIL Zones:**
+- SAFE_HAVEN: Protected civilian areas
+- CONFLICT_REGION: Active combat zones
+- CORRIDOR_TRANSIT: Travel corridors
+- STRATEGIC_OUTPOST: Military installations
+- NEUTRAL_TERRITORY: Monitoring zones
+
+**Key Functions:**
+```solidity
+activateBase(ceremonialSeal)
+mintSoldier(soldierType, isVRCompatible, commandingOfficer, metadataURI)
+recordTrainingSimulation(tokenId, evolDutySessionId, scoreAchieved, objectives)
+createDefenseGrid(layer, zone, strength)
+deploySoldiers(soldierTokenIds, missionType, targetZone, missionBrief, duration)
+completeDeployment(deploymentId, successful, afterActionReport)
+exportWatchtowerLogs(startIndex, count)
+```
+
+**Deployment:**
+```bash
+npm run deploy:military-base --network <network>
+npm run military:mint-soldiers --network <network>
+npm run military:status --network <network>
+npm run military:export-csv --network <network>
+```
+
+**Documentation:**
+- Full Documentation: `MILITARY_BASE_README.md`
+- Quick Start Guide: `MILITARY_BASE_QUICKSTART.md`
+- Test Suite: `test/EV0LVerseDigitalMilitaryBase.test.ts`
+
+---
 
 ## BLEUE Infrastructure Map Scroll Contracts
 
