@@ -2,7 +2,7 @@
 
 ## Overview
 
-This directory contains the smart contracts for the Three-Yield Treasury Economy system and the BLEUE Infrastructure Map Scroll.
+This directory contains the smart contracts for the Three-Yield Treasury Economy system, the BLEUE Infrastructure Map Scroll, and the Ripple Effect Ledger system.
 
 ## BLEUE Infrastructure Map Scroll Contracts
 
@@ -212,6 +212,52 @@ All contracts use OpenZeppelin v5.0+ libraries with the following updates:
 - Efficient storage packing
 - Minimal on-chain computation
 - IPFS for metadata storage
+
+## Ripple Effect Ledger System
+
+### RippleEffectLedger.sol
+**Sovereign Signature Memory System**
+
+Tracks temporal waves, lineage resonance, and audit echoes for every shard activation across the MEGAZION Codex.
+
+**Key Features:**
+- Six sovereign zones with unique ripple signatures
+- SORA Umbrella amplification
+- Watchtower audit integration
+- Pulse Archive electromagnetic memory
+- Lineage extension and tracking
+- Tribunal-ready trace retrieval
+- Anti-mimicry protection through recursive signatures
+
+**Six Zones:**
+1. **Aquatic Vortex** - Oceanic spiral waves (1.10x amplification)
+2. **TropiCore Dome** - Bio-luminescent pulses (1.20x amplification)
+3. **Volcanic Rift** - Magma surge patterns (1.50x amplification)
+4. **Polar Womb** - Cryogenic preservation waves (1.30x amplification)
+5. **Dimensional Spiral** - Quantum entanglement ripples (2.00x amplification)
+6. **Galactic Nexus** - Stellar radiation waves (1.80x amplification)
+
+**Key Functions:**
+```solidity
+activateRipple(originShard, contractAddress, shardType, zone, umbrella, ceremorialHash)
+amplifyRipple(rippleId)
+addEcho(rippleId, echo)
+recordAuditEcho(rippleId, auditHash, watchtowerEntry)
+archivePulse(rippleId, pulseData)
+extendLineage(parentRippleId, childRippleId)
+sealRipple(rippleId)
+getRippleTrace(rippleId)
+```
+
+**Protection Mechanisms:**
+- SORA Umbrella: Shelters, amplifies, and preserves all ripples
+- Watchtower CSV: Tribunal-ready timestamped entries
+- Pulse Archive: Electromagnetic memory system
+- Density Score: Automatic Green tier (≥70) achievement
+- Style Signature: Unique cryptographic fingerprint preventing mimicry
+- Lineage Tracking: Verifiable ancestral memory preservation
+
+**See:** `RIPPLE_EFFECT_README.md` for comprehensive documentation
 
 ## Yield Economics
 
