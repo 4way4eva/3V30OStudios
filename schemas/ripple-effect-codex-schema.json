@@ -1,0 +1,336 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://3v30ostudios.com/schemas/ripple-effect-codex.json",
+  "title": "Ripple Effect Codex Ledger Schema",
+  "description": "Schema for zone-specific ripple signatures with tribunal-ready logging",
+  "version": "1.0.0",
+  "type": "object",
+  "required": [
+    "rippleId",
+    "zone",
+    "originShard",
+    "temporalWave",
+    "auditEcho",
+    "lineageResonance",
+    "pulseIntent",
+    "soraCompliance",
+    "sovereigntySeals",
+    "timestamp"
+  ],
+  "properties": {
+    "rippleId": {
+      "type": "string",
+      "description": "Unique identifier for the ripple signature",
+      "pattern": "^RIPPLE-[0-9]{4,}$"
+    },
+    "zone": {
+      "type": "string",
+      "description": "Zone where the ripple effect occurs",
+      "enum": [
+        "Aquatic Vortex",
+        "TropiCore Dome",
+        "Volcanic Rift",
+        "Polar Womb",
+        "Dimensional Spiral",
+        "Galactic Nexus"
+      ]
+    },
+    "originShard": {
+      "type": "string",
+      "description": "Origin shard identifier",
+      "pattern": "^SHARD-[A-Z]+-[0-9]{3,}$"
+    },
+    "temporalWave": {
+      "type": "object",
+      "description": "Temporal wave data for the ripple",
+      "required": [
+        "waveId",
+        "timestamp",
+        "frequency",
+        "amplitude",
+        "phase",
+        "waveSignature"
+      ],
+      "properties": {
+        "waveId": {
+          "type": "integer",
+          "description": "Unique wave identifier",
+          "minimum": 0
+        },
+        "timestamp": {
+          "type": "integer",
+          "description": "Unix timestamp when wave was generated",
+          "minimum": 0
+        },
+        "frequency": {
+          "type": "string",
+          "description": "Wave frequency in Hz (scaled by 1e18)",
+          "pattern": "^[0-9]+$"
+        },
+        "amplitude": {
+          "type": "string",
+          "description": "Wave amplitude/energy level (scaled by 1e18)",
+          "pattern": "^[0-9]+$"
+        },
+        "phase": {
+          "type": "string",
+          "description": "Phase angle in radians (scaled by 1e18)",
+          "pattern": "^[0-9]+$"
+        },
+        "waveSignature": {
+          "type": "string",
+          "description": "Hash of wave pattern",
+          "pattern": "^0x[a-fA-F0-9]{64}$"
+        }
+      }
+    },
+    "auditEcho": {
+      "type": "object",
+      "description": "Audit echo for compliance verification",
+      "required": [
+        "echoId",
+        "auditor",
+        "auditTimestamp",
+        "auditHash",
+        "isVerified"
+      ],
+      "properties": {
+        "echoId": {
+          "type": "integer",
+          "description": "Unique audit echo identifier",
+          "minimum": 0
+        },
+        "auditor": {
+          "type": "string",
+          "description": "Ethereum address of auditor",
+          "pattern": "^0x[a-fA-F0-9]{40}$"
+        },
+        "auditTimestamp": {
+          "type": "integer",
+          "description": "Unix timestamp of audit",
+          "minimum": 0
+        },
+        "auditHash": {
+          "type": "string",
+          "description": "Hash of audit compliance data",
+          "pattern": "^0x[a-fA-F0-9]{64}$"
+        },
+        "auditNotes": {
+          "type": "string",
+          "description": "Auditor notes"
+        },
+        "isVerified": {
+          "type": "boolean",
+          "description": "Whether the audit is verified"
+        }
+      }
+    },
+    "lineageResonance": {
+      "type": "object",
+      "description": "Lineage resonance for origin chain tracking",
+      "required": [
+        "originShard",
+        "ancestorShards",
+        "resonanceDepth",
+        "resonanceStrength",
+        "lineageHash"
+      ],
+      "properties": {
+        "originShard": {
+          "type": "string",
+          "description": "Origin shard identifier (bytes32)",
+          "pattern": "^0x[a-fA-F0-9]{64}$"
+        },
+        "ancestorShards": {
+          "type": "array",
+          "description": "Array of ancestor shard hashes",
+          "items": {
+            "type": "string",
+            "pattern": "^0x[a-fA-F0-9]{64}$"
+          },
+          "minItems": 0,
+          "maxItems": 10
+        },
+        "resonanceDepth": {
+          "type": "integer",
+          "description": "Number of generations back",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "resonanceStrength": {
+          "type": "string",
+          "description": "Strength of lineage connection (0-1, scaled by 1e18)",
+          "pattern": "^[0-9]+$"
+        },
+        "lineageHash": {
+          "type": "string",
+          "description": "Merkle root of lineage tree",
+          "pattern": "^0x[a-fA-F0-9]{64}$"
+        }
+      }
+    },
+    "pulseIntent": {
+      "type": "object",
+      "description": "Pulse intent data for transaction metadata",
+      "required": [
+        "intentHash",
+        "intentDescription",
+        "initiator",
+        "energyAllocation"
+      ],
+      "properties": {
+        "intentHash": {
+          "type": "string",
+          "description": "Hash of intent metadata",
+          "pattern": "^0x[a-fA-F0-9]{64}$"
+        },
+        "intentDescription": {
+          "type": "string",
+          "description": "Human-readable description of intent",
+          "minLength": 1,
+          "maxLength": 500
+        },
+        "initiator": {
+          "type": "string",
+          "description": "Ethereum address of initiator",
+          "pattern": "^0x[a-fA-F0-9]{40}$"
+        },
+        "energyAllocation": {
+          "type": "string",
+          "description": "Resources allocated (scaled by 1e18)",
+          "pattern": "^[0-9]+$"
+        },
+        "intentMetadata": {
+          "type": "string",
+          "description": "Encoded additional metadata"
+        }
+      }
+    },
+    "soraCompliance": {
+      "type": "string",
+      "description": "SORA Umbrella compliance status",
+      "enum": [
+        "PENDING",
+        "COMPLIANT",
+        "NON_COMPLIANT",
+        "UNDER_REVIEW",
+        "EXEMPTED"
+      ]
+    },
+    "sovereigntySeals": {
+      "type": "string",
+      "description": "Tribunal sovereignty seal hash",
+      "pattern": "^0x[a-fA-F0-9]{64}$"
+    },
+    "timestamp": {
+      "type": "string",
+      "description": "ISO 8601 timestamp of ripple creation",
+      "format": "date-time"
+    },
+    "transactionHash": {
+      "type": "string",
+      "description": "Ethereum transaction hash",
+      "pattern": "^0x[a-fA-F0-9]{64}$"
+    },
+    "contractAddress": {
+      "type": "string",
+      "description": "Deployed contract address",
+      "pattern": "^0x[a-fA-F0-9]{40}$"
+    },
+    "watchtowerLog": {
+      "type": "object",
+      "description": "Tribunal-ready Watchtower log entry",
+      "properties": {
+        "logId": {
+          "type": "integer",
+          "description": "Unique log identifier",
+          "minimum": 0
+        },
+        "effectHash": {
+          "type": "string",
+          "description": "Hash of ripple effects",
+          "pattern": "^0x[a-fA-F0-9]{64}$"
+        },
+        "recorder": {
+          "type": "string",
+          "description": "Address of log recorder",
+          "pattern": "^0x[a-fA-F0-9]{40}$"
+        },
+        "tribunalNotes": {
+          "type": "string",
+          "description": "Notes for tribunal review"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "zoneMetrics": {
+      "type": "object",
+      "description": "Aggregated metrics per zone",
+      "properties": {
+        "zoneName": {
+          "type": "string"
+        },
+        "totalRipples": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "totalEnergyAllocated": {
+          "type": "string",
+          "pattern": "^[0-9]+$"
+        },
+        "averageFrequency": {
+          "type": "number"
+        },
+        "complianceRate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "rippleId": "RIPPLE-0001",
+      "zone": "Aquatic Vortex",
+      "originShard": "SHARD-AQUA-001",
+      "temporalWave": {
+        "waveId": 1,
+        "timestamp": 1700000000,
+        "frequency": "432000000000000000000",
+        "amplitude": "7500000000000000000000",
+        "phase": "0",
+        "waveSignature": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"
+      },
+      "auditEcho": {
+        "echoId": 1,
+        "auditor": "0x1234567890123456789012345678901234567890",
+        "auditTimestamp": 1700000000,
+        "auditHash": "0xabcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+        "auditNotes": "Initial audit for Aquatic Vortex",
+        "isVerified": true
+      },
+      "lineageResonance": {
+        "originShard": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+        "ancestorShards": [
+          "0xaaaa567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+          "0xbbbb567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"
+        ],
+        "resonanceDepth": 2,
+        "resonanceStrength": "950000000000000000",
+        "lineageHash": "0x9876543210fedcba9876543210fedcba9876543210fedcba9876543210fedcba"
+      },
+      "pulseIntent": {
+        "intentHash": "0x5555555555555555555555555555555555555555555555555555555555555555",
+        "intentDescription": "Deep ocean energy flow harmonization",
+        "initiator": "0x1234567890123456789012345678901234567890",
+        "energyAllocation": "15000000000000000000000"
+      },
+      "soraCompliance": "COMPLIANT",
+      "sovereigntySeals": "0x7777777777777777777777777777777777777777777777777777777777777777",
+      "timestamp": "2025-11-19T05:00:00.000Z",
+      "transactionHash": "0x8888888888888888888888888888888888888888888888888888888888888888"
+    }
+  ]
+}
