@@ -15,6 +15,13 @@
       "glyph": "🛡️",
       "ceremony": "Quad-octa defensive weave",
       "vault": "Ω-MIL-01"
+    },
+    "Harmonic Singer": {
+      "glyph": "🎵",
+      "ceremony": "Vibrational resonance invocation",
+      "vault": "Ω-CIV-01",
+      "address": "0x95CE8B1c273af612CD895E6b0c633039c3572827",
+      "roleHash": "0x82977466"
     }
   },
   "attunementRules": {
@@ -26,7 +33,7 @@
     {
       "vault": "Ω-CIV-01",
       "sectors": ["Retail", "Education", "Real Estate", "Hospitality"],
-      "permittedRoles": ["Solar Initiator"]
+      "permittedRoles": ["Solar Initiator", "Harmonic Singer"]
     },
     {
       "vault": "Ω-MIL-01",
