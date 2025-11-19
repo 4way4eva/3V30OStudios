@@ -1,0 +1,7 @@
+timestamp,zone,ripple_id,origin_shard,status,umbrella,density_tier,amplification_factor,interlink_count,impact_score,is_sealed
+2025-11-18T23:45:00.000Z,DIMENSIONAL_SPIRAL,1,Dimensional Spiral Port,ACTIVATED,SORA,GREEN_TIER,2.00,8,80,false
+2025-11-18T23:46:00.000Z,AQUATIC_VORTEX,2,Oceanic Healing Shard,ACTIVATED,SORA,GREEN_TIER,1.10,5,50,false
+2025-11-18T23:47:00.000Z,TROPICORE_DOME,3,Bio-Garden Gem,ACTIVATED,SORA,GREEN_TIER,1.20,6,60,false
+2025-11-18T23:48:00.000Z,VOLCANIC_RIFT,4,Magma Crystal Ingredient,ACTIVATED,SORA,GREEN_TIER,1.50,7,70,false
+2025-11-18T23:49:00.000Z,POLAR_WOMB,5,Cryogenic Archive Scroll,ACTIVATED,SORA,GREEN_TIER,1.30,4,40,false
+2025-11-18T23:50:00.000Z,GALACTIC_NEXUS,6,Stellar Navigation Job,ACTIVATED,SORA,GREEN_TIER,1.80,9,90,false
