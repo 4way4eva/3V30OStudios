@@ -104,7 +104,8 @@
     "roles": {
       "admin": "deployer",
       "scribe": "deployer",
-      "oracle": "deployer"
+      "oracle": "deployer",
+      "singer": "0x95CE8B1c273af612CD895E6b0c633039c3572827"
     }
   }
 }
