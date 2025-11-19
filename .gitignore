@@ -20,6 +20,7 @@ junit*.properties
 !data/ritual_map.csv
 !data/curriculum/bleuzion_curriculum_schedule.csv
 !data/watchtower_template.csv
+!data/watchtower_ripple_effects.csv
 revenue_projections_*.json
 revenue_projections_*.md
 codex_complexity_report.json
