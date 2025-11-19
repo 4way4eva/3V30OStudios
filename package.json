@@ -42,6 +42,7 @@
     "deploy:ripple-effect": "hardhat run scripts/deploy_ripple_effect_codex.ts",
     "generate:ripple-signatures": "hardhat run scripts/generate_ripple_signatures.ts",
     "generate:watchtower-ripple-csv": "python3 scripts/generate_watchtower_ripple_csv.py",
+    "validate:ripple-implementation": "python3 scripts/validate_ripple_implementation.py",
     "bleu:backbone:summary": "node scripts/bleu_backbone_utils.js summary",
     "bleu:backbone:top-roi": "node scripts/bleu_backbone_utils.js top-roi",
     "bleu:backbone:top-overscale": "node scripts/bleu_backbone_utils.js top-overscale",
