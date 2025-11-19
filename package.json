@@ -72,7 +72,11 @@
     "forensic:bundle": "ts-node scripts/generate_forensic_bundle.ts",
     "forensic:check:single": "ts-node scripts/nft_forensic_checker.ts --contract",
     "forensic:check:batch": "ts-node scripts/nft_forensic_checker.ts --contract",
-    "forensic:check:wallet": "ts-node scripts/nft_forensic_checker.ts --wallet"
+    "forensic:check:wallet": "ts-node scripts/nft_forensic_checker.ts --wallet",
+    "deploy:military-base": "hardhat run scripts/deploy_military_base.ts",
+    "military:mint-soldiers": "hardhat run scripts/mint_military_soldiers.ts",
+    "military:status": "hardhat run scripts/military_base_status.ts",
+    "military:export-csv": "hardhat run scripts/export_watchtower_csv.ts"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.0",
