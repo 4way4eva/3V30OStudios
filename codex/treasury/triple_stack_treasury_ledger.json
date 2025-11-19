@@ -1,0 +1,243 @@
+{
+  "ledger_name": "BLEULIONTREASURY™ Triple Stack Treasury Ledger",
+  "version": "1.0.0",
+  "provenance": {
+    "timestamp": "2025-11-19T17:57:01Z",
+    "author": "Bleu (4way4eva)",
+    "protocol": "Triple Stack Treasury Protocol v1.0",
+    "codex_reference": "BLEULIONTREASURY™ Sovereign Cascade"
+  },
+  "total_system_capacity": {
+    "usd_per_second": 28900000,
+    "usd_per_day": 2496960000000,
+    "usd_per_year": 911304000000000,
+    "compounding_factor": 97.409,
+    "compounding_protocol": "π₄ exponential"
+  },
+  "domain_streams": {
+    "CIVILIAN": {
+      "domain_id": "Ω-CIV",
+      "allocation_percentage": 47.6,
+      "usd_per_second": 13756400,
+      "usd_per_day": 1188552960000,
+      "usd_per_year": 433821830400000,
+      "primary_focus": [
+        "Real estate tokenization",
+        "Educational infrastructure",
+        "Commercial operations",
+        "Public infrastructure development"
+      ],
+      "governance_model": "Democratic consensus with community voting",
+      "economic_profile": "Stable, predictable yield generation",
+      "key_assets": [
+        "Property NFTs",
+        "Educational credentials",
+        "Business licenses",
+        "Infrastructure bonds"
+      ],
+      "yield_streams": [
+        {
+          "stream_id": "CIV-001",
+          "name": "Real Estate Yield Pool",
+          "allocation": 0.35,
+          "usd_per_second": 4814740,
+          "description": "Tokenized real estate holdings and rental income"
+        },
+        {
+          "stream_id": "CIV-002",
+          "name": "Education Revenue",
+          "allocation": 0.25,
+          "usd_per_second": 3439100,
+          "description": "Educational services and certification fees"
+        },
+        {
+          "stream_id": "CIV-003",
+          "name": "Commerce & Trade",
+          "allocation": 0.30,
+          "usd_per_second": 4126920,
+          "description": "Business operations and commercial transactions"
+        },
+        {
+          "stream_id": "CIV-004",
+          "name": "Infrastructure Development",
+          "allocation": 0.10,
+          "usd_per_second": 1375640,
+          "description": "Public infrastructure projects and utilities"
+        }
+      ]
+    },
+    "MILITARY": {
+      "domain_id": "Ω-MIL",
+      "allocation_percentage": 21.3,
+      "usd_per_second": 6155700,
+      "usd_per_day": 531852480000,
+      "usd_per_year": 194126155200000,
+      "primary_focus": [
+        "Defense and security protocols",
+        "Tactical operations",
+        "Armament management",
+        "Security infrastructure"
+      ],
+      "governance_model": "Hierarchical command structure",
+      "economic_profile": "Strategic reserves, controlled distribution",
+      "key_assets": [
+        "Defense contracts",
+        "Tactical equipment tokens",
+        "Security clearances",
+        "Strategic reserves"
+      ],
+      "yield_streams": [
+        {
+          "stream_id": "MIL-001",
+          "name": "Defense Contracts",
+          "allocation": 0.40,
+          "usd_per_second": 2462280,
+          "description": "Defense and security service contracts"
+        },
+        {
+          "stream_id": "MIL-002",
+          "name": "Tactical Equipment",
+          "allocation": 0.30,
+          "usd_per_second": 1846710,
+          "description": "Armament and tactical gear manufacturing"
+        },
+        {
+          "stream_id": "MIL-003",
+          "name": "Security Services",
+          "allocation": 0.20,
+          "usd_per_second": 1231140,
+          "description": "Private security and protection services"
+        },
+        {
+          "stream_id": "MIL-004",
+          "name": "Strategic Reserves",
+          "allocation": 0.10,
+          "usd_per_second": 615570,
+          "description": "Emergency reserves and contingency funds"
+        }
+      ]
+    },
+    "COSMIC": {
+      "domain_id": "Ω-COS",
+      "allocation_percentage": 31.1,
+      "usd_per_second": 8987900,
+      "usd_per_day": 776554560000,
+      "usd_per_year": 283462414400000,
+      "primary_focus": [
+        "Portal logistics",
+        "Quantum technology research",
+        "Cosmic artifact curation",
+        "Interdimensional commerce"
+      ],
+      "governance_model": "Research consensus and innovation councils",
+      "economic_profile": "High-risk, high-reward, exponential potential",
+      "key_assets": [
+        "Quantum patents",
+        "Dimensional keys",
+        "Cosmic artifacts",
+        "Portal licenses"
+      ],
+      "yield_streams": [
+        {
+          "stream_id": "COS-001",
+          "name": "Quantum Research",
+          "allocation": 0.35,
+          "usd_per_second": 3145765,
+          "description": "Quantum technology R&D and patents"
+        },
+        {
+          "stream_id": "COS-002",
+          "name": "Portal Operations",
+          "allocation": 0.30,
+          "usd_per_second": 2696370,
+          "description": "Dimensional portal logistics and licensing"
+        },
+        {
+          "stream_id": "COS-003",
+          "name": "Cosmic Artifacts",
+          "allocation": 0.25,
+          "usd_per_second": 2246975,
+          "description": "Rare cosmic artifact curation and trading"
+        },
+        {
+          "stream_id": "COS-004",
+          "name": "Interdimensional Trade",
+          "allocation": 0.10,
+          "usd_per_second": 898790,
+          "description": "Cross-dimensional commerce and exchange"
+        }
+      ]
+    }
+  },
+  "treasury_nodes": [
+    {
+      "node_id": "TN-BLEULION01",
+      "tier": "APEX",
+      "paystring": "4waybleu$paystring.crypto.com",
+      "ethereum_vault": "0x36CA5f34E5E873e7c3dF37432081d20b4Af320Be",
+      "chain_id": 1,
+      "vault_type": "sovereign",
+      "yield_authority": {
+        "full_access": true,
+        "can_mint": true,
+        "can_distribute": true,
+        "can_compound": true
+      },
+      "governance_rights": [
+        "PROPOSAL",
+        "VOTE",
+        "VETO",
+        "EXECUTE",
+        "DELEGATE"
+      ],
+      "domain_participation": [
+        "CIVILIAN",
+        "MILITARY",
+        "COSMIC"
+      ],
+      "status": "active",
+      "created_at": "2025-11-19T17:57:01Z"
+    }
+  ],
+  "compounding_schedule": {
+    "interval": "daily",
+    "mode": "aggressive",
+    "pi_4_factor": 97.409,
+    "next_compound_timestamp": "2025-11-20T00:00:00Z",
+    "auto_compound_enabled": true,
+    "ceremonial_attestation_required": true
+  },
+  "governance": {
+    "proposal_count": 0,
+    "active_proposals": [],
+    "voting_power_distribution": {
+      "APEX": 1.0,
+      "PRIME": 0,
+      "SOVEREIGN": 0,
+      "NOBLE": 0,
+      "CITIZEN": 0
+    },
+    "last_governance_action": null
+  },
+  "security": {
+    "multisig_requirement": "3-of-5",
+    "timelock_delay_seconds": 172800,
+    "emergency_pause_enabled": true,
+    "zkp_verification_enabled": true,
+    "last_security_audit": "2025-11-19T17:57:01Z"
+  },
+  "metadata": {
+    "charter_ipfs": "QmZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ",
+    "schema_ipfs": "QmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "documentation_ipfs": "QmBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+    "resolver_api": "https://resolver.evolvverse.io/api/v1",
+    "codex_endpoint": "https://codex.evolvverse.io/api/v1"
+  },
+  "statistics": {
+    "total_enfts_minted": 0,
+    "total_yield_distributed_usd": 0,
+    "total_governance_votes": 0,
+    "total_ceremonial_checkpoints": 0,
+    "inception_timestamp": "2025-11-19T17:57:01Z"
+  }
+}

@@ -1,0 +1,336 @@
+openapi: 3.0.0
+info:
+  title: BLEULIONTREASURY™ PayString Resolver API
+  description: |
+    OpenAPI specification for resolving PayString addresses to chain-specific vault addresses.
+    This resolver maps PayString identifiers (e.g., 4waybleu$paystring.crypto.com) to 
+    blockchain vault addresses across multiple networks, with codex schema references and 
+    cryptographic verification signatures.
+  version: 1.0.0
+  contact:
+    name: Bleu (4way4eva)
+    email: treasury@evolvverse.io
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+
+servers:
+  - url: https://resolver.evolvverse.io/api/v1
+    description: Production resolver endpoint
+  - url: https://resolver-testnet.evolvverse.io/api/v1
+    description: Testnet resolver endpoint
+  - url: http://localhost:3000/api/v1
+    description: Local development server
+
+tags:
+  - name: resolution
+    description: PayString to vault address resolution
+  - name: verification
+    description: Signature verification and validation
+  - name: metadata
+    description: Schema and metadata retrieval
+
+paths:
+  /resolve/{paystring}:
+    get:
+      summary: Resolve PayString to vault addresses
+      description: |
+        Resolves a PayString address to blockchain-specific vault addresses.
+        Returns vault addresses for all supported chains or a specific chain if provided.
+      tags:
+        - resolution
+      parameters:
+        - name: paystring
+          in: path
+          required: true
+          description: PayString address (URL-encoded, e.g., 4waybleu%24paystring.crypto.com)
+          schema:
+            type: string
+            pattern: '^[a-zA-Z0-9._-]+\$[a-zA-Z0-9.-]+$'
+          example: 4waybleu$paystring.crypto.com
+        - name: chain_id
+          in: query
+          required: false
+          description: Specific EVM chain ID to resolve (returns single vault if specified)
+          schema:
+            type: integer
+            enum: [1, 5, 56, 97, 137, 80001, 43114, 43113, 25, 338]
+          example: 1
+        - name: include_metadata
+          in: query
+          required: false
+          description: Include IPFS metadata references in response
+          schema:
+            type: boolean
+            default: false
+      responses:
+        '200':
+          description: Successfully resolved PayString to vault address(es)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResolutionResponse'
+              examples:
+                ethereum_mainnet:
+                  summary: Ethereum Mainnet Resolution
+                  value:
+                    paystring: 4waybleu$paystring.crypto.com
+                    network: ethereum
+                    chain_id: 1
+                    vault_address: "0x36CA5f34E5E873e7c3dF37432081d20b4Af320Be"
+                    vault_type: sovereign
+                    verified: true
+                    codex_schema_ipfs: QmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                    signature: "0x7a8f9c2e1d4b6a3f5e2c8d1a9b7e4f6c3d2a1e8b5c9f7d4a2e1c8b6d3f9a5e7c2d1a4b8e6f3c9d2a7e5b1f8c4d6a3e9b2c7f1d5a8e4b6c3f2d9a7e1b5c8d4f6a3e2b9c"
+                    timestamp: "2025-11-19T17:57:01Z"
+                multi_chain:
+                  summary: Multi-Chain Resolution
+                  value:
+                    paystring: 4waybleu$paystring.crypto.com
+                    vaults:
+                      - network: ethereum
+                        chain_id: 1
+                        vault_address: "0x36CA5f34E5E873e7c3dF37432081d20b4Af320Be"
+                        vault_type: sovereign
+                        verified: true
+                      - network: polygon
+                        chain_id: 137
+                        vault_address: "0x1234567890123456789012345678901234567890"
+                        vault_type: treasury
+                        verified: true
+                      - network: avalanche
+                        chain_id: 43114
+                        vault_address: "0x0987654321098765432109876543210987654321"
+                        vault_type: yield_pool
+                        verified: true
+                    codex_schema_ipfs: QmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                    signature: "0x7a8f9c2e1d4b6a3f5e2c8d1a9b7e4f6c3d2a1e8b5c9f7d4a2e1c8b6d3f9a5e7c2d1a4b8e6f3c9d2a7e5b1f8c4d6a3e9b2c7f1d5a8e4b6c3f2d9a7e1b5c8d4f6a3e2b9c"
+        '400':
+          description: Invalid PayString format
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: PayString not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /verify:
+    post:
+      summary: Verify PayString ownership signature
+      description: |
+        Verifies that a signature was created by the owner of a PayString/vault binding.
+        Used to prove ownership and authenticity of PayString-to-vault mappings.
+      tags:
+        - verification
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VerificationRequest'
+            example:
+              paystring: 4waybleu$paystring.crypto.com
+              vault_address: "0x36CA5f34E5E873e7c3dF37432081d20b4Af320Be"
+              message: "I certify ownership of 4waybleu$paystring.crypto.com and binding to vault 0x36CA5f34E5E873e7c3dF37432081d20b4Af320Be"
+              signature: "0x7a8f9c2e1d4b6a3f5e2c8d1a9b7e4f6c3d2a1e8b5c9f7d4a2e1c8b6d3f9a5e7c2d1a4b8e6f3c9d2a7e5b1f8c4d6a3e9b2c7f1d5a8e4b6c3f2d9a7e1b5c8d4f6a3e2b9c"
+      responses:
+        '200':
+          description: Signature verification result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VerificationResponse'
+        '400':
+          description: Invalid request parameters
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /metadata/{paystring}:
+    get:
+      summary: Get PayString metadata and schema references
+      description: |
+        Retrieves IPFS references for charter, schema, and other metadata
+        associated with a PayString treasury node.
+      tags:
+        - metadata
+      parameters:
+        - name: paystring
+          in: path
+          required: true
+          description: PayString address (URL-encoded)
+          schema:
+            type: string
+          example: 4waybleu$paystring.crypto.com
+      responses:
+        '200':
+          description: Metadata retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MetadataResponse'
+        '404':
+          description: PayString not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+  schemas:
+    ResolutionResponse:
+      type: object
+      required:
+        - paystring
+        - network
+        - chain_id
+        - vault_address
+        - verified
+        - signature
+      properties:
+        paystring:
+          type: string
+          description: The resolved PayString address
+          example: 4waybleu$paystring.crypto.com
+        network:
+          type: string
+          description: Blockchain network name
+          enum: [ethereum, polygon, avalanche, bsc, cronos]
+        chain_id:
+          type: integer
+          description: EVM chain ID
+          example: 1
+        vault_address:
+          type: string
+          pattern: '^0x[a-fA-F0-9]{40}$'
+          description: Ethereum-format vault address (EIP-55 checksum)
+          example: "0x36CA5f34E5E873e7c3dF37432081d20b4Af320Be"
+        vault_type:
+          type: string
+          enum: [sovereign, treasury, yield_pool, mint_authority, governance]
+          description: Type/purpose of the vault
+        verified:
+          type: boolean
+          description: Whether the binding has been cryptographically verified
+        codex_schema_ipfs:
+          type: string
+          description: IPFS CID of the treasury node schema
+          pattern: '^Qm[a-zA-Z0-9]{44}$|^bafy[a-zA-Z0-9]{50,}$'
+          example: QmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        signature:
+          type: string
+          description: Cryptographic signature proving PayString-vault binding
+          pattern: '^0x[a-fA-F0-9]{130}$'
+          example: "0x7a8f9c2e..."
+        timestamp:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp of resolution
+          example: "2025-11-19T17:57:01Z"
+
+    VerificationRequest:
+      type: object
+      required:
+        - paystring
+        - vault_address
+        - message
+        - signature
+      properties:
+        paystring:
+          type: string
+          example: 4waybleu$paystring.crypto.com
+        vault_address:
+          type: string
+          pattern: '^0x[a-fA-F0-9]{40}$'
+          example: "0x36CA5f34E5E873e7c3dF37432081d20b4Af320Be"
+        message:
+          type: string
+          description: The message that was signed
+        signature:
+          type: string
+          pattern: '^0x[a-fA-F0-9]{130}$'
+          description: Ethereum signature (65 bytes as hex)
+
+    VerificationResponse:
+      type: object
+      properties:
+        valid:
+          type: boolean
+          description: Whether the signature is valid
+        signer_address:
+          type: string
+          pattern: '^0x[a-fA-F0-9]{40}$'
+          description: Recovered Ethereum address of the signer
+        matches_vault:
+          type: boolean
+          description: Whether the signer address matches the vault address
+        verified_at:
+          type: string
+          format: date-time
+
+    MetadataResponse:
+      type: object
+      properties:
+        paystring:
+          type: string
+        node_id:
+          type: string
+          example: TN-BLEULION01
+        charter_ipfs:
+          type: string
+          description: IPFS CID of the treasury charter
+        schema_ipfs:
+          type: string
+          description: IPFS CID of the treasury node schema
+        image_ipfs:
+          type: string
+          description: IPFS CID of visual representation
+        tier:
+          type: string
+          enum: [APEX, PRIME, SOVEREIGN, NOBLE, CITIZEN]
+        yield_rate_usd_per_sec:
+          type: number
+          example: 28900000
+        governance_rights:
+          type: array
+          items:
+            type: string
+
+    ErrorResponse:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          description: Error code
+          example: PAYSTRING_NOT_FOUND
+        message:
+          type: string
+          description: Human-readable error message
+          example: The specified PayString could not be found in the registry
+        details:
+          type: object
+          description: Additional error details
+
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+      description: API key for authenticated requests (optional for public resolution)
+
+security:
+  - ApiKeyAuth: []
