@@ -64,7 +64,12 @@
     "study:visual:heatmap": "node scripts/bleu_backbone_visual_map.js heatmap",
     "study:visual:distribution": "node scripts/bleu_backbone_visual_map.js distribution",
     "study:visual:comparison": "node scripts/bleu_backbone_visual_map.js comparison",
-    "study:visual:export": "node scripts/bleu_backbone_visual_map.js export"
+    "study:visual:export": "node scripts/bleu_backbone_visual_map.js export",
+    "forensic:check": "ts-node scripts/nft_forensic_checker.ts",
+    "forensic:bundle": "ts-node scripts/generate_forensic_bundle.ts",
+    "forensic:check:single": "ts-node scripts/nft_forensic_checker.ts --contract",
+    "forensic:check:batch": "ts-node scripts/nft_forensic_checker.ts --contract",
+    "forensic:check:wallet": "ts-node scripts/nft_forensic_checker.ts --wallet"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.0",
