@@ -1,0 +1,82 @@
+name: Build and Push BLEULION Mirror Agent Docker Image
+
+on:
+  push:
+    branches:
+      - feat/bleulion-treasury-codex
+    paths:
+      - 'tools/mirror/**'
+      - 'tools/docker/**'
+      - '.github/workflows/dockerize_mirror.yml'
+  workflow_dispatch:
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: bleulion-mirror
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata (tags, labels)
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=sha,prefix={{branch}}-
+            type=ref,event=branch
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./tools/mirror
+          file: ./tools/docker/Dockerfile
+          push: true
+          tags: |
+            ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+            ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:latest
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Image digest
+        run: echo "Image pushed with digest ${{ steps.build-and-push.outputs.digest }}"
+
+      - name: Deployment instructions
+        run: |
+          echo "::notice::Docker image built and pushed successfully!"
+          echo "::notice::Image: ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:${{ github.sha }}"
+          echo "::notice::To deploy, run: docker pull ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:${{ github.sha }}"
+          echo "::notice::Or use the latest tag: docker pull ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:latest"
+
+# Note: This workflow requires GITHUB_TOKEN which is automatically provided by GitHub Actions.
+# No additional secrets need to be configured for pushing to ghcr.io.
+#
+# For deployment to production, you will need to set the following secrets in your environment:
+# - ETH_PROVIDER: Ethereum RPC provider URL
+# - CODEX_ENDPOINT: CODEX API endpoint
+# - MIRROR_SIGNER_PRIVATE_KEY: Private key for signing mirror records (KEEP SECRET!)
+# - PRIMARY_VAULT: Ethereum vault address to monitor
+#
+# These should be set as environment variables when running the container,
+# NOT as GitHub Actions secrets in this workflow.

@@ -7198,3 +7198,25 @@ This will show:
 2. The aha moment (suddenly seeing the connection!)
 3. The visualization of motor states and coordinate positions
 4. The understanding that X and Y operate independently without crossing
+
+---
+
+## BLEULIONTREASURY™ Sovereign Cascade
+
+The **BLEULIONTREASURY™ Sovereign Cascade** is a comprehensive ceremonial and machine-readable artifact bundle for treasury management and Enhanced Non-Fungible Token (ENFT) systems. It establishes a sovereign wealth framework operating across three domains (CIVILIAN, MILITARY, COSMIC) with PayString-to-Ethereum vault binding, π₄ exponential compounding, and real-time event mirroring.
+
+**Key Components:**
+- **Ceremonial Charter**: Full legal and spiritual foundation for treasury operations with sacred glyphs, governance framework, and ritual protocols
+- **Treasury Node Schema**: Machine-readable JSON schema defining PayString-vault bindings with Sovereign Cascade metadata
+- **Triple Stack Ledger**: Complete ledger with domain allocations (CIVILIAN 47.6%, MILITARY 21.3%, COSMIC 31.1%) and yield streams totaling $28.9M/sec
+- **π₄ Compounding Model**: Economic simulator with aggressive, continuous, and tempered compounding modes using the fourth transcendental constant (97.409)
+- **PayString Resolver API**: OpenAPI 3.0 specification for resolving PayString addresses to multi-chain vault addresses
+- **Mirror Agent**: Real-time event monitoring service that captures vault Transfer events and posts signed ceremonial records to permanent archive
+- **Docker Infrastructure**: Containerized deployment with Docker Compose for production mirror agent operation
+
+**Documentation:** See [codex/treasury/README_addition.md](codex/treasury/README_addition.md) for complete file listing and next steps.
+
+**Deployment Guide:** [codex/treasury/DEPLOY_GUIDE.md](codex/treasury/DEPLOY_GUIDE.md) provides step-by-step instructions for IPFS pinning, resolver deployment, mirror agent configuration, and ENFT minting.
+
+**Provenance:** 2025-11-19T17:57:01Z | Author: Bleu (4way4eva) | Protocol Version: 1.0.0
+
