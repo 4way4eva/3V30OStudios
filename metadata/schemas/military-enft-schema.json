@@ -1,0 +1,254 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Military Economic Sphere ENFT",
+  "description": "Metadata schema for Military domain ENFTs (Ω-MIL) - Defense, tactical operations, armaments",
+  "type": "object",
+  "required": [
+    "name",
+    "description",
+    "image",
+    "economic_sphere",
+    "yield_data",
+    "ledger_data",
+    "attributes"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "ENFT name with sovereign code",
+      "example": "Military Yield Entry #001 (Ω-MIL-01)"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the inheritance entry"
+    },
+    "image": {
+      "type": "string",
+      "format": "uri",
+      "description": "IPFS URI to visual representation"
+    },
+    "animation_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional animated visualization URI"
+    },
+    "external_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "External link to BLEU dashboard"
+    },
+    "economic_sphere": {
+      "type": "object",
+      "required": ["type", "code", "domains"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["MILITARY"],
+          "description": "Economic sphere classification"
+        },
+        "code": {
+          "type": "string",
+          "pattern": "^Ω-MIL-\\d+$",
+          "description": "Sovereign identification code",
+          "example": "Ω-MIL-01"
+        },
+        "domains": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Defense Systems",
+              "Tactical Operations",
+              "Armaments",
+              "Intelligence",
+              "Cybersecurity",
+              "Aerospace Defense",
+              "Naval Operations",
+              "Ground Forces"
+            ]
+          },
+          "description": "Specific military domains covered"
+        }
+      }
+    },
+    "yield_data": {
+      "type": "object",
+      "required": ["rate_per_second", "yield_tag", "compounding"],
+      "properties": {
+        "rate_per_second": {
+          "type": "string",
+          "description": "Yield rate in USD per second (scaled 1e18)",
+          "example": "6100000000000000000000000"
+        },
+        "yield_per_day": {
+          "type": "string",
+          "description": "Calculated daily yield",
+          "example": "527040000000000000000000000000"
+        },
+        "yield_tag": {
+          "type": "string",
+          "description": "Unique yield identification tag (bytes32 hex)",
+          "pattern": "^0x[a-fA-F0-9]{64}$"
+        },
+        "compounding": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean",
+              "description": "π₄ compounding enabled"
+            },
+            "factor": {
+              "type": "string",
+              "description": "π₄ constant (97.409091034)",
+              "example": "97409091034000000000"
+            },
+            "interval_seconds": {
+              "type": "integer",
+              "description": "Compounding interval in seconds (92 days)",
+              "example": 7948800
+            },
+            "last_compound_time": {
+              "type": "integer",
+              "description": "Unix timestamp of last compounding"
+            }
+          }
+        }
+      }
+    },
+    "ledger_data": {
+      "type": "object",
+      "required": ["worth", "status"],
+      "properties": {
+        "worth": {
+          "type": "string",
+          "description": "Total ledger worth tied to this ENFT (scaled 1e18)",
+          "example": "1000000000000000000000000"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["PENDING", "AUTHORIZED", "LOCKED", "FAILED"],
+          "description": "Minting status"
+        },
+        "minted_at": {
+          "type": "integer",
+          "description": "Unix timestamp of minting"
+        },
+        "is_irreversible": {
+          "type": "boolean",
+          "description": "Whether entry is irreversibly locked"
+        },
+        "total_accumulated": {
+          "type": "string",
+          "description": "Total accumulated yield to date"
+        }
+      }
+    },
+    "blu_vault": {
+      "type": "object",
+      "description": "Blu-Vault dual-sign security",
+      "properties": {
+        "auth_id": {
+          "type": "string",
+          "description": "Authorization ID (bytes32 hex)"
+        },
+        "auth_hash": {
+          "type": "string",
+          "description": "Authorization hash (bytes32 hex)"
+        },
+        "primary_signed": {
+          "type": "boolean"
+        },
+        "secondary_signed": {
+          "type": "boolean"
+        }
+      }
+    },
+    "dual_reality": {
+      "type": "object",
+      "description": "Dual-reality confirmation data",
+      "properties": {
+        "hash": {
+          "type": "string",
+          "description": "Dual-reality verification hash"
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "verification_timestamp": {
+          "type": "integer"
+        }
+      }
+    },
+    "registry_sync": {
+      "type": "object",
+      "description": "Physical and interactive registry links",
+      "properties": {
+        "physical_asset_id": {
+          "type": "string",
+          "description": "Link to physical asset registry"
+        },
+        "interactive_registry_id": {
+          "type": "string",
+          "description": "Link to interactive/meta registry"
+        },
+        "linked_dimensions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "chain_id": {
+                "type": "integer",
+                "description": "Blockchain or dimension identifier"
+              },
+              "name": {
+                "type": "string",
+                "description": "Chain/dimension name"
+              }
+            }
+          }
+        },
+        "synced": {
+          "type": "boolean"
+        },
+        "last_sync_time": {
+          "type": "integer"
+        }
+      }
+    },
+    "attributes": {
+      "type": "array",
+      "description": "Standard NFT attributes for marketplaces",
+      "items": {
+        "type": "object",
+        "required": ["trait_type", "value"],
+        "properties": {
+          "trait_type": {
+            "type": "string"
+          },
+          "value": {
+            "oneOf": [
+              {"type": "string"},
+              {"type": "number"},
+              {"type": "boolean"}
+            ]
+          },
+          "display_type": {
+            "type": "string",
+            "enum": ["number", "boost_percentage", "boost_number", "date"]
+          }
+        }
+      },
+      "examples": [
+        [
+          {"trait_type": "Economic Sphere", "value": "Military"},
+          {"trait_type": "Sovereign Code", "value": "Ω-MIL-01"},
+          {"trait_type": "Yield Per Second (USD)", "value": 6100000, "display_type": "number"},
+          {"trait_type": "π₄ Compounding", "value": "Enabled"},
+          {"trait_type": "Status", "value": "LOCKED"},
+          {"trait_type": "Irreversible", "value": true},
+          {"trait_type": "Minted Date", "value": 1699999999, "display_type": "date"}
+        ]
+      ]
+    }
+  }
+}

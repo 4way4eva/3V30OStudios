@@ -1,0 +1,482 @@
+{
+  "schema_version": "2.0",
+  "schema_name": "Triple-Stack Treasury Asset Tag Schema",
+  "generated_at": "2025-11-14T13:48:00Z",
+  "description": "Comprehensive asset tag encoding schema for all three economic spheres",
+  
+  "asset_tag_format": {
+    "pattern": "{SPHERE}::{CATEGORY}::{IDENTIFIER}::{ATTRIBUTE}::{OWNER}",
+    "components": {
+      "SPHERE": {
+        "type": "enum",
+        "values": ["CIV", "MIL", "COS"],
+        "description": "Economic sphere designation"
+      },
+      "CATEGORY": {
+        "type": "string",
+        "pattern": "[A-Z_]+",
+        "description": "Asset category within sphere"
+      },
+      "IDENTIFIER": {
+        "type": "string",
+        "pattern": "[A-Z0-9_]+",
+        "description": "Unique asset identifier"
+      },
+      "ATTRIBUTE": {
+        "type": "string",
+        "optional": true,
+        "description": "Special attributes (e.g., π₄, OCTA, CURVE)"
+      },
+      "OWNER": {
+        "type": "string",
+        "description": "Asset owner or bearer identifier"
+      }
+    }
+  },
+  
+  "civilian_asset_tags": {
+    "ES0IL_REAL_ESTATE": {
+      "format": "CIV::ES0IL::{CITY}::{PARCEL}::{TYPE}",
+      "examples": [
+        "CIV::ES0IL::MEGAZION::BLOCK_42::RESIDENTIAL",
+        "CIV::ES0IL::SAFEHAVEN::SECTOR_7::COMMERCIAL",
+        "CIV::ES0IL::ATLANTIS::ZONE_A::INDUSTRIAL"
+      ],
+      "attributes": {
+        "city": "Safe-Haven city designation",
+        "parcel": "Land parcel identifier",
+        "type": "Property type (RESIDENTIAL, COMMERCIAL, INDUSTRIAL)"
+      },
+      "vault_link": "VAULT::CIV::CityTreasury",
+      "neural_loop": "LOOP::CIVILIAN::INFRASTRUCTURE",
+      "required_seals": ["ES0IL_FOUNDATION_SEAL", "CIVIC_IDENTITY_SEAL"],
+      "pi4_enabled": true
+    },
+    "EVOL_WEAR_PHYSICAL": {
+      "format": "CIV::EVOL::WEAR::{ITEM_ID}::π₄::{BEARER}",
+      "examples": [
+        "CIV::EVOL::WEAR::CROWN_001::π₄::4way4eva",
+        "CIV::EVOL::WEAR::ROBE_CEREMONIAL::π₄::BEARER_7777",
+        "CIV::EVOL::WEAR::ARTIFACT_ANCIENT::π₄::MUSEUM_001"
+      ],
+      "attributes": {
+        "item_id": "Unique wearable item identifier",
+        "pi4_tag": "π₄ compounding marker (always present)",
+        "bearer": "Current owner/wearer identifier"
+      },
+      "vault_link": "VAULT::CIV::CulturalVault",
+      "neural_loop": "LOOP::CIVILIAN::IDENTITY",
+      "required_seals": ["CIVIC_IDENTITY_SEAL", "CULTURAL_HERITAGE_SEAL"],
+      "pi4_enabled": false
+    },
+    "EDUCATION_BLEU": {
+      "format": "CIV::EDU::BLEU::{INSTITUTION}::{DEGREE}::{STUDENT}",
+      "examples": [
+        "CIV::EDU::BLEU::METASCHOOL::QUANTUM_PHYSICS::STU_12345",
+        "CIV::EDU::BLEU::BLEUE_ACADEMY::BLOCKCHAIN_ENG::STU_67890",
+        "CIV::EDU::BLEU::COSMIC_INSTITUTE::PORTAL_SCIENCE::STU_11111"
+      ],
+      "attributes": {
+        "institution": "Educational institution code",
+        "degree": "Degree or certification program",
+        "student": "Student identifier"
+      },
+      "vault_link": "VAULT::EDU::EducationVault",
+      "neural_loop": "LOOP::CIVILIAN::KNOWLEDGE",
+      "required_seals": ["EDUCATION_CREDENTIAL_SEAL"],
+      "pi4_enabled": true
+    },
+    "ENERGY_BLEU": {
+      "format": "CIV::ENERGY::BLEU::{TYPE}::{FACILITY}::{CAPACITY}",
+      "examples": [
+        "CIV::ENERGY::BLEU::MICROGRID::FACILITY_ALPHA::10MW",
+        "CIV::ENERGY::BLEU::BATTERY_BANK::STORAGE_BETA::50MWh",
+        "CIV::ENERGY::BLEU::WIND_TURBINE::FARM_GAMMA::25MW"
+      ],
+      "attributes": {
+        "type": "Energy asset type (MICROGRID, BATTERY_BANK, WIND_TURBINE, etc.)",
+        "facility": "Facility identifier",
+        "capacity": "Energy capacity rating"
+      },
+      "vault_link": "VAULT::ENG::GridVault",
+      "neural_loop": "LOOP::CIVILIAN::INFRASTRUCTURE",
+      "required_seals": ["ES0IL_FOUNDATION_SEAL"],
+      "pi4_enabled": true
+    },
+    "WATER_BLEU": {
+      "format": "CIV::WATER::BLEU::{TYPE}::{FACILITY}::{CAPACITY}",
+      "examples": [
+        "CIV::WATER::BLEU::PURIFICATION::PLANT_DELTA::1000L_SEC",
+        "CIV::WATER::BLEU::PIPELINE::SYSTEM_EPSILON::5000M",
+        "CIV::WATER::BLEU::RESERVE::TANK_ZETA::10ML"
+      ],
+      "attributes": {
+        "type": "Water infrastructure type",
+        "facility": "Facility identifier",
+        "capacity": "Capacity rating"
+      },
+      "vault_link": "VAULT::CIV::CityTreasury",
+      "neural_loop": "LOOP::CIVILIAN::INFRASTRUCTURE",
+      "required_seals": ["ES0IL_FOUNDATION_SEAL"],
+      "pi4_enabled": true
+    },
+    "FOOD_BLEU": {
+      "format": "CIV::FOOD::BLEU::{TYPE}::{FACILITY}::{CAPACITY}",
+      "examples": [
+        "CIV::FOOD::BLEU::URBAN_FARM::FARM_THETA::500KG_DAY",
+        "CIV::FOOD::BLEU::KITCHEN::COMMUNITY_IOTA::2000_MEALS_DAY",
+        "CIV::FOOD::BLEU::PANTRY::EMERGENCY_KAPPA::50000_RATIONS"
+      ],
+      "attributes": {
+        "type": "Food system type",
+        "facility": "Facility identifier",
+        "capacity": "Production/storage capacity"
+      },
+      "vault_link": "VAULT::CIV::CityTreasury",
+      "neural_loop": "LOOP::CIVILIAN::COMMERCE",
+      "required_seals": ["COMMERCE_LICENSE_SEAL"],
+      "pi4_enabled": true
+    }
+  },
+  
+  "military_asset_tags": {
+    "DEFENSE_ASSET": {
+      "format": "MIL::DEF::{CLASS}::{UNIT_ID}::OCTA::{VAULT_KEY}",
+      "examples": [
+        "MIL::DEF::TACTICAL_GRID::TG_0042::OCTA::BLUE_7",
+        "MIL::DEF::WEAPON_SYSTEM::WS_ALPHA::OCTA::RED_3",
+        "MIL::DEF::DEFENSE_GRID::DG_OMEGA::OCTA::GREEN_5"
+      ],
+      "attributes": {
+        "class": "Defense asset classification",
+        "unit_id": "Unit identifier",
+        "octa_tag": "Quad-octa vault key (8-layer lock)",
+        "vault_key": "Specific vault key designation"
+      },
+      "vault_link": "VAULT::MIL::DefenseVault",
+      "neural_loop": "LOOP::MILITARY::PROTECTION",
+      "required_seals": ["QUAD_OCTA_AUTHORIZATION_SEAL", "CLEARANCE_LEVEL_SEAL"],
+      "pi4_enabled": true
+    },
+    "ORBITAL_TRANSPORT": {
+      "format": "MIL::ORB::{VEHICLE_TYPE}::{ID}::SYNC::{TRADELOG}",
+      "examples": [
+        "MIL::ORB::SHUTTLE::SH_ALPHA::SYNC::TL_2025_Q4",
+        "MIL::ORB::SATELLITE::SAT_BETA::SYNC::TL_2025_Q4",
+        "MIL::ORB::CARGO::CARGO_GAMMA::SYNC::TL_2025_Q4"
+      ],
+      "attributes": {
+        "vehicle_type": "Orbital vehicle classification",
+        "id": "Vehicle identifier",
+        "sync_tag": "Trade/synchlog marker",
+        "tradelog": "Trade log reference"
+      },
+      "vault_link": "VAULT::MIL::TransportVault",
+      "neural_loop": "LOOP::MILITARY::LOGISTICS",
+      "required_seals": ["COMMAND_HIERARCHY_SEAL", "OPERATIONAL_READINESS_SEAL"],
+      "pi4_enabled": true
+    },
+    "MARITIME_TRANSPORT": {
+      "format": "MIL::MAR::{VESSEL_TYPE}::{ID}::SYNC::{TRADELOG}",
+      "examples": [
+        "MIL::MAR::CARRIER::CV_DELTA::SYNC::TL_2025_Q4",
+        "MIL::MAR::SUBMARINE::SUB_EPSILON::SYNC::TL_2025_Q4",
+        "MIL::MAR::FRIGATE::FF_ZETA::SYNC::TL_2025_Q4"
+      ],
+      "attributes": {
+        "vessel_type": "Naval vessel classification",
+        "id": "Vessel identifier",
+        "sync_tag": "Trade/synchlog marker",
+        "tradelog": "Trade log reference"
+      },
+      "vault_link": "VAULT::MIL::TransportVault",
+      "neural_loop": "LOOP::MILITARY::LOGISTICS",
+      "required_seals": ["COMMAND_HIERARCHY_SEAL", "OPERATIONAL_READINESS_SEAL"],
+      "pi4_enabled": true
+    },
+    "AI_SENTINEL": {
+      "format": "MIL::AI::{SENTINEL_CLASS}::{INSTANCE}::AUTH::{LEVEL}",
+      "examples": [
+        "MIL::AI::LIVE_FIRE::LF_001::AUTH::OMEGA",
+        "MIL::AI::SURVEILLANCE::SV_042::AUTH::DELTA",
+        "MIL::AI::BREACH_NULLIFIER::BN_777::AUTH::ALPHA"
+      ],
+      "attributes": {
+        "sentinel_class": "AI sentinel type",
+        "instance": "Instance identifier",
+        "auth_tag": "Authorization marker",
+        "level": "Authorization level"
+      },
+      "vault_link": "VAULT::MIL::IntelVault",
+      "neural_loop": "LOOP::MILITARY::INTELLIGENCE",
+      "required_seals": ["CLEARANCE_LEVEL_SEAL", "MIRROR_ZERO_PROTOCOL_SEAL"],
+      "pi4_enabled": false
+    }
+  },
+  
+  "cosmic_asset_tags": {
+    "PORTAL_GATE": {
+      "format": "COS::GATE::NØX{GATE_NUM}::{REALM}::CURVE::{SCAN_ID}",
+      "examples": [
+        "COS::GATE::NØX13::ASTRAL::CURVE::CS_77777",
+        "COS::GATE::NØX5::MATERIAL::CURVE::CS_12345",
+        "COS::GATE::NØX1::TEMPORAL::CURVE::CS_99999"
+      ],
+      "attributes": {
+        "gate_num": "NØX gate number (1-13)",
+        "realm": "Destination realm",
+        "curve_tag": "Curve scanning marker",
+        "scan_id": "Curve scan identifier"
+      },
+      "vault_link": "VAULT::COS::PortalVault",
+      "neural_loop": "LOOP::COSMIC::GATEWAY",
+      "required_seals": ["DIMENSIONAL_ACCESS_SEAL", "TEMPORAL_NAVIGATION_SEAL"],
+      "pi4_enabled": true
+    },
+    "QUANTUM_MATTER": {
+      "format": "COS::QM::{MATTER_TYPE}::{BATCH}::ENTANGLE::{PAIR_ID}",
+      "examples": [
+        "COS::QM::EXOTIC_CRYSTAL::BATCH_X7::ENTANGLE::EP_8888",
+        "COS::QM::ZERO_POINT::BATCH_Y3::ENTANGLE::EP_4444",
+        "COS::QM::TEMPORAL_MATTER::BATCH_Z9::ENTANGLE::EP_1111"
+      ],
+      "attributes": {
+        "matter_type": "Quantum matter classification",
+        "batch": "Batch identifier",
+        "entangle_tag": "Entanglement marker",
+        "pair_id": "Entanglement pair identifier"
+      },
+      "vault_link": "VAULT::COS::MatterVault",
+      "neural_loop": "LOOP::COSMIC::SUBSTANCE",
+      "required_seals": ["QUANTUM_ENTANGLEMENT_SEAL", "CURVE_INTEGRITY_SEAL"],
+      "pi4_enabled": true
+    },
+    "DIMENSIONAL_TRANSPORT": {
+      "format": "COS::TRANS::{VEHICLE}::{REALM_FROM}::{REALM_TO}",
+      "examples": [
+        "COS::TRANS::QUANTUM_CARRIER::MATERIAL::ASTRAL",
+        "COS::TRANS::PORTAL_SHUTTLE::TEMPORAL::MATERIAL",
+        "COS::TRANS::DIMENSION_FERRY::ASTRAL::TEMPORAL"
+      ],
+      "attributes": {
+        "vehicle": "Transport vehicle designation",
+        "realm_from": "Origin realm",
+        "realm_to": "Destination realm"
+      },
+      "vault_link": "VAULT::COS::LogisticsVault",
+      "neural_loop": "LOOP::COSMIC::TRANSIT",
+      "required_seals": ["REALITY_CONSENSUS_SEAL", "CURVE_INTEGRITY_SEAL"],
+      "pi4_enabled": true
+    },
+    "ASTRAL_LEDGER": {
+      "format": "COS::LEDGER::ASTRAL::{TRANSACTION_ID}::{CONSENSUS}",
+      "examples": [
+        "COS::LEDGER::ASTRAL::TX_777777::CONSENSUS_12_12",
+        "COS::LEDGER::ASTRAL::TX_123456::CONSENSUS_10_12",
+        "COS::LEDGER::ASTRAL::TX_999999::CONSENSUS_12_12"
+      ],
+      "attributes": {
+        "transaction_id": "Astral transaction identifier",
+        "consensus": "Watchtower consensus status (N/12)"
+      },
+      "vault_link": "VAULT::COS::LogisticsVault",
+      "neural_loop": "LOOP::COSMIC::TRANSIT",
+      "required_seals": ["REALITY_CONSENSUS_SEAL"],
+      "pi4_enabled": false
+    }
+  },
+  
+  "blu_vault_authorization": {
+    "description": "Blu-Vault authorization tag generation and validation",
+    "format": "keccak256(abi.encodePacked(ASSET_TAG, TIMESTAMP, AUTHORIZER))",
+    "validation_rules": {
+      "required": true,
+      "uniqueness": "Must be unique per asset",
+      "expiration": "No expiration (immutable)",
+      "revocation": "Only via SOVEREIGN_OVERRIDE_ROLE"
+    },
+    "storage": {
+      "on_chain": true,
+      "contract": "TripleStackTreasuryLedger",
+      "mapping": "_bluVaultAuth",
+      "structure": {
+        "authTag": "bytes32",
+        "timestamp": "uint256",
+        "authorizedBy": "address",
+        "isValid": "bool"
+      }
+    }
+  },
+  
+  "neural_loop_connections": {
+    "description": "Automatic neural loop activation based on asset tag patterns",
+    "rules": [
+      {
+        "condition": "asset_tag matches /^CIV::ES0IL::.*/",
+        "activates": "LOOP::CIVILIAN::INFRASTRUCTURE"
+      },
+      {
+        "condition": "asset_tag matches /^CIV::EVOL::WEAR::.*/",
+        "activates": "LOOP::CIVILIAN::IDENTITY"
+      },
+      {
+        "condition": "asset_tag matches /^CIV::EDU::.*/",
+        "activates": "LOOP::CIVILIAN::KNOWLEDGE"
+      },
+      {
+        "condition": "asset_tag matches /^CIV::(FOOD|WATER|ENERGY)::.*/",
+        "activates": "LOOP::CIVILIAN::COMMERCE"
+      },
+      {
+        "condition": "asset_tag matches /^MIL::DEF::.*/",
+        "activates": "LOOP::MILITARY::PROTECTION"
+      },
+      {
+        "condition": "asset_tag matches /^MIL::(ORB|MAR)::.*/",
+        "activates": "LOOP::MILITARY::LOGISTICS"
+      },
+      {
+        "condition": "asset_tag matches /^MIL::AI::.*/",
+        "activates": "LOOP::MILITARY::INTELLIGENCE"
+      },
+      {
+        "condition": "asset_tag matches /^COS::GATE::.*/",
+        "activates": "LOOP::COSMIC::GATEWAY"
+      },
+      {
+        "condition": "asset_tag matches /^COS::QM::.*/",
+        "activates": "LOOP::COSMIC::SUBSTANCE"
+      },
+      {
+        "condition": "asset_tag matches /^COS::(TRANS|LEDGER)::.*/",
+        "activates": "LOOP::COSMIC::TRANSIT"
+      }
+    ]
+  },
+  
+  "seal_requirements": {
+    "CIVILIAN": {
+      "ES0IL_FOUNDATION_SEAL": {
+        "description": "Land registry and infrastructure verification",
+        "issuer": "CityTreasury Authority",
+        "validity": "Perpetual (unless revoked)",
+        "verification_method": "On-chain land registry check"
+      },
+      "CIVIC_IDENTITY_SEAL": {
+        "description": "Citizen authentication and identity verification",
+        "issuer": "Identity Verification Authority",
+        "validity": "Annual renewal required",
+        "verification_method": "Biometric + blockchain identity"
+      },
+      "CULTURAL_HERITAGE_SEAL": {
+        "description": "Ancestral vault and heritage confirmation",
+        "issuer": "Cultural Curator Authority",
+        "validity": "Perpetual (family lineage)",
+        "verification_method": "Genealogical ledger check"
+      },
+      "EDUCATION_CREDENTIAL_SEAL": {
+        "description": "Academic authority validation",
+        "issuer": "Education Authority",
+        "validity": "Perpetual (credential earned)",
+        "verification_method": "Academic registry verification"
+      },
+      "COMMERCE_LICENSE_SEAL": {
+        "description": "Business operation authorization",
+        "issuer": "Commerce Authority",
+        "validity": "Annual renewal required",
+        "verification_method": "Business registry check"
+      }
+    },
+    "MILITARY": {
+      "QUAD_OCTA_AUTHORIZATION_SEAL": {
+        "description": "Eight-factor authentication clearance",
+        "issuer": "Military Command Authority",
+        "validity": "Mission-specific",
+        "verification_method": "8-layer security protocol"
+      },
+      "COMMAND_HIERARCHY_SEAL": {
+        "description": "Chain-of-command verification",
+        "issuer": "Military Command Authority",
+        "validity": "Assignment duration",
+        "verification_method": "Command structure validation"
+      },
+      "CLEARANCE_LEVEL_SEAL": {
+        "description": "Security classification access",
+        "issuer": "Intelligence Authority",
+        "validity": "Annual renewal with background check",
+        "verification_method": "Security clearance database"
+      },
+      "OPERATIONAL_READINESS_SEAL": {
+        "description": "Combat capability certification",
+        "issuer": "Readiness Authority",
+        "validity": "Quarterly certification",
+        "verification_method": "Capability assessment"
+      },
+      "MIRROR_ZERO_PROTOCOL_SEAL": {
+        "description": "Anti-breach system authorization",
+        "issuer": "Cyber Defense Authority",
+        "validity": "System-specific",
+        "verification_method": "Security protocol validation"
+      }
+    },
+    "COSMIC": {
+      "DIMENSIONAL_ACCESS_SEAL": {
+        "description": "Portal entry authorization",
+        "issuer": "Portal Keeper Authority",
+        "validity": "Transit-specific",
+        "verification_method": "Dimensional clearance check"
+      },
+      "QUANTUM_ENTANGLEMENT_SEAL": {
+        "description": "Matter-state authentication",
+        "issuer": "Quantum Authority",
+        "validity": "Entanglement duration",
+        "verification_method": "Quantum state verification"
+      },
+      "REALITY_CONSENSUS_SEAL": {
+        "description": "Multi-dimensional ledger agreement",
+        "issuer": "Reality Consensus Authority",
+        "validity": "Transaction-specific",
+        "verification_method": "12-node consensus validation"
+      },
+      "TEMPORAL_NAVIGATION_SEAL": {
+        "description": "Time-stream travel clearance",
+        "issuer": "Temporal Authority",
+        "validity": "Journey-specific",
+        "verification_method": "Temporal paradox check"
+      },
+      "CURVE_INTEGRITY_SEAL": {
+        "description": "Error-folding validation",
+        "issuer": "Curve Scanning Authority",
+        "validity": "Scan-specific",
+        "verification_method": "Curve integrity analysis"
+      }
+    }
+  },
+  
+  "validation_functions": {
+    "validateAssetTag": {
+      "description": "Validate asset tag format and components",
+      "parameters": ["assetTag: string"],
+      "returns": "boolean",
+      "algorithm": "Regex pattern matching + component validation"
+    },
+    "generateBluVaultAuth": {
+      "description": "Generate Blu-Vault authorization tag",
+      "parameters": ["assetTag: string", "timestamp: uint256", "authorizer: address"],
+      "returns": "bytes32",
+      "algorithm": "keccak256(abi.encodePacked(...))"
+    },
+    "verifySeals": {
+      "description": "Verify all required seals for asset tag",
+      "parameters": ["assetTag: string", "seals: bytes32[]"],
+      "returns": "boolean",
+      "algorithm": "Loop through required seals and verify each"
+    },
+    "activateNeuralLoop": {
+      "description": "Determine and activate neural loop based on asset tag",
+      "parameters": ["assetTag: string"],
+      "returns": "string (loop_id)",
+      "algorithm": "Pattern matching against neural loop connection rules"
+    }
+  }
+}

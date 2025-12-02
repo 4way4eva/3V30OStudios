@@ -1,0 +1,604 @@
+{
+  "flashcards": [
+    {
+      "front": "🧬 CryoLife Vaultlets",
+      "back": "Signal: \"Freeze time. Restore life.\"\nUse Case: Longevity\nROI: 176%\nOverscale: $580B\nSector: Healing, Medicine & Biology",
+      "category": "products"
+    },
+    {
+      "front": "🧬 Soul Recode Pods",
+      "back": "Signal: \"Realign your DNA. Reclaim your soul.\"\nUse Case: Genetic repair\nROI: 184%\nOverscale: $540B\nSector: Healing, Medicine & Biology",
+      "category": "products"
+    },
+    {
+      "front": "🧬 NanoHeal Clouds",
+      "back": "Signal: \"Let the air heal you.\"\nUse Case: Mass healing\nROI: 184%\nOverscale: $710B\nSector: Healing, Medicine & Biology",
+      "category": "products"
+    },
+    {
+      "front": "🧬 Immortality Credits",
+      "back": "Signal: \"Buy resurrection. Mint eternity.\"\nUse Case: Revival access\nROI: 204%\nOverscale: $820B\nSector: Healing, Medicine & Biology",
+      "category": "products"
+    },
+    {
+      "front": "🧬 SkyyBleu Serums",
+      "back": "Signal: \"Drink light. Heal faster.\"\nUse Case: Cell repair\nROI: 194%\nOverscale: $530B\nSector: Healing, Medicine & Biology",
+      "category": "products"
+    },
+    {
+      "front": "🧬 Quantum Detox Chambers",
+      "back": "Signal: \"Cleanse at the atomic level.\"\nUse Case: Radiation immunity\nROI: 206%\nOverscale: $490B\nSector: Healing, Medicine & Biology",
+      "category": "products"
+    },
+    {
+      "front": "⚡ Ziphonate Cores",
+      "back": "Signal: \"Power beyond limits.\"\nUse Case: Energy yield\nROI: 186%\nOverscale: $1200B\nSector: Energy, Agriculture & Planet Systems",
+      "category": "products"
+    },
+    {
+      "front": "⚡ PlasmaPearl Reactors",
+      "back": "Signal: \"Ocean-born energy.\"\nUse Case: Infinite hydro power\nROI: 187%\nOverscale: $890B\nSector: Energy, Agriculture & Planet Systems",
+      "category": "products"
+    },
+    {
+      "front": "⚡ HeavenGold Bonds",
+      "back": "Signal: \"Build once. Regenerate forever.\"\nUse Case: Self-healing cities\nROI: 167%\nOverscale: $1040B\nSector: Energy, Agriculture & Planet Systems",
+      "category": "products"
+    },
+    {
+      "front": "⚡ InfinityLoop Vaultlets",
+      "back": "Signal: \"Treasuries that multiply themselves.\"\nUse Case: Recursive finance\nROI: 186%\nOverscale: $800B\nSector: Energy, Agriculture & Planet Systems",
+      "category": "products"
+    },
+    {
+      "front": "⚡ HydroDome Farms",
+      "back": "Signal: \"Grow oceans indoors.\"\nUse Case: Food security\nROI: 200%\nOverscale: $720B\nSector: Energy, Agriculture & Planet Systems",
+      "category": "products"
+    },
+    {
+      "front": "🛡️ Codex Authority Badges",
+      "back": "Signal: \"Rule with scrollbound power.\"\nUse Case: Governance\nROI: 200%\nOverscale: $630B\nSector: Defense, Military & Security",
+      "category": "products"
+    },
+    {
+      "front": "🛡️ PhaseWalk Cannons",
+      "back": "Signal: \"Defend across dimensions.\"\nUse Case: Hostile deterrence\nROI: 165%\nOverscale: $980B\nSector: Defense, Military & Security",
+      "category": "products"
+    },
+    {
+      "front": "🛡️ MirrorGuard Shields",
+      "back": "Signal: \"Reflect intent. Protect peace.\"\nUse Case: Attack reversal\nROI: 194%\nOverscale: $910B\nSector: Defense, Military & Security",
+      "category": "products"
+    },
+    {
+      "front": "🧠 Ancestral Engrams",
+      "back": "Signal: \"Your lineage lives in crystal.\"\nUse Case: Heritage recall\nROI: 205%\nOverscale: $610B\nSector: Memory, Legacy & Knowledge",
+      "category": "products"
+    },
+    {
+      "front": "🧠 Eternal Archive Nodes",
+      "back": "Signal: \"Libraries that never die.\"\nUse Case: Codex updates\nROI: 213%\nOverscale: $470B\nSector: Memory, Legacy & Knowledge",
+      "category": "products"
+    },
+    {
+      "front": "🧠 Lineage Bridges",
+      "back": "Signal: \"Cross bloodlines. Merge legacies.\"\nUse Case: Diplomacy\nROI: 206%\nOverscale: $520B\nSector: Memory, Legacy & Knowledge",
+      "category": "products"
+    },
+    {
+      "front": "🧠 History Rewrite Modules",
+      "back": "Signal: \"Truth is programmable.\"\nUse Case: Justice restoration\nROI: 216%\nOverscale: $600B\nSector: Memory, Legacy & Knowledge",
+      "category": "products"
+    },
+    {
+      "front": "🚀 Portal Key Tokens",
+      "back": "Signal: \"Cross realms. Safely.\"\nUse Case: Dimensional trade\nROI: 194%\nOverscale: $470B\nSector: Travel, Expansion & Mobility",
+      "category": "products"
+    },
+    {
+      "front": "🚀 WarpJump Engines",
+      "back": "Signal: \"Plug in. Jump out.\"\nUse Case: FTL fleets\nROI: 200%\nOverscale: $870B\nSector: Travel, Expansion & Mobility",
+      "category": "products"
+    },
+    {
+      "front": "🚀 HoverLane 8 Pods",
+      "back": "Signal: \"Trade faster than thought.\"\nUse Case: Yield acceleration\nROI: 222%\nOverscale: $740B\nSector: Travel, Expansion & Mobility",
+      "category": "products"
+    },
+    {
+      "front": "🚀 BLEUFleet Outposts",
+      "back": "Signal: \"Bases in every orbit.\"\nUse Case: Resupply\nROI: 244%\nOverscale: $620B\nSector: Travel, Expansion & Mobility",
+      "category": "products"
+    },
+    {
+      "front": "🏛️ MetaCurriculum Pods",
+      "back": "Signal: \"Learn faster than light.\"\nUse Case: Skill yield\nROI: 231%\nOverscale: $430B\nSector: Education & Justice",
+      "category": "products"
+    },
+    {
+      "front": "🏛️ Combat Academies",
+      "back": "Signal: \"Train like kings.\"\nUse Case: Elite soldiers\nROI: 195%\nOverscale: $560B\nSector: Education & Justice",
+      "category": "products"
+    },
+    {
+      "front": "🏛️ BLEUJustice Domes",
+      "back": "Signal: \"Law that breathes.\"\nUse Case: Conflict resolution\nROI: 167%\nOverscale: $480B\nSector: Education & Justice",
+      "category": "products"
+    },
+    {
+      "front": "🎭 HoloConcert Domes",
+      "back": "Signal: \"Perform across timelines.\"\nUse Case: Cultural resonance\nROI: 244%\nOverscale: $550B\nSector: Culture, Sports & Influence",
+      "category": "products"
+    },
+    {
+      "front": "🎭 BLEU SportsVerse Arenas",
+      "back": "Signal: \"Play for the cosmos.\"\nUse Case: Meritocracy\nROI: 248%\nOverscale: $730B\nSector: Culture, Sports & Influence",
+      "category": "products"
+    },
+    {
+      "front": "💰 SmartAd Beacons",
+      "back": "Signal: \"Advertise across time.\"\nUse Case: Scroll reach\nROI: 146%\nOverscale: $960B\nSector: Economy, Commerce & Finance",
+      "category": "products"
+    },
+    {
+      "front": "\"Freeze time. Restore life.\"",
+      "back": "Product: CryoLife Vaultlets\nSector: Healing, Medicine & Biology\nUse Case: Longevity",
+      "category": "signals"
+    },
+    {
+      "front": "\"Realign your DNA. Reclaim your soul.\"",
+      "back": "Product: Soul Recode Pods\nSector: Healing, Medicine & Biology\nUse Case: Genetic repair",
+      "category": "signals"
+    },
+    {
+      "front": "\"Let the air heal you.\"",
+      "back": "Product: NanoHeal Clouds\nSector: Healing, Medicine & Biology\nUse Case: Mass healing",
+      "category": "signals"
+    },
+    {
+      "front": "\"Buy resurrection. Mint eternity.\"",
+      "back": "Product: Immortality Credits\nSector: Healing, Medicine & Biology\nUse Case: Revival access",
+      "category": "signals"
+    },
+    {
+      "front": "\"Drink light. Heal faster.\"",
+      "back": "Product: SkyyBleu Serums\nSector: Healing, Medicine & Biology\nUse Case: Cell repair",
+      "category": "signals"
+    },
+    {
+      "front": "\"Cleanse at the atomic level.\"",
+      "back": "Product: Quantum Detox Chambers\nSector: Healing, Medicine & Biology\nUse Case: Radiation immunity",
+      "category": "signals"
+    },
+    {
+      "front": "\"Power beyond limits.\"",
+      "back": "Product: Ziphonate Cores\nSector: Energy, Agriculture & Planet Systems\nUse Case: Energy yield",
+      "category": "signals"
+    },
+    {
+      "front": "\"Ocean-born energy.\"",
+      "back": "Product: PlasmaPearl Reactors\nSector: Energy, Agriculture & Planet Systems\nUse Case: Infinite hydro power",
+      "category": "signals"
+    },
+    {
+      "front": "\"Build once. Regenerate forever.\"",
+      "back": "Product: HeavenGold Bonds\nSector: Energy, Agriculture & Planet Systems\nUse Case: Self-healing cities",
+      "category": "signals"
+    },
+    {
+      "front": "\"Treasuries that multiply themselves.\"",
+      "back": "Product: InfinityLoop Vaultlets\nSector: Energy, Agriculture & Planet Systems\nUse Case: Recursive finance",
+      "category": "signals"
+    },
+    {
+      "front": "\"Grow oceans indoors.\"",
+      "back": "Product: HydroDome Farms\nSector: Energy, Agriculture & Planet Systems\nUse Case: Food security",
+      "category": "signals"
+    },
+    {
+      "front": "\"Rule with scrollbound power.\"",
+      "back": "Product: Codex Authority Badges\nSector: Defense, Military & Security\nUse Case: Governance",
+      "category": "signals"
+    },
+    {
+      "front": "\"Defend across dimensions.\"",
+      "back": "Product: PhaseWalk Cannons\nSector: Defense, Military & Security\nUse Case: Hostile deterrence",
+      "category": "signals"
+    },
+    {
+      "front": "\"Reflect intent. Protect peace.\"",
+      "back": "Product: MirrorGuard Shields\nSector: Defense, Military & Security\nUse Case: Attack reversal",
+      "category": "signals"
+    },
+    {
+      "front": "\"Your lineage lives in crystal.\"",
+      "back": "Product: Ancestral Engrams\nSector: Memory, Legacy & Knowledge\nUse Case: Heritage recall",
+      "category": "signals"
+    },
+    {
+      "front": "\"Libraries that never die.\"",
+      "back": "Product: Eternal Archive Nodes\nSector: Memory, Legacy & Knowledge\nUse Case: Codex updates",
+      "category": "signals"
+    },
+    {
+      "front": "\"Cross bloodlines. Merge legacies.\"",
+      "back": "Product: Lineage Bridges\nSector: Memory, Legacy & Knowledge\nUse Case: Diplomacy",
+      "category": "signals"
+    },
+    {
+      "front": "\"Truth is programmable.\"",
+      "back": "Product: History Rewrite Modules\nSector: Memory, Legacy & Knowledge\nUse Case: Justice restoration",
+      "category": "signals"
+    },
+    {
+      "front": "\"Cross realms. Safely.\"",
+      "back": "Product: Portal Key Tokens\nSector: Travel, Expansion & Mobility\nUse Case: Dimensional trade",
+      "category": "signals"
+    },
+    {
+      "front": "\"Plug in. Jump out.\"",
+      "back": "Product: WarpJump Engines\nSector: Travel, Expansion & Mobility\nUse Case: FTL fleets",
+      "category": "signals"
+    },
+    {
+      "front": "\"Trade faster than thought.\"",
+      "back": "Product: HoverLane 8 Pods\nSector: Travel, Expansion & Mobility\nUse Case: Yield acceleration",
+      "category": "signals"
+    },
+    {
+      "front": "\"Bases in every orbit.\"",
+      "back": "Product: BLEUFleet Outposts\nSector: Travel, Expansion & Mobility\nUse Case: Resupply",
+      "category": "signals"
+    },
+    {
+      "front": "\"Learn faster than light.\"",
+      "back": "Product: MetaCurriculum Pods\nSector: Education & Justice\nUse Case: Skill yield",
+      "category": "signals"
+    },
+    {
+      "front": "\"Train like kings.\"",
+      "back": "Product: Combat Academies\nSector: Education & Justice\nUse Case: Elite soldiers",
+      "category": "signals"
+    },
+    {
+      "front": "\"Law that breathes.\"",
+      "back": "Product: BLEUJustice Domes\nSector: Education & Justice\nUse Case: Conflict resolution",
+      "category": "signals"
+    },
+    {
+      "front": "\"Perform across timelines.\"",
+      "back": "Product: HoloConcert Domes\nSector: Culture, Sports & Influence\nUse Case: Cultural resonance",
+      "category": "signals"
+    },
+    {
+      "front": "\"Play for the cosmos.\"",
+      "back": "Product: BLEU SportsVerse Arenas\nSector: Culture, Sports & Influence\nUse Case: Meritocracy",
+      "category": "signals"
+    },
+    {
+      "front": "\"Advertise across time.\"",
+      "back": "Product: SmartAd Beacons\nSector: Economy, Commerce & Finance\nUse Case: Scroll reach",
+      "category": "signals"
+    },
+    {
+      "front": "What is the ROI for CryoLife Vaultlets?",
+      "back": "176%\nOverscale: $580B\nSector: Healing, Medicine & Biology",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for Soul Recode Pods?",
+      "back": "184%\nOverscale: $540B\nSector: Healing, Medicine & Biology",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for NanoHeal Clouds?",
+      "back": "184%\nOverscale: $710B\nSector: Healing, Medicine & Biology",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for Immortality Credits?",
+      "back": "204%\nOverscale: $820B\nSector: Healing, Medicine & Biology",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for SkyyBleu Serums?",
+      "back": "194%\nOverscale: $530B\nSector: Healing, Medicine & Biology",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for Quantum Detox Chambers?",
+      "back": "206%\nOverscale: $490B\nSector: Healing, Medicine & Biology",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for Ziphonate Cores?",
+      "back": "186%\nOverscale: $1200B\nSector: Energy, Agriculture & Planet Systems",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for PlasmaPearl Reactors?",
+      "back": "187%\nOverscale: $890B\nSector: Energy, Agriculture & Planet Systems",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for HeavenGold Bonds?",
+      "back": "167%\nOverscale: $1040B\nSector: Energy, Agriculture & Planet Systems",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for InfinityLoop Vaultlets?",
+      "back": "186%\nOverscale: $800B\nSector: Energy, Agriculture & Planet Systems",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for HydroDome Farms?",
+      "back": "200%\nOverscale: $720B\nSector: Energy, Agriculture & Planet Systems",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for Codex Authority Badges?",
+      "back": "200%\nOverscale: $630B\nSector: Defense, Military & Security",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for PhaseWalk Cannons?",
+      "back": "165%\nOverscale: $980B\nSector: Defense, Military & Security",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for MirrorGuard Shields?",
+      "back": "194%\nOverscale: $910B\nSector: Defense, Military & Security",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for Ancestral Engrams?",
+      "back": "205%\nOverscale: $610B\nSector: Memory, Legacy & Knowledge",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for Eternal Archive Nodes?",
+      "back": "213%\nOverscale: $470B\nSector: Memory, Legacy & Knowledge",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for Lineage Bridges?",
+      "back": "206%\nOverscale: $520B\nSector: Memory, Legacy & Knowledge",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for History Rewrite Modules?",
+      "back": "216%\nOverscale: $600B\nSector: Memory, Legacy & Knowledge",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for Portal Key Tokens?",
+      "back": "194%\nOverscale: $470B\nSector: Travel, Expansion & Mobility",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for WarpJump Engines?",
+      "back": "200%\nOverscale: $870B\nSector: Travel, Expansion & Mobility",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for HoverLane 8 Pods?",
+      "back": "222%\nOverscale: $740B\nSector: Travel, Expansion & Mobility",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for BLEUFleet Outposts?",
+      "back": "244%\nOverscale: $620B\nSector: Travel, Expansion & Mobility",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for MetaCurriculum Pods?",
+      "back": "231%\nOverscale: $430B\nSector: Education & Justice",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for Combat Academies?",
+      "back": "195%\nOverscale: $560B\nSector: Education & Justice",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for BLEUJustice Domes?",
+      "back": "167%\nOverscale: $480B\nSector: Education & Justice",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for HoloConcert Domes?",
+      "back": "244%\nOverscale: $550B\nSector: Culture, Sports & Influence",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for BLEU SportsVerse Arenas?",
+      "back": "248%\nOverscale: $730B\nSector: Culture, Sports & Influence",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ROI for SmartAd Beacons?",
+      "back": "146%\nOverscale: $960B\nSector: Economy, Commerce & Finance",
+      "category": "roi"
+    },
+    {
+      "front": "What is the ceremonial element for CryoLife Vaultlets?",
+      "back": "Element: Cryogenic Ice\nActivation: Time Suspension Protocol\nGovernance: Sovereign Medical",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for Soul Recode Pods?",
+      "back": "Element: Soul Light\nActivation: DNA Realignment Matrix\nGovernance: Genetic Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for NanoHeal Clouds?",
+      "back": "Element: Healing Aether\nActivation: Atmospheric Distribution Protocol\nGovernance: Planetary Health",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for Immortality Credits?",
+      "back": "Element: Eternal Flame\nActivation: Resurrection Matrix\nGovernance: Immortality Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for SkyyBleu Serums?",
+      "back": "Element: Liquid Light\nActivation: Cellular Regeneration Protocol\nGovernance: Biological Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for Quantum Detox Chambers?",
+      "back": "Element: Pure Quantum Void\nActivation: Atomic Purification Protocol\nGovernance: Radiation Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for Ziphonate Cores?",
+      "back": "Element: Pure Energy\nActivation: Infinite Power Protocol\nGovernance: Energy Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for PlasmaPearl Reactors?",
+      "back": "Element: Ocean Plasma\nActivation: Hydro-Plasma Protocol\nGovernance: Oceanic Power",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for HeavenGold Bonds?",
+      "back": "Element: Divine Gold\nActivation: Regenerative Infrastructure Protocol\nGovernance: Urban Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for InfinityLoop Vaultlets?",
+      "back": "Element: Infinite Loop\nActivation: Recursive Treasury Protocol\nGovernance: Financial Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for HydroDome Farms?",
+      "back": "Element: Living Water\nActivation: Indoor Ocean Protocol\nGovernance: Agricultural Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for Codex Authority Badges?",
+      "back": "Element: Authority Scroll\nActivation: Sovereign Governance Protocol\nGovernance: Supreme Authority",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for PhaseWalk Cannons?",
+      "back": "Element: Phase Energy\nActivation: Dimensional Defense Protocol\nGovernance: Multidimensional Security",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for MirrorGuard Shields?",
+      "back": "Element: Mirror Essence\nActivation: Intent Reflection Protocol\nGovernance: Peace Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for Ancestral Engrams?",
+      "back": "Element: Crystal Memory\nActivation: Lineage Preservation Protocol\nGovernance: Ancestral Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for Eternal Archive Nodes?",
+      "back": "Element: Eternal Knowledge\nActivation: Immortal Library Protocol\nGovernance: Knowledge Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for Lineage Bridges?",
+      "back": "Element: Bloodline Nexus\nActivation: Legacy Merger Protocol\nGovernance: Diplomatic Unity",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for History Rewrite Modules?",
+      "back": "Element: Truth Matrix\nActivation: Historical Justice Protocol\nGovernance: Truth Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for Portal Key Tokens?",
+      "back": "Element: Portal Energy\nActivation: Safe Crossing Protocol\nGovernance: Dimensional Commerce",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for WarpJump Engines?",
+      "back": "Element: Warp Energy\nActivation: FTL Protocol\nGovernance: Fleet Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for HoverLane 8 Pods?",
+      "back": "Element: Thought Speed\nActivation: Neural Trade Protocol\nGovernance: Commerce Acceleration",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for BLEUFleet Outposts?",
+      "back": "Element: Orbital Foundation\nActivation: Universal Resupply Protocol\nGovernance: Galactic Logistics",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for MetaCurriculum Pods?",
+      "back": "Element: Knowledge Light\nActivation: FTL Learning Protocol\nGovernance: Educational Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for Combat Academies?",
+      "back": "Element: Royal Discipline\nActivation: Elite Training Protocol\nGovernance: Military Excellence",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for BLEUJustice Domes?",
+      "back": "Element: Living Law\nActivation: Breathing Justice Protocol\nGovernance: Legal Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for HoloConcert Domes?",
+      "back": "Element: Temporal Harmony\nActivation: Multi-Timeline Performance Protocol\nGovernance: Cultural Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for BLEU SportsVerse Arenas?",
+      "back": "Element: Cosmic Competition\nActivation: Universal Meritocracy Protocol\nGovernance: Athletic Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "What is the ceremonial element for SmartAd Beacons?",
+      "back": "Element: Temporal Broadcast\nActivation: Cross-Time Marketing Protocol\nGovernance: Commerce Sovereignty",
+      "category": "elements"
+    },
+    {
+      "front": "🧬 Healing, Medicine & Biology",
+      "back": "Domain: CIVILIAN\nFocus: Longevity, genetic repair, mass healing, and revival access\nProducts: 6\nTotal Overscale: $3670B\nAvg ROI: 191.3%",
+      "category": "sectors"
+    },
+    {
+      "front": "⚡ Energy, Agriculture & Planet Systems",
+      "back": "Domain: COSMIC\nFocus: High-yield infrastructure nodes for planetary regeneration and recursive finance\nProducts: 5\nTotal Overscale: $4650B\nAvg ROI: 185.2%",
+      "category": "sectors"
+    },
+    {
+      "front": "🛡️ Defense, Military & Security",
+      "back": "Domain: MILITARY\nFocus: Governance, deterrence, and peacekeeping through ceremonial tech\nProducts: 3\nTotal Overscale: $2520B\nAvg ROI: 186.3%",
+      "category": "sectors"
+    },
+    {
+      "front": "🧠 Memory, Legacy & Knowledge",
+      "back": "Domain: CIVILIAN\nFocus: Codexal infrastructure for heritage, diplomacy, and justice restoration\nProducts: 4\nTotal Overscale: $2200B\nAvg ROI: 210.0%",
+      "category": "sectors"
+    },
+    {
+      "front": "🚀 Travel, Expansion & Mobility",
+      "back": "Domain: COSMIC\nFocus: Dimensional trade, resupply, and fleet acceleration\nProducts: 4\nTotal Overscale: $2700B\nAvg ROI: 215.0%",
+      "category": "sectors"
+    },
+    {
+      "front": "🏛️ Education & Justice",
+      "back": "Domain: CIVILIAN\nFocus: Training, law, and conflict resolution as ceremonial infrastructure\nProducts: 3\nTotal Overscale: $1470B\nAvg ROI: 197.7%",
+      "category": "sectors"
+    },
+    {
+      "front": "🎭 Culture, Sports & Influence",
+      "back": "Domain: CIVILIAN\nFocus: Cultural resonance and meritocratic arenas for planetary uplift\nProducts: 2\nTotal Overscale: $1280B\nAvg ROI: 246.0%",
+      "category": "sectors"
+    },
+    {
+      "front": "💰 Economy, Commerce & Finance",
+      "back": "Domain: CIVILIAN\nFocus: Scroll-based advertising and recursive financial systems\nProducts: 1\nTotal Overscale: $960B\nAvg ROI: 146.0%",
+      "category": "sectors"
+    }
+  ]
+}

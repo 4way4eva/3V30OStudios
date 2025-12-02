@@ -1,0 +1,85 @@
+{
+  "name": "MEGAZION Inheritance Ω-CIV-01 - Node 1",
+  "description": "Sovereign ENFT inheritance entry encapsulating physical yield worth of $13600000/second. Domain: CIVILIAN. Lineage-bound with node-sequential coding and Blu-Vault dual verification standards.",
+  "image": "ipfs://QmYOUR_IMAGE_HASH_HERE",
+  "external_url": "https://megazion.4way4eva.io/inheritance/civilian/node-1",
+  "domain": "CIVILIAN",
+  "sovereignCode": "Ω-CIV-01",
+  "yieldPerSecond": "13600000 USD/second",
+  "attributes": [
+    {
+      "trait_type": "Domain",
+      "value": "CIVILIAN"
+    },
+    {
+      "trait_type": "Sovereign Code",
+      "value": "Ω-CIV-01"
+    },
+    {
+      "trait_type": "Yield Per Second (USD)",
+      "value": 13600000
+    },
+    {
+      "trait_type": "Yearly Yield (USD)",
+      "value": 428889600000000
+    },
+    {
+      "trait_type": "Lineage Node ID",
+      "value": 1
+    },
+    {
+      "trait_type": "Sequential Code",
+      "value": "CIV-NODE-00000001"
+    },
+    {
+      "trait_type": "Verification Standard",
+      "value": "Blu-Vault Dual Verification"
+    },
+    {
+      "trait_type": "Sectors",
+      "value": "Retail, Education, ES0IL, Wearables, Hospitality"
+    }
+  ],
+  "lineage": {
+    "nodeId": 1,
+    "sequentialCode": "CIV-NODE-00000001",
+    "ancestralChain": [],
+    "generationDepth": 0,
+    "branchPath": "ROOT"
+  },
+  "verification": {
+    "bluVaultTag": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "guarantorSignature": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "dualVerificationStandard": "BLU-VAULT-GUARANTOR-v1.0",
+    "verificationTimestamp": 0,
+    "guarantors": [
+      {
+        "address": "0x4way4eva",
+        "role": "Primary Guarantor",
+        "verificationLevel": "SOVEREIGN"
+      }
+    ]
+  },
+  "economics": {
+    "yieldMetrics": {
+      "perSecond": 13600000,
+      "perMinute": 816000000,
+      "perHour": 48960000000,
+      "perDay": 1175040000000,
+      "perWeek": 8225280000000,
+      "perMonth": 35424000000000,
+      "perQuarter": 106272000000000,
+      "perYear": 428889600000000
+    },
+    "compoundingModel": "π₄ exponential",
+    "distributionMode": "Sovereign inheritance with ancestral routing"
+  },
+  "properties": {
+    "transferable": true,
+    "pausable": true,
+    "sealed": false,
+    "bridgeable": true,
+    "inheritanceEnabled": true,
+    "lifetimeLock": false
+  }
+}

@@ -1,0 +1,2 @@
+timestamp,vaultlet_id,bill_code,token_type,rarity_index,mint_window,glyph_confirmations,provenance_hash,celestial_cycle,cryo_status,forge_material,ceremonial_status,ledger_anchor,payment_handle,notes
+2025-11-03T22:02:50.549Z,VLT-SATURN_BAR_RARE,JEWEL_RARELY_1IF1,RARELY 1if1,1.0000,10:10,"Saturn,Pluto,Jewel,Rare",0x0000000000000000000000000000000000000000000000000000000000000000,Saturn-Pluto Alignment 2025,Pluto Cold Verified,HeavenGold+Ziphonate,Non-Transferable,BLEULIONTREASURY™,4waybleu$paystring.crypto.com,"Minted in cryo-orbit. Refined by Soulstone. Sealed by Saturn."
