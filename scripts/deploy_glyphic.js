@@ -11,7 +11,7 @@ async function main() {
   await contract.deployed();
 
   // Log the contract address
-  console.log("GlyphicBabaNFT deployed to:", contract.address);
+  console.log("GlyphicBabaNFT deployed to:", await contract.getAddress());
 }
 
 // Execute the deployment
