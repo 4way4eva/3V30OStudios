@@ -1,0 +1,53 @@
+{
+  "ledgerAddress": "",
+  "recipients": [
+    {
+      "address": "0x0000000000000000000000000000000000000000",
+      "domain": "CIVILIAN",
+      "yieldPerSecond": "13600000",
+      "lineageNode": 1,
+      "ancestralLineage": [],
+      "note": "Civilian domain: Real estate, education, ES0IL, wearables, hospitality - $13.6M/sec"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000000",
+      "domain": "MILITARY",
+      "yieldPerSecond": "6100000",
+      "lineageNode": 2,
+      "ancestralLineage": [],
+      "note": "Military domain: Weapons, defense grids, orbital/maritime, AI targeting - $6.1M/sec"
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000000",
+      "domain": "COSMIC",
+      "yieldPerSecond": "9200000",
+      "lineageNode": 3,
+      "ancestralLineage": [],
+      "note": "Cosmic domain: Portal energy, quantum matter, multidimensional logistics - $9.2M/sec"
+    }
+  ],
+  "documentation": {
+    "description": "Configuration for minting ENFT inheritance entries with physical yield encapsulation",
+    "totalYieldPerSecond": "28900000",
+    "totalYieldPerDay": "2496960000000",
+    "verificationStandard": "Blu-Vault Dual Verification v1.0",
+    "lineageCoding": "Node-sequential with ancestral chain tracking",
+    "domains": {
+      "CIVILIAN": {
+        "code": "Ω-CIV-01",
+        "sectors": ["Retail", "Education", "ES0IL", "Wearables", "Hospitality"],
+        "yieldShare": "47.1%"
+      },
+      "MILITARY": {
+        "code": "Ω-MIL-01",
+        "sectors": ["Weapons", "Defense Grids", "Orbital Transport", "Maritime", "AI Targeting"],
+        "yieldShare": "21.1%"
+      },
+      "COSMIC": {
+        "code": "Ω-COS-01",
+        "sectors": ["Portal Energy", "Quantum Matter", "Multidimensional Logistics"],
+        "yieldShare": "31.8%"
+      }
+    }
+  }
+}

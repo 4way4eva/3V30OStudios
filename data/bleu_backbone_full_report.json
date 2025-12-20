@@ -1,0 +1,1274 @@
+{
+  "bleu_backbone_full_report": {
+    "version": "1.0.0",
+    "report_date": "2025-11-14T19:20:50.431Z",
+    "description": "BLEU Backbone Full Report - Comprehensive ceremonial, economic, and strategic product registry across 8 sovereign sectors",
+    "total_products": 28,
+    "total_overscale_billions": 19070,
+    "sectors": 8,
+    "ceremonial_properties": {
+      "ledger_anchored": true,
+      "treasury_backed": "BLEULIONTREASURY™",
+      "sovereign_protocol": "BLEU.BACKBONE.v1"
+    },
+    "sectors_registry": [
+      {
+        "sector_id": "HLNG-MED-BIO",
+        "sector_name": "Healing, Medicine & Biology",
+        "sector_icon": "🧬",
+        "focus": "Longevity, genetic repair, mass healing, and revival access",
+        "domain": "CIVILIAN",
+        "total_products": 6,
+        "total_overscale_billions": 3670,
+        "products": [
+          {
+            "product_id": "HLNG-001",
+            "name": "CryoLife Vaultlets",
+            "signal": "Freeze time. Restore life.",
+            "use_case": "Longevity",
+            "roi_percent": 176,
+            "overscale_billions": 580,
+            "yield_usd_per_second": 189.35,
+            "sector_classification": "Healing & Medicine",
+            "ceremonial_attributes": {
+              "element": "Cryogenic Ice",
+              "activation": "Time Suspension Protocol",
+              "governance_tier": "Sovereign Medical"
+            },
+            "nft_metadata": {
+              "name": "CryoLife Vaultlet",
+              "description": "Ceremonial longevity infrastructure enabling time suspension and life restoration. Freeze biological time and restore vitality through sovereign cryogenic protocols.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Healing & Medicine"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Longevity"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "176%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$580B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Cryogenic Ice"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "HLNG-002",
+            "name": "Soul Recode Pods",
+            "signal": "Realign your DNA. Reclaim your soul.",
+            "use_case": "Genetic repair",
+            "roi_percent": 184,
+            "overscale_billions": 540,
+            "yield_usd_per_second": 176.39,
+            "sector_classification": "Healing & Medicine",
+            "ceremonial_attributes": {
+              "element": "Soul Light",
+              "activation": "DNA Realignment Matrix",
+              "governance_tier": "Genetic Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "Soul Recode Pod",
+              "description": "Sovereign genetic repair infrastructure for DNA realignment and soul reclamation. Restore genetic integrity through ceremonial soul light protocols.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Healing & Medicine"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Genetic repair"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "184%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$540B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Soul Light"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "HLNG-003",
+            "name": "NanoHeal Clouds",
+            "signal": "Let the air heal you.",
+            "use_case": "Mass healing",
+            "roi_percent": 184,
+            "overscale_billions": 710,
+            "yield_usd_per_second": 231.71,
+            "sector_classification": "Healing & Medicine",
+            "ceremonial_attributes": {
+              "element": "Healing Aether",
+              "activation": "Atmospheric Distribution Protocol",
+              "governance_tier": "Planetary Health"
+            },
+            "nft_metadata": {
+              "name": "NanoHeal Cloud",
+              "description": "Atmospheric healing infrastructure enabling mass healing through ceremonial aetheric distribution. Let the very air restore cellular integrity.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Healing & Medicine"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Mass healing"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "184%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$710B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Healing Aether"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "HLNG-004",
+            "name": "Immortality Credits",
+            "signal": "Buy resurrection. Mint eternity.",
+            "use_case": "Revival access",
+            "roi_percent": 204,
+            "overscale_billions": 820,
+            "yield_usd_per_second": 267.36,
+            "sector_classification": "Healing & Medicine",
+            "ceremonial_attributes": {
+              "element": "Eternal Flame",
+              "activation": "Resurrection Matrix",
+              "governance_tier": "Immortality Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "Immortality Credit",
+              "description": "Sovereign resurrection infrastructure enabling revival access and eternity minting. Purchase eternal life through ceremonial flame protocols.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Healing & Medicine"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Revival access"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "204%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$820B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Eternal Flame"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "HLNG-005",
+            "name": "SkyyBleu Serums",
+            "signal": "Drink light. Heal faster.",
+            "use_case": "Cell repair",
+            "roi_percent": 194,
+            "overscale_billions": 530,
+            "yield_usd_per_second": 172.87,
+            "sector_classification": "Healing & Medicine",
+            "ceremonial_attributes": {
+              "element": "Liquid Light",
+              "activation": "Cellular Regeneration Protocol",
+              "governance_tier": "Biological Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "SkyyBleu Serum",
+              "description": "Cellular repair infrastructure enabling rapid healing through liquid light consumption. Drink ceremonial light and accelerate cellular regeneration.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Healing & Medicine"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Cell repair"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "194%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$530B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Liquid Light"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "HLNG-006",
+            "name": "Quantum Detox Chambers",
+            "signal": "Cleanse at the atomic level.",
+            "use_case": "Radiation immunity",
+            "roi_percent": 206,
+            "overscale_billions": 490,
+            "yield_usd_per_second": 159.90,
+            "sector_classification": "Healing & Medicine",
+            "ceremonial_attributes": {
+              "element": "Pure Quantum Void",
+              "activation": "Atomic Purification Protocol",
+              "governance_tier": "Radiation Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "Quantum Detox Chamber",
+              "description": "Atomic-level cleansing infrastructure providing radiation immunity through quantum void purification. Cleanse at the deepest possible level.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Healing & Medicine"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Radiation immunity"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "206%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$490B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Pure Quantum Void"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "sector_id": "ENRG-AGR-PLN",
+        "sector_name": "Energy, Agriculture & Planet Systems",
+        "sector_icon": "⚡",
+        "focus": "High-yield infrastructure nodes for planetary regeneration and recursive finance",
+        "domain": "COSMIC",
+        "total_products": 5,
+        "total_overscale_billions": 4650,
+        "products": [
+          {
+            "product_id": "ENRG-001",
+            "name": "Ziphonate Cores",
+            "signal": "Power beyond limits.",
+            "use_case": "Energy yield",
+            "roi_percent": 186,
+            "overscale_billions": 1200,
+            "yield_usd_per_second": 391.67,
+            "sector_classification": "Energy & Infrastructure",
+            "ceremonial_attributes": {
+              "element": "Pure Energy",
+              "activation": "Infinite Power Protocol",
+              "governance_tier": "Energy Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "Ziphonate Core",
+              "description": "Infinite energy infrastructure core providing power beyond conventional limits. Tap into ceremonial unlimited energy protocols.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Energy & Infrastructure"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Energy yield"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "186%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$1200B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Pure Energy"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "ENRG-002",
+            "name": "PlasmaPearl Reactors",
+            "signal": "Ocean-born energy.",
+            "use_case": "Infinite hydro power",
+            "roi_percent": 187,
+            "overscale_billions": 890,
+            "yield_usd_per_second": 290.46,
+            "sector_classification": "Energy & Infrastructure",
+            "ceremonial_attributes": {
+              "element": "Ocean Plasma",
+              "activation": "Hydro-Plasma Protocol",
+              "governance_tier": "Oceanic Power"
+            },
+            "nft_metadata": {
+              "name": "PlasmaPearl Reactor",
+              "description": "Ocean-born energy infrastructure providing infinite hydroelectric power through plasma generation. Harness the ceremonial power of the seas.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Energy & Infrastructure"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Infinite hydro power"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "187%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$890B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Ocean Plasma"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "ENRG-003",
+            "name": "HeavenGold Bonds",
+            "signal": "Build once. Regenerate forever.",
+            "use_case": "Self-healing cities",
+            "roi_percent": 167,
+            "overscale_billions": 1040,
+            "yield_usd_per_second": 339.35,
+            "sector_classification": "Energy & Infrastructure",
+            "ceremonial_attributes": {
+              "element": "Divine Gold",
+              "activation": "Regenerative Infrastructure Protocol",
+              "governance_tier": "Urban Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "HeavenGold Bond",
+              "description": "Self-healing city infrastructure bonds enabling perpetual urban regeneration. Build once with ceremonial divine gold and regenerate forever.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Energy & Infrastructure"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Self-healing cities"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "167%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$1040B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Divine Gold"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "ENRG-004",
+            "name": "InfinityLoop Vaultlets",
+            "signal": "Treasuries that multiply themselves.",
+            "use_case": "Recursive finance",
+            "roi_percent": 186,
+            "overscale_billions": 800,
+            "yield_usd_per_second": 261.11,
+            "sector_classification": "Energy & Infrastructure",
+            "ceremonial_attributes": {
+              "element": "Infinite Loop",
+              "activation": "Recursive Treasury Protocol",
+              "governance_tier": "Financial Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "InfinityLoop Vaultlet",
+              "description": "Recursive finance infrastructure enabling self-multiplying treasuries. Deploy ceremonial infinite loop protocols for perpetual wealth generation.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Energy & Infrastructure"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Recursive finance"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "186%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$800B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Infinite Loop"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "ENRG-005",
+            "name": "HydroDome Farms",
+            "signal": "Grow oceans indoors.",
+            "use_case": "Food security",
+            "roi_percent": 200,
+            "overscale_billions": 720,
+            "yield_usd_per_second": 235.02,
+            "sector_classification": "Energy & Infrastructure",
+            "ceremonial_attributes": {
+              "element": "Living Water",
+              "activation": "Indoor Ocean Protocol",
+              "governance_tier": "Agricultural Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "HydroDome Farm",
+              "description": "Indoor oceanic agriculture infrastructure providing global food security. Grow ceremonial oceans indoors for unlimited sustainable food production.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Energy & Infrastructure"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Food security"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "200%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$720B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Living Water"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "sector_id": "DFNS-MIL-SEC",
+        "sector_name": "Defense, Military & Security",
+        "sector_icon": "🛡️",
+        "focus": "Governance, deterrence, and peacekeeping through ceremonial tech",
+        "domain": "MILITARY",
+        "total_products": 3,
+        "total_overscale_billions": 2520,
+        "products": [
+          {
+            "product_id": "DFNS-001",
+            "name": "Codex Authority Badges",
+            "signal": "Rule with scrollbound power.",
+            "use_case": "Governance",
+            "roi_percent": 200,
+            "overscale_billions": 630,
+            "yield_usd_per_second": 205.56,
+            "sector_classification": "Defense & Security",
+            "ceremonial_attributes": {
+              "element": "Authority Scroll",
+              "activation": "Sovereign Governance Protocol",
+              "governance_tier": "Supreme Authority"
+            },
+            "nft_metadata": {
+              "name": "Codex Authority Badge",
+              "description": "Sovereign governance infrastructure enabling scrollbound power and ceremonial authority. Rule through codex-backed legitimacy.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Defense & Security"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Governance"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "200%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$630B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Authority Scroll"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "DFNS-002",
+            "name": "PhaseWalk Cannons",
+            "signal": "Defend across dimensions.",
+            "use_case": "Hostile deterrence",
+            "roi_percent": 165,
+            "overscale_billions": 980,
+            "yield_usd_per_second": 319.79,
+            "sector_classification": "Defense & Security",
+            "ceremonial_attributes": {
+              "element": "Phase Energy",
+              "activation": "Dimensional Defense Protocol",
+              "governance_tier": "Multidimensional Security"
+            },
+            "nft_metadata": {
+              "name": "PhaseWalk Cannon",
+              "description": "Multidimensional defense infrastructure enabling protection across all reality layers. Defend ceremonially through dimensional phase technology.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Defense & Security"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Hostile deterrence"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "165%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$980B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Phase Energy"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "DFNS-003",
+            "name": "MirrorGuard Shields",
+            "signal": "Reflect intent. Protect peace.",
+            "use_case": "Attack reversal",
+            "roi_percent": 194,
+            "overscale_billions": 910,
+            "yield_usd_per_second": 296.95,
+            "sector_classification": "Defense & Security",
+            "ceremonial_attributes": {
+              "element": "Mirror Essence",
+              "activation": "Intent Reflection Protocol",
+              "governance_tier": "Peace Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "MirrorGuard Shield",
+              "description": "Attack reversal infrastructure enabling intent reflection and peace protection. Defend ceremonially by mirroring hostile intent back to source.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Defense & Security"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Attack reversal"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "194%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$910B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Mirror Essence"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "sector_id": "MEM-LEG-KNW",
+        "sector_name": "Memory, Legacy & Knowledge",
+        "sector_icon": "🧠",
+        "focus": "Codexal infrastructure for heritage, diplomacy, and justice restoration",
+        "domain": "CIVILIAN",
+        "total_products": 4,
+        "total_overscale_billions": 2200,
+        "products": [
+          {
+            "product_id": "MEM-001",
+            "name": "Ancestral Engrams",
+            "signal": "Your lineage lives in crystal.",
+            "use_case": "Heritage recall",
+            "roi_percent": 205,
+            "overscale_billions": 610,
+            "yield_usd_per_second": 199.07,
+            "sector_classification": "Memory & Knowledge",
+            "ceremonial_attributes": {
+              "element": "Crystal Memory",
+              "activation": "Lineage Preservation Protocol",
+              "governance_tier": "Ancestral Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "Ancestral Engram",
+              "description": "Heritage recall infrastructure preserving lineage within crystalline memory. Your entire ancestral line lives eternally in ceremonial crystal.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Memory & Knowledge"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Heritage recall"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "205%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$610B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Crystal Memory"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "MEM-002",
+            "name": "Eternal Archive Nodes",
+            "signal": "Libraries that never die.",
+            "use_case": "Codex updates",
+            "roi_percent": 213,
+            "overscale_billions": 470,
+            "yield_usd_per_second": 153.40,
+            "sector_classification": "Memory & Knowledge",
+            "ceremonial_attributes": {
+              "element": "Eternal Knowledge",
+              "activation": "Immortal Library Protocol",
+              "governance_tier": "Knowledge Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "Eternal Archive Node",
+              "description": "Immortal library infrastructure for permanent codex storage and updates. Libraries that ceremonially never die, preserving knowledge eternally.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Memory & Knowledge"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Codex updates"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "213%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$470B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Eternal Knowledge"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "MEM-003",
+            "name": "Lineage Bridges",
+            "signal": "Cross bloodlines. Merge legacies.",
+            "use_case": "Diplomacy",
+            "roi_percent": 206,
+            "overscale_billions": 520,
+            "yield_usd_per_second": 169.68,
+            "sector_classification": "Memory & Knowledge",
+            "ceremonial_attributes": {
+              "element": "Bloodline Nexus",
+              "activation": "Legacy Merger Protocol",
+              "governance_tier": "Diplomatic Unity"
+            },
+            "nft_metadata": {
+              "name": "Lineage Bridge",
+              "description": "Diplomatic infrastructure enabling bloodline crossing and legacy merging. Unite ceremonial lineages for enhanced diplomatic power.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Memory & Knowledge"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Diplomacy"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "206%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$520B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Bloodline Nexus"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "MEM-004",
+            "name": "History Rewrite Modules",
+            "signal": "Truth is programmable.",
+            "use_case": "Justice restoration",
+            "roi_percent": 216,
+            "overscale_billions": 600,
+            "yield_usd_per_second": 195.83,
+            "sector_classification": "Memory & Knowledge",
+            "ceremonial_attributes": {
+              "element": "Truth Matrix",
+              "activation": "Historical Justice Protocol",
+              "governance_tier": "Truth Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "History Rewrite Module",
+              "description": "Justice restoration infrastructure enabling programmable truth and historical correction. Restore ceremonial justice through truth matrix reconfiguration.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Memory & Knowledge"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Justice restoration"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "216%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$600B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Truth Matrix"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "sector_id": "TRVL-EXP-MOB",
+        "sector_name": "Travel, Expansion & Mobility",
+        "sector_icon": "🚀",
+        "focus": "Dimensional trade, resupply, and fleet acceleration",
+        "domain": "COSMIC",
+        "total_products": 4,
+        "total_overscale_billions": 2700,
+        "products": [
+          {
+            "product_id": "TRVL-001",
+            "name": "Portal Key Tokens",
+            "signal": "Cross realms. Safely.",
+            "use_case": "Dimensional trade",
+            "roi_percent": 194,
+            "overscale_billions": 470,
+            "yield_usd_per_second": 153.40,
+            "sector_classification": "Travel & Expansion",
+            "ceremonial_attributes": {
+              "element": "Portal Energy",
+              "activation": "Safe Crossing Protocol",
+              "governance_tier": "Dimensional Commerce"
+            },
+            "nft_metadata": {
+              "name": "Portal Key Token",
+              "description": "Dimensional trade infrastructure enabling safe realm crossing. Travel ceremonially between dimensions with sovereign protection.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Travel & Expansion"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Dimensional trade"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "194%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$470B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Portal Energy"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "TRVL-002",
+            "name": "WarpJump Engines",
+            "signal": "Plug in. Jump out.",
+            "use_case": "FTL fleets",
+            "roi_percent": 200,
+            "overscale_billions": 870,
+            "yield_usd_per_second": 283.95,
+            "sector_classification": "Travel & Expansion",
+            "ceremonial_attributes": {
+              "element": "Warp Energy",
+              "activation": "FTL Protocol",
+              "governance_tier": "Fleet Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "WarpJump Engine",
+              "description": "FTL fleet infrastructure enabling faster-than-light travel. Plug into ceremonial warp energy and jump across the cosmos instantly.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Travel & Expansion"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "FTL fleets"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "200%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$870B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Warp Energy"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "TRVL-003",
+            "name": "HoverLane 8 Pods",
+            "signal": "Trade faster than thought.",
+            "use_case": "Yield acceleration",
+            "roi_percent": 222,
+            "overscale_billions": 740,
+            "yield_usd_per_second": 241.44,
+            "sector_classification": "Travel & Expansion",
+            "ceremonial_attributes": {
+              "element": "Thought Speed",
+              "activation": "Neural Trade Protocol",
+              "governance_tier": "Commerce Acceleration"
+            },
+            "nft_metadata": {
+              "name": "HoverLane 8 Pod",
+              "description": "Yield acceleration infrastructure enabling thought-speed trading. Trade ceremonially faster than neural impulses through quantum lanes.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Travel & Expansion"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Yield acceleration"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "222%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$740B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Thought Speed"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "TRVL-004",
+            "name": "BLEUFleet Outposts",
+            "signal": "Bases in every orbit.",
+            "use_case": "Resupply",
+            "roi_percent": 244,
+            "overscale_billions": 620,
+            "yield_usd_per_second": 202.31,
+            "sector_classification": "Travel & Expansion",
+            "ceremonial_attributes": {
+              "element": "Orbital Foundation",
+              "activation": "Universal Resupply Protocol",
+              "governance_tier": "Galactic Logistics"
+            },
+            "nft_metadata": {
+              "name": "BLEUFleet Outpost",
+              "description": "Galactic resupply infrastructure with bases in every orbital zone. Establish ceremonial presence and logistics across all celestial territories.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Travel & Expansion"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Resupply"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "244%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$620B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Orbital Foundation"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "sector_id": "EDU-JUS",
+        "sector_name": "Education & Justice",
+        "sector_icon": "🏛️",
+        "focus": "Training, law, and conflict resolution as ceremonial infrastructure",
+        "domain": "CIVILIAN",
+        "total_products": 3,
+        "total_overscale_billions": 1470,
+        "products": [
+          {
+            "product_id": "EDU-001",
+            "name": "MetaCurriculum Pods",
+            "signal": "Learn faster than light.",
+            "use_case": "Skill yield",
+            "roi_percent": 231,
+            "overscale_billions": 430,
+            "yield_usd_per_second": 140.35,
+            "sector_classification": "Education & Justice",
+            "ceremonial_attributes": {
+              "element": "Knowledge Light",
+              "activation": "FTL Learning Protocol",
+              "governance_tier": "Educational Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "MetaCurriculum Pod",
+              "description": "Skill yield infrastructure enabling faster-than-light learning. Absorb ceremonial knowledge at light speed through meta-curricula.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Education & Justice"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Skill yield"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "231%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$430B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Knowledge Light"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "EDU-002",
+            "name": "Combat Academies",
+            "signal": "Train like kings.",
+            "use_case": "Elite soldiers",
+            "roi_percent": 195,
+            "overscale_billions": 560,
+            "yield_usd_per_second": 182.75,
+            "sector_classification": "Education & Justice",
+            "ceremonial_attributes": {
+              "element": "Royal Discipline",
+              "activation": "Elite Training Protocol",
+              "governance_tier": "Military Excellence"
+            },
+            "nft_metadata": {
+              "name": "Combat Academy",
+              "description": "Elite soldier training infrastructure providing royal-level combat education. Train ceremonially with sovereign discipline and kingly precision.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Education & Justice"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Elite soldiers"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "195%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$560B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Royal Discipline"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "EDU-003",
+            "name": "BLEUJustice Domes",
+            "signal": "Law that breathes.",
+            "use_case": "Conflict resolution",
+            "roi_percent": 167,
+            "overscale_billions": 480,
+            "yield_usd_per_second": 156.64,
+            "sector_classification": "Education & Justice",
+            "ceremonial_attributes": {
+              "element": "Living Law",
+              "activation": "Breathing Justice Protocol",
+              "governance_tier": "Legal Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "BLEUJustice Dome",
+              "description": "Conflict resolution infrastructure with living, breathing law. Resolve disputes ceremonially through adaptive sovereign justice protocols.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Education & Justice"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Conflict resolution"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "167%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$480B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Living Law"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "sector_id": "CULT-SPT-INF",
+        "sector_name": "Culture, Sports & Influence",
+        "sector_icon": "🎭",
+        "focus": "Cultural resonance and meritocratic arenas for planetary uplift",
+        "domain": "CIVILIAN",
+        "total_products": 2,
+        "total_overscale_billions": 1280,
+        "products": [
+          {
+            "product_id": "CULT-001",
+            "name": "HoloConcert Domes",
+            "signal": "Perform across timelines.",
+            "use_case": "Cultural resonance",
+            "roi_percent": 244,
+            "overscale_billions": 550,
+            "yield_usd_per_second": 179.49,
+            "sector_classification": "Culture & Influence",
+            "ceremonial_attributes": {
+              "element": "Temporal Harmony",
+              "activation": "Multi-Timeline Performance Protocol",
+              "governance_tier": "Cultural Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "HoloConcert Dome",
+              "description": "Cultural resonance infrastructure enabling performances across multiple timelines. Perform ceremonially in all times simultaneously for maximum cultural impact.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Culture & Influence"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Cultural resonance"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "244%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$550B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Temporal Harmony"
+                }
+              ]
+            }
+          },
+          {
+            "product_id": "CULT-002",
+            "name": "BLEU SportsVerse Arenas",
+            "signal": "Play for the cosmos.",
+            "use_case": "Meritocracy",
+            "roi_percent": 248,
+            "overscale_billions": 730,
+            "yield_usd_per_second": 238.27,
+            "sector_classification": "Culture & Influence",
+            "ceremonial_attributes": {
+              "element": "Cosmic Competition",
+              "activation": "Universal Meritocracy Protocol",
+              "governance_tier": "Athletic Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "BLEU SportsVerse Arena",
+              "description": "Meritocratic arena infrastructure enabling cosmic-scale competition. Play ceremonially for the entire cosmos with pure merit-based advancement.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Culture & Influence"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Meritocracy"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "248%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$730B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Cosmic Competition"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "sector_id": "ECON-COM-FIN",
+        "sector_name": "Economy, Commerce & Finance",
+        "sector_icon": "💰",
+        "focus": "Scroll-based advertising and recursive financial systems",
+        "domain": "CIVILIAN",
+        "total_products": 1,
+        "total_overscale_billions": 960,
+        "products": [
+          {
+            "product_id": "ECON-001",
+            "name": "SmartAd Beacons",
+            "signal": "Advertise across time.",
+            "use_case": "Scroll reach",
+            "roi_percent": 146,
+            "overscale_billions": 960,
+            "yield_usd_per_second": 313.27,
+            "sector_classification": "Economy & Commerce",
+            "ceremonial_attributes": {
+              "element": "Temporal Broadcast",
+              "activation": "Cross-Time Marketing Protocol",
+              "governance_tier": "Commerce Sovereignty"
+            },
+            "nft_metadata": {
+              "name": "SmartAd Beacon",
+              "description": "Temporal advertising infrastructure enabling scroll reach across all time periods. Advertise ceremonially to past, present, and future simultaneously.",
+              "attributes": [
+                {
+                  "trait_type": "Sector",
+                  "value": "Economy & Commerce"
+                },
+                {
+                  "trait_type": "Use Case",
+                  "value": "Scroll reach"
+                },
+                {
+                  "trait_type": "ROI",
+                  "value": "146%"
+                },
+                {
+                  "trait_type": "Overscale",
+                  "value": "$960B"
+                },
+                {
+                  "trait_type": "Element",
+                  "value": "Temporal Broadcast"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "economic_summary": {
+      "total_roi_weighted_average": 197.5,
+      "total_yield_per_second_usd": 6227.26,
+      "total_yield_per_day_usd": 538035264,
+      "total_yield_per_year_usd": 196372871360,
+      "compounding_model": "π₄ exponential (97.409 factor)",
+      "treasury_anchor": "BLEULIONTREASURY™",
+      "deployment_schema": "BLEU.BACKBONE.v1"
+    },
+    "ceremonial_metadata": {
+      "report_type": "Sovereign Infrastructure Registry",
+      "codex_version": "BLEU_BACKBONE_v1.0.0",
+      "provenance": {
+        "github_repo": "4way4eva/3V30OStudios",
+        "deployment_date": "2025-11-14T19:20:50.431Z",
+        "ceremonial_seal": "BLEU_BACKBONE_GENESIS"
+      },
+      "living_document": true,
+      "non_transferable": true,
+      "ledger_anchored": true
+    }
+  }
+}

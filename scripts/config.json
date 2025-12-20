@@ -1,0 +1,73 @@
+{
+  "DEFAULT_CONFIG": {
+    "pi4_factor": 97.409,
+    "base_yield_usd_per_sec": 28900000,
+    "domains": {
+      "CIVILIAN": {
+        "percentage": 0.476,
+        "description": "Real estate, education, commerce, infrastructure"
+      },
+      "MILITARY": {
+        "percentage": 0.213,
+        "description": "Defense, tactical operations, armaments"
+      },
+      "COSMIC": {
+        "percentage": 0.311,
+        "description": "Portal logistics, quantum tech, dimensional items"
+      }
+    },
+    "compounding": {
+      "enabled": true,
+      "model": "pi4_exponential",
+      "periods_per_day": 86400
+    },
+    "metadata": {
+      "base_ipfs_gateway": "https://ipfs.io/ipfs/",
+      "placeholder_cid": "QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID"
+    },
+    "networks": {
+      "testnet_default": "sepolia",
+      "supported_testnets": ["sepolia", "mumbai", "fuji", "bscTestnet"],
+      "testnet_first": true
+    },
+    "metavault_treasury": {
+      "yield_streams": {
+        "civilian": {
+          "domain": "Ω-CIV",
+          "usd_per_second": 13755428.571,
+          "daily_usd": 1188469714285.71,
+          "categories": ["Real Estate", "Education", "Commerce", "Infrastructure"]
+        },
+        "military": {
+          "domain": "Ω-MIL",
+          "usd_per_second": 6154285.714,
+          "daily_usd": 531730285714.29,
+          "categories": ["Defense", "Tactical Operations", "Armaments", "Intelligence"]
+        },
+        "cosmic": {
+          "domain": "Ω-COS",
+          "usd_per_second": 8997142.857,
+          "daily_usd": 777128571428.57,
+          "categories": ["Portal Logistics", "Quantum Tech", "Dimensional Items", "Cosmic Assets"]
+        }
+      },
+      "aggregated_metrics": {
+        "total_usd_per_second": 28906857.142,
+        "total_daily_usd": 2497232571428.57,
+        "pi4_factor": 97.409,
+        "compounding_model": "exponential_pi4"
+      }
+    },
+    "simulation": {
+      "tick_duration_seconds": 1,
+      "ticks_per_snapshot": 3600,
+      "total_snapshots": 24,
+      "output_formats": ["csv", "json"]
+    },
+    "enft_ledger": {
+      "schema_version": "EVOL.ENFT.v1",
+      "metadata_uri_base": "ipfs://REPLACE_WITH_CID/",
+      "contract_address_placeholder": "0x0000000000000000000000000000000000000000"
+    }
+  }
+}

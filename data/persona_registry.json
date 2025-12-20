@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "description": "BLEU Persona Registry - Maps persona types to Ethereum addresses and role identifiers",
+  "last_updated": "2025-11-19T01:57:39.343Z",
+  "personas": [
+    {
+      "personaId": "0x82977466000000000000000000000000000000000000000000000000000000000000",
+      "name": "Sovereign Singer",
+      "personaType": "singer",
+      "account": "0x95CE8B1c273af612CD895E6b0c633039c3572827",
+      "governance": {
+        "votingPower": 1,
+        "status": "active",
+        "delegations": []
+      },
+      "metadata": {
+        "notes": "Singer persona - responsible for ceremonial chants, harmonic rituals, and vibrational governance protocols"
+      },
+      "roleHash": "0x82977466",
+      "ceremonialRole": {
+        "glyph": "🎵",
+        "ceremony": "Harmonic Resonance Invocation",
+        "domains": ["CIVILIAN", "COSMIC"],
+        "capabilities": [
+          "Ceremonial chanting",
+          "Harmonic frequency alignment",
+          "Vibrational governance",
+          "Ritual sound coordination"
+        ]
+      }
+    }
+  ],
+  "roleHashes": {
+    "0x82977466": "singer"
+  }
+}
