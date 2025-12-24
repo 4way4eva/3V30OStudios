@@ -1,0 +1,20 @@
+{
+  "baseURI": "ipfs://QmYourBaseURI/",
+  "initialRoles": {
+    "sovereignMinters": [
+      "REPLACE_WITH_MINTER_ADDRESS_1",
+      "REPLACE_WITH_MINTER_ADDRESS_2"
+    ],
+    "bluVaultSigners": [
+      "REPLACE_WITH_VAULT_SIGNER_ADDRESS_1",
+      "REPLACE_WITH_VAULT_SIGNER_ADDRESS_2"
+    ],
+    "dualSigners": [
+      "REPLACE_WITH_DUAL_SIGNER_ADDRESS_1",
+      "REPLACE_WITH_DUAL_SIGNER_ADDRESS_2"
+    ],
+    "emergencyControllers": [
+      "REPLACE_WITH_EMERGENCY_ADDRESS"
+    ]
+  }
+}

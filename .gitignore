@@ -22,6 +22,7 @@ junit*.properties
 !data/watchtower_template.csv
 revenue_projections_*.json
 revenue_projections_*.md
+codex_complexity_report.json
 
 # BLEU Galactic Mint generated files (recreate with npm run galactic:activate)
 data/watchtower_galactic_mint.csv

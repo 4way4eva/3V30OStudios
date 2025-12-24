@@ -1,0 +1,253 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OPTINUS PRIME Heritage Token Metadata Schema",
+  "description": "Metadata schema for OPTINUS PRIME Ceremonial Assembly Scroll ENFTs",
+  "type": "object",
+  "required": [
+    "name",
+    "description",
+    "image",
+    "external_url",
+    "attributes",
+    "transformer_metadata",
+    "assembly_protocol",
+    "lineage_tree"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the transformer heritage token"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the transformer's lineage and ceremonial significance"
+    },
+    "image": {
+      "type": "string",
+      "description": "IPFS or HTTP URL to transformer image/avatar"
+    },
+    "external_url": {
+      "type": "string",
+      "description": "URL to transformer's dedicated page or portal"
+    },
+    "animation_url": {
+      "type": "string",
+      "description": "URL to 3D model, video, or interactive animation"
+    },
+    "attributes": {
+      "type": "array",
+      "description": "OpenSea-compatible attributes",
+      "items": {
+        "type": "object",
+        "required": ["trait_type", "value"],
+        "properties": {
+          "trait_type": {
+            "type": "string"
+          },
+          "value": {
+            "oneOf": [
+              { "type": "string" },
+              { "type": "number" }
+            ]
+          },
+          "display_type": {
+            "type": "string",
+            "enum": ["number", "boost_number", "boost_percentage", "date"]
+          }
+        }
+      }
+    },
+    "transformer_metadata": {
+      "type": "object",
+      "description": "Core transformer-specific metadata",
+      "required": [
+        "ancestral_hash",
+        "lineage_number",
+        "matrix_of_leadership_traits",
+        "scroll_fragment_hash"
+      ],
+      "properties": {
+        "ancestral_hash": {
+          "type": "string",
+          "description": "Encrypted ancestral lineage hash (bytes32)"
+        },
+        "lineage_number": {
+          "type": "integer",
+          "description": "Position in the lineage sequence"
+        },
+        "matrix_of_leadership_traits": {
+          "type": "object",
+          "properties": {
+            "wisdom_level": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "strength_level": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "leadership_capacity": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "transformation_skill": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            }
+          }
+        },
+        "scroll_fragment_hash": {
+          "type": "string",
+          "description": "Hash of embedded ceremonial scroll fragment"
+        },
+        "ceremonial_inscription": {
+          "type": "string",
+          "description": "Sacred text or invocation inscribed during assembly"
+        }
+      }
+    },
+    "assembly_protocol": {
+      "type": "object",
+      "description": "Assembly protocol completion record",
+      "required": ["stages_completed", "assembly_timestamp"],
+      "properties": {
+        "stages_completed": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["stage_name", "timestamp", "signature"],
+            "properties": {
+              "stage_name": {
+                "type": "string",
+                "enum": [
+                  "Invocation",
+                  "Core Placement",
+                  "Winding",
+                  "Insulation",
+                  "Cooling Integration",
+                  "Interface Integration",
+                  "Enclosure",
+                  "Calibration",
+                  "Final Blessing"
+                ]
+              },
+              "timestamp": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "signature": {
+                "type": "string",
+                "description": "Ceremonial witness signature (bytes32)"
+              },
+              "witness": {
+                "type": "string",
+                "description": "Address or name of ceremonial witness"
+              }
+            }
+          }
+        },
+        "assembly_timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when assembly began"
+        },
+        "activation_timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when lineage was activated"
+        },
+        "component_registry": {
+          "type": "object",
+          "properties": {
+            "core_installed": { "type": "boolean" },
+            "windings_attached": { "type": "boolean" },
+            "insulation_applied": { "type": "boolean" },
+            "cooling_system_integrated": { "type": "boolean" },
+            "interfaces_connected": { "type": "boolean" },
+            "scroll_embedded": { "type": "boolean" },
+            "calibrated": { "type": "boolean" },
+            "blessed": { "type": "boolean" }
+          }
+        }
+      }
+    },
+    "lineage_tree": {
+      "type": "object",
+      "description": "Position in the transformer lineage tree",
+      "properties": {
+        "parent_token_id": {
+          "type": ["integer", "null"],
+          "description": "Parent token ID (null if root)"
+        },
+        "generation": {
+          "type": "integer",
+          "description": "Generation number in lineage"
+        },
+        "is_root": {
+          "type": "boolean",
+          "description": "Whether this is a root token"
+        },
+        "succession_locked": {
+          "type": "boolean",
+          "description": "Whether succession is currently locked"
+        }
+      }
+    },
+    "deployment_permissions": {
+      "type": "object",
+      "description": "Deployment permissions for various domains",
+      "properties": {
+        "curriculum": { "type": "boolean" },
+        "cinematic": { "type": "boolean" },
+        "tribunal": { "type": "boolean" },
+        "infrastructure": { "type": "boolean" },
+        "military": { "type": "boolean" },
+        "agricultural": { "type": "boolean" }
+      }
+    },
+    "restitution_record": {
+      "type": "object",
+      "description": "Restitution tracking information",
+      "properties": {
+        "total_distributed": {
+          "type": "string",
+          "description": "Total restitution distributed (in wei)"
+        },
+        "beneficiary_count": {
+          "type": "integer",
+          "description": "Number of beneficiaries"
+        },
+        "last_distribution_date": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "ceremonial_context": {
+      "type": "object",
+      "description": "Additional ceremonial and cultural context",
+      "properties": {
+        "afrocentric_cosmology": {
+          "type": "string",
+          "description": "Connection to Afrocentric spiritual and cosmological principles"
+        },
+        "ritual_significance": {
+          "type": "string",
+          "description": "Ritual and ceremonial significance"
+        },
+        "community_role": {
+          "type": "string",
+          "description": "Role within the community and Codex governance"
+        },
+        "ancestral_invocation": {
+          "type": "string",
+          "description": "Ancestral invocation or blessing recited during assembly"
+        }
+      }
+    }
+  }
+}
