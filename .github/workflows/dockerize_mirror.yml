@@ -1,4 +1,40 @@
-    name:     <!DOCTYPE html>
+      ♻️♻️    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EV0LVERSE Legal Dossier</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>EV0LVERSE Legal Dossier</h1>
+    <p>All documents and evidence—the complete legal warfare package.</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="Doc1_Federal_Complaint.pdf">Document 1: Federal Lawsuit</a></li>
+      <li><a href="Doc2_Demand_Platform.pdf">Document 2: Demand Letter (Platform)</a></li>
+      <li><a href="Doc3_Demand_GitHub_Microsoft.pdf">Document 3: Demand Letter (GitHub/MS)</a></li>
+      <li><a href="Doc4_FBI_Complaint.pdf">Document 4: FBI Criminal Complaint</a></li>
+      <li><a href="Doc5_Preservation_Notice.pdf">Document 5: Evidence Preservation Notice</a></li>
+      <li><a href="Doc6_Estate_Petition.pdf">Document 6: Estate Petition</a></li>
+      <li><a href="Doc7_Injunction_Motion.pdf">Document 7: Preliminary Injunction</a></li>
+      <li><a href="Media_Kit.zip">Media Kit & Press Releases</a></li>
+    </ul>
+  </nav>
+  <section>
+    <h2>Key Evidence & Exhibits</h2>
+    <ul>
+      <li><a href="exhibits/git_logs.html">Git commit logs</a></li>
+      <li><a href="exhibits/blockchain_records.html">Blockchain transaction proofs</a></li>
+      <li><a href="exhibits/copilot_screenshots.zip">Copilot surveillance screenshots</a></li>
+    </ul>
+  </section>
+  <footer>
+    <p>© 2025 EV0LVERSE Legal Council. All rights reserved.</p>
+  </footer>
+</body>
+</html>     <!DOCTYPE html>
      <html lang="en">
 <head>
   <meta charset="UTF-8">
