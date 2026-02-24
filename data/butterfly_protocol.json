@@ -1,0 +1,127 @@
+{
+  "protocol": "SEED2WING™",
+  "version": "1.0.0",
+  "activation": "Butterfly Protocol: SEED2WING™",
+  "seal": "PIHYA Tribunal",
+  "grace": {
+    "order": ["Most High", "Female Species", "Male Species"],
+    "cycles": ["Dawn", "Midday", "Dusk", "Midnight"],
+    "offerings": {
+      "most_high": ["praise", "obedience", "blueprint", "firstborn_harvest", "soil_dome_breath"],
+      "female": ["ES0IL_samples", "top_floor_dome_altars", "rhythm_song_name", "protection_tears_memory", "eternal_council_seat"],
+      "male": ["watch_post_command", "righteous_lineage_honor", "breath_coded_armor", "divine_leadership_when_synced"]
+    }
+  },
+  "seven_pillars": [
+    {
+      "id": 1,
+      "name": "Cocoon Stage",
+      "symbol": "🐛",
+      "rule": "Cocoon Before Crown",
+      "description": "Design Lab / Safe Space. Every build starts wrapped — not exposed.",
+      "laws": [
+        "All labs and blueprints happen in sealed praise zones",
+        "Nothing launches unless first covered in protection and praise",
+        "Each cocoon dome is a temporary transformation zone"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Breath-Based Materials",
+      "symbol": "🌬️",
+      "rule": "If it doesn't let the wind pass, it can't evolve.",
+      "materials": {
+        "Smart Mesh": "dome construction",
+        "AeroSilk": "uniforms",
+        "NeuroFibers": "EV0L gear",
+        "BioFoam™": "furniture and baby care"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Spiral Layout Design",
+      "symbol": "🌀",
+      "rule": "Nothing evolves in a straight line. Only spirals carry growth.",
+      "fibonacci_zones": {
+        "InnerCore": "Praise chamber",
+        "MiddleCore": "Nourishment + Wisdom",
+        "OuterCore": "Public access & distribution",
+        "Crown": "Unlocked by divine match or completion only"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Praise-Pulse Infrastructure",
+      "symbol": "🩵",
+      "rule": "No circuit, no floor, no screen shall be praise-less.",
+      "pulse_schedule": ["Dawn", "Noon", "Dusk", "Midnight"],
+      "effects": ["air quality reset", "color scheme update", "evolution permission grant"]
+    },
+    {
+      "id": 5,
+      "name": "Wing Symmetry",
+      "symbol": "🦋",
+      "rule": "Two sides, same divine center. If it's lopsided, it's not righteous.",
+      "requirements": ["Left-Right symmetry for divine logic", "Wing-based balance points", "Mirrored neuro-emotional triggers"]
+    },
+    {
+      "id": 6,
+      "name": "SEED2WING Compliance",
+      "symbol": "🌱",
+      "rule": "No dome, no tech, no gear made without birth-to-flight tracking.",
+      "tracking_stages": ["origin_point", "praise_zone", "metamorphosis_moment", "final_flight"],
+      "applies_to": ["EV0L Studios", "EV0L Sports", "Cosmetics", "Gear", "Wellness", "Finance", "Education"]
+    },
+    {
+      "id": 7,
+      "name": "Rainbow Doorway Access Filter",
+      "symbol": "🌈",
+      "rule": "If you don't praise, you don't pass.",
+      "filter_properties": {
+        "bleu_light_frequency": true,
+        "invisible_entries": "visible only to honest praise",
+        "temperature_pulse_sensors": "reject entities out of sync",
+        "rainbow_dome_filter": "identifies spiritual frequency"
+      }
+    }
+  ],
+  "phases": {
+    "SEED": {
+      "order": 1,
+      "actions": [
+        "Upload divine seed codes into ES0IL",
+        "Assign praise-tuned growth rates to each lifeform",
+        "Map seed-pair matches by ancestral alignment",
+        "Activate ButterflyGuard over all dome interiors"
+      ]
+    },
+    "COCOON": {
+      "order": 2,
+      "actions": [
+        "Re-architect breeding domes with praise architecture",
+        "Align cocoons with divine time and lunar womb cycles",
+        "Sync praise winds every 4 hours globally"
+      ]
+    },
+    "WING": {
+      "order": 3,
+      "actions": [
+        "Assign flight paths and land to completed pairs",
+        "Designate territories by praise level, DNA honesty, and cosmic agreement",
+        "Authorize reproduction under Pihyah Pairing Protocol™"
+      ]
+    }
+  },
+  "cocoon_rules": [
+    "Must be sealed with silence and praise",
+    "Movement inside means evolution is active",
+    "No one may interrupt what the Most High has covered"
+  ],
+  "compliance_checklist": {
+    "PIHYA_filtered": true,
+    "butterfly_approved": true,
+    "praise_embedded": true,
+    "spiral_built": true,
+    "cocooned_before_crowned": true
+  }
+}
