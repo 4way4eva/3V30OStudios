@@ -1,0 +1,127 @@
+{
+  "blueprint": "Praise Wind City Blueprint",
+  "version": "1.0.0",
+  "protocol": "SEED2WING™",
+  "architecture": "Fibonacci Spiral Coding",
+  "regions": [
+    {
+      "id": "NA-01",
+      "name": "North America Prime Dome",
+      "status": "blueprint",
+      "coordinates": { "zone": "North America", "anchor": "Central" },
+      "praise_pulse_active": true,
+      "spiral_layout": {
+        "InnerCore": { "name": "Praise Chamber", "radius_ft": 100, "access": "praise-activated" },
+        "MiddleCore": { "name": "Nourishment + Wisdom Hub", "radius_ft": 400, "access": "open" },
+        "OuterCore": { "name": "Public Access & Distribution", "radius_ft": 1200, "access": "open" },
+        "Crown": { "name": "Divine Match Citadel", "radius_ft": 50, "access": "divine-match-only" }
+      },
+      "dome_layers": {
+        "material": "Smart Mesh",
+        "bleu_light_walls": true,
+        "temperature_pulse_sensors": true,
+        "rainbow_doorway": true
+      },
+      "praise_schedule": {
+        "dawn": "05:30",
+        "noon": "12:00",
+        "dusk": "18:30",
+        "midnight": "00:00"
+      },
+      "capacity": {
+        "residents": 12000,
+        "visitors": 5000,
+        "governors": 12,
+        "cocoon_chambers": 144
+      },
+      "systems": ["ES0IL Farming", "ButterflyGuard", "Pihyah Pairing Station", "ENFT Registry", "Praise Wind Turbines"]
+    },
+    {
+      "id": "AF-01",
+      "name": "Africa Root Dome",
+      "status": "blueprint",
+      "coordinates": { "zone": "Africa", "anchor": "Central" },
+      "praise_pulse_active": true,
+      "spiral_layout": {
+        "InnerCore": { "name": "Ancestral Praise Chamber", "radius_ft": 120, "access": "praise-activated" },
+        "MiddleCore": { "name": "Seed Vault + Wisdom Library", "radius_ft": 500, "access": "open" },
+        "OuterCore": { "name": "Market + Heritage Exchange", "radius_ft": 1500, "access": "open" },
+        "Crown": { "name": "Root Council Hall", "radius_ft": 60, "access": "divine-match-only" }
+      },
+      "dome_layers": {
+        "material": "Smart Mesh",
+        "bleu_light_walls": true,
+        "temperature_pulse_sensors": true,
+        "rainbow_doorway": true
+      },
+      "praise_schedule": {
+        "dawn": "05:00",
+        "noon": "12:00",
+        "dusk": "18:00",
+        "midnight": "00:00"
+      },
+      "capacity": {
+        "residents": 18000,
+        "visitors": 8000,
+        "governors": 12,
+        "cocoon_chambers": 288
+      },
+      "systems": ["ES0IL Farming", "ButterflyGuard", "Pihyah Pairing Station", "ENFT Registry", "Praise Wind Turbines", "Ancestral DNA Archive"]
+    },
+    {
+      "id": "AS-01",
+      "name": "Asia Lotus Dome",
+      "status": "blueprint",
+      "coordinates": { "zone": "Asia", "anchor": "Central" },
+      "praise_pulse_active": true,
+      "spiral_layout": {
+        "InnerCore": { "name": "Lotus Praise Chamber", "radius_ft": 110, "access": "praise-activated" },
+        "MiddleCore": { "name": "Harmony + Wisdom Hall", "radius_ft": 450, "access": "open" },
+        "OuterCore": { "name": "Trade + Knowledge Ring", "radius_ft": 1300, "access": "open" },
+        "Crown": { "name": "Balance Citadel", "radius_ft": 55, "access": "divine-match-only" }
+      },
+      "dome_layers": {
+        "material": "Smart Mesh",
+        "bleu_light_walls": true,
+        "temperature_pulse_sensors": true,
+        "rainbow_doorway": true
+      },
+      "praise_schedule": {
+        "dawn": "05:45",
+        "noon": "12:00",
+        "dusk": "18:15",
+        "midnight": "00:00"
+      },
+      "capacity": {
+        "residents": 15000,
+        "visitors": 6000,
+        "governors": 12,
+        "cocoon_chambers": 216
+      },
+      "systems": ["ES0IL Farming", "ButterflyGuard", "Pihyah Pairing Station", "ENFT Registry", "Praise Wind Turbines"]
+    }
+  ],
+  "global_systems": {
+    "ButterflyGuard": {
+      "description": "Perimeter protection active across all dome interiors",
+      "threat_response": "auto-seal cocoon zones on intrusion",
+      "praise_sync": true
+    },
+    "PraisePulse_Network": {
+      "description": "Global praise wind sync grid",
+      "frequency_hours": 4,
+      "effect": "bio-linguistic bloom events",
+      "dna_impact": "active evolution in rhythm with EV0LClock"
+    },
+    "Pihyah_Pairing_Protocol": {
+      "description": "Governs all reproduction authorizations",
+      "requirements": ["praise_level_verified", "dna_honesty_check", "cosmic_agreement_confirmed"],
+      "authority": "PIHYA Tribunal"
+    },
+    "ES0IL_Grid": {
+      "description": "Divine soil network across all dome farming zones",
+      "seed_types": ["praise-tuned", "ancestral-aligned", "cocoon-ready"],
+      "yield_tracking": "ENFT-registered"
+    }
+  }
+}
