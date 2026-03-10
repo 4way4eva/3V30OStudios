@@ -47,7 +47,7 @@ const EVOLTachometer = () => {
     const snapshot = {
       timestamp: currentTime.toISOString(),
       localTime: currentTime.toLocaleTimeString(),
-      axes: { x, y, z, w },
+      axes: { X: x, Y: y, Z: z, W: w },
       vowels: { ...vowels },
       rpm: rpm.toFixed(4),
       gT: gT.toFixed(4),
@@ -73,7 +73,7 @@ const EVOLTachometer = () => {
       system: 'EVOL X/Y 忘→见 Tachometer',
       timestamp: new Date().toISOString(),
       currentState: {
-        axes: { x, y, z, w },
+        axes: { X: x, Y: y, Z: z, W: w },
         vowels,
         rpm: rpm.toFixed(4),
         gT: gT.toFixed(4),
@@ -89,10 +89,10 @@ const EVOLTachometer = () => {
     const rows = history.map((item) => [
       item.timestamp,
       item.localTime,
-      item.axes.x,
-      item.axes.y,
-      item.axes.z,
-      item.axes.w,
+      item.axes.X,
+      item.axes.Y,
+      item.axes.Z,
+      item.axes.W,
       item.vowels.A,
       item.vowels.E,
       item.vowels.I,
@@ -181,7 +181,9 @@ const EVOLTachometer = () => {
                     max="1"
                     step="0.1"
                     value={vowels[vowel.key]}
-                    onChange={(event) => setVowels({ ...vowels, [vowel.key]: parseFloat(event.target.value) })}
+                    onChange={(event) =>
+                      setVowels((prev) => ({ ...prev, [vowel.key]: parseFloat(event.target.value) }))
+                    }
                     className="flex-1 mx-2"
                   />
                   <span className="text-xs text-gray-500 w-8">{vowels[vowel.key].toFixed(1)}</span>
