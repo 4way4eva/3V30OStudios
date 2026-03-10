@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import {
   Crown, Butterfly, Wind, FlaskConical, Vault, Image, Scale, Coins,
-  Menu, X, Zap, Wifi,
+  Menu, X, Zap, Wifi, Gauge,
 } from 'lucide-react';
 import WalletConnect from './WalletConnect';
 
@@ -15,6 +15,7 @@ const NAV_ITEMS = [
   { to: '/enft',       label: 'ENFT Registry',     icon: Image,       color: 'text-indigo-400' },
   { to: '/governance', label: 'Governance',        icon: Scale,       color: 'text-orange-400' },
   { to: '/token',      label: 'BLEU Tokens',       icon: Coins,       color: 'text-blue-400' },
+  { to: '/tachometer', label: 'Tachometer',        icon: Gauge,       color: 'text-cyan-400' },
 ];
 
 const NavItem = ({ item, mobile, onClose }) => {
