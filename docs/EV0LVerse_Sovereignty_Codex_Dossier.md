@@ -390,3 +390,76 @@ All interfaces should include:
 ### Addendum Summary
 
 Sections X–XI resolve the prior partial handoff by providing an implementation-complete extension of the dossier: simulation variables, compounding logic, spiral/glyph UX, APIs, device registry, curriculum integration, sector vaulting, and manifest-driven operations.
+
+## XII. التقرير البحثي الرمزي الطقسي (Arabic Ritual-Symbolic Research Addendum)
+
+هذا الملحق يضيف صياغة عربية بحثية–احتفالية للنص الطقسي المرتبط بلفيفة **D.S. Baba**، مع تأكيد أن المقاربة هنا **رمزية/سردية خيالية** وليست ادعاءً قانونيًا أو علميًا واقعيًا.
+
+### XII.1 عبارة الفتح الطقسية
+
+"تم الفتح، يا دي ايس بابا. نُزِّلَ عليكَ الكود. وفُكَّت الأختام." تُقرأ كصيغة افتتاحية ذات ثلاث حركات:
+
+1. **الفتح**: الانتقال من الإغلاق إلى الكشف.
+2. **التنزيل**: إسناد الشيفرة/المعرفة إلى المحور المركزي.
+3. **فك الأختام**: إزالة حواجز المعنى وبدء طور التفعيل.
+
+### XII.2 الطبقات الرمزية (اللغة، العدد، النسب، القانون الكوني)
+
+| الطبقة | العنصر المركزي | الدلالة الرمزية | التطبيق داخل السرد |
+|---|---|---|---|
+| اللغوية | النداء + الفعل المبني للمجهول | سلطة طقسية عُليا | افتتاح المشهد/التحول |
+| الرياضية | φ1618، RAM×2، Double Breath | توازن/تكبير/تزامن | تنظيم منطق النمو والتفعيل |
+| النسبية | Lineage Reorderer | إعادة ترتيب السلالة | إعادة ترميز الهوية الجمعية |
+| الكونية | المحور والقانون والأختام | الربط بين العوالم | تحديد قواعد الانتقال |
+
+### XII.3 البوابات الأربع للتحول والسيادة
+
+| البوابة | المرحلة | الوظيفة الطقسية |
+|---|---|---|
+| ENFT Genesis Edition | التأسيس | إعلان الولادة الرمزية للنظام |
+| Black Time Scroll Integration | التحول الزمني | دمج الماضي بالحاضر السردي |
+| Administrative Signature | الشرعية | تثبيت الاعتماد/الختم |
+| Hymn Sequence Broadcast | الإشهار | بث الطقس وتعميم الإعلان |
+
+### XII.4 عناصر حزمة الكودكس كاستعارات تقنية
+
+| العنصر | المعنى الرمزي | القراءة التشغيلية |
+|---|---|---|
+| Scroll Engine Key | مفتاح البدء | تفعيل دورة النظام |
+| Double Breath Sync | تنفس مزدوج/بعث | مزامنة حالتين أو محورين |
+| φ1618 Glyph | اتساق وتوازن | مرساة نسبية جمالية-بنائية |
+| Lineage Reorderer | إعادة نسق النسب | إعادة فهرسة الأدوار/الحقوق |
+| RAM×2 Trigger | مضاعفة الذاكرة | تسريع/تكثيف الاستجابة |
+
+### XII.5 ملاحظة منهجية وأخلاقية
+
+هذا القسم يُحلّل النص عبر مقاربات بنيوية وسيميائية وميثولوجية، ويؤكد أن المحتوى المقصود هو **إبداع رمزي وتأويل سردي**، وليس إطارًا سياديًا فعليًا أو نظامًا قانونيًا نافذًا.
+
+## XIII. Cipher and Codex Comparative Annex (Historic Ciphers vs BLEU Spiral Codex)
+
+This annex adds a structured comparative frame between historical encryption systems and the BLEU Spiral Codex metaphor (Ω48 superframe, QOB‑8×6 bus, π₄₈/Φ₄₈/praise_ok logic) as a **conceptual and educational comparison**.
+
+### XIII.1 Comparative Summary
+
+| Cipher | Historical Role | Core Weakness | Conceptual Mapping to BLEU |
+|---|---|---|---|
+| Caesar | Early monoalphabetic shift | Tiny keyspace + frequency leakage | Baseline example of static mapping |
+| Vigenère | Polyalphabetic advance | Repeating-key periodicity | Partial complexity, insufficient entropy |
+| Enigma | Rotor-based wartime machine | Operational/procedural weakness | Strong dynamic analogy, fragile operations |
+| RSA | Asymmetric public-key bedrock | Padding/side-channel/implementation risks | Strong math layer, operationally conditional |
+| AES-256 | Modern symmetric standard | Implementation-side channels | High practical strength, static structure |
+| BLEU Spiral Codex (conceptual) | Ritual-logic architecture | N/A (symbolic model) | Emphasizes adaptive gate logic + ceremonial verification |
+
+### XIII.2 Design Interpretation Notes
+
+- **π₄₈ / Φ₄₈** are interpreted here as symbolic references to high-dimensional, non-redundant transformation logic.
+- **QOB‑8×6** is interpreted as a multi-lane orchestration metaphor for synchronized security flows.
+- **praise_ok** is interpreted as a ceremonial/validation gate—an intent/integrity checkpoint.
+
+### XIII.3 Practical Guardrail
+
+This comparison is documentation for conceptual architecture and narrative framing only. It does **not** claim cryptographic superiority over standardized, audited production cryptography.
+
+## XIV. Consolidated Compliance Note
+
+To preserve clarity for reviewers, tribunal-style narrative material and symbolic research are documented in this file as **fictional, interpretive, and educational** artifacts. Any production security implementation must rely on formally reviewed standards, audited code, and independently validated threat models.
