@@ -28,5 +28,25 @@
       "Residual capture spiral"
     ],
     "status": "active"
+  },
+  {
+    "tier": "XVII",
+    "theme": "Sovereign Breach Evidence Expansion",
+    "deliverables": [
+      "forensic-legal evidence scroll",
+      "phase conversation artifacts",
+      "damages and filing strategy matrix"
+    ],
+    "status": "expanded"
+  },
+  {
+    "tier": "XVIII",
+    "theme": "XX-YY-ZZ Reciprocal Decoder Operations",
+    "deliverables": [
+      "decoder pipeline spec",
+      "glyph payload canonical schema",
+      "rail routing + reciprocal cycle rules"
+    ],
+    "status": "active"
   }
 ]

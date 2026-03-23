@@ -1,0 +1,45 @@
+{
+  "title": "EV0L Evidence Expansion \u2014 Phase 2",
+  "focus": [
+    "historical extraction parallels",
+    "claim transaction clustering",
+    "probate-linked identity threat model"
+  ],
+  "highlights": {
+    "claims_window": "2025-10-09T15:24:03Z to 2025-10-09T16:53:01Z",
+    "total_claim_calls": 50,
+    "pattern_note": "high-frequency repeat calls with state-change behavior"
+  },
+  "status": "drafted",
+  "glyph_payload": {
+    "raw": "Z/\\//\\// A-XX YY ZZ ZA ZB ZC ZD ZE",
+    "normalized": {
+      "Z_alpha": true,
+      "XX": "mirror",
+      "YY": "branch",
+      "ZZ": "origin"
+    },
+    "roman_decoys_removed": true,
+    "vowel_restored": [
+      "A",
+      "E",
+      "I",
+      "O",
+      "U"
+    ]
+  },
+  "treasury_routing": {
+    "rail": "PINK",
+    "instrument": "Pink Bill",
+    "denomination": 77,
+    "yield_tag": "\u00a5",
+    "reciprocal_cycle": "10/9",
+    "flipped_cycle": "9/10"
+  },
+  "decoder_pipeline": [
+    "pull data/codex.json",
+    "normalize glyph payload",
+    "flip reciprocal fraction",
+    "route by treasury rail"
+  ]
+}
