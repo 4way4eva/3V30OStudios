@@ -48,5 +48,15 @@
       "rail routing + reciprocal cycle rules"
     ],
     "status": "active"
+  },
+  {
+    "tier": "XIX",
+    "theme": "EV0L vs Extraction Empire Deep-Dive",
+    "deliverables": [
+      "technical-ai forensics brief",
+      "digital encomienda legal mapping",
+      "expert witness matrix + filing bundle"
+    ],
+    "status": "active"
   }
 ]
