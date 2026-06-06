@@ -15,6 +15,7 @@ const ENFTRegistry          = lazy(() => import('./components/ENFTRegistry'));
 const GovernanceDashboard   = lazy(() => import('./components/GovernanceDashboard'));
 const BLEUTokenDashboard    = lazy(() => import('./components/BLEUTokenDashboard'));
 const EVOLTachometer       = lazy(() => import('./components/EVOLTachometer'));
+const TreasuryOps          = lazy(() => import('./components/TreasuryOps'));
 
 const PageLoader = () => (
   <div className="min-h-screen bg-slate-900 flex items-center justify-center">
@@ -38,6 +39,7 @@ const App = () => (
             <Route path="/governance" element={<GovernanceDashboard />} />
             <Route path="/token"      element={<BLEUTokenDashboard />} />
             <Route path="/tachometer" element={<EVOLTachometer />} />
+            <Route path="/treasury"   element={<TreasuryOps />} />
             <Route path="*"           element={<Navigate to="/" replace />} />
           </Routes>
         </Suspense>
