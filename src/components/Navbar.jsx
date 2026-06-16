@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import {
   Crown, Wind, FlaskConical, Vault, Image, Scale, Coins,
-  Menu, X, Zap, Wifi, Gauge, Landmark,
+  Menu, X, Zap, Wifi, Gauge, Landmark, BookOpen,
 } from 'lucide-react';
 import WalletConnect from './WalletConnect';
 
@@ -17,6 +17,7 @@ const NAV_ITEMS = [
   { to: '/token',      label: 'BLEU Tokens',       icon: Coins,       color: 'text-blue-400' },
   { to: '/tachometer', label: 'Tachometer',        icon: Gauge,       color: 'text-cyan-400' },
   { to: '/treasury',   label: 'Treasury',          icon: Landmark,    color: 'text-emerald-400' },
+  { to: '/zalphabet',  label: 'Z-Alphabet',        icon: BookOpen,    color: 'text-violet-400' },
 ];
 
 const NavItem = ({ item, mobile, onClose }) => {

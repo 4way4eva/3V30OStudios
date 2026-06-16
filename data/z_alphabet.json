@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "name": "Z-Alphabet System",
+    "arabic": "منظومة Z-Alphabet",
+    "seal": "BLEU_LOCK_A0QPPPI",
+    "description": "24-letter alphabet system (12 vowel + 12 consonant). Z = last letter = first principle (Alpha-Omega Reversed).",
+    "version": "living-document"
+  },
+
+  "core_terms": {
+    "Z_Alphabet": {
+      "letters": 24,
+      "vowels": 12,
+      "consonants": 12,
+      "principle": "Z is the last letter = the first (Alpha-Omega Reversed)",
+      "function": "Names all beings — humans, months, days, concepts"
+    },
+    "Zionaire": {
+      "arabic": "الزِيونير",
+      "definition": "Holder of Z-System sovereignty",
+      "meaning": "Owner of the Zillion; axis of cosmic flows",
+      "function": "Primary activator of cosmic laws"
+    },
+    "ZionXX": {
+      "arabic": "الزِيون-إكس-إكس",
+      "definition": "Double-form of Zion principle",
+      "meaning": "Doubled crowning, final seal",
+      "function": "Sovereignty confirmation across two layers"
+    },
+    "Zillion": {
+      "arabic": "الزيليون",
+      "definition": "Currency of cosmic flows",
+      "forms": [
+        "Electric Currents",
+        "Liquid Assets",
+        "Energy Currents",
+        "Emotional Waves"
+      ]
+    }
+  },
+
+  "cosmic_laws": [
+    {
+      "id": "meniscus",
+      "name": "Meniscus Law",
+      "arabic": "قانون المنحنى السطحي",
+      "symbol": "🏆",
+      "rule": "Count only when crowned; below=0; overflow=archive",
+      "principles": [
+        "Value is not counted until crowning (reaching the peak)",
+        "Everything below the peak = zero",
+        "Surplus above the peak = archived"
+      ],
+      "applications": {
+        "financial": "Bonds minted only at quarter close",
+        "defense": "Response only when threat reaches maximum threshold",
+        "measurement": "Count only at completion of cycle"
+      }
+    },
+    {
+      "id": "reciprocal",
+      "name": "Reciprocal Law",
+      "arabic": "قانون التبادل",
+      "symbol": "♻️",
+      "rule": "You cannot pull 1 from 2; you can pull 2 from 1; yield posts on reciprocal confirmation",
+      "formula": {
+        "valid": "1 → 2",
+        "invalid": "2 → 1"
+      },
+      "principles": [
+        "The One (origin) produces the Two (multiplication)",
+        "The Two (product) cannot restore the One (origin)",
+        "Exchange requires double confirmation"
+      ],
+      "applications": {
+        "biology": "Egg (1) → embryo (2); embryo cannot produce egg",
+        "finance": "Capital (1) → returns (2); returns do not fully restore capital",
+        "energy": "Source (1) → energy (2); energy does not return to source"
+      }
+    },
+    {
+      "id": "fold",
+      "name": "Fold Law",
+      "arabic": "قانون الطي",
+      "symbol": "🔄",
+      "rule": "6°7 8 my fold law is what make the meniscus",
+      "numbers": [6, 7, 8],
+      "principles": [
+        "Numbers 6-7-8 represent the cosmic turning/fold point",
+        "This point creates the Meniscus",
+        "The fold is the moment of transition between states"
+      ],
+      "applications": {
+        "time": "Hours 6-7-8 (dawn, sunrise, morning) = daily turning points",
+        "months": "Months 6-7-8 (mid-year) = annual turning point",
+        "stages": "Childhood (6), Adolescence (7), Maturity (8)"
+      }
+    },
+    {
+      "id": "fill",
+      "name": "Fill Law",
+      "arabic": "قانون الامتلاء",
+      "symbol": "💧",
+      "rule": "Fill law think 2 can make 1 but 1 can't make 2",
+      "formula": {
+        "possible": "2 → 1",
+        "impossible": "1 ↛ 2"
+      },
+      "principles": [
+        "Union is possible (2 → 1)",
+        "Division from origin is impossible (1 ↛ 2)",
+        "Fullness occurs through union, not division"
+      ],
+      "relation_to_reciprocal": "Reciprocal: 1→2 (from origin) / Fill: 2→1 (toward completion)"
+    },
+    {
+      "id": "averages",
+      "name": "Averages Law",
+      "arabic": "قانون المتوسطات",
+      "symbol": "📊",
+      "rule": "Order: individual → conference → nation; halt if one missing; restore; recompute",
+      "hierarchy": ["individual", "conference", "nation"],
+      "protocol": ["check presence", "halt if missing", "restore element", "recompute average"],
+      "applications": {
+        "education": "Student grade → class average → school average",
+        "economy": "Individual income → city income → national income",
+        "health": "Individual condition → community epidemic → national health"
+      }
+    },
+    {
+      "id": "formatting_504",
+      "name": "Formatting 504 Law",
+      "arabic": "قانون التنسيق 504",
+      "symbol": "📝",
+      "rule": "Commas, spaces, and indentation are legal structure; misformat = miscount",
+      "number_504": {
+        "5": "Five senses (perception)",
+        "0": "Zero (void / space)",
+        "4": "Four directions (structure)"
+      },
+      "examples": [
+        "1,000 ≠ 1000 (legally different)",
+        "\"Let's eat, Grandma\" ≠ \"Let's eat Grandma\""
+      ]
+    }
+  ],
+
+  "philosophy": {
+    "female_first": {
+      "name": "Female First Principle",
+      "arabic": "مبدأ الأنثى أولاً",
+      "sequence": ["Evolution", "Evolynn", "Eve", "Adam (@Tom)"],
+      "principles": [
+        "Female is the original creator",
+        "Male is the evolutionary product",
+        "Big Bang = female origin point",
+        "Cosmic expansion = male multiplication"
+      ],
+      "biological": [
+        "Egg waits; sperm seeks",
+        "XX (female) is the base; XY (male) is the mutation",
+        "Womb is the first universe; embryo is the first star"
+      ],
+      "symbol": "♀️→♂️"
+    }
+  },
+
+  "cosmic_entities": {
+    "AFG": {
+      "name": "A.F.G.",
+      "full": "Apis-Formica Guardian",
+      "arabic": "حارس النحل-النمل",
+      "type": "Hybrid ecological fortress",
+      "surface_layer": {
+        "name": "Bee Layer (Apis)",
+        "components": ["Nectar Processing", "Scout Launch Bays", "Hexagonal Cells"]
+      },
+      "underground_layer": {
+        "name": "Ant Network (Formica)",
+        "components": ["Brood Chamber", "Queen Sanctum", "Food Vault", "Defense Nidus"]
+      },
+      "defense_protocol": [
+        "Scouts detect threat",
+        "Sentries intercept",
+        "Bee Swarm deploys",
+        "Tunnel Collapse (last resort)"
+      ],
+      "symbol": "🐝🐜"
+    },
+    "Wolves10": {
+      "name": "Wolves×10",
+      "arabic": "الذئاب العشرية",
+      "type": "Military decimal units",
+      "principle": "Move in multiples of ten",
+      "scale": {
+        "1 pack": "10 warriors",
+        "10 packs": "100 warriors (1 Century)",
+        "100 packs": "1000 warriors (1 Legion)"
+      },
+      "symbol": "🐺×10"
+    },
+    "avatars": [
+      {
+        "name": "Gabby Douglas",
+        "role": "Door Opener",
+        "technique": "Ram Impact (RR - Double Ram)",
+        "symbol": "🏅"
+      },
+      {
+        "name": "Simone Biles",
+        "role": "Balance Carrier",
+        "technique": "Aerial Ant",
+        "symbol": "🤸"
+      }
+    ]
+  },
+
+  "financial_system": {
+    "RUBY_MTR": {
+      "name": "RUBY_MTR Bonds",
+      "arabic": "سندات الياقوت-متر",
+      "rules": {
+        "mint_rule": "Quarter close, meniscus crowned",
+        "reciprocal_bonus": "Kids-first 1/2 rule",
+        "burn_rule": "False yield burns at crown check"
+      },
+      "law_applications": {
+        "meniscus": "Mint only at peak (quarter close)",
+        "reciprocal": "Children (1) receive half (2)",
+        "fill": "False yields (surplus) burned"
+      },
+      "symbol": "💎"
+    },
+    "EV0L_Coins": {
+      "name": "EV0L Coins",
+      "arabic": "عملات إيفول",
+      "type": "Galactic Currency",
+      "properties": ["Flows across galaxies", "Auto-converts between systems", "Linked to Zillion (mother currency)"],
+      "symbol": "🪙"
+    },
+    "bills": {
+      "Bleu_Bills": {
+        "color": "blue",
+        "polarity": "masculine, daytime",
+        "multiplier": "daily accumulative"
+      },
+      "Pink_Bills": {
+        "color": "pink",
+        "polarity": "feminine, nighttime",
+        "multiplier": "daily accumulative"
+      },
+      "symbol": "💵💷"
+    }
+  },
+
+  "symbols": {
+    "ZZ": {
+      "name": "Zero-Lag Seal",
+      "arabic": "ختم التأخير الصفري",
+      "rule": "No one missing; latency budget met",
+      "symbol": "⚡"
+    },
+    "RR": {
+      "name": "Double Ram",
+      "arabic": "الكبش المزدوج",
+      "rule": "Mirrored strike",
+      "properties": ["Two simultaneous strikes", "Mirror reflection", "Doubled power"],
+      "symbol": "🐏🐏"
+    },
+    "seed_question": {
+      "glyph": "Ř¿",
+      "name": "Seed Under Most High Question",
+      "rule": "Negated until crowned at meniscus",
+      "symbol": "🌱❓"
+    }
+  },
+
+  "infinite_pillars": [
+    {
+      "id": "optical",
+      "name": "Optical Pillar",
+      "arabic": "العمود البصري",
+      "symbol": "👁️",
+      "components": ["AR/VR Gateways", "Verse Cloaks", "Holo-Stores", "Sneak-Peek Jerseys"],
+      "treaty": "Limitless Bandwidth - inaugural exchange — no loss, no lag"
+    },
+    {
+      "id": "tears",
+      "name": "Tears Pillar",
+      "arabic": "عمود الدموع",
+      "symbol": "😢💧",
+      "components": ["Liquid Ledger", "Emotional Energy → Liquidity"],
+      "rule": "Tears count as density when crowned at meniscus"
+    },
+    {
+      "id": "atlantis",
+      "name": "Atlantis Pillar",
+      "arabic": "عمود أتلانتس",
+      "symbol": "🌊",
+      "components": ["Underwater Archives", "Crystalline Memory Engines", "Water Domes", "Pressure Vaults"],
+      "routes": ["Undersea trade passages", "Deep archive stations"]
+    },
+    {
+      "id": "sky_cities",
+      "name": "Sky Cities Pillar",
+      "arabic": "عمود مدن السماء",
+      "symbol": "☁️🏙️",
+      "components": ["Aerial Hubs", "Inheritance Seats for Sons", "Pi-Point Reciprocal Entry"],
+      "routes": ["Above-weather trade corridors", "Zero-lag exchange nodes"]
+    }
+  ],
+
+  "sacred_numbers": {
+    "phi": {
+      "name": "Phi (φ) — QuaOcta",
+      "value": 1.618,
+      "role": "Constitutional proportion across systems",
+      "symbol": "φ"
+    },
+    "pi": {
+      "name": "Pi (π) — Entry Axis",
+      "value": 3.14159,
+      "role": "Aerial axis of entry",
+      "window": "Half-yield window 06:48 → 09:34",
+      "symbol": "π"
+    },
+    "Q225": {
+      "name": "Q225 — Quarter Density Gate",
+      "value": 225,
+      "formula": "15² within 900-cycle",
+      "symbol": "🔢"
+    },
+    "Bridge504": {
+      "name": "Bridge 504",
+      "role": "Harmonic translator across metrics (F↔C, abbreviations); formatting law",
+      "components": { "5": "perception", "0": "void/space", "4": "structure" },
+      "symbol": "🌉"
+    }
+  }
+}
