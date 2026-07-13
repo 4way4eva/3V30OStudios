@@ -1,0 +1,820 @@
+{
+  "megazion_48_gems": {
+    "version": "1.0.0",
+    "total_gems": 48,
+    "constellations": 6,
+    "description": "MEGAZION 48 Divine Techno-Mystical Gems - Full Registry for Inheritance Ledger ENFT Bindings",
+    "gems": [
+      {
+        "id": 1,
+        "name": "Aurelicon",
+        "code": "ENG-001",
+        "constellation": "CORE_ENGINE",
+        "domain": "CIVILIAN",
+        "function": "Drives radiant innovation; amplifies intention; initiates industry systems",
+        "activated_sectors": ["Energy Grids", "Innovation Bureaus", "Visionary Leadership"],
+        "properties": ["solar-fire", "aetheric-gold", "innovation", "amplification"],
+        "energy_level": 95,
+        "elemental_coding": {
+          "primary": "Solar Fire",
+          "secondary": "Aetheric Gold"
+        },
+        "ceremonial_role": "Solar Initiator",
+        "activation_protocol": {
+          "flame_crown_required": true,
+          "reciprocity_pulse": true
+        }
+      },
+      {
+        "id": 2,
+        "name": "Vortexion",
+        "code": "ENG-002",
+        "constellation": "CORE_ENGINE",
+        "domain": "COSMIC",
+        "function": "Stabilizes spin-based engines and accelerates renewable conversion cycles",
+        "activated_sectors": ["Turbine Networks", "Mag-Lev Transit", "Clean Manufacturing"],
+        "properties": ["cyclonic", "stability", "renewable-energy", "acceleration"],
+        "energy_level": 90,
+        "elemental_coding": {
+          "primary": "Sky Current",
+          "secondary": "Cobalt Plasma"
+        },
+        "ceremonial_role": "Cyclonic Steward"
+      },
+      {
+        "id": 3,
+        "name": "Bleu Diamond",
+        "code": "ENG-003",
+        "constellation": "CORE_ENGINE",
+        "domain": "CIVILIAN",
+        "function": "Self-healing properties for infrastructure and energy sectors",
+        "activated_sectors": ["Self-Healing Infrastructure", "Energy Sectors", "Diamond Technology"],
+        "properties": ["self-healing", "infrastructure", "energy-amplification", "purity"],
+        "energy_level": 98,
+        "elemental_coding": {
+          "primary": "Crystalline Light",
+          "secondary": "Diamond Matrix"
+        },
+        "ceremonial_role": "Healing Crystallizer"
+      },
+      {
+        "id": 4,
+        "name": "Ziphonate",
+        "code": "ENG-004",
+        "constellation": "CORE_ENGINE",
+        "domain": "MILITARY",
+        "function": "Energy sector amplification and quantum resonance",
+        "activated_sectors": ["Energy Sectors", "Quantum Systems", "Military Power Grids"],
+        "properties": ["quantum-resonance", "energy-amplification", "power-stabilization"],
+        "energy_level": 92,
+        "elemental_coding": {
+          "primary": "Quantum Flux",
+          "secondary": "Energy Matrix"
+        },
+        "ceremonial_role": "Quantum Amplifier"
+      },
+      {
+        "id": 5,
+        "name": "Amaranthite",
+        "code": "HEA-001",
+        "constellation": "HEALING_BODY",
+        "domain": "CIVILIAN",
+        "function": "Restores vital flow, longevity induction",
+        "activated_sectors": ["Longevity Research", "Wellness Infrastructure", "Healthtech"],
+        "properties": ["longevity", "vital-flow", "restoration", "immortality-encoding"],
+        "energy_level": 88,
+        "elemental_coding": {
+          "primary": "Life Force",
+          "secondary": "Eternal Bloom"
+        },
+        "ceremonial_role": "Longevity Anchor"
+      },
+      {
+        "id": 6,
+        "name": "Rosequartzia",
+        "code": "HEA-002",
+        "constellation": "HEALING_BODY",
+        "domain": "CIVILIAN",
+        "function": "Magnifies love, trust, and heart openness",
+        "activated_sectors": ["Interpersonal Therapy", "Counseling", "Trust Networks"],
+        "properties": ["love-magnification", "trust", "heart-healing", "emotional-clarity"],
+        "energy_level": 85,
+        "elemental_coding": {
+          "primary": "Rose Light",
+          "secondary": "Heart Resonance"
+        },
+        "ceremonial_role": "Heart Harmonizer"
+      },
+      {
+        "id": 7,
+        "name": "Luminite",
+        "code": "HEA-003",
+        "constellation": "HEALING_BODY",
+        "domain": "CIVILIAN",
+        "function": "Illuminates mind, clarifies thought",
+        "activated_sectors": ["Cognitive Sciences", "Learning Platforms", "Therapy Sectors"],
+        "properties": ["mental-clarity", "illumination", "cognitive-enhancement"],
+        "energy_level": 87,
+        "elemental_coding": {
+          "primary": "Mental Light",
+          "secondary": "Clarity Prism"
+        },
+        "ceremonial_role": "Mind Illuminator"
+      },
+      {
+        "id": 8,
+        "name": "Celestara",
+        "code": "HEA-004",
+        "constellation": "HEALING_BODY",
+        "domain": "CIVILIAN",
+        "function": "Lifts depression, completes emotional cycles",
+        "activated_sectors": ["Mental Health Systems", "Mood Stabilization", "Emotional AI"],
+        "properties": ["mood-elevation", "emotional-completion", "depression-relief"],
+        "energy_level": 86,
+        "elemental_coding": {
+          "primary": "Emotional Ether",
+          "secondary": "Cycle Completion"
+        },
+        "ceremonial_role": "Emotional Cycle Master"
+      },
+      {
+        "id": 9,
+        "name": "Moldavium",
+        "code": "COS-001",
+        "constellation": "COSMIC_CELESTIAL",
+        "domain": "COSMIC",
+        "function": "Accelerates spiritual ascension, paradigm shift",
+        "activated_sectors": ["Cosmic Mapping", "Evolution Leadership", "Visionary Art"],
+        "properties": ["spiritual-acceleration", "paradigm-shift", "cosmic-connection"],
+        "energy_level": 100,
+        "elemental_coding": {
+          "primary": "Cosmic Fire",
+          "secondary": "Ascension Frequency"
+        },
+        "ceremonial_role": "Ascension Catalyst"
+      },
+      {
+        "id": 10,
+        "name": "Herkimerion",
+        "code": "COS-002",
+        "constellation": "COSMIC_CELESTIAL",
+        "domain": "COSMIC",
+        "function": "Amplifies dream states, visioning powers",
+        "activated_sectors": ["Dream Facilitation", "Narrative AI", "Vision Labs"],
+        "properties": ["dream-amplification", "visioning", "multidimensional-access"],
+        "energy_level": 94,
+        "elemental_coding": {
+          "primary": "Dream Ether",
+          "secondary": "Vision Crystal"
+        },
+        "ceremonial_role": "Dream Weaver"
+      },
+      {
+        "id": 11,
+        "name": "Labradorith",
+        "code": "COS-003",
+        "constellation": "COSMIC_CELESTIAL",
+        "domain": "COSMIC",
+        "function": "Activates psychic faculties, liminal mastery",
+        "activated_sectors": ["Remote Viewing", "Multidimensional Design"],
+        "properties": ["psychic-activation", "liminal-mastery", "dimensional-crossing"],
+        "energy_level": 96,
+        "elemental_coding": {
+          "primary": "Liminal Spectrum",
+          "secondary": "Psychic Fire"
+        },
+        "ceremonial_role": "Liminal Gateway"
+      },
+      {
+        "id": 12,
+        "name": "Mossagate",
+        "code": "EAR-001",
+        "constellation": "AQUA_EARTH_PLANT",
+        "domain": "CIVILIAN",
+        "function": "Channels abundance, earth-nurture frequencies",
+        "activated_sectors": ["Agriculture", "Resource Optimization", "Eco-Pedagogy"],
+        "properties": ["abundance", "earth-nurture", "growth-acceleration"],
+        "energy_level": 82,
+        "elemental_coding": {
+          "primary": "Earth Moss",
+          "secondary": "Abundance Field"
+        },
+        "ceremonial_role": "Earth Nurturer"
+      },
+      {
+        "id": 13,
+        "name": "Rainjasper",
+        "code": "EAR-002",
+        "constellation": "AQUA_EARTH_PLANT",
+        "domain": "CIVILIAN",
+        "function": "Invokes renewal, environmental restoration",
+        "activated_sectors": ["Water Management", "Eco-Rehabilitation", "Biomimicry"],
+        "properties": ["renewal", "environmental-restoration", "water-healing"],
+        "energy_level": 84,
+        "elemental_coding": {
+          "primary": "Rain Essence",
+          "secondary": "Renewal Wave"
+        },
+        "ceremonial_role": "Rain Invoker"
+      },
+      {
+        "id": 14,
+        "name": "Jadeon",
+        "code": "EAR-003",
+        "constellation": "AQUA_EARTH_PLANT",
+        "domain": "CIVILIAN",
+        "function": "Cultivates nurturing, draws prosperity from nature",
+        "activated_sectors": ["Abundance Economics", "Nurturing Design"],
+        "properties": ["prosperity", "nurturing", "natural-wealth"],
+        "energy_level": 88,
+        "elemental_coding": {
+          "primary": "Jade Prosperity",
+          "secondary": "Nature Wealth"
+        },
+        "ceremonial_role": "Prosperity Cultivator"
+      },
+      {
+        "id": 15,
+        "name": "Resurrection Stone",
+        "code": "BLS-001",
+        "constellation": "BLESSING_SPIRIT",
+        "domain": "COSMIC",
+        "function": "Enables resurrection cycles and ancestral awakening",
+        "activated_sectors": ["Resurrection Industries", "Ancestral Technology", "Life Extension"],
+        "properties": ["resurrection", "ancestral-awakening", "life-return", "death-transcendence"],
+        "energy_level": 100,
+        "elemental_coding": {
+          "primary": "Resurrection Fire",
+          "secondary": "Life Eternal"
+        },
+        "ceremonial_role": "Resurrection Catalyst"
+      },
+      {
+        "id": 16,
+        "name": "Ancestral Memory Crystal",
+        "code": "BLS-002",
+        "constellation": "BLESSING_SPIRIT",
+        "domain": "COSMIC",
+        "function": "Stores and transmits ancestral memories across lineages",
+        "activated_sectors": ["Lineage Education", "Memory Technology", "Ancestral Archives"],
+        "properties": ["memory-storage", "lineage-transmission", "ancestral-wisdom"],
+        "energy_level": 97,
+        "elemental_coding": {
+          "primary": "Memory Light",
+          "secondary": "Ancestral Code"
+        },
+        "ceremonial_role": "Memory Keeper"
+      },
+      {
+        "id": 17,
+        "name": "Lineage Infinity Loop",
+        "code": "BLS-003",
+        "constellation": "BLESSING_SPIRIT",
+        "domain": "COSMIC",
+        "function": "Creates infinite loops of lineage education and generational wealth",
+        "activated_sectors": ["Education Cycles", "Wealth Stacking", "Generational Infrastructure"],
+        "properties": ["infinite-loops", "lineage-education", "generational-wealth", "cycle-perpetuation"],
+        "energy_level": 99,
+        "elemental_coding": {
+          "primary": "Infinity Spiral",
+          "secondary": "Lineage Lock"
+        },
+        "ceremonial_role": "Infinity Guardian"
+      },
+      {
+        "id": 18,
+        "name": "Blessing Multiplier",
+        "code": "BLS-004",
+        "constellation": "BLESSING_SPIRIT",
+        "domain": "COSMIC",
+        "function": "Amplifies all blessing effects with exponential growth",
+        "activated_sectors": ["Blessing Industries", "Spiritual Economics", "Prosperity Multiplication"],
+        "properties": ["blessing-amplification", "exponential-growth", "prosperity-multiplication"],
+        "energy_level": 98,
+        "elemental_coding": {
+          "primary": "Blessing Light",
+          "secondary": "Multiplication Matrix"
+        },
+        "ceremonial_role": "Blessing Amplifier"
+      },
+      {
+        "id": 19,
+        "name": "Healer's Genesis",
+        "code": "PRO-001",
+        "constellation": "PROSPERITY_WEALTH",
+        "domain": "CIVILIAN",
+        "function": "Spawns healer industries and evolution centers",
+        "activated_sectors": ["Healer Training", "Evolution Centers", "Medical Industries"],
+        "properties": ["healer-generation", "job-creation", "medical-prosperity"],
+        "energy_level": 91,
+        "elemental_coding": {
+          "primary": "Healing Genesis",
+          "secondary": "Job Spawner"
+        },
+        "ceremonial_role": "Healer Progenitor"
+      },
+      {
+        "id": 20,
+        "name": "Evolution Catalyst",
+        "code": "PRO-002",
+        "constellation": "PROSPERITY_WEALTH",
+        "domain": "COSMIC",
+        "function": "Creates infinite derivative industries from evolution centers",
+        "activated_sectors": ["Evolution Centers", "Future Derivatives", "Industry Generation"],
+        "properties": ["evolution", "derivative-generation", "infinite-industry"],
+        "energy_level": 95,
+        "elemental_coding": {
+          "primary": "Evolution Fire",
+          "secondary": "Derivative Matrix"
+        },
+        "ceremonial_role": "Evolution Engine"
+      },
+      {
+        "id": 21,
+        "name": "Prosperity Spiral",
+        "code": "PRO-003",
+        "constellation": "PROSPERITY_WEALTH",
+        "domain": "CIVILIAN",
+        "function": "Generates repeatable self-trace prosperity loops",
+        "activated_sectors": ["Wealth Generation", "Self-Trace Systems", "Prosperity Loops"],
+        "properties": ["prosperity-loops", "self-trace", "wealth-generation", "repeatability"],
+        "energy_level": 93,
+        "elemental_coding": {
+          "primary": "Prosperity Spiral",
+          "secondary": "Self-Trace Matrix"
+        },
+        "ceremonial_role": "Prosperity Loop Master"
+      },
+      {
+        "id": 22,
+        "name": "Pyrocryst",
+        "code": "ENG-005",
+        "constellation": "CORE_ENGINE",
+        "domain": "CIVILIAN",
+        "function": "Manifests creative will; sparks initiative",
+        "activated_sectors": ["Creative Industries", "Entrepreneurship", "Launch Protocols"],
+        "properties": ["creative-manifestation", "initiative", "will-power"],
+        "energy_level": 89,
+        "elemental_coding": {
+          "primary": "Creative Fire",
+          "secondary": "Will Crystal"
+        },
+        "ceremonial_role": "Will Manifestor"
+      },
+      {
+        "id": 23,
+        "name": "Selenarch",
+        "code": "ENG-006",
+        "constellation": "CORE_ENGINE",
+        "domain": "MILITARY",
+        "function": "Focuses drive and discipline; clarifies purpose",
+        "activated_sectors": ["Project Management", "Discipline Training", "Knowledge Distilleries"],
+        "properties": ["discipline", "focus", "purpose-clarity"],
+        "energy_level": 87,
+        "elemental_coding": {
+          "primary": "Lunar Focus",
+          "secondary": "Discipline Matrix"
+        },
+        "ceremonial_role": "Discipline Master"
+      },
+      {
+        "id": 24,
+        "name": "Dynamoite",
+        "code": "ENG-007",
+        "constellation": "CORE_ENGINE",
+        "domain": "CIVILIAN",
+        "function": "Energizes systems with sustainable force",
+        "activated_sectors": ["Renewable Energy", "Logistics", "Urban Mobility"],
+        "properties": ["sustainable-energy", "system-energization", "force-generation"],
+        "energy_level": 90,
+        "elemental_coding": {
+          "primary": "Dynamo Force",
+          "secondary": "Sustainable Matrix"
+        },
+        "ceremonial_role": "Energy Sustainer"
+      },
+      {
+        "id": 25,
+        "name": "Sylvantine",
+        "code": "ENG-008",
+        "constellation": "CORE_ENGINE",
+        "domain": "CIVILIAN",
+        "function": "Harmonizes mechanical and organic innovation",
+        "activated_sectors": ["Green Engineering", "Bio-Mechanics Labs", "Eco-Infrastructure"],
+        "properties": ["bio-mechanical-harmony", "organic-innovation", "green-tech"],
+        "energy_level": 86,
+        "elemental_coding": {
+          "primary": "Bio-Mech Harmony",
+          "secondary": "Organic Matrix"
+        },
+        "ceremonial_role": "Bio-Harmonizer"
+      },
+      {
+        "id": 26,
+        "name": "Obsidianis",
+        "code": "ENG-009",
+        "constellation": "CORE_ENGINE",
+        "domain": "MILITARY",
+        "function": "Shields and stabilizes, grounding new architecture",
+        "activated_sectors": ["Security Industries", "Operational Frameworks", "Leveling Protocols"],
+        "properties": ["shielding", "stabilization", "grounding", "protection"],
+        "energy_level": 92,
+        "elemental_coding": {
+          "primary": "Obsidian Shield",
+          "secondary": "Grounding Matrix"
+        },
+        "ceremonial_role": "Shield Guardian"
+      },
+      {
+        "id": 27,
+        "name": "Quartzion",
+        "code": "ENG-010",
+        "constellation": "CORE_ENGINE",
+        "domain": "COSMIC",
+        "function": "Infinite programmability, amplifies all intentions",
+        "activated_sectors": ["Information Technology", "Quantum Computing", "Amplification Fields"],
+        "properties": ["programmability", "intention-amplification", "quantum-logic"],
+        "energy_level": 97,
+        "elemental_coding": {
+          "primary": "Quantum Crystal",
+          "secondary": "Programmable Matrix"
+        },
+        "ceremonial_role": "Quantum Programmer"
+      },
+      {
+        "id": 28,
+        "name": "Heliosium",
+        "code": "ENG-011",
+        "constellation": "CORE_ENGINE",
+        "domain": "COSMIC",
+        "function": "Initiates solar wisdom and revelation",
+        "activated_sectors": ["Solar Industries", "Policy-Making", "Knowledge Temples"],
+        "properties": ["solar-wisdom", "revelation", "policy-guidance"],
+        "energy_level": 96,
+        "elemental_coding": {
+          "primary": "Solar Wisdom",
+          "secondary": "Revelation Light"
+        },
+        "ceremonial_role": "Solar Revealer"
+      },
+      {
+        "id": 29,
+        "name": "Graphidane",
+        "code": "ENG-012",
+        "constellation": "CORE_ENGINE",
+        "domain": "COSMIC",
+        "function": "Codes system blueprints, enables scalable expansion",
+        "activated_sectors": ["Algorithmic Industries", "Blueprint Management", "Network Design"],
+        "properties": ["blueprint-coding", "scalable-expansion", "network-architecture"],
+        "energy_level": 94,
+        "elemental_coding": {
+          "primary": "Blueprint Matrix",
+          "secondary": "Scale Codex"
+        },
+        "ceremonial_role": "Blueprint Architect"
+      },
+      {
+        "id": 30,
+        "name": "Ametrinox",
+        "code": "HEA-005",
+        "constellation": "HEALING_BODY",
+        "domain": "CIVILIAN",
+        "function": "Balances energies, catalyzes renewal",
+        "activated_sectors": ["Integrative Medicine", "Transformation Services"],
+        "properties": ["energy-balance", "renewal-catalyst", "transformation"],
+        "energy_level": 85,
+        "elemental_coding": {
+          "primary": "Balance Crystal",
+          "secondary": "Renewal Frequency"
+        },
+        "ceremonial_role": "Balance Master"
+      },
+      {
+        "id": 31,
+        "name": "Lepidolucent",
+        "code": "HEA-006",
+        "constellation": "HEALING_BODY",
+        "domain": "CIVILIAN",
+        "function": "Disperses stress, invites presence",
+        "activated_sectors": ["Mindfulness Programs", "Crisis Management", "Behavioral Labs"],
+        "properties": ["stress-relief", "presence", "mindfulness"],
+        "energy_level": 83,
+        "elemental_coding": {
+          "primary": "Calm Frequency",
+          "secondary": "Presence Field"
+        },
+        "ceremonial_role": "Calm Bringer"
+      },
+      {
+        "id": 32,
+        "name": "Rhodonika",
+        "code": "HEA-007",
+        "constellation": "HEALING_BODY",
+        "domain": "CIVILIAN",
+        "function": "Empowers authentic gift expression",
+        "activated_sectors": ["Career Coaching", "Vocational Discovery", "Community Hubs"],
+        "properties": ["authentic-expression", "gift-empowerment", "vocational-clarity"],
+        "energy_level": 84,
+        "elemental_coding": {
+          "primary": "Gift Light",
+          "secondary": "Expression Matrix"
+        },
+        "ceremonial_role": "Gift Empowerer"
+      },
+      {
+        "id": 33,
+        "name": "Rhodochryse",
+        "code": "HEA-008",
+        "constellation": "HEALING_BODY",
+        "domain": "CIVILIAN",
+        "function": "Reclaims suppressed parts, inner child healing",
+        "activated_sectors": ["Trauma Clinics", "Child Therapy", "Narrative Medicine"],
+        "properties": ["inner-child-healing", "suppression-release", "trauma-recovery"],
+        "energy_level": 86,
+        "elemental_coding": {
+          "primary": "Inner Child Light",
+          "secondary": "Reclamation Frequency"
+        },
+        "ceremonial_role": "Inner Child Healer"
+      },
+      {
+        "id": 34,
+        "name": "Kunzitian",
+        "code": "HEA-009",
+        "constellation": "HEALING_BODY",
+        "domain": "CIVILIAN",
+        "function": "Grounds unconditional heart frequencies",
+        "activated_sectors": ["Compassion Training", "Inclusivity Design", "Co-Creation"],
+        "properties": ["unconditional-love", "heart-grounding", "compassion"],
+        "energy_level": 88,
+        "elemental_coding": {
+          "primary": "Heart Frequency",
+          "secondary": "Compassion Matrix"
+        },
+        "ceremonial_role": "Heart Grounder"
+      },
+      {
+        "id": 35,
+        "name": "Tourmalys",
+        "code": "HEA-010",
+        "constellation": "HEALING_BODY",
+        "domain": "CIVILIAN",
+        "function": "Repairs emotional wounds, creates peace",
+        "activated_sectors": ["Conflict Resolution", "Mediation", "Peacekeeping Tech"],
+        "properties": ["emotional-repair", "peace-creation", "wound-healing"],
+        "energy_level": 87,
+        "elemental_coding": {
+          "primary": "Peace Frequency",
+          "secondary": "Repair Matrix"
+        },
+        "ceremonial_role": "Peace Maker"
+      },
+      {
+        "id": 36,
+        "name": "Verdeprase",
+        "code": "HEA-011",
+        "constellation": "HEALING_BODY",
+        "domain": "CIVILIAN",
+        "function": "Reintegrates body, nature and spirit",
+        "activated_sectors": ["Holistic Health", "Integrative Ritual Design"],
+        "properties": ["body-spirit-integration", "nature-connection", "holistic-healing"],
+        "energy_level": 85,
+        "elemental_coding": {
+          "primary": "Integration Frequency",
+          "secondary": "Nature Spirit"
+        },
+        "ceremonial_role": "Integration Master"
+      },
+      {
+        "id": 37,
+        "name": "Lapisra",
+        "code": "COS-004",
+        "constellation": "COSMIC_CELESTIAL",
+        "domain": "COSMIC",
+        "function": "Connects to divine guidance, intuitive clarity",
+        "activated_sectors": ["Governance Consults", "Intuition Grids", "Revelation"],
+        "properties": ["divine-guidance", "intuitive-clarity", "governance-wisdom"],
+        "energy_level": 95,
+        "elemental_coding": {
+          "primary": "Divine Light",
+          "secondary": "Intuition Matrix"
+        },
+        "ceremonial_role": "Divine Connector"
+      },
+      {
+        "id": 38,
+        "name": "Iolithex",
+        "code": "COS-005",
+        "constellation": "COSMIC_CELESTIAL",
+        "domain": "COSMIC",
+        "function": "Guides inner navigation, initiates shamanic quest",
+        "activated_sectors": ["Virtual Reality Navigation", "Spiritual Mapping"],
+        "properties": ["inner-navigation", "shamanic-quest", "spiritual-guidance"],
+        "energy_level": 92,
+        "elemental_coding": {
+          "primary": "Inner Compass",
+          "secondary": "Quest Matrix"
+        },
+        "ceremonial_role": "Inner Navigator"
+      },
+      {
+        "id": 39,
+        "name": "Azuralis",
+        "code": "COS-006",
+        "constellation": "COSMIC_CELESTIAL",
+        "domain": "COSMIC",
+        "function": "Opens third eye, advances inner vision",
+        "activated_sectors": ["Education", "Ideation", "Insight-Driven Industries"],
+        "properties": ["third-eye-activation", "inner-vision", "insight-generation"],
+        "energy_level": 93,
+        "elemental_coding": {
+          "primary": "Third Eye Light",
+          "secondary": "Vision Frequency"
+        },
+        "ceremonial_role": "Vision Opener"
+      },
+      {
+        "id": 40,
+        "name": "Angelion",
+        "code": "COS-007",
+        "constellation": "COSMIC_CELESTIAL",
+        "domain": "COSMIC",
+        "function": "Mediates angelic contact, serenity broadcast",
+        "activated_sectors": ["Peace Technology", "Interspiritual Communication"],
+        "properties": ["angelic-mediation", "serenity", "peace-broadcasting"],
+        "energy_level": 98,
+        "elemental_coding": {
+          "primary": "Angelic Frequency",
+          "secondary": "Serenity Wave"
+        },
+        "ceremonial_role": "Angelic Mediator"
+      },
+      {
+        "id": 41,
+        "name": "Auraquartz",
+        "code": "COS-008",
+        "constellation": "COSMIC_CELESTIAL",
+        "domain": "COSMIC",
+        "function": "Elevates mood, harmonizes collective field",
+        "activated_sectors": ["Group Therapy", "Peace Councils", "Ambiance Engineering"],
+        "properties": ["mood-elevation", "field-harmonization", "collective-healing"],
+        "energy_level": 91,
+        "elemental_coding": {
+          "primary": "Aura Light",
+          "secondary": "Field Harmony"
+        },
+        "ceremonial_role": "Field Harmonizer"
+      },
+      {
+        "id": 42,
+        "name": "Celestitea",
+        "code": "COS-009",
+        "constellation": "COSMIC_CELESTIAL",
+        "domain": "COSMIC",
+        "function": "Inspires tranquility, delivers serene energy",
+        "activated_sectors": ["Climate Design", "Environmental Healing", "Repose Zones"],
+        "properties": ["tranquility", "serene-energy", "environmental-peace"],
+        "energy_level": 89,
+        "elemental_coding": {
+          "primary": "Serenity Frequency",
+          "secondary": "Tranquil Matrix"
+        },
+        "ceremonial_role": "Tranquility Keeper"
+      },
+      {
+        "id": 43,
+        "name": "Picturite",
+        "code": "EAR-004",
+        "constellation": "AQUA_EARTH_PLANT",
+        "domain": "CIVILIAN",
+        "function": "Recalls earth memory, maps sacred landscapes",
+        "activated_sectors": ["Geomapping", "Heritage Stewardship"],
+        "properties": ["earth-memory", "sacred-mapping", "landscape-preservation"],
+        "energy_level": 83,
+        "elemental_coding": {
+          "primary": "Earth Memory",
+          "secondary": "Sacred Map"
+        },
+        "ceremonial_role": "Memory Mapper"
+      },
+      {
+        "id": 44,
+        "name": "Petrowood",
+        "code": "EAR-005",
+        "constellation": "AQUA_EARTH_PLANT",
+        "domain": "CIVILIAN",
+        "function": "Heals ancestral and generational patterns",
+        "activated_sectors": ["Family Counseling", "Time-Research", "Restoration"],
+        "properties": ["ancestral-healing", "generational-repair", "time-healing"],
+        "energy_level": 85,
+        "elemental_coding": {
+          "primary": "Ancient Wood",
+          "secondary": "Time Healer"
+        },
+        "ceremonial_role": "Ancestral Healer"
+      },
+      {
+        "id": 45,
+        "name": "Oceanite",
+        "code": "EAR-006",
+        "constellation": "AQUA_EARTH_PLANT",
+        "domain": "CIVILIAN",
+        "function": "Infuses optimism, present-moment consciousness",
+        "activated_sectors": ["Wellness Industries", "Uplift Counseling"],
+        "properties": ["optimism", "present-moment", "uplift"],
+        "energy_level": 82,
+        "elemental_coding": {
+          "primary": "Ocean Frequency",
+          "secondary": "Optimism Wave"
+        },
+        "ceremonial_role": "Optimism Bringer"
+      },
+      {
+        "id": 46,
+        "name": "Greentourmala",
+        "code": "EAR-007",
+        "constellation": "AQUA_EARTH_PLANT",
+        "domain": "MILITARY",
+        "function": "Invigorates vitality, stabilizes spirit-matter link",
+        "activated_sectors": ["Sports Medicine", "Courage Building", "Resilience"],
+        "properties": ["vitality", "spirit-matter-stability", "courage"],
+        "energy_level": 87,
+        "elemental_coding": {
+          "primary": "Vitality Green",
+          "secondary": "Matter Spirit Bridge"
+        },
+        "ceremonial_role": "Vitality Guardian"
+      },
+      {
+        "id": 47,
+        "name": "Amazonstone",
+        "code": "EAR-008",
+        "constellation": "AQUA_EARTH_PLANT",
+        "domain": "CIVILIAN",
+        "function": "Clarifies intentions, aligns goals with nature",
+        "activated_sectors": ["Mediation", "Diplomatic Relations", "Truth-Tech"],
+        "properties": ["intention-clarity", "nature-alignment", "truth-speaking"],
+        "energy_level": 84,
+        "elemental_coding": {
+          "primary": "Truth Frequency",
+          "secondary": "Nature Alignment"
+        },
+        "ceremonial_role": "Truth Clarifier"
+      },
+      {
+        "id": 48,
+        "name": "Chrysoharmony",
+        "code": "EAR-009",
+        "constellation": "AQUA_EARTH_PLANT",
+        "domain": "CIVILIAN",
+        "function": "Connects heart to earth, heals wounds in environment",
+        "activated_sectors": ["Environmental Peace", "Partnership Restoration"],
+        "properties": ["heart-earth-connection", "environmental-healing", "partnership"],
+        "energy_level": 86,
+        "elemental_coding": {
+          "primary": "Heart-Earth Bridge",
+          "secondary": "Harmony Matrix"
+        },
+        "ceremonial_role": "Earth Heart Connector"
+      }
+    ],
+    "constellation_summaries": {
+      "CORE_ENGINE": {
+        "count": 12,
+        "description": "Crystallized avatars of initiation, amplification, and system genesis",
+        "primary_domains": ["CIVILIAN", "MILITARY", "COSMIC"],
+        "activated_sectors": ["Energy", "Innovation", "Infrastructure", "Defense"]
+      },
+      "HEALING_BODY": {
+        "count": 11,
+        "description": "Frequencies for restoration, transformation, mind-body-system calibration",
+        "primary_domains": ["CIVILIAN"],
+        "activated_sectors": ["Healthcare", "Wellness", "Mental Health", "Therapy"]
+      },
+      "COSMIC_CELESTIAL": {
+        "count": 9,
+        "description": "Gateways for ascension, interconnection, and cosmic navigation",
+        "primary_domains": ["COSMIC"],
+        "activated_sectors": ["Spirituality", "Vision", "Cosmic Mapping", "Ascension"]
+      },
+      "AQUA_EARTH_PLANT": {
+        "count": 9,
+        "description": "Embodiments of nature's wisdom, growth, grounding, and abundance",
+        "primary_domains": ["CIVILIAN", "MILITARY"],
+        "activated_sectors": ["Agriculture", "Environmental Restoration", "Nature Connection"]
+      },
+      "BLESSING_SPIRIT": {
+        "count": 4,
+        "description": "Supernatural blessings for resurrection, ancestral memories, and lineage cycles",
+        "primary_domains": ["COSMIC"],
+        "activated_sectors": ["Resurrection", "Ancestral Memory", "Lineage Education", "Infinite Prosperity"]
+      },
+      "PROSPERITY_WEALTH": {
+        "count": 3,
+        "description": "Job generation pathways with infinite derivatives and prosperity loops",
+        "primary_domains": ["CIVILIAN", "COSMIC"],
+        "activated_sectors": ["Healer Training", "Evolution Centers", "Wealth Generation", "Self-Trace Systems"]
+      }
+    }
+  }
+}

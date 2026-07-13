@@ -1,0 +1,295 @@
+{
+  "registryVersion": "1.0.0",
+  "networkId": 11155111,
+  "registryAddress": "0x0000000000000000000000000000000000000000",
+  "deployedAt": 1700000000,
+  "description": "Example BLEUE Infrastructure Registry with sample nodes",
+  
+  "bleuCoins": [
+    {
+      "coinName": "JaguarCoin",
+      "tokenAddress": "0x0000000000000000000000000000000000000001",
+      "vaultRoute": "Council Vault",
+      "vaultAddress": "0x0000000000000000000000000000000000000100",
+      "yieldCycle": "EventDriven",
+      "accessTier": "High",
+      "scrollSeal": "CouncilSigil",
+      "reinvestmentLogic": "20% to festival grants",
+      "scholarshipReference": "Codex #7, Festival Archive",
+      "auditTrail": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "isActive": true,
+      "registeredAt": 1700000100
+    },
+    {
+      "coinName": "ParkCoin",
+      "tokenAddress": "0x0000000000000000000000000000000000000002",
+      "vaultRoute": "Nature Vault",
+      "vaultAddress": "0x0000000000000000000000000000000000000101",
+      "yieldCycle": "Seasonal",
+      "accessTier": "Steward",
+      "scrollSeal": "TreeOfLife NFT",
+      "reinvestmentLogic": "Auto-compound rewilding",
+      "scholarshipReference": "Lost Islands Archive",
+      "auditTrail": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "isActive": true,
+      "registeredAt": 1700000200
+    },
+    {
+      "coinName": "BleuCoin",
+      "tokenAddress": "0x0000000000000000000000000000000000000003",
+      "vaultRoute": "Tokenized Vault (ERC-4626)",
+      "vaultAddress": "0x0000000000000000000000000000000000000102",
+      "yieldCycle": "Continuous",
+      "accessTier": "High",
+      "scrollSeal": "SapphireSigil",
+      "reinvestmentLogic": "15% security buffer",
+      "scholarshipReference": "Treasury Codex, BlueBank #4",
+      "auditTrail": "0x0000000000000000000000000000000000000000000000000000000000000003",
+      "isActive": true,
+      "registeredAt": 1700000300
+    },
+    {
+      "coinName": "EmbassyKey",
+      "tokenAddress": "0x0000000000000000000000000000000000000004",
+      "vaultRoute": "Embassy Vault",
+      "vaultAddress": "0x0000000000000000000000000000000000000103",
+      "yieldCycle": "EventDriven",
+      "accessTier": "Mission",
+      "scrollSeal": "Aether Cipher",
+      "reinvestmentLogic": "Diplomatic mission rewards",
+      "scholarshipReference": "Embassy Protocol Archives",
+      "auditTrail": "0x0000000000000000000000000000000000000000000000000000000000000004",
+      "isActive": true,
+      "registeredAt": 1700000400
+    },
+    {
+      "coinName": "TempleCoin",
+      "tokenAddress": "0x0000000000000000000000000000000000000005",
+      "vaultRoute": "Healing Pool",
+      "vaultAddress": "0x0000000000000000000000000000000000000104",
+      "yieldCycle": "MoonCycle",
+      "accessTier": "WellnessTier",
+      "scrollSeal": "Caduceus NFT",
+      "reinvestmentLogic": "10% charity cauldron",
+      "scholarshipReference": "Healing Lore, Edfu Scroll",
+      "auditTrail": "0x0000000000000000000000000000000000000000000000000000000000000005",
+      "isActive": true,
+      "registeredAt": 1700000500
+    },
+    {
+      "coinName": "KitchenCoin",
+      "tokenAddress": "0x0000000000000000000000000000000000000006",
+      "vaultRoute": "Larder Vault",
+      "vaultAddress": "0x0000000000000000000000000000000000000105",
+      "yieldCycle": "FeastEvent",
+      "accessTier": "RitualLeader",
+      "scrollSeal": "Cornucopia NFT",
+      "reinvestmentLogic": "Recipe auto-mint grants",
+      "scholarshipReference": "Ritual Recipes NFT",
+      "auditTrail": "0x0000000000000000000000000000000000000000000000000000000000000006",
+      "isActive": true,
+      "registeredAt": 1700000600
+    },
+    {
+      "coinName": "CodexToken",
+      "tokenAddress": "0x0000000000000000000000000000000000000007",
+      "vaultRoute": "Scriptorium Vault",
+      "vaultAddress": "0x0000000000000000000000000000000000000106",
+      "yieldCycle": "ScrollCompletion",
+      "accessTier": "Scholar",
+      "scrollSeal": "Quantum Feather",
+      "reinvestmentLogic": "Knowledge mining",
+      "scholarshipReference": "Living Lexicon NFT",
+      "auditTrail": "0x0000000000000000000000000000000000000000000000000000000000000007",
+      "isActive": true,
+      "registeredAt": 1700000700
+    },
+    {
+      "coinName": "SpiralCoin",
+      "tokenAddress": "0x0000000000000000000000000000000000000008",
+      "vaultRoute": "Cycle Vault",
+      "vaultAddress": "0x0000000000000000000000000000000000000107",
+      "yieldCycle": "MoodCycle",
+      "accessTier": "High",
+      "scrollSeal": "Spiral Sigil",
+      "reinvestmentLogic": "Mood rollovers",
+      "scholarshipReference": "Duviri Moodboard",
+      "auditTrail": "0x0000000000000000000000000000000000000000000000000000000000000008",
+      "isActive": true,
+      "registeredAt": 1700000800
+    },
+    {
+      "coinName": "DivisionCoin",
+      "tokenAddress": "0x0000000000000000000000000000000000000009",
+      "vaultRoute": "Fractal Vault",
+      "vaultAddress": "0x0000000000000000000000000000000000000108",
+      "yieldCycle": "CosmicAlign",
+      "accessTier": "DivisionStake",
+      "scrollSeal": "Constellation Sigil",
+      "reinvestmentLogic": "InterShard rewards",
+      "scholarshipReference": "Division Archive",
+      "auditTrail": "0x0000000000000000000000000000000000000000000000000000000000000009",
+      "isActive": true,
+      "registeredAt": 1700000900
+    }
+  ],
+  
+  "nodes": [
+    {
+      "nodeType": "JaguarCity",
+      "nodeName": "Tenochtitlan Prime",
+      "location": "Sector 7, Grid Alpha",
+      "coreFunctions": ["Defense", "Governance", "Art"],
+      "governanceCircuit": "Spiral Council",
+      "governanceAddress": "0x0000000000000000000000000000000000000010",
+      "bleuCoinId": 0,
+      "ceremonialSeal": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "dualRealityConfirmed": true,
+      "registeredAt": 1700001000
+    },
+    {
+      "nodeType": "MegaPark",
+      "nodeName": "Emerald Grove",
+      "location": "Nature Sector 3",
+      "coreFunctions": ["Art", "Healing", "Education"],
+      "governanceCircuit": "Harmony Assembly",
+      "governanceAddress": "0x0000000000000000000000000000000000000011",
+      "bleuCoinId": 1,
+      "ceremonialSeal": "0x2234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "dualRealityConfirmed": true,
+      "registeredAt": 1700001100
+    },
+    {
+      "nodeType": "BlueBank",
+      "nodeName": "Sapphire Exchange Prime",
+      "location": "Financial District, Zone 1",
+      "coreFunctions": ["Trade", "Audit"],
+      "governanceCircuit": "Trilateral Quorum",
+      "governanceAddress": "0x0000000000000000000000000000000000000012",
+      "bleuCoinId": 2,
+      "ceremonialSeal": "0x3234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "dualRealityConfirmed": true,
+      "registeredAt": 1700001200
+    },
+    {
+      "nodeType": "AlienEmbassy",
+      "nodeName": "Stellar Nexus Embassy",
+      "location": "Diplomatic Quarter, Sector 12",
+      "coreFunctions": ["Trade", "Education", "Diplomacy"],
+      "governanceCircuit": "Council Power Chain",
+      "governanceAddress": "0x0000000000000000000000000000000000000013",
+      "bleuCoinId": 3,
+      "ceremonialSeal": "0x4234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "dualRealityConfirmed": true,
+      "registeredAt": 1700001300
+    },
+    {
+      "nodeType": "HealingTemple",
+      "nodeName": "Temple of Asclepius",
+      "location": "Healing District, Zone 5",
+      "coreFunctions": ["Healing", "Education"],
+      "governanceCircuit": "Templar Synod",
+      "governanceAddress": "0x0000000000000000000000000000000000000014",
+      "bleuCoinId": 4,
+      "ceremonialSeal": "0x5234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "dualRealityConfirmed": true,
+      "registeredAt": 1700001400
+    },
+    {
+      "nodeType": "RitualKitchen",
+      "nodeName": "The Great Hearth",
+      "location": "Culinary Nexus, Grid 9",
+      "coreFunctions": ["Trade", "Art"],
+      "governanceCircuit": "Elderstone Assembly",
+      "governanceAddress": "0x0000000000000000000000000000000000000015",
+      "bleuCoinId": 5,
+      "ceremonialSeal": "0x6234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "dualRealityConfirmed": true,
+      "registeredAt": 1700001500
+    },
+    {
+      "nodeType": "CodexCompiler",
+      "nodeName": "Alexandria Reborn",
+      "location": "Knowledge Sector, Archive Prime",
+      "coreFunctions": ["Education", "Art"],
+      "governanceCircuit": "Codex Council",
+      "governanceAddress": "0x0000000000000000000000000000000000000016",
+      "bleuCoinId": 6,
+      "ceremonialSeal": "0x7234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "dualRealityConfirmed": true,
+      "registeredAt": 1700001600
+    },
+    {
+      "nodeType": "SpiralNode",
+      "nodeName": "Mood Nexus Alpha",
+      "location": "Emotional Grid, Sector Psi",
+      "coreFunctions": ["Education", "Defense", "Healing"],
+      "governanceCircuit": "Mood Oversight",
+      "governanceAddress": "0x0000000000000000000000000000000000000017",
+      "bleuCoinId": 7,
+      "ceremonialSeal": "0x8234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "dualRealityConfirmed": true,
+      "registeredAt": 1700001700
+    },
+    {
+      "nodeType": "Division144",
+      "nodeName": "Constellation Orion - Division 1",
+      "location": "Celestial Grid, Orion Sector",
+      "coreFunctions": ["Governance", "Defense"],
+      "governanceCircuit": "Celestial Congress",
+      "governanceAddress": "0x0000000000000000000000000000000000000018",
+      "bleuCoinId": 8,
+      "ceremonialSeal": "0x9234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "dualRealityConfirmed": true,
+      "registeredAt": 1700001800
+    },
+    {
+      "nodeType": "Division144",
+      "nodeName": "Constellation Andromeda - Division 2",
+      "location": "Celestial Grid, Andromeda Sector",
+      "coreFunctions": ["Governance", "Defense"],
+      "governanceCircuit": "Celestial Congress",
+      "governanceAddress": "0x0000000000000000000000000000000000000019",
+      "bleuCoinId": 8,
+      "ceremonialSeal": "0xa234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "dualRealityConfirmed": true,
+      "registeredAt": 1700001900
+    },
+    {
+      "nodeType": "Division144",
+      "nodeName": "Constellation Pleiades - Division 3",
+      "location": "Celestial Grid, Pleiades Sector",
+      "coreFunctions": ["Governance", "Defense"],
+      "governanceCircuit": "Celestial Congress",
+      "governanceAddress": "0x0000000000000000000000000000000000000020",
+      "bleuCoinId": 8,
+      "ceremonialSeal": "0xb234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "dualRealityConfirmed": true,
+      "registeredAt": 1700002000
+    }
+  ],
+  
+  "auditLogs": [
+    {
+      "eventHash": "0xc234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "eventType": "BleuCoinRegistered",
+      "actor": "0x0000000000000000000000000000000000000050",
+      "timestamp": 1700000100,
+      "docHash": "0x0000000000000000000000000000000000000000000000000000000000000001"
+    },
+    {
+      "eventHash": "0xd234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "eventType": "NodeRegistered",
+      "actor": "0x0000000000000000000000000000000000000050",
+      "timestamp": 1700001000,
+      "docHash": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"
+    },
+    {
+      "eventHash": "0xe234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+      "eventType": "DualRealityConfirmed",
+      "actor": "0x0000000000000000000000000000000000000051",
+      "timestamp": 1700001050,
+      "docHash": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"
+    }
+  ]
+}

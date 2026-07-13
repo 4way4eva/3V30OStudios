@@ -1,10 +1,12 @@
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 import "@nomiclabs/hardhat-ethers";
-import "@nomiclabs/hardhat-etherscan";
 import * as dotenv from "dotenv";
 
 dotenv.config();
+
+// Use DEPLOYER_PRIVATE_KEY with fallback to PRIVATE_KEY for backwards compatibility
+const DEPLOYER_KEY = process.env.DEPLOYER_PRIVATE_KEY || process.env.PRIVATE_KEY;
 
 const config: HardhatUserConfig = {
   solidity: {
@@ -18,52 +20,77 @@ const config: HardhatUserConfig = {
   },
   
   networks: {
-    // Mainnets
+    // ===================================================================
+    // TESTNETS - ALWAYS TEST HERE FIRST
+    // ===================================================================
+    
+    // Ethereum Sepolia Testnet (RECOMMENDED DEFAULT)
+    sepolia: {
+      url: process.env.ETHEREUM_RPC_URL || process.env.SEPOLIA_RPC_URL || "https://eth-sepolia.g.alchemy.com/v2/demo",
+      accounts: DEPLOYER_KEY ? [DEPLOYER_KEY] : [],
+      chainId: 11155111,
+    },
+    
+    // Polygon Mumbai Testnet
+    mumbai: {
+      url: process.env.POLYGON_RPC_URL || process.env.MUMBAI_RPC_URL || "https://rpc-mumbai.maticvigil.com",
+      accounts: DEPLOYER_KEY ? [DEPLOYER_KEY] : [],
+      chainId: 80001,
+    },
+    
+    // Avalanche Fuji Testnet
+    fuji: {
+      url: process.env.AVALANCHE_RPC_URL || process.env.FUJI_RPC_URL || "https://api.avax-test.network/ext/bc/C/rpc",
+      accounts: DEPLOYER_KEY ? [DEPLOYER_KEY] : [],
+      chainId: 43113,
+    },
+    
+    // BSC Testnet
+    bscTestnet: {
+      url: process.env.BSC_RPC_URL || process.env.BSC_TESTNET_RPC_URL || "https://data-seed-prebsc-1-s1.binance.org:8545",
+      accounts: DEPLOYER_KEY ? [DEPLOYER_KEY] : [],
+      chainId: 97,
+    },
+    
+    // BLEUChain Testnet (if available)
+    bleuchain: {
+      url: process.env.BLEUCHAIN_RPC_URL || "http://127.0.0.1:8545",
+      accounts: DEPLOYER_KEY ? [DEPLOYER_KEY] : [],
+      chainId: 999999, // Placeholder - update with actual chain ID
+    },
+    
+    // ===================================================================
+    // MAINNETS - USE WITH CAUTION, HARDWARE WALLET RECOMMENDED
+    // ===================================================================
+    
     mainnet: {
       url: process.env.ETHEREUM_RPC_URL || "https://eth-mainnet.g.alchemy.com/v2/demo",
-      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      accounts: DEPLOYER_KEY ? [DEPLOYER_KEY] : [],
       chainId: 1,
     },
     polygon: {
       url: process.env.POLYGON_RPC_URL || "https://polygon-rpc.com",
-      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      accounts: DEPLOYER_KEY ? [DEPLOYER_KEY] : [],
       chainId: 137,
       gasPrice: 50000000000, // 50 gwei
     },
     avalanche: {
       url: process.env.AVALANCHE_RPC_URL || "https://api.avax.network/ext/bc/C/rpc",
-      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      accounts: DEPLOYER_KEY ? [DEPLOYER_KEY] : [],
       chainId: 43114,
       gasPrice: 25000000000, // 25 gwei
     },
     bsc: {
       url: process.env.BSC_RPC_URL || "https://bsc-dataseed.binance.org/",
-      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      accounts: DEPLOYER_KEY ? [DEPLOYER_KEY] : [],
       chainId: 56,
       gasPrice: 5000000000, // 5 gwei
     },
     cronos: {
       url: process.env.CRONOS_RPC_URL || "https://evm.cronos.org",
-      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      accounts: DEPLOYER_KEY ? [DEPLOYER_KEY] : [],
       chainId: 25,
       gasPrice: 5000000000000, // 5000 gwei
-    },
-    
-    // Testnets
-    sepolia: {
-      url: process.env.SEPOLIA_RPC_URL || "https://eth-sepolia.g.alchemy.com/v2/demo",
-      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
-      chainId: 11155111,
-    },
-    mumbai: {
-      url: process.env.MUMBAI_RPC_URL || "https://rpc-mumbai.maticvigil.com",
-      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
-      chainId: 80001,
-    },
-    fuji: {
-      url: process.env.FUJI_RPC_URL || "https://api.avax-test.network/ext/bc/C/rpc",
-      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
-      chainId: 43113,
     },
     
     // Local development

@@ -1,0 +1,94 @@
+{
+  "name": "Fusion Note #{tokenId}",
+  "description": "MEGAZION Fusion Note - Hybrid BLEU/Yen currency with dual-domain yield representation. Combines CIVILIAN and COSMIC economic powers in a single ENFT.",
+  "image": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/fusion_note_{variant}.png",
+  "animation_url": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/fusion_note_{variant}_animated.mp4",
+  "external_url": "https://megazion.io/enft/fusion/{tokenId}",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Hybrid Currency"
+    },
+    {
+      "trait_type": "Primary Domain",
+      "value": "CIVILIAN"
+    },
+    {
+      "trait_type": "Secondary Domain",
+      "value": "COSMIC"
+    },
+    {
+      "trait_type": "Bleu Component",
+      "value": "{bleu_value}",
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Yen Component",
+      "value": "{yen_value}",
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Total Value",
+      "value": "{total_value}",
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Yield Model",
+      "value": "π₄ Dual Exponential"
+    },
+    {
+      "trait_type": "Combined Yield USD/sec",
+      "value": "{combined_yield_per_sec}",
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Series",
+      "value": "Fusion Genesis"
+    },
+    {
+      "trait_type": "Epoch",
+      "value": 1,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Visual Asset",
+      "value": "Fusion Mark (Bleu + Yen)"
+    },
+    {
+      "trait_type": "Security Feature",
+      "value": "Dual Hashmark + zkPoR"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Special Ability",
+      "value": "Cross-Domain Liquidity"
+    }
+  ],
+  "properties": {
+    "category": "ENFT",
+    "subcategory": "Hybrid",
+    "files": [
+      {
+        "uri": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/fusion_note_{variant}.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/fusion_note_{variant}_animated.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "creators": [
+      {
+        "address": "0xPLACEHOLDER_REPLACE_WITH_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "compiler": {
+    "name": "MEGAZION Codex Compiler",
+    "version": "1.0.0"
+  }
+}

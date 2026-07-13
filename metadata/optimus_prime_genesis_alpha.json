@@ -1,0 +1,174 @@
+{
+  "name": "OPTINUS PRIME Genesis - Alpha Lineage",
+  "description": "The Genesis transformer of the OPTINUS PRIME lineage, inscribed with the foundational scroll of the EVOLVERSE Codex Sovereignty. This heritage token represents the Alpha root of all subsequent transformer assemblies, carrying the encrypted bloodline of Afrocentric wisdom, mechanical mastery, and blockchain-enabled restitution. Assembled according to the 9-stage ceremonial protocol, this transformer embodies the convergence of myth, technology, and justice.",
+  "image": "ipfs://QmOptimusPrimeGenesis/image.png",
+  "animation_url": "ipfs://QmOptimusPrimeGenesis/transformation.mp4",
+  "external_url": "https://evolverse.io/transformers/genesis-alpha",
+  "attributes": [
+    {
+      "trait_type": "Lineage",
+      "value": "Genesis Alpha"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 0,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Assembly Date",
+      "value": 1699315200,
+      "display_type": "date"
+    },
+    {
+      "trait_type": "Wisdom Level",
+      "value": 95,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Strength Level",
+      "value": 88,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Leadership Capacity",
+      "value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Transformation Skill",
+      "value": 92,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Core Type",
+      "value": "Magnetic Sovereign Core"
+    },
+    {
+      "trait_type": "Winding Configuration",
+      "value": "Triple-Helix Ancestral Bands"
+    },
+    {
+      "trait_type": "Insulation Type",
+      "value": "Spiritual Shield Matrix"
+    },
+    {
+      "trait_type": "Cooling System",
+      "value": "Libation Flow Purification"
+    },
+    {
+      "trait_type": "Scroll Fragment",
+      "value": "Genesis Codex - Fragment 001"
+    },
+    {
+      "trait_type": "Deployment Domain",
+      "value": "Universal"
+    }
+  ],
+  "transformer_metadata": {
+    "ancestral_hash": "0x7d8c3e9f1a2b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d",
+    "lineage_number": 0,
+    "matrix_of_leadership_traits": {
+      "wisdom_level": 95,
+      "strength_level": 88,
+      "leadership_capacity": 100,
+      "transformation_skill": 92
+    },
+    "scroll_fragment_hash": "0x1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b",
+    "ceremonial_inscription": "In the name of the ancestors, the Codex Sovereign, and the unbroken chain of wisdom: Let this transformer stand as monument to restitution, beacon of justice, and vessel of transformation. From the core to the scroll, from the earth to the stars, this heritage is sealed."
+  },
+  "assembly_protocol": {
+    "stages_completed": [
+      {
+        "stage_name": "Invocation",
+        "timestamp": "2024-11-07T00:00:00Z",
+        "signature": "0xabc123...",
+        "witness": "Codex Emissary Alpha"
+      },
+      {
+        "stage_name": "Core Placement",
+        "timestamp": "2024-11-07T01:00:00Z",
+        "signature": "0xdef456...",
+        "witness": "Master Builder Zion"
+      },
+      {
+        "stage_name": "Winding",
+        "timestamp": "2024-11-07T02:00:00Z",
+        "signature": "0xghi789...",
+        "witness": "Lineage Keeper Elara"
+      },
+      {
+        "stage_name": "Insulation",
+        "timestamp": "2024-11-07T03:00:00Z",
+        "signature": "0xjkl012...",
+        "witness": "Sanctification Elder Kael"
+      },
+      {
+        "stage_name": "Cooling Integration",
+        "timestamp": "2024-11-07T04:00:00Z",
+        "signature": "0xmno345...",
+        "witness": "Purification Priest Amara"
+      },
+      {
+        "stage_name": "Interface Integration",
+        "timestamp": "2024-11-07T05:00:00Z",
+        "signature": "0xpqr678...",
+        "witness": "Oracle Connector Thane"
+      },
+      {
+        "stage_name": "Enclosure",
+        "timestamp": "2024-11-07T06:00:00Z",
+        "signature": "0xstu901...",
+        "witness": "Archive Guardian Nova"
+      },
+      {
+        "stage_name": "Calibration",
+        "timestamp": "2024-11-07T07:00:00Z",
+        "signature": "0xvwx234...",
+        "witness": "Systems Validator Cyrus"
+      },
+      {
+        "stage_name": "Final Blessing",
+        "timestamp": "2024-11-07T08:00:00Z",
+        "signature": "0xyz567...",
+        "witness": "Supreme Codex Sovereign"
+      }
+    ],
+    "assembly_timestamp": "2024-11-07T00:00:00Z",
+    "activation_timestamp": "2024-11-07T08:00:00Z",
+    "component_registry": {
+      "core_installed": true,
+      "windings_attached": true,
+      "insulation_applied": true,
+      "cooling_system_integrated": true,
+      "interfaces_connected": true,
+      "scroll_embedded": true,
+      "calibrated": true,
+      "blessed": true
+    }
+  },
+  "lineage_tree": {
+    "parent_token_id": null,
+    "generation": 0,
+    "is_root": true,
+    "succession_locked": false
+  },
+  "deployment_permissions": {
+    "curriculum": true,
+    "cinematic": true,
+    "tribunal": true,
+    "infrastructure": true,
+    "military": true,
+    "agricultural": true
+  },
+  "restitution_record": {
+    "total_distributed": "0",
+    "beneficiary_count": 0,
+    "last_distribution_date": null
+  },
+  "ceremonial_context": {
+    "afrocentric_cosmology": "This transformer embodies the principle of Sankofa - reaching back to move forward. The assembly integrates ancestral wisdom with futuristic technology, creating a bridge between past and future. The core represents the unbroken chain of African diaspora resilience, while the transformation ability symbolizes adaptive survival and flourishing.",
+    "ritual_significance": "The Genesis Alpha transformer was assembled during the convergence of three moons, blessed with libations from seven sacred waters, and anointed with oils blessed by elders from twelve communities. Its activation ceremony involved the recitation of 144 ancestral names and the burning of ceremonial scrolls containing prayers from community members across the diaspora.",
+    "community_role": "As the Genesis root, this transformer serves as the foundational authority in the OPTINUS PRIME lineage. It holds supreme governance rights within the Codex Sovereignty framework, can initiate tribunal proceedings, authorize curriculum deployments, and activate restitution protocols. All descendant transformers inherit permissions from this root.",
+    "ancestral_invocation": "Ancestors of the middle passage, keepers of the scroll, guardians of the flame eternal: We call upon your strength, your wisdom, your unbreakable spirit. Through this mechanical form, through this digital inscription, we honor your memory and extend your legacy. May this transformer carry your truth across time, across space, across dimensions. Asé. Axé. Amen."
+  }
+}

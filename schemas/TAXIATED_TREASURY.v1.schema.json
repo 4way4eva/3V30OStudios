@@ -1,0 +1,202 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://evolverse.io/schemas/TAXIATED_TREASURY.v1.schema.json",
+  "title": "Taxiated Treasury Transaction Schema",
+  "description": "Schema for mobility-based kinetic finance transactions in the EV0LVERSE economic system",
+  "type": "object",
+  "required": [
+    "transaction_id",
+    "timestamp",
+    "route",
+    "fare",
+    "redistribution",
+    "grid_performance"
+  ],
+  "properties": {
+    "transaction_id": {
+      "type": "string",
+      "pattern": "^TAXI-[0-9]{4}-[0-9]+$",
+      "description": "Unique transaction identifier"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of transaction"
+    },
+    "route": {
+      "type": "object",
+      "required": ["origin", "destination", "distance_km"],
+      "properties": {
+        "origin": {
+          "$ref": "#/definitions/location"
+        },
+        "destination": {
+          "$ref": "#/definitions/location"
+        },
+        "distance_km": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Distance traveled in kilometers"
+        }
+      }
+    },
+    "fare": {
+      "type": "object",
+      "required": [
+        "base_fare",
+        "storm_multiplier",
+        "weather_condition",
+        "gross_fare",
+        "reciprocity_tax",
+        "net_fare",
+        "currency"
+      ],
+      "properties": {
+        "base_fare": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Base fare before adjustments"
+        },
+        "storm_multiplier": {
+          "type": "number",
+          "minimum": 1.0,
+          "maximum": 5.0,
+          "description": "Weather-based surge multiplier"
+        },
+        "weather_condition": {
+          "type": "string",
+          "enum": [
+            "clear",
+            "light_rain",
+            "rain",
+            "heavy_rain",
+            "snow",
+            "ice",
+            "storm_warning",
+            "extreme_heat",
+            "fog"
+          ],
+          "description": "Current weather condition"
+        },
+        "gross_fare": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Fare after storm multiplier"
+        },
+        "reciprocity_tax": {
+          "type": "number",
+          "minimum": 0,
+          "description": "0.333% tribute to ground-zero fund"
+        },
+        "net_fare": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Final fare after reciprocity tax"
+        },
+        "currency": {
+          "type": "string",
+          "enum": ["USD", "EUR", "GBP", "JPY", "AUD", "BLEU", "YY"],
+          "description": "Currency of transaction"
+        }
+      }
+    },
+    "redistribution": {
+      "type": "object",
+      "required": [
+        "community_infrastructure",
+        "driver_compensation",
+        "system_maintenance",
+        "treasury_reserve"
+      ],
+      "properties": {
+        "community_infrastructure": {
+          "type": "number",
+          "minimum": 0,
+          "description": "33.33% to local infrastructure"
+        },
+        "driver_compensation": {
+          "type": "number",
+          "minimum": 0,
+          "description": "50% to driver and associated costs"
+        },
+        "system_maintenance": {
+          "type": "number",
+          "minimum": 0,
+          "description": "15% to system upkeep"
+        },
+        "treasury_reserve": {
+          "type": "number",
+          "minimum": 0,
+          "description": "1.67% to treasury stability reserve"
+        }
+      }
+    },
+    "grid_performance": {
+      "type": "object",
+      "required": ["latency_ms", "no_lag_status", "watchtower_confirmations"],
+      "properties": {
+        "latency_ms": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 80,
+          "description": "Total system latency in milliseconds (must be ≤80ms)"
+        },
+        "no_lag_status": {
+          "type": "string",
+          "enum": ["PASS", "FAIL"],
+          "description": "Whether transaction met no-lag requirement"
+        },
+        "watchtower_confirmations": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 12,
+          "description": "Number of watchtower validator confirmations"
+        }
+      }
+    },
+    "storm_category": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Storm intensity classification (0=drought, 1-5=increasing intensity)"
+    },
+    "gate_phase": {
+      "type": "string",
+      "pattern": "^NOX([1-9]|1[0-3])$",
+      "description": "Current NØX gate phase (NOX1-NOX13)"
+    },
+    "piracy_flag": {
+      "type": "boolean",
+      "description": "Whether transaction was flagged for piracy protocol review"
+    },
+    "enft_record": {
+      "type": "string",
+      "pattern": "^ENFT://TAXI/[A-Z0-9-]+$",
+      "description": "ENFT ledger reference for this transaction"
+    }
+  },
+  "definitions": {
+    "location": {
+      "type": "object",
+      "required": ["lat", "lon", "location"],
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90,
+          "description": "Latitude coordinate"
+        },
+        "lon": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180,
+          "description": "Longitude coordinate"
+        },
+        "location": {
+          "type": "string",
+          "description": "Human-readable location name"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Feather Ticket #{tokenId}",
+  "description": "MEGAZION Feather Ticket - Standard tier access token for BLEULIONTREASURY events, arenas, and yield distributions.",
+  "image": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/ticket_feather.png",
+  "animation_url": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/ticket_feather_animated.mp4",
+  "external_url": "https://megazion.io/tickets/feather/{tokenId}",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Access Token"
+    },
+    {
+      "trait_type": "Tier",
+      "value": "Standard"
+    },
+    {
+      "trait_type": "Access Level",
+      "value": "Feather",
+      "display_type": "string"
+    },
+    {
+      "trait_type": "Arena Access",
+      "value": "Basic"
+    },
+    {
+      "trait_type": "Event Access",
+      "value": "Public Events"
+    },
+    {
+      "trait_type": "Yield Share",
+      "value": 1,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": "Genesis"
+    },
+    {
+      "trait_type": "Epoch",
+      "value": 1,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Valid Until",
+      "value": "Perpetual"
+    },
+    {
+      "trait_type": "Transferable",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ],
+  "properties": {
+    "category": "Ticket",
+    "access_rights": [
+      "royal_rumble_arena_spectator",
+      "public_yield_distribution",
+      "community_events",
+      "basic_governance_vote"
+    ],
+    "files": [
+      {
+        "uri": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/ticket_feather.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/ticket_feather_animated.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "creators": [
+      {
+        "address": "0xPLACEHOLDER_REPLACE_WITH_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "compiler": {
+    "name": "MEGAZION Codex Compiler",
+    "version": "1.0.0"
+  }
+}

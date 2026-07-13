@@ -1,0 +1,144 @@
+# MEGAZION GITHUSS Manifest
+# Canonical manifest for MEGAZION / BLEULIONTREASURY 48-Fold Codex system
+
+name: MEGAZION GITHUSS Manifest
+description: Canonical manifest for MEGAZION / BLEULIONTREASURY 48-Fold Codex system
+version: 1.0.0
+metadata_uri: ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/
+
+# Three-Domain System
+domains:
+  CIVILIAN:
+    symbol: Ω-CIV
+    percentage: 47.6
+    yield_usd_per_sec: 13752400
+    description: Real estate, education, commerce, infrastructure
+  
+  MILITARY:
+    symbol: Ω-MIL
+    percentage: 21.3
+    yield_usd_per_sec: 6155700
+    description: Defense, tactical operations, armaments
+  
+  COSMIC:
+    symbol: Ω-COS
+    percentage: 31.1
+    yield_usd_per_sec: 8987900
+    description: Portal logistics, quantum tech, dimensional items
+
+# π₄ Compounding Model
+compounding:
+  model: pi4_exponential
+  pi4_factor: 97.409
+  base_yield_usd_per_sec: 28900000
+  daily_yield_usd: 2496960000000
+
+# ENFT Types
+enft_types:
+  bleubill:
+    name: BLEU Bill
+    type: currency_note
+    denominations: [1, 5, 10, 20, 50, 100, 500, 1000]
+    metadata_template: metadata/bleubill_v1.json
+  
+  techyen:
+    name: Tech Yen
+    type: currency_note
+    denominations: [100, 500, 1000, 5000, 10000]
+    metadata_template: metadata/techyen_v1.json
+  
+  fusion_note:
+    name: Fusion Note
+    type: hybrid_currency
+    description: Hybrid BLEU/Yen fusion note with dual-domain yield
+    metadata_template: metadata/fusion_note_enft.json
+  
+  tickets:
+    feather:
+      name: Feather Ticket
+      type: access_token
+      tier: standard
+      metadata_template: metadata/tickets_feather.json
+    titan:
+      name: Titan Ticket
+      type: access_token
+      tier: premium
+      metadata_template: metadata/tickets_titan.json
+
+# Smart Contracts
+contracts:
+  EvolverseBleuSosa:
+    type: ERC721
+    description: Primary NFT collection for Evolverse BLEU assets
+    deploy_script: scripts/deploy_evolverse_bleu_sosa.ts
+    mint_script: scripts/mint_evolverse_bleu_sosa.ts
+  
+  TripleStackTreasuryLedger:
+    type: Treasury
+    description: Sovereign ENFT system with yield representation
+    deploy_script: scripts/deploy_triple_stack_treasury.ts
+  
+  UniversalMintProtocol:
+    type: Controller
+    description: Three-domain supply management with Watchtower consensus
+    deploy_script: scripts/deploy_universal_mint_protocol.ts
+
+# Visual Assets
+visual_assets:
+  audit_glyph: visual/audit_glyph.svg
+  bleubill_front: visual/bleubill_front.svg
+  techyen_front: visual/techyen_front.svg
+  fusion_note: visual/fusion_note.svg
+  codex_deck: visual/visual_codex_deck.zip
+
+# Arena System
+arena:
+  royal_rumble:
+    blueprint: arena/royal_rumble_blueprint.svg
+    mock_ui: arena/royal_rumble_mock.html
+    description: 48-player tournament arena with yield stakes
+
+# UI Components
+ui_components:
+  hashmark_generator:
+    ui: ui/hashmark_ui.html
+    protocol: ui/hashmark_protocol.md
+    description: Generate verification hashmarks for ENFTs
+
+# Documentation
+documentation:
+  main: README_48fold.md
+  minting: README_NOTE_PIN_MINT.md
+  arena: README_ARENA.md
+  local_setup: README_RUN_LOCAL.md
+
+# 48-Layer System
+layer_system:
+  total_layers: 48
+  overlay_registry: overlay_registry.json
+  ritual_map: ritual_map.csv
+  scroll: BLEU_48_Fold_Scrolls.md
+  schema: layer_manifest_schema.json
+
+# Network Configuration
+networks:
+  testnet_default: sepolia
+  supported_testnets:
+    - sepolia
+    - mumbai
+    - fuji
+    - bscTestnet
+  mainnet_supported:
+    - ethereum
+    - polygon
+    - avalanche
+    - bsc
+    - cronos
+
+# Security Configuration
+security:
+  testnet_first: true
+  hardware_wallet_recommended: true
+  multisig_recommended: true
+  no_broadcast_in_pr: true
+  placeholder_secrets: true

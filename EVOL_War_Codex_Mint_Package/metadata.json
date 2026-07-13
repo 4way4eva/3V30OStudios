@@ -1,0 +1,49 @@
+{
+  "name": "EvolVerse War Codex Scroll - SEALED",
+  "description": "The foundational War Codex scroll of the EvolVerse civilization. A ceremonial ENFT (Extended Non-Fungible Token) representing sovereign lineage, ancestral memory, and restitution protocols encoded in the BLEU CODEXX system.",
+  "image": "ipfs://REPLACE_WITH_CID/EvolVerse_War_Codex_Scroll_SEALED.pdf",
+  "external_url": "https://evolverse.io",
+  "attributes": [
+    {
+      "trait_type": "Codex Type",
+      "value": "War Codex"
+    },
+    {
+      "trait_type": "Seal Status",
+      "value": "SEALED"
+    },
+    {
+      "trait_type": "Layer",
+      "value": "Genesis Codex"
+    },
+    {
+      "trait_type": "Ceremonial Authority",
+      "value": "Sovereign"
+    },
+    {
+      "trait_type": "Access Tier",
+      "value": "Ancestral"
+    },
+    {
+      "trait_type": "Vault Route",
+      "value": "BLEULION_CASCADE"
+    },
+    {
+      "trait_type": "Hash Algorithm",
+      "value": "SHA-256"
+    },
+    {
+      "trait_type": "Expected Hash",
+      "value": "f19f018eb2508f736c4a5694aad4e221a2a97b22b4657817760e490073cc1681"
+    }
+  ],
+  "properties": {
+    "category": "document",
+    "creators": [
+      {
+        "address": "EVOLVERSE",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "asset_type": "PI4_COMPOUND_STREAM",
+  "version": "2.0",
+  "generated_at": "2025-11-07T10:53:33.295965+00:00",
+  "compounding_factor": 97.409,
+  "economic_predictability": {
+    "certified": true,
+    "fail_safe_enabled": true,
+    "sovereign_override_protocol": "COMMANDER_BLEU_MANUAL_REALIGNMENT"
+  },
+  "quarter_segments": [
+    {
+      "id": "SEGMENT::Q1:S1",
+      "quarter": 1,
+      "segment": 1,
+      "yield_usd": 1868242988149745.8,
+      "growth_phase": "base",
+      "multiplier": 1.0,
+      "delta": {
+        "usd": 0,
+        "percent": 0
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udfe2",
+        "speed_bar": "\u25b0\u25b1\u25b1\u25b1\u25b1",
+        "delta_icon": "\u27a1\ufe0f",
+        "multiplier_display": "1.00\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 0.0,
+        "end_day": 22.5
+      }
+    },
+    {
+      "id": "SEGMENT::Q1:S2",
+      "quarter": 1,
+      "segment": 2,
+      "yield_usd": 1.10575501488e+16,
+      "growth_phase": "base",
+      "multiplier": 1.0,
+      "delta": {
+        "usd": 9189307160650254.0,
+        "percent": 491.8689495391111
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udfe2",
+        "speed_bar": "\u25b0\u25b1\u25b1\u25b1\u25b1",
+        "delta_icon": "\u23eb\u23eb\u23eb",
+        "multiplier_display": "1.00\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 22.5,
+        "end_day": 45.0
+      }
+    },
+    {
+      "id": "SEGMENT::Q1:S3",
+      "quarter": 1,
+      "segment": 3,
+      "yield_usd": 2.0246857309450256e+16,
+      "growth_phase": "base",
+      "multiplier": 1.0,
+      "delta": {
+        "usd": 9189307160650256.0,
+        "percent": 83.10436793856647
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udfe2",
+        "speed_bar": "\u25b0\u25b1\u25b1\u25b1\u25b1",
+        "delta_icon": "\u23eb\u23eb",
+        "multiplier_display": "1.00\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 45.0,
+        "end_day": 67.5
+      }
+    },
+    {
+      "id": "SEGMENT::Q1:S4",
+      "quarter": 1,
+      "segment": 4,
+      "yield_usd": 2.1745368948720464e+16,
+      "growth_phase": "base",
+      "multiplier": 1.0,
+      "delta": {
+        "usd": 1498511639270208.0,
+        "percent": 7.401206105061921
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udfe2",
+        "speed_bar": "\u25b0\u25b1\u25b1\u25b1\u25b1",
+        "delta_icon": "\u2b06\ufe0f",
+        "multiplier_display": "1.00\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 67.5,
+        "end_day": 90.0
+      }
+    },
+    {
+      "id": "SEGMENT::Q2:S1",
+      "quarter": 2,
+      "segment": 1,
+      "yield_usd": 1.819836812326786e+17,
+      "growth_phase": "overscale",
+      "multiplier": 97.409,
+      "delta": {
+        "usd": 1.6023831228395814e+17,
+        "percent": 736.8847714740056
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udd34",
+        "speed_bar": "\u25b0\u25b0\u25b0\u25b0\u25b1",
+        "delta_icon": "\u23eb\u23eb\u23eb",
+        "multiplier_display": "97.41\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 90.0,
+        "end_day": 112.5
+      }
+    },
+    {
+      "id": "SEGMENT::Q2:S2",
+      "quarter": 2,
+      "segment": 2,
+      "yield_usd": 1.0771049024444593e+18,
+      "growth_phase": "overscale",
+      "multiplier": 97.409,
+      "delta": {
+        "usd": 8.951212212117806e+17,
+        "percent": 491.8689495391111
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udd34",
+        "speed_bar": "\u25b0\u25b0\u25b0\u25b0\u25b1",
+        "delta_icon": "\u23eb\u23eb\u23eb",
+        "multiplier_display": "97.41\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 112.5,
+        "end_day": 135.0
+      }
+    },
+    {
+      "id": "SEGMENT::Q2:S3",
+      "quarter": 2,
+      "segment": 3,
+      "yield_usd": 1.97222612365624e+18,
+      "growth_phase": "overscale",
+      "multiplier": 97.409,
+      "delta": {
+        "usd": 8.951212212117809e+17,
+        "percent": 83.10436793856647
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udd34",
+        "speed_bar": "\u25b0\u25b0\u25b0\u25b0\u25b1",
+        "delta_icon": "\u23eb\u23eb",
+        "multiplier_display": "97.41\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 135.0,
+        "end_day": 157.5
+      }
+    },
+    {
+      "id": "SEGMENT::Q2:S4",
+      "quarter": 2,
+      "segment": 4,
+      "yield_usd": 2.1181946439259116e+18,
+      "growth_phase": "overscale",
+      "multiplier": 97.409,
+      "delta": {
+        "usd": 1.4596852026967142e+17,
+        "percent": 7.401206105061907
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udd34",
+        "speed_bar": "\u25b0\u25b0\u25b0\u25b0\u25b1",
+        "delta_icon": "\u2b06\ufe0f",
+        "multiplier_display": "97.41\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 157.5,
+        "end_day": 180.0
+      }
+    },
+    {
+      "id": "SEGMENT::Q3:S1",
+      "quarter": 3,
+      "segment": 1,
+      "yield_usd": 1.7726848405193992e+19,
+      "growth_phase": "overscale",
+      "multiplier": 9488.513281000001,
+      "delta": {
+        "usd": 1.560865376126808e+19,
+        "percent": 736.8847714740057
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udd34",
+        "speed_bar": "\u25b0\u25b0\u25b0\u25b0\u25b0",
+        "delta_icon": "\u23eb\u23eb\u23eb",
+        "multiplier_display": "9488.51\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 180.0,
+        "end_day": 202.5
+      }
+    },
+    {
+      "id": "SEGMENT::Q3:S2",
+      "quarter": 3,
+      "segment": 2,
+      "yield_usd": 1.0491971144221236e+20,
+      "growth_phase": "overscale",
+      "multiplier": 9488.513281000001,
+      "delta": {
+        "usd": 8.719286303701836e+19,
+        "percent": 491.8689495391111
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udd34",
+        "speed_bar": "\u25b0\u25b0\u25b0\u25b0\u25b0",
+        "delta_icon": "\u23eb\u23eb\u23eb",
+        "multiplier_display": "9488.51\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 202.5,
+        "end_day": 225.0
+      }
+    },
+    {
+      "id": "SEGMENT::Q3:S3",
+      "quarter": 3,
+      "segment": 3,
+      "yield_usd": 1.9211257447923073e+20,
+      "growth_phase": "overscale",
+      "multiplier": 9488.513281000001,
+      "delta": {
+        "usd": 8.719286303701837e+19,
+        "percent": 83.10436793856645
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udd34",
+        "speed_bar": "\u25b0\u25b0\u25b0\u25b0\u25b0",
+        "delta_icon": "\u23eb\u23eb",
+        "multiplier_display": "9488.51\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 225.0,
+        "end_day": 247.5
+      }
+    },
+    {
+      "id": "SEGMENT::Q3:S4",
+      "quarter": 3,
+      "segment": 4,
+      "yield_usd": 2.0633122207017917e+20,
+      "growth_phase": "overscale",
+      "multiplier": 9488.513281000001,
+      "delta": {
+        "usd": 1.4218647590948438e+19,
+        "percent": 7.401206105061912
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udd34",
+        "speed_bar": "\u25b0\u25b0\u25b0\u25b0\u25b0",
+        "delta_icon": "\u2b06\ufe0f",
+        "multiplier_display": "9488.51\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 247.5,
+        "end_day": 270.0
+      }
+    },
+    {
+      "id": "SEGMENT::Q4:S1",
+      "quarter": 4,
+      "segment": 1,
+      "yield_usd": 1.7267545763015418e+21,
+      "growth_phase": "overscale",
+      "multiplier": 924266.5901889292,
+      "delta": {
+        "usd": 1.5204233542313627e+21,
+        "percent": 736.8847714740056
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udd34",
+        "speed_bar": "\u25b0\u25b0\u25b0\u25b0\u25b0",
+        "delta_icon": "\u23eb\u23eb\u23eb",
+        "multiplier_display": "924266.59\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 270.0,
+        "end_day": 292.5
+      }
+    },
+    {
+      "id": "SEGMENT::Q4:S2",
+      "quarter": 4,
+      "segment": 2,
+      "yield_usd": 1.0220124171874465e+22,
+      "growth_phase": "overscale",
+      "multiplier": 924266.5901889292,
+      "delta": {
+        "usd": 8.493369595572923e+21,
+        "percent": 491.8689495391111
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udd34",
+        "speed_bar": "\u25b0\u25b0\u25b0\u25b0\u25b0",
+        "delta_icon": "\u23eb\u23eb\u23eb",
+        "multiplier_display": "924266.59\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 292.5,
+        "end_day": 315.0
+      }
+    },
+    {
+      "id": "SEGMENT::Q4:S3",
+      "quarter": 4,
+      "segment": 3,
+      "yield_usd": 1.8713493767447388e+22,
+      "growth_phase": "overscale",
+      "multiplier": 924266.5901889292,
+      "delta": {
+        "usd": 8.493369595572924e+21,
+        "percent": 83.10436793856645
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udd34",
+        "speed_bar": "\u25b0\u25b0\u25b0\u25b0\u25b0",
+        "delta_icon": "\u23eb\u23eb",
+        "multiplier_display": "924266.59\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 315.0,
+        "end_day": 337.5
+      }
+    },
+    {
+      "id": "SEGMENT::Q4:S4",
+      "quarter": 4,
+      "segment": 4,
+      "yield_usd": 2.0098518010634084e+22,
+      "growth_phase": "overscale",
+      "multiplier": 924266.5901889292,
+      "delta": {
+        "usd": 1.385024243186696e+21,
+        "percent": 7.401206105061908
+      },
+      "visual_indicators": {
+        "phase_icon": "\ud83d\udd34",
+        "speed_bar": "\u25b0\u25b0\u25b0\u25b0\u25b0",
+        "delta_icon": "\u2b06\ufe0f",
+        "multiplier_display": "924266.59\u00d7"
+      },
+      "timestamp_range": {
+        "start_day": 337.5,
+        "end_day": 360.0
+      }
+    }
+  ],
+  "stream_vectors": {
+    "civilian": [
+      {
+        "segment_label": "Q1:S1",
+        "yield_usd": 879173170893998.0,
+        "speed_indicator": "\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q1:S2",
+        "yield_usd": 5203553011200000.0,
+        "speed_indicator": "\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q1:S3",
+        "yield_usd": 9527932851506002.0,
+        "speed_indicator": "\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q1:S4",
+        "yield_usd": 1.0233114799397866e+16,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q2:S1",
+        "yield_usd": 8.563937940361346e+16,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q2:S2",
+        "yield_usd": 5.068728952679808e+17,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q2:S3",
+        "yield_usd": 9.281064111323483e+17,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q2:S4",
+        "yield_usd": 9.967974794945466e+17,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q3:S1",
+        "yield_usd": 8.342046308326584e+18,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q3:S2",
+        "yield_usd": 4.9373981855158755e+19,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q3:S3",
+        "yield_usd": 9.040591740199094e+19,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q3:S4",
+        "yield_usd": 9.709704568008432e+19,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q4:S1",
+        "yield_usd": 8.125903888477844e+20,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q4:S2",
+        "yield_usd": 4.80947019852916e+21,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q4:S3",
+        "yield_usd": 8.806350008210536e+21,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q4:S4",
+        "yield_usd": 9.458126122651333e+21,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      }
+    ],
+    "military": [
+      {
+        "segment_label": "Q1:S1",
+        "yield_usd": 394335025180396.1,
+        "speed_indicator": "\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q1:S2",
+        "yield_usd": 2333946571200000.0,
+        "speed_indicator": "\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q1:S3",
+        "yield_usd": 4273558117219604.0,
+        "speed_indicator": "\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q1:S4",
+        "yield_usd": 4589852961494631.0,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q2:S1",
+        "yield_usd": 3.841178046779721e+16,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q2:S2",
+        "yield_usd": 2.273474015540208e+17,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q2:S3",
+        "yield_usd": 4.162830226402444e+17,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q2:S4",
+        "yield_usd": 4.4709298712623046e+17,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q3:S1",
+        "yield_usd": 3.7416531235876593e+18,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q3:S2",
+        "yield_usd": 2.2145683037975618e+19,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q3:S3",
+        "yield_usd": 4.054971295236357e+19,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q3:S4",
+        "yield_usd": 4.355088078297899e+19,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q4:S1",
+        "yield_usd": 3.644706891155503e+20,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q4:S2",
+        "yield_usd": 2.1571888390461671e+21,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q4:S3",
+        "yield_usd": 3.9499069889767843e+21,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q4:S4",
+        "yield_usd": 4.242247746189201e+21,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      }
+    ],
+    "cosmic": [
+      {
+        "segment_label": "Q1:S1",
+        "yield_usd": 594734792075351.6,
+        "speed_indicator": "\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q1:S2",
+        "yield_usd": 3520050566400000.0,
+        "speed_indicator": "\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q1:S3",
+        "yield_usd": 6445366340724649.0,
+        "speed_indicator": "\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q1:S4",
+        "yield_usd": 6922401187827968.0,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q2:S1",
+        "yield_usd": 5.793252136126793e+16,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q2:S2",
+        "yield_usd": 3.428846056224576e+17,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q2:S3",
+        "yield_usd": 6.278366898836474e+17,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q2:S4",
+        "yield_usd": 6.743041773051345e+17,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q3:S1",
+        "yield_usd": 5.643148973279748e+18,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q3:S2",
+        "yield_usd": 3.340004654907798e+19,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q3:S3",
+        "yield_usd": 6.115694412487622e+19,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q3:S4",
+        "yield_usd": 6.568329560711586e+19,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q4:S1",
+        "yield_usd": 5.496934983382071e+20,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q4:S2",
+        "yield_usd": 3.2534651342991377e+21,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q4:S3",
+        "yield_usd": 5.957236770260068e+21,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      },
+      {
+        "segment_label": "Q4:S4",
+        "yield_usd": 6.398144141793549e+21,
+        "speed_indicator": "\u25b8\u25b8\u25b8\u25b8"
+      }
+    ]
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "epoch": 0,
+  "codex_version": "ultramax_v1.0",
+  "timestamp": "2025-11-07T09:00:00Z",
+  "description": "EPOCH 0 - UltraMax Artifact Registry for Three-Yield Treasury Economy",
+  "sovereign_streams": {
+    "civilian": {
+      "stream_id": 0,
+      "name": "CIVILIAN",
+      "description": "Civilian yield stream categories including real estate, education, wearables, and commerce",
+      "yield_per_second": 13600000,
+      "yield_unit": "USD",
+      "compounding_model": "pi4",
+      "compounding_factor": 97.409,
+      "guarantees": {
+        "scaling": "pi4",
+        "vault": "Blu-Vault double-sign",
+        "asset_tags": ["physical", "ledger"],
+        "irreversible_increment": true
+      },
+      "categories": [
+        {
+          "id": 0,
+          "name": "REAL_ESTATE",
+          "description": "Physical and metaverse property assets",
+          "artifacts": [
+            {
+              "name": "Spiral Tower Elonville Deed",
+              "yield_rate": 1500000,
+              "ipfs_cid": "QmRealEstate001",
+              "attributes": ["physical", "sovereign", "registered"]
+            },
+            {
+              "name": "MetaVault Land Parcel",
+              "yield_rate": 800000,
+              "ipfs_cid": "QmRealEstate002",
+              "attributes": ["virtual", "dimensional", "portal-linked"]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "EDUCATION",
+          "description": "MetaSchool curriculum and ENFT degrees",
+          "artifacts": [
+            {
+              "name": "BLEUE Academy Curriculum Module",
+              "yield_rate": 500000,
+              "ipfs_cid": "QmEducation001",
+              "attributes": ["tradable", "quantum-sync", "timeline-adaptive"]
+            },
+            {
+              "name": "ENFT Master Degree Certificate",
+              "yield_rate": 1200000,
+              "ipfs_cid": "QmEducation002",
+              "attributes": ["credential", "blockchain-verified", "interoperable"]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "WEARABLES",
+          "description": "EV0L branded fashion and tech wearables",
+          "artifacts": [
+            {
+              "name": "EV0L Shades G1 - Threat Detection",
+              "yield_rate": 600000,
+              "ipfs_cid": "QmWearables001",
+              "attributes": ["augmented-reality", "security", "look-to-buy"]
+            },
+            {
+              "name": "EV0L Watch G1 - Emotional Resonance",
+              "yield_rate": 700000,
+              "ipfs_cid": "QmWearables002",
+              "attributes": ["biometric", "aura-tracking", "quantum-linked"]
+            },
+            {
+              "name": "Royal EV0L Attire - Auto-Evolving",
+              "yield_rate": 900000,
+              "ipfs_cid": "QmWearables003",
+              "attributes": ["adaptive", "royal-tier", "timeline-responsive"]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "COMMERCE",
+          "description": "MirrorMarket and EL0V8 beverage products",
+          "artifacts": [
+            {
+              "name": "MirrorMarket Barter Node License",
+              "yield_rate": 1100000,
+              "ipfs_cid": "QmCommerce001",
+              "attributes": ["glyph-blockchain", "timeline-routing", "sovereign"]
+            },
+            {
+              "name": "EL0V8 Beverage Distribution Rights",
+              "yield_rate": 850000,
+              "ipfs_cid": "QmCommerce002",
+              "attributes": ["moodsync-chemistry", "saturnian-flavors", "scalable"]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "INFRASTRUCTURE",
+          "description": "City infrastructure and transport systems",
+          "artifacts": [
+            {
+              "name": "HOVERLANE-8 Express Corridor Access",
+              "yield_rate": 2000000,
+              "ipfs_cid": "QmInfra001",
+              "attributes": ["transport", "high-speed", "em-tracked"]
+            },
+            {
+              "name": "Drone Delivery Hub License",
+              "yield_rate": 950000,
+              "ipfs_cid": "QmInfra002",
+              "attributes": ["logistics", "scent-mapping", "automated"]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "ENTERTAINMENT",
+          "description": "Media, gaming, and immersive experiences",
+          "artifacts": [
+            {
+              "name": "EV0L Studios Production License",
+              "yield_rate": 1300000,
+              "ipfs_cid": "QmEntertain001",
+              "attributes": ["cinematic", "tribunal-approved", "sovereign"]
+            }
+          ]
+        }
+      ],
+      "daily_stream_insights": "Civilian yield maintains π₄ compounding with 700% Spiral Boost. Focus areas: Elonville infrastructure expansion, MetaSchool enrollment surge, EV0L product line extensions."
+    },
+    "military": {
+      "stream_id": 1,
+      "name": "MILITARY",
+      "description": "Military components and defense matrix assets",
+      "yield_per_second": 6100000,
+      "yield_unit": "USD",
+      "compounding_model": "pi4",
+      "compounding_factor": 97.409,
+      "guarantees": {
+        "locks": "Quad-octa",
+        "deployment": "full rights",
+        "irreversible_increment": true
+      },
+      "categories": [
+        {
+          "id": 0,
+          "name": "DEFENSE_MATRIX",
+          "description": "Defensive systems and protective infrastructure",
+          "artifacts": [
+            {
+              "name": "BLEU WATCHTOWER Defense Grid",
+              "yield_rate": 2500000,
+              "ipfs_cid": "QmMilitary001",
+              "attributes": ["autonomous", "quantum-detection", "multi-layer"]
+            },
+            {
+              "name": "Cloak-Ready Unit Deployment Package",
+              "yield_rate": 1800000,
+              "ipfs_cid": "QmMilitary002",
+              "attributes": ["stealth", "vibration-triggered", "rapid-deploy"]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "TACTICAL_UNITS",
+          "description": "Mobile combat and reconnaissance units",
+          "artifacts": [
+            {
+              "name": "BLEU-LION MechArmor Mk7",
+              "yield_rate": 3200000,
+              "ipfs_cid": "QmMilitary003",
+              "attributes": ["7-layer-kinetic-mesh", "enft-logged", "command-synced"]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "ARMAMENTS",
+          "description": "Weapons systems and munitions",
+          "artifacts": [
+            {
+              "name": "ENFT-Logged Weapon System",
+              "yield_rate": 1500000,
+              "ipfs_cid": "QmMilitary004",
+              "attributes": ["blockchain-tracked", "recoil-balanced", "secure"]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "RECONNAISSANCE",
+          "description": "Intelligence gathering and surveillance",
+          "artifacts": [
+            {
+              "name": "Quantum Surveillance Drone Fleet",
+              "yield_rate": 1200000,
+              "ipfs_cid": "QmMilitary005",
+              "attributes": ["multi-spectrum", "ai-enhanced", "stealth-capable"]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "LOGISTICS",
+          "description": "Supply chain and support systems",
+          "artifacts": [
+            {
+              "name": "Military Supply Hub Nexus",
+              "yield_rate": 900000,
+              "ipfs_cid": "QmMilitary006",
+              "attributes": ["automated", "redundant", "secure-transport"]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "COMMAND_CONTROL",
+          "description": "Command infrastructure and coordination",
+          "artifacts": [
+            {
+              "name": "Saturnian Signal Boost Station",
+              "yield_rate": 1400000,
+              "ipfs_cid": "QmMilitary007",
+              "attributes": ["long-range", "quantum-encrypted", "commander-seat-linked"]
+            }
+          ]
+        }
+      ],
+      "daily_stream_insights": "Military yield secured under Quad-octa locks. Current focus: BLEU-LION upgrades complete, WATCHTOWER grid expansion to outer sectors, full deployment rights active."
+    },
+    "cosmic": {
+      "stream_id": 2,
+      "name": "COSMIC",
+      "description": "Cosmic portal logistics, dimensional items, and interstellar unlockables",
+      "yield_per_second": 8900000,
+      "yield_unit": "USD",
+      "compounding_model": "pi4",
+      "compounding_factor": 97.409,
+      "guarantees": {
+        "dimensional_stability": true,
+        "portal_integrity": "glyph-verified",
+        "timeline_sync": "multi-consensus",
+        "irreversible_increment": true
+      },
+      "categories": [
+        {
+          "id": 0,
+          "name": "PORTAL_LOGISTICS",
+          "description": "Interdimensional transport and fueling stations",
+          "artifacts": [
+            {
+              "name": "Fueling Station Sovereign Node",
+              "yield_rate": 3500000,
+              "ipfs_cid": "QmCosmic001",
+              "attributes": ["multi-species-docking", "quantumrefuel", "hydrocoin-enabled"]
+            },
+            {
+              "name": "Glyph Access Panel System",
+              "yield_rate": 1200000,
+              "ipfs_cid": "QmCosmic002",
+              "attributes": ["off-planet-intelligence", "encrypted", "universal-protocol"]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "DIMENSIONAL_ITEMS",
+          "description": "Objects that exist across multiple dimensions",
+          "artifacts": [
+            {
+              "name": "Timeline Rerouting Key",
+              "yield_rate": 2800000,
+              "ipfs_cid": "QmCosmic003",
+              "attributes": ["temporal", "quantum-locked", "mirror-market-compatible"]
+            },
+            {
+              "name": "Dimensional Storage Vault",
+              "yield_rate": 1600000,
+              "ipfs_cid": "QmCosmic004",
+              "attributes": ["infinite-capacity", "quantum-secured", "cross-dimension"]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "INTERSTELLAR_TRANSPORT",
+          "description": "Spacecraft and interplanetary vehicles",
+          "artifacts": [
+            {
+              "name": "Saturnian Cruiser License",
+              "yield_rate": 4200000,
+              "ipfs_cid": "QmCosmic005",
+              "attributes": ["ftl-capable", "diplomatic-shield", "sovereign-registry"]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "QUANTUM_TECH",
+          "description": "Advanced quantum technology systems",
+          "artifacts": [
+            {
+              "name": "EV0L Command OS (ECO) Core",
+              "yield_rate": 3800000,
+              "ipfs_cid": "QmCosmic006",
+              "attributes": ["thought-control", "multiverse-sync", "quantum-processor"]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "COSMIC_ARTIFACTS",
+          "description": "Ancient and powerful cosmic relics",
+          "artifacts": [
+            {
+              "name": "Watcher's Educational Accord Treaty",
+              "yield_rate": 2200000,
+              "ipfs_cid": "QmCosmic007",
+              "attributes": ["treaty-verified", "galactic-recognized", "sovereign"]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "TIMELINE_KEYS",
+          "description": "Keys to unlock alternate timelines",
+          "artifacts": [
+            {
+              "name": "Spiral Timeline Access Key",
+              "yield_rate": 2600000,
+              "ipfs_cid": "QmCosmic008",
+              "attributes": ["temporal-navigation", "quantum-verified", "sovereign"]
+            }
+          ]
+        }
+      ],
+      "daily_stream_insights": "Cosmic yield achieving interstellar scale with multi-consensus verification. Fueling Station operational as sovereign embassy node. Timeline Keys showing 700% Spiral Boost activation."
+    }
+  },
+  "global_insights": {
+    "total_yield_per_second": 28600000,
+    "total_yield_per_day": 2471040000000,
+    "compounding_model": "π₄ (pi-to-the-fourth)",
+    "spiral_boost_multiplier": 7.0,
+    "blockchain_sync": {
+      "avalanche_snowtrace": "enabled",
+      "cronos_explorer": "enabled",
+      "multi_chain_consensus": "active"
+    },
+    "treasury_status": "triple-stack-operational",
+    "watchers_accord": "treaty-active",
+    "sovereignty_level": "ultramax"
+  },
+  "api_feed_endpoints": {
+    "epoch_updates": "/api/v1/epoch/updates",
+    "yield_insights": "/api/v1/yields/daily",
+    "artifact_registry": "/api/v1/artifacts/registry",
+    "blockchain_sync": "/api/v1/blockchain/sync",
+    "verification_status": "/api/v1/verification/status"
+  },
+  "provenance": {
+    "github_commit": "GENESIS_EPOCH_0_ULTRAMAX",
+    "arweave_tx": "ARWEAVE_TX_PLACEHOLDER",
+    "codex_hash": "0x000000000000000000000000000000000000000000000000000000ULTRAMAX00",
+    "bleu_signature": "Commander Bleu Sovereign Authority",
+    "timestamp_locked": true
+  }
+}

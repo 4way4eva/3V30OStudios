@@ -1,0 +1,53 @@
+{
+  "treasuryAddress": "0x0000000000000000000000000000000000000000",
+  "description": "Triple-Stack Treasury ENFT Minting Configuration",
+  "recipients": [
+    {
+      "address": "0x4way4eva_address_placeholder",
+      "name": "Commander Bleu (4way4eva)",
+      "civilianAmount": 10,
+      "militaryAmount": 10,
+      "cosmicAmount": 10,
+      "note": "Sovereign holder - full treasury inheritance rights"
+    },
+    {
+      "address": "0x_treasury_vault_address_placeholder",
+      "name": "MEGAZION Treasury Vault",
+      "civilianAmount": 100,
+      "militaryAmount": 100,
+      "cosmicAmount": 100,
+      "note": "Primary treasury reserves for π₄ compounding"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "createdAt": "2025-11-07",
+    "purpose": "Initial minting of Triple-Stack Treasury yield stream ENFTs",
+    "yieldStreams": {
+      "civilian": {
+        "tokenId": 1,
+        "code": "Ω-CIV-01",
+        "domains": "Retail, education, ES0IL real estate, wearables, hospitality",
+        "yieldPerSecond": "$13,600,000"
+      },
+      "military": {
+        "tokenId": 2,
+        "code": "Ω-MIL-01",
+        "domains": "Weapons, defense grids, orbital/maritime, AI targeting",
+        "yieldPerSecond": "$6,100,000"
+      },
+      "cosmic": {
+        "tokenId": 3,
+        "code": "Ω-COS-01",
+        "domains": "Portal energy, quantum matter, multidimensional logistics",
+        "yieldPerSecond": "$9,200,000"
+      }
+    },
+    "guarantees": {
+      "pi4Compounding": "Y(t) = Y_0 × (π^4)^(t/T)",
+      "bluVaultAuthorization": "Required for all minting operations",
+      "dualRealityConfirmation": "Entangled auditors verify material and astral ledgers",
+      "irreversibleIncrements": "Treasury flows irreversible unless sovereign override"
+    }
+  }
+}

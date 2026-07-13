@@ -1,0 +1,75 @@
+{
+  "name": "BLEU Bill #{tokenId}",
+  "description": "MEGAZION BLEU Bill - Sovereign currency note with embedded yield representation. Part of the BLEULIONTREASURY 48-Fold Codex system.",
+  "image": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/bleubill_{denomination}.png",
+  "animation_url": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/bleubill_{denomination}_animated.mp4",
+  "external_url": "https://megazion.io/enft/bleubill/{tokenId}",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Currency Note"
+    },
+    {
+      "trait_type": "Domain",
+      "value": "CIVILIAN"
+    },
+    {
+      "trait_type": "Denomination",
+      "value": "{denomination}",
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Yield Model",
+      "value": "π₄ Exponential"
+    },
+    {
+      "trait_type": "Yield USD/sec",
+      "value": "{yield_per_sec}",
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Series",
+      "value": "Genesis"
+    },
+    {
+      "trait_type": "Epoch",
+      "value": 1,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Visual Asset",
+      "value": "BLEU Lion Treasury Mark"
+    },
+    {
+      "trait_type": "Security Feature",
+      "value": "Hashmark Verified"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Standard"
+    }
+  ],
+  "properties": {
+    "category": "ENFT",
+    "files": [
+      {
+        "uri": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/bleubill_{denomination}.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "ipfs://QmPLACEHOLDER_REPLACE_WITH_ACTUAL_CID/bleubill_{denomination}_animated.mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "creators": [
+      {
+        "address": "0xPLACEHOLDER_REPLACE_WITH_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "compiler": {
+    "name": "MEGAZION Codex Compiler",
+    "version": "1.0.0"
+  }
+}

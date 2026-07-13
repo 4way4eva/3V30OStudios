@@ -1,0 +1,151 @@
+{
+  "version": "1.0.0",
+  "temporal_bridge_config": {
+    "sync_interval_seconds": 86400,
+    "temporal_augmentation_window_seconds": 3600,
+    "three_tier_system": {
+      "civilian": {
+        "tier_type": 0,
+        "conduit_id": "STREAM::CIV::Ω-CIV-01",
+        "yield_rate_per_second": 13600000,
+        "tariff_multiplier_bps": 10000,
+        "domains": [
+          "Retail",
+          "Education",
+          "ES0IL Real Estate",
+          "Wearables",
+          "Hospitality"
+        ],
+        "security_protocols": [
+          "π⁴ scaling beacons",
+          "Blu-Vault dual-sign",
+          "Citizen tithe mirrors"
+        ],
+        "color": "#4A90E2",
+        "icon": "🏙️"
+      },
+      "military": {
+        "tier_type": 1,
+        "conduit_id": "STREAM::MIL::Ω-MIL-01",
+        "yield_rate_per_second": 6100000,
+        "tariff_multiplier_bps": 10000,
+        "domains": [
+          "Weapons",
+          "Defense Grids",
+          "Orbital/Maritime",
+          "AI Targeting"
+        ],
+        "security_protocols": [
+          "Quad-octa locks",
+          "Live-fire sentinel AI",
+          "Breach nullifiers"
+        ],
+        "color": "#E74C3C",
+        "icon": "⚔️"
+      },
+      "cosmic": {
+        "tier_type": 2,
+        "conduit_id": "STREAM::COS::Ω-COS-01",
+        "yield_rate_per_second": 9200000,
+        "tariff_multiplier_bps": 10000,
+        "domains": [
+          "Portal Energy",
+          "Quantum Matter",
+          "Multidimensional Logistics"
+        ],
+        "security_protocols": [
+          "Dual-reality confirmation",
+          "Portal locks",
+          "Entanglement escrow"
+        ],
+        "color": "#9B59B6",
+        "icon": "🌌"
+      }
+    },
+    "yield_ladders": {
+      "civilian_ladder": {
+        "ladder_id": "LADDER::CIV::01",
+        "steps": [1, 7, 30, 90],
+        "returns": [13600000, 95200000, 408000000, 1224000000],
+        "tax_rate_bps": 1500,
+        "multi_plane": true,
+        "contextual_index": 1,
+        "description": "Civilian infrastructure yield with 15% contextual tax"
+      },
+      "military_ladder": {
+        "ladder_id": "LADDER::MIL::01",
+        "steps": [1, 7, 30, 90],
+        "returns": [6100000, 42700000, 183000000, 549000000],
+        "tax_rate_bps": 1000,
+        "multi_plane": true,
+        "contextual_index": 2,
+        "description": "Military defense yield with 10% contextual tax"
+      },
+      "cosmic_ladder": {
+        "ladder_id": "LADDER::COS::01",
+        "steps": [1, 7, 30, 90],
+        "returns": [9200000, 64400000, 276000000, 828000000],
+        "tax_rate_bps": 2000,
+        "multi_plane": true,
+        "contextual_index": 3,
+        "description": "Cosmic energy yield with 20% contextual tax"
+      }
+    },
+    "temporal_bridges": {
+      "civ_mil_bridge": {
+        "bridge_id": "BRIDGE::CIV-MIL::01",
+        "source": "STREAM::CIV::Ω-CIV-01",
+        "target": "STREAM::MIL::Ω-MIL-01",
+        "cross_key_signature": "CIV-MIL-CROSS-KEY-π⁴-Ω48",
+        "pre_backbuilt": true,
+        "description": "Civilian to Military temporal bridge with π⁴ synchronization"
+      },
+      "mil_cos_bridge": {
+        "bridge_id": "BRIDGE::MIL-COS::01",
+        "source": "STREAM::MIL::Ω-MIL-01",
+        "target": "STREAM::COS::Ω-COS-01",
+        "cross_key_signature": "MIL-COS-CROSS-KEY-π⁴-Ω48",
+        "pre_backbuilt": true,
+        "description": "Military to Cosmic temporal bridge with quantum entanglement"
+      },
+      "cos_civ_bridge": {
+        "bridge_id": "BRIDGE::COS-CIV::01",
+        "source": "STREAM::COS::Ω-COS-01",
+        "target": "STREAM::CIV::Ω-CIV-01",
+        "cross_key_signature": "COS-CIV-CROSS-KEY-π⁴-Ω48",
+        "pre_backbuilt": true,
+        "description": "Cosmic to Civilian temporal bridge completing the cycle"
+      }
+    },
+    "verification_protocols": {
+      "tunnel_tariff": {
+        "enabled": true,
+        "verification_required": true,
+        "debug_logging": true,
+        "sha_hash_validation": true
+      },
+      "temporal_augmentation": {
+        "enabled": true,
+        "oracle_required": true,
+        "window_enforcement": true,
+        "cross_key_rotation": true
+      }
+    },
+    "governance": {
+      "triple_stack_sync_order": ["CIV", "MIL", "COS"],
+      "reciprocity_pulse_required": true,
+      "dual_biometric_confirmation": true,
+      "audit_mirror": "Chronolumen (ARC-033)",
+      "sovereign_override": "Commander Bleu",
+      "reversal_authority": [
+        "Crown Bearer (SHD-016)",
+        "Sovereign Tutor (CAT-048)"
+      ]
+    }
+  },
+  "deployment_metadata": {
+    "epoch": "2025-Q1",
+    "ceremony": "Ω48 Temporal Bridge Activation",
+    "status": "Bridge conduits synchronized, three-tier verification active"
+  }
+}

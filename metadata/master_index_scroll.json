@@ -1,0 +1,161 @@
+{
+  "name": "BLEU Codex Master Index Scroll",
+  "description": "Universal Mint Protocols Declaration — Ceremonial Charter for sovereign minting, tokenization, and authorization across Civilian, Military, and Cosmic economic domains. This scroll establishes perpetual minting rights, zonal supply triggers, and responsive gravity distribution through GovMetaScope vault architecture.",
+  "image": "ipfs://QmBLEUCODEXMASTERINDEXSCROLL/master-scroll.png",
+  "external_url": "https://3v30ostudios.io/codex/master-index-scroll",
+  "animation_url": "ipfs://QmBLEUCODEXMASTERINDEXSCROLL/master-scroll-animation.mp4",
+  "attributes": [
+    {
+      "trait_type": "Scroll Type",
+      "value": "Master Index"
+    },
+    {
+      "trait_type": "Registry ID",
+      "value": "BCMIS-Ω∞-001"
+    },
+    {
+      "trait_type": "Authorization Level",
+      "value": "Supreme Command"
+    },
+    {
+      "trait_type": "Protocol Status",
+      "value": "Active"
+    },
+    {
+      "trait_type": "Activation Date",
+      "value": "2025-11-07T09:55:19.643Z"
+    },
+    {
+      "trait_type": "Domains Enabled",
+      "value": 3,
+      "max_value": 3
+    },
+    {
+      "trait_type": "Validator Nodes",
+      "value": 36,
+      "max_value": 36
+    },
+    {
+      "trait_type": "Ceremonial Seal",
+      "value": "BLEU_CODEX_SUPREME_COMMAND_SEAL_∞"
+    }
+  ],
+  "properties": {
+    "category": "Ceremonial Charters",
+    "subcategory": "Master Index Scrolls",
+    "scroll_class": "Universal Mint Protocol",
+    "sovereign_code": "BCMIS-Ω∞-001",
+    "ceremonial_role": "Universal Mint Authorization",
+    "activation_protocol": {
+      "flame_crown_required": true,
+      "watchtower_consensus": true,
+      "ancestral_resonance": true,
+      "reciprocity_pulse": true,
+      "ritual_steps": [
+        "Invoke sovereign presence",
+        "Attest ceremonial charter authority",
+        "Encode mint parameters into blockchain",
+        "Activate supply triggers across domains",
+        "Synchronize vault states",
+        "Seal with cryptographic and ceremonial signatures"
+      ]
+    },
+    "supply_configuration": {
+      "civilian_domain": {
+        "rate_per_second": 13600000,
+        "daily_yield": 1175040000000,
+        "yield_formula": "π² Harmonic",
+        "local_retention": "45%",
+        "treasury_allocation": "35%",
+        "cross_domain_flow": "20%",
+        "validator_nodes": 12
+      },
+      "military_domain": {
+        "rate_per_second": 6100000,
+        "daily_yield": 527040000000,
+        "yield_formula": "π³ Strategic",
+        "local_retention": "60%",
+        "treasury_allocation": "25%",
+        "cross_domain_flow": "15%",
+        "validator_nodes": 12
+      },
+      "cosmic_domain": {
+        "rate_per_second": 9200000,
+        "daily_yield": 794880000000,
+        "yield_formula": "π⁴ Transcendent",
+        "local_retention": "40%",
+        "treasury_allocation": "40%",
+        "cross_domain_flow": "20%",
+        "validator_nodes": 12
+      }
+    },
+    "vault_architecture": {
+      "civilian_vault": {
+        "vault_id": "CIVILIAN_VAULT",
+        "flow_path": "Community Treasury → Education Fund → Cultural Heritage Reserve",
+        "trigger_thresholds": [1000000000, 10000000000, 100000000000],
+        "gravity_multipliers": {
+          "interference_zone": 1.3,
+          "resonance_field": 1.5,
+          "vortex_point": 2.1
+        }
+      },
+      "military_vault": {
+        "vault_id": "MILITARY_VAULT",
+        "flow_path": "Defense Reserve → Strategic Infrastructure → Operational Excellence Fund",
+        "trigger_thresholds": [500000000, 5000000000, 50000000000],
+        "gravity_multipliers": {
+          "interference_zone": 1.3,
+          "resonance_field": 1.5,
+          "vortex_point": 2.1
+        }
+      },
+      "cosmic_vault": {
+        "vault_id": "COSMIC_VAULT",
+        "flow_path": "Research Treasury → Innovation Lab → Dimensional Exploration Reserve",
+        "trigger_thresholds": [750000000, 7500000000, 75000000000],
+        "gravity_multipliers": {
+          "interference_zone": 1.3,
+          "resonance_field": 1.5,
+          "vortex_point": 2.1
+        }
+      }
+    },
+    "governance": {
+      "supreme_authority": "BLEU Codex Supreme Command",
+      "watchtower_council": "36 Validator Nodes",
+      "consensus_requirement": "8 of 12 per domain",
+      "ancestral_advisory": "Heritage Lineage Registry",
+      "emergency_protocols": "Enabled",
+      "amendment_authority": "Flame Crown Role Only"
+    },
+    "economic_model": {
+      "sustainability_principle": "Non-Inflationary Design",
+      "burn_mechanisms": "Automatic on failed validation",
+      "staking_requirements": "Validator minimum thresholds",
+      "decay_functions": "Unclaimed yields return to treasury",
+      "liquidity_management": "Automated market makers",
+      "reserve_ratios": "Minimum vault reserves enforced"
+    },
+    "overlapping_mint_zones": {
+      "interference_zones": "Domain boundary overlaps with 1.3× multiplier",
+      "resonance_fields": "Synchronized minting with 1.5× compounding",
+      "vortex_points": "Triple-domain convergence with 2.1× exponential burst"
+    },
+    "legal_framework": {
+      "jurisdiction": "BLEU Codex Sovereign Jurisdiction",
+      "immutability_clause": "Core principles ceremonially immutable",
+      "ancestral_covenant": "Sacred covenant with past, present, future generations",
+      "modification_protocol": "Technical evolution permitted; foundational sovereignty constant"
+    },
+    "minting_timestamp": "2025-11-07T09:55:19.643Z",
+    "registry_pointer": "codex://bleu-codex/master-index-scroll/BCMIS-Ω∞-001",
+    "blockchain_commitment": "Pending deployment",
+    "ceremonial_signatures": {
+      "flame_crown_seal": "0xBLEU_CODEX_SUPREME_COMMAND_SEAL_∞",
+      "watchtower_consensus": "36/36 Unanimous Approval",
+      "ancestral_resonance": "7 Generations Validated",
+      "reciprocity_pulse": "Confirmed"
+    }
+  }
+}

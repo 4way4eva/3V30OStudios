@@ -1,0 +1,193 @@
+{
+  "report_type": "growth_acceleration",
+  "generated_at": "2025-11-07T10:53:33.295275+00:00",
+  "quarters_analyzed": 4,
+  "daily_acceleration": [
+    {
+      "segment_label": "Q1:S1",
+      "acceleration_percent": 0,
+      "growth_phase": "base"
+    },
+    {
+      "segment_label": "Q1:S2",
+      "acceleration_percent": 491.8689495391111,
+      "growth_phase": "base"
+    },
+    {
+      "segment_label": "Q1:S3",
+      "acceleration_percent": 83.10436793856648,
+      "growth_phase": "base"
+    },
+    {
+      "segment_label": "Q1:S4",
+      "acceleration_percent": 7.401206105061907,
+      "growth_phase": "base"
+    },
+    {
+      "segment_label": "Q2:S1",
+      "acceleration_percent": 736.8847714740056,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q2:S2",
+      "acceleration_percent": 491.8689495391111,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q2:S3",
+      "acceleration_percent": 83.10436793856647,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q2:S4",
+      "acceleration_percent": 7.4012061050619025,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q3:S1",
+      "acceleration_percent": 736.8847714740057,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q3:S2",
+      "acceleration_percent": 491.86894953911116,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q3:S3",
+      "acceleration_percent": 83.10436793856647,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q3:S4",
+      "acceleration_percent": 7.401206105061908,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q4:S1",
+      "acceleration_percent": 736.8847714740054,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q4:S2",
+      "acceleration_percent": 491.86894953911116,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q4:S3",
+      "acceleration_percent": 83.10436793856645,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q4:S4",
+      "acceleration_percent": 7.401206105061917,
+      "growth_phase": "overscale"
+    }
+  ],
+  "weekly_acceleration": [
+    {
+      "segment_label": "Q1:S1",
+      "acceleration_percent": 0,
+      "growth_phase": "base"
+    },
+    {
+      "segment_label": "Q1:S2",
+      "acceleration_percent": 491.8689495391111,
+      "growth_phase": "base"
+    },
+    {
+      "segment_label": "Q1:S3",
+      "acceleration_percent": 83.10436793856647,
+      "growth_phase": "base"
+    },
+    {
+      "segment_label": "Q1:S4",
+      "acceleration_percent": 7.401206105061905,
+      "growth_phase": "base"
+    },
+    {
+      "segment_label": "Q2:S1",
+      "acceleration_percent": 736.8847714740054,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q2:S2",
+      "acceleration_percent": 491.8689495391111,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q2:S3",
+      "acceleration_percent": 83.10436793856645,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q2:S4",
+      "acceleration_percent": 7.401206105061915,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q3:S1",
+      "acceleration_percent": 736.8847714740057,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q3:S2",
+      "acceleration_percent": 491.86894953911116,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q3:S3",
+      "acceleration_percent": 83.10436793856647,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q3:S4",
+      "acceleration_percent": 7.401206105061918,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q4:S1",
+      "acceleration_percent": 736.8847714740056,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q4:S2",
+      "acceleration_percent": 491.8689495391111,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q4:S3",
+      "acceleration_percent": 83.10436793856645,
+      "growth_phase": "overscale"
+    },
+    {
+      "segment_label": "Q4:S4",
+      "acceleration_percent": 7.401206105061915,
+      "growth_phase": "overscale"
+    }
+  ],
+  "quarterly_acceleration": [
+    {
+      "quarter": 1,
+      "acceleration_percent": 0,
+      "growth_phase": "base"
+    },
+    {
+      "quarter": 2,
+      "acceleration_percent": 9640.900000000001,
+      "growth_phase": "overscale"
+    },
+    {
+      "quarter": 3,
+      "acceleration_percent": 9640.900000000001,
+      "growth_phase": "overscale"
+    },
+    {
+      "quarter": 4,
+      "acceleration_percent": 9640.900000000001,
+      "growth_phase": "overscale"
+    }
+  ],
+  "fail_safe_log": [],
+  "sovereign_override_status": false
+}
