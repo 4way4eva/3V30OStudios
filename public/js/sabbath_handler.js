@@ -39,7 +39,12 @@
 
   function pauseAllAudio() {
     document.querySelectorAll('audio,video').forEach(el => {
-      try { el.pause(); } catch (e) {}
+      try {
+        if (!el.paused) {
+          el.dataset.sabbathPaused = '1';
+        }
+        el.pause();
+      } catch (e) {}
     });
   }
 
